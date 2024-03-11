@@ -1,0 +1,368 @@
+{
+  "_id": "com.unity.profiling.systemmetrics.mali",
+  "name": "com.unity.profiling.systemmetrics.mali",
+  "description": "The System Metrics package provides access to low-level system or hardware performance metrics on ARM Mali devices. It enables applications to make performance-relevant measurements in development and runtime using ProfilerRecorder API.\n\nBy installing this package, you agree to the terms and conditions of the Unity End User License Agreement found under \"View licenses\" above.",
+  "provider": "upm",
+  "category": "",
+  "dist-tags": {
+    "latest": "1.0.2"
+  },
+  "versions": {
+    "1.0.2": {
+      "unity": "2021.2",
+      "license": "See LICENSE.md file",
+      "samples": [
+        {
+          "displayName": "Reading of a single GPU counter",
+          "description": "Example shows how to create and associate ProfilerRecorder with a GPU counter, how to read data from the counter and how to dispose it after use.",
+          "path": "Samples~/CounterReadExample"
+        }
+      ],
+      "upm": {
+        "changelog": "### Changed,- Updated usage guide documentation."
+      },
+      "relatedPackages": {
+        "com.unity.profiling.systemmetrics.mali.tests": "1.0.2"
+      },
+      "upmCi": {
+        "footprint": "090fe96cfd7b48c3625fbb6723c8d3aa6d1c1f0c"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.profiling.systemmetrics.git",
+        "type": "git",
+        "revision": "f19ea3a0bc4fa37a10def3650ea0f3ea973b0876"
+      },
+      "dist": {
+        "shasum": "3ff776aca1efa9e93f2d262a282255c35d68ea2b",
+        "tarball": "https://download.packages.unity.com/com.unity.profiling.systemmetrics.mali/-/com.unity.profiling.systemmetrics.mali-1.0.2.tgz"
+      },
+      "name": "com.unity.profiling.systemmetrics.mali",
+      "version": "1.0.2",
+      "description": "The System Metrics package provides access to low-level system or hardware performance metrics on ARM Mali devices. It enables applications to make performance-relevant measurements in development and runtime using ProfilerRecorder API.\n\nBy installing this package, you agree to the terms and conditions of the Unity End User License Agreement found under \"View licenses\" above.",
+      "displayName": "System Metrics Mali",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "mobile",
+        "performance",
+        "arm",
+        "profiler",
+        "profiling"
+      ],
+      "category": "",
+      "dependencies": {}
+    },
+    "1.0.1": {
+      "unity": "2021.2",
+      "license": "See LICENSE.md file",
+      "samples": [
+        {
+          "displayName": "Reading of a single GPU counter",
+          "description": "Example shows how to create and associate ProfilerRecorder with a GPU counter, how to read data from the counter and how to dispose it after use.",
+          "path": "Samples~/CounterReadExample"
+        }
+      ],
+      "upm": {
+        "changelog": "### Changed,- Updated usage guide documentation."
+      },
+      "relatedPackages": {
+        "com.unity.profiling.systemmetrics.mali.tests": "1.0.1"
+      },
+      "upmCi": {
+        "footprint": "0e294db5d40b7be63bba135c846c73ed93721fa8"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.profiling.systemmetrics.git",
+        "type": "git",
+        "revision": "de7563ff37b35bcaaf00e78e3fa45569be8ac2f0"
+      },
+      "_id": "com.unity.profiling.systemmetrics.mali@1.0.1",
+      "_integrity": "sha512-w4GcMbP99SeZmejueCJ+cUFWLZT6PcBkBCzHbD9a4aCvPfVucb2z2GofYQo0Q/ISc+OpFbSgUPTZq+93HXmDrw==",
+      "_resolved": "/tmp/com.unity.profiling.systemmetrics.mali@1.0.1-mvjqijsp.tgz",
+      "_from": "file:/tmp/com.unity.profiling.systemmetrics.mali@1.0.1-mvjqijsp.tgz",
+      "dist": {
+        "shasum": "71a35abc5dc7e4664ec5e4455a9ad8f842972397",
+        "tarball": "https://download.packages.unity.com/com.unity.profiling.systemmetrics.mali/-/com.unity.profiling.systemmetrics.mali-1.0.1.tgz"
+      },
+      "name": "com.unity.profiling.systemmetrics.mali",
+      "version": "1.0.1",
+      "description": "The System Metrics package provides access to low-level system or hardware performance metrics on ARM Mali devices. It enables applications to make performance-relevant measurements in development and runtime using ProfilerRecorder API.\n\nBy installing this package, you agree to the terms and conditions of the Unity End User License Agreement found under \"View licenses\" above.",
+      "displayName": "System Metrics Mali",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "mobile",
+        "performance",
+        "arm",
+        "profiler",
+        "profiling"
+      ],
+      "category": ""
+    },
+    "1.0.0": {
+      "unity": "2021.2",
+      "license": "See LICENSE.md file",
+      "samples": [
+        {
+          "displayName": "Reading of a single GPU counter",
+          "description": "Example shows how to create and associate ProfilerRecorder with a GPU counter, how to read data from the counter and how to dispose it after use.",
+          "path": "Samples~/CounterReadExample"
+        }
+      ],
+      "upm": {
+        "changelog": "### Fixed,- Fixed counters sampling in Profiler-only capture mode."
+      },
+      "relatedPackages": {
+        "com.unity.profiling.systemmetrics.mali.tests": "1.0.0"
+      },
+      "upmCi": {
+        "footprint": "bf086c3add35e1f4d0d46206442bf1c13d815feb"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.profiling.systemmetrics.git",
+        "type": "git",
+        "revision": "213b7a101621ef4f7e7f02143553f212cd2633df"
+      },
+      "_id": "com.unity.profiling.systemmetrics.mali@1.0.0",
+      "_integrity": "sha512-k5wbyGmsh0aGl6rK4BVluhPgZVQrxyTyhO5wiFfajI71IwblVr9khDzH0LCPfuPHr0jqPCcFM68CdsqaF742fw==",
+      "_resolved": "/tmp/com.unity.profiling.systemmetrics.mali@1.0.0-ipoxppxn.tgz",
+      "_from": "file:/tmp/com.unity.profiling.systemmetrics.mali@1.0.0-ipoxppxn.tgz",
+      "dist": {
+        "shasum": "854bef76a22dec6e8c80042301905e6257e890db",
+        "tarball": "https://download.packages.unity.com/com.unity.profiling.systemmetrics.mali/-/com.unity.profiling.systemmetrics.mali-1.0.0.tgz"
+      },
+      "name": "com.unity.profiling.systemmetrics.mali",
+      "version": "1.0.0",
+      "description": "The System Metrics package provides access to low-level system or hardware performance metrics on ARM Mali devices. It enables applications to make performance-relevant measurements in development and runtime using ProfilerRecorder API.\n\nBy installing this package, you agree to the terms and conditions of the Unity End User License Agreement found under \"View licenses\" above.",
+      "displayName": "System Metrics Mali",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "mobile",
+        "performance",
+        "arm",
+        "profiler",
+        "profiling"
+      ],
+      "category": ""
+    },
+    "1.0.0-pre.5": {
+      "unity": "2021.2",
+      "license": "See LICENSE.md file",
+      "samples": [
+        {
+          "displayName": "Reading of a single GPU counter",
+          "description": "Example shows how to create and associate ProfilerRecorder with a GPU counter, how to read data from the counter and how to dispose it after use.",
+          "path": "Samples~/CounterReadExample"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.profiling.systemmetrics.mali.tests": "1.0.0-pre.5"
+      },
+      "upmCi": {
+        "footprint": "b3d47445e1451822fd6ef3267bda882f098bdd79"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.profiling.systemmetrics.git",
+        "type": "git",
+        "revision": "5fcac8b36836887b86a082ecf74a8ef3b6fca8ce"
+      },
+      "_id": "com.unity.profiling.systemmetrics.mali@1.0.0-pre.5",
+      "_integrity": "sha512-MwYYIVwvOVFz6hAMiy8jI0vEhxm5LMOstTMxAdwJ1PtW4DZghK1SsIvRnPC3Hlr19LkP19a4yBLMRhtZ4MFqLg==",
+      "_resolved": "/tmp/com.unity.profiling.systemmetrics.mali@1.0.0-pre.5-6_3jzfj8.tgz",
+      "_from": "file:/tmp/com.unity.profiling.systemmetrics.mali@1.0.0-pre.5-6_3jzfj8.tgz",
+      "dist": {
+        "shasum": "50e27c7a486c08b544816d1d073afd1a91a9dce8",
+        "tarball": "https://download.packages.unity.com/com.unity.profiling.systemmetrics.mali/-/com.unity.profiling.systemmetrics.mali-1.0.0-pre.5.tgz"
+      },
+      "name": "com.unity.profiling.systemmetrics.mali",
+      "version": "1.0.0-pre.5",
+      "description": "The System Metrics package provides access to low-level system or hardware performance metrics on ARM Mali devices. It enables applications to make performance-relevant measurements in development and runtime using ProfilerRecorder API.\n\nBy installing this package, you agree to the terms and conditions of the Unity End User License Agreement found under \"View licenses\" above.",
+      "displayName": "System Metrics Mali",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "mobile",
+        "performance",
+        "arm",
+        "profiler",
+        "profiling"
+      ],
+      "category": ""
+    },
+    "1.0.0-pre.3": {
+      "unity": "2021.2",
+      "license": "See LICENSE.md file",
+      "samples": [
+        {
+          "displayName": "Reading of a single GPU counter",
+          "description": "Example shows how to create and associate ProfilerRecorder with a GPU counter, how to read data from the counter and how to dispose it after use.",
+          "path": "Samples~/CounterReadExample"
+        }
+      ],
+      "upmCi": {
+        "footprint": "978702457fff6c6057dcf0a4e1d3501029bcdc43"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.profiling.systemmetrics.git",
+        "type": "git",
+        "revision": "698c51049131e8ebb97db85cd105779044ded87b"
+      },
+      "_id": "com.unity.profiling.systemmetrics.mali@1.0.0-pre.3",
+      "_integrity": "sha512-aYZvC4ed25+XGS7+y7mHdy0r3PaWEP7NFfAdXn3lfjkF72ltN6fCc0yfcEQsnvwbWC9dSffKTenksmDDAiSNYA==",
+      "_resolved": "/pkgprom/com.unity.profiling.systemmetrics.mali-1.0.0-pre.3.tgz",
+      "_from": "file:com.unity.profiling.systemmetrics.mali-1.0.0-pre.3.tgz",
+      "dist": {
+        "shasum": "39689b97d8c1544b203d86391520f1597df730ff",
+        "tarball": "https://download.packages.unity.com/com.unity.profiling.systemmetrics.mali/-/com.unity.profiling.systemmetrics.mali-1.0.0-pre.3.tgz"
+      },
+      "name": "com.unity.profiling.systemmetrics.mali",
+      "version": "1.0.0-pre.3",
+      "description": "The System Metrics package provides access to low-level system or hardware performance metrics on ARM Mali devices. It enables applications to make performance-relevant measurements in development and runtime using ProfilerRecorder API.\n\nBy installing this package, you agree to the terms and conditions of the Unity End User License Agreement found under \"View licenses\" above.",
+      "displayName": "System Metrics Mali",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "mobile",
+        "performance",
+        "arm",
+        "profiler",
+        "profiling"
+      ],
+      "category": ""
+    },
+    "1.0.0-pre.2": {
+      "unity": "2021.2",
+      "license": "See LICENSE.md file",
+      "samples": [
+        {
+          "displayName": "Reading of a single GPU counter",
+          "description": "Example shows how to create and associate ProfilerRecorder with a GPU counter, how to read data from the counter and how to dispose it after use.",
+          "path": "Samples~/CounterReadExample"
+        }
+      ],
+      "upmCi": {
+        "footprint": "6b8c5b8c2530c016d18491e4ed261b7e5fc85121"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.profiling.systemmetrics.git",
+        "type": "git",
+        "revision": "d358e79e239fd8da14de425b1056d15ca7d8590f"
+      },
+      "_id": "com.unity.profiling.systemmetrics.mali@1.0.0-pre.2",
+      "_integrity": "sha512-jagWAfLjkPgsz1NyN9BhNHBd2fTpdQRay97M3w08RTXYVjg8BA4quwjj1DdOPNi2N6v0sZFND0QDCUFj9bSTGA==",
+      "_resolved": "/pkgprom/com.unity.profiling.systemmetrics.mali-1.0.0-pre.2.tgz",
+      "_from": "file:com.unity.profiling.systemmetrics.mali-1.0.0-pre.2.tgz",
+      "dist": {
+        "shasum": "bc65765d28353caa53d850cb7c5f3f8ca000a475",
+        "tarball": "https://download.packages.unity.com/com.unity.profiling.systemmetrics.mali/-/com.unity.profiling.systemmetrics.mali-1.0.0-pre.2.tgz"
+      },
+      "name": "com.unity.profiling.systemmetrics.mali",
+      "version": "1.0.0-pre.2",
+      "description": "The System Metrics package provides access to low-level system or hardware performance metrics on ARM Mali devices. It enables applications to make performance-relevant measurements in development and runtime using ProfilerRecorder API.\n\nBy installing this package, you agree to the terms and conditions of the Unity End User License Agreement found under \"View licenses\" above.",
+      "displayName": "System Metrics Mali",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "mobile",
+        "performance",
+        "arm",
+        "profiler",
+        "profiling"
+      ],
+      "category": ""
+    },
+    "0.2.0": {
+      "unity": "2021.2",
+      "license": "See LICENSE.md file",
+      "samples": [
+        {
+          "displayName": "Reading of a single GPU counter",
+          "description": "Example shows how to create and associate ProfilerRecorder with a GPU counter, how to read data from the counter and how to dispose it after use.",
+          "path": "Samples~/SimpleCounterRead"
+        }
+      ],
+      "upmCi": {
+        "footprint": "5be5033dc00f519f8ef5165e71547fb53d280f58"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.profiling.systemmetrics.git",
+        "type": "git",
+        "revision": "1073a3cec2f0a3ab82b243e1cbf440865e1b4275"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.profiling.systemmetrics.mali-0.2.0.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.profiling.systemmetrics.mali@0.2.0",
+      "dist": {
+        "shasum": "6c582be631279885197a07103fc55b714d27bee0",
+        "tarball": "https://download.packages.unity.com/com.unity.profiling.systemmetrics.mali/-/com.unity.profiling.systemmetrics.mali-0.2.0.tgz"
+      },
+      "name": "com.unity.profiling.systemmetrics.mali",
+      "version": "0.2.0",
+      "description": "The System Metrics package provides access to low-level system or hardware performance metrics on ARM Mali devices. It enables applications to make performance-relevant measurements in development and runtime using ProfilerRecorder API.\n\nBy installing this package, you agree to the terms and conditions of the Unity End User License Agreement found under \"View licenses\" above.",
+      "displayName": "System Metrics Mali",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "mobile",
+        "performance",
+        "arm",
+        "profiler",
+        "profiling"
+      ],
+      "category": ""
+    },
+    "0.1.0": {
+      "unity": "2021.2",
+      "license": "See LICENSE.md file",
+      "samples": [
+        {
+          "displayName": "Reading of a single GPU counter",
+          "description": "Example shows how to create and associate ProfilerRecorder with a GPU counter, how to read data from the counter and how to dispose it after use.",
+          "path": "Samples~/SimpleCounterRead"
+        }
+      ],
+      "upmCi": {
+        "footprint": "79f0f685daed6230b3be09a6fe3c855ce7fe6d67"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.profiling.systemmetrics.git",
+        "type": "git",
+        "revision": "2d8bd79341c1295d1975180094b7cedd2ac2ed71"
+      },
+      "readmeFilename": "README.md",
+      "_id": "com.unity.profiling.systemmetrics.mali@0.1.0",
+      "dist": {
+        "shasum": "7d34991dde35c5a7be28f25f457e33d6c14a1219",
+        "tarball": "https://download.packages.unity.com/com.unity.profiling.systemmetrics.mali/-/com.unity.profiling.systemmetrics.mali-0.1.0.tgz"
+      },
+      "name": "com.unity.profiling.systemmetrics.mali",
+      "version": "0.1.0",
+      "description": "The System Metrics package provides access to low-level system or hardware performance metrics on ARM Mali devices. It enables applications to make performance-relevant measurements in development and runtime using ProfilerRecorder API.\n\nBy installing this package, you agree to the terms and conditions of the Unity End User License Agreement found under \"View licenses\" above.",
+      "displayName": "System Metrics Mali",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "mobile",
+        "performance",
+        "arm",
+        "profiler",
+        "profiling"
+      ],
+      "category": ""
+    }
+  },
+  "etag": "\"228233e0467e6f121f381987a89f0c42\"",
+  "time": {
+    "1.0.2": "2022-08-18T09:32:52Z",
+    "1.0.1": "2022-03-09T17:50:47Z",
+    "1.0.0": "2022-02-25T13:35:17Z",
+    "1.0.0-pre.5": "2022-02-07T11:59:56Z",
+    "1.0.0-pre.3": "2021-11-22T08:20:47Z",
+    "1.0.0-pre.2": "2021-10-07T12:15:30Z",
+    "0.2.0": "2021-06-23T09:13:15Z",
+    "0.1.0": "2021-04-26T14:26:38Z"
+  }
+}

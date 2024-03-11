@@ -1,0 +1,622 @@
+{
+  "_id": "com.unity.services.matchmaker",
+  "name": "com.unity.services.matchmaker",
+  "description": "Unity Matchmaker is part of Unity's growing suite of multiplayer services that are designed to help you create and operate multiplayer games no matter what engine you're using.",
+  "provider": "upm",
+  "category": "",
+  "dist-tags": {
+    "latest": "1.1.2"
+  },
+  "versions": {
+    "1.1.2": {
+      "unity": "2020.3",
+      "_upm": {
+        "gameService": {
+          "genericDashboardUrl": "https://dashboard.unity3d.com/matchmaker",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/environments/default/matchmaker/overview",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid"
+        },
+        "changelog": "* Updated backfill approval request timeout."
+      },
+      "samples": [
+        {
+          "displayName": "Matchmaker Polling Sample",
+          "description": "A sample showcasing the features of the Matchmaker SDK.",
+          "path": "Samples~/PollingSample"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.services.matchmaker.tests": "1.1.2"
+      },
+      "upmCi": {
+        "footprint": "2a9c1e24050a179c71139f78db2423e78528e49a"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.matchmaker@1.1/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+        "type": "git",
+        "revision": "4635d212c8e4aaa5c37036a94a7cdea599a9bdce"
+      },
+      "dist": {
+        "shasum": "366e682251333e8abb65dc9a71a0d3ff8a84fab1",
+        "tarball": "https://download.packages.unity.com/com.unity.services.matchmaker/-/com.unity.services.matchmaker-1.1.2.tgz"
+      },
+      "name": "com.unity.services.matchmaker",
+      "version": "1.1.2",
+      "description": "Unity Matchmaker is part of Unity's growing suite of multiplayer services that are designed to help you create and operate multiplayer games no matter what engine you're using.",
+      "displayName": "Matchmaker",
+      "type": "assets",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.services.core": "1.8.2",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0",
+        "com.unity.modules.unitywebrequestaudio": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.services.authentication": "2.0.0"
+      }
+    },
+    "1.1.1": {
+      "unity": "2020.3",
+      "_upm": {
+        "gameService": {
+          "genericDashboardUrl": "https://dashboard.unity3d.com/matchmaker",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/environments/default/matchmaker/overview",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid"
+        },
+        "changelog": "* Add missing error handling for backfill update.\n* Updated Core to 1.8.2\n* Fix create ticket response accepting pool ID"
+      },
+      "samples": [
+        {
+          "displayName": "Matchmaker Polling Sample",
+          "description": "A sample showcasing the features of the Matchmaker SDK.",
+          "path": "Samples~/PollingSample"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.services.matchmaker.tests": "1.1.1"
+      },
+      "upmCi": {
+        "footprint": "02de7ceb3ceaa1054a1f6a9eca79603c5fdb5298"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.matchmaker@1.1/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+        "type": "git",
+        "revision": "14ce12c6d37b1dc8317d32b6efba909514180190"
+      },
+      "dist": {
+        "shasum": "8e5072bde2cfd65d3f7694dff23fa0cd9202b0e5",
+        "tarball": "https://download.packages.unity.com/com.unity.services.matchmaker/-/com.unity.services.matchmaker-1.1.1.tgz"
+      },
+      "name": "com.unity.services.matchmaker",
+      "version": "1.1.1",
+      "description": "Unity Matchmaker is part of Unity's growing suite of multiplayer services that are designed to help you create and operate multiplayer games no matter what engine you're using.",
+      "displayName": "Matchmaker",
+      "type": "assets",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.services.core": "1.8.2",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0",
+        "com.unity.modules.unitywebrequestaudio": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.services.authentication": "2.0.0"
+      }
+    },
+    "1.0.0": {
+      "unity": "2020.3",
+      "_upm": {
+        "gameService": {
+          "genericDashboardUrl": "https://dashboard.unity3d.com/matchmaker",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/environments/default/matchmaker/overview",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid"
+        }
+      },
+      "samples": [
+        {
+          "displayName": "Matchmaker Polling Sample",
+          "description": "A sample showcasing the features of the Matchmaker SDK.",
+          "path": "Samples~/PollingSample"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.services.matchmaker.tests": "1.0.0"
+      },
+      "upmCi": {
+        "footprint": "cd49758c86205563efad088d87e68bc335924783"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+        "type": "git",
+        "revision": "050307971cbaab88bcadc09b9fab8e3bf7a1979d"
+      },
+      "dist": {
+        "shasum": "8e71338d82d9e7959003a8d15fe978d990387720",
+        "tarball": "https://download.packages.unity.com/com.unity.services.matchmaker/-/com.unity.services.matchmaker-1.0.0.tgz"
+      },
+      "name": "com.unity.services.matchmaker",
+      "version": "1.0.0",
+      "description": "Unity Matchmaker is part of Unity's growing suite of multiplayer services that are designed to help you create and operate multiplayer games no matter what engine you're using.",
+      "displayName": "Matchmaker",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.services.core": "1.4.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0",
+        "com.unity.modules.unitywebrequestaudio": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.services.authentication": "2.0.0"
+      }
+    },
+    "1.1.0-pre.3": {
+      "unity": "2020.3",
+      "_upm": {
+        "gameService": {
+          "genericDashboardUrl": "https://dashboard.unity3d.com/matchmaker",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/environments/default/matchmaker/overview",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid"
+        },
+        "changelog": "* Add support for tickets with MatchId assignments.\n* [Closed Beta] Adding support for AB testing."
+      },
+      "samples": [
+        {
+          "displayName": "Matchmaker Polling Sample",
+          "description": "A sample showcasing the features of the Matchmaker SDK.",
+          "path": "Samples~/PollingSample"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.services.matchmaker.tests": "1.1.0-pre.3"
+      },
+      "upmCi": {
+        "footprint": "a20387d2afece3410140a7f10e11588fde207e36"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.matchmaker@1.1/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+        "type": "git",
+        "revision": "2d113b659914561c0703dc17194dd6c50b2dbdc1"
+      },
+      "dist": {
+        "shasum": "763c5741a4ccd795a8717c9a5468231622207dec",
+        "tarball": "https://download.packages.unity.com/com.unity.services.matchmaker/-/com.unity.services.matchmaker-1.1.0-pre.3.tgz"
+      },
+      "name": "com.unity.services.matchmaker",
+      "version": "1.1.0-pre.3",
+      "description": "Unity Matchmaker is part of Unity's growing suite of multiplayer services that are designed to help you create and operate multiplayer games no matter what engine you're using.",
+      "displayName": "Matchmaker",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.services.core": "1.4.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0",
+        "com.unity.modules.unitywebrequestaudio": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.services.authentication": "2.0.0"
+      }
+    },
+    "1.0.0-pre.14": {
+      "unity": "2020.3",
+      "_upm": {
+        "gameService": {
+          "genericDashboardUrl": "https://dashboard.unity3d.com/matchmaker",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/environments/default/matchmaker/overview",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid"
+        }
+      },
+      "samples": [
+        {
+          "displayName": "Matchmaker Polling Sample",
+          "description": "A sample showcasing the features of the Matchmaker SDK.",
+          "path": "Samples~/PollingSample"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.services.matchmaker.tests": "1.0.0-pre.14"
+      },
+      "upmCi": {
+        "footprint": "7174faa628a8e2a151627cf301fd710b1b6ef62c"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+        "type": "git",
+        "revision": "54da672a5c1e3b570ef43312838ea286b018ba39"
+      },
+      "dist": {
+        "shasum": "ccfa21426481a6fc3bf46c47a18abbd4946bd608",
+        "tarball": "https://download.packages.unity.com/com.unity.services.matchmaker/-/com.unity.services.matchmaker-1.0.0-pre.14.tgz"
+      },
+      "name": "com.unity.services.matchmaker",
+      "version": "1.0.0-pre.14",
+      "description": "Unity Matchmaker is part of Unity's growing suite of multiplayer services that are designed to help you create and operate multiplayer games no matter what engine you're using.",
+      "displayName": "Matchmaker",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.services.core": "1.4.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0",
+        "com.unity.modules.unitywebrequestaudio": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.services.authentication": "2.0.0"
+      }
+    },
+    "1.0.0-pre.13": {
+      "unity": "2020.3",
+      "_upm": {
+        "gameService": {
+          "genericDashboardUrl": "https://dashboard.unity3d.com/matchmaker",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/environments/default/matchmaker/overview",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid"
+        }
+      },
+      "samples": [
+        {
+          "displayName": "Matchmaker Polling Sample",
+          "description": "A sample showcasing the features of the Matchmaker SDK.",
+          "path": "Samples~/PollingSample"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.services.matchmaker.tests": "1.0.0-pre.13"
+      },
+      "upmCi": {
+        "footprint": "e2bec43db189a096837e5b776c4cc85ff553ae90"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.services.matchmaker.git",
+        "type": "git",
+        "revision": "943c9b802bc0ff8430971160384cb5697c31cd6a"
+      },
+      "dist": {
+        "shasum": "b423cdc4ff2d58118325832ea59e1521d91640a8",
+        "tarball": "https://download.packages.unity.com/com.unity.services.matchmaker/-/com.unity.services.matchmaker-1.0.0-pre.13.tgz"
+      },
+      "name": "com.unity.services.matchmaker",
+      "version": "1.0.0-pre.13",
+      "description": "Unity Matchmaker is part of Unity's growing suite of multiplayer services that are designed to help you create and operate multiplayer games no matter what engine you're using.",
+      "displayName": "Matchmaker",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.services.core": "1.4.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0",
+        "com.unity.modules.unitywebrequestaudio": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.services.authentication": "2.0.0"
+      }
+    },
+    "1.0.0-pre.12": {
+      "dist": {
+        "shasum": "c777c7fa567cbe7079a772f1c16ebcf6dd2fd92a",
+        "tarball": "https://download.packages.unity.com/com.unity.services.matchmaker/-/com.unity.services.matchmaker-1.0.0-pre.12.tgz"
+      },
+      "relatedPackages": {
+        "com.unity.services.matchmaker.tests": "1.0.0-pre.12"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.services.matchmaker.git",
+        "type": "git",
+        "revision": "671223b093a34ca1c3c28b2eee7f6538cc1a6c8d"
+      },
+      "_upm": {
+        "gameService": {
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/environments/default/matchmaker/overview",
+          "genericDashboardUrl": "https://dashboard.unity3d.com/matchmaker"
+        },
+        "changelog": "* Bugfix: Serialization for the Multiplay token class would be stripped on some Linux platforms compilation.\n* Added PoolId and MatchId to CreateBackfillTicketOptions for Photon integration."
+      },
+      "unity": "2020.3",
+      "samples": [
+        {
+          "path": "Samples~/PollingSample",
+          "displayName": "Matchmaker Polling Sample",
+          "description": "A sample showcasing the features of the Matchmaker SDK."
+        }
+      ],
+      "upmCi": {
+        "footprint": "b93c94028733ac1277d292a00bbd329f5b8bf1dd"
+      },
+      "name": "com.unity.services.matchmaker",
+      "version": "1.0.0-pre.12",
+      "description": "Unity Matchmaker is part of Unity's growing suite of multiplayer services that are designed to help you create and operate multiplayer games no matter what engine you're using.",
+      "displayName": "Matchmaker",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.services.core": "1.4.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0",
+        "com.unity.modules.unitywebrequestaudio": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.services.authentication": "2.0.0"
+      }
+    },
+    "1.0.0-pre.11": {
+      "unity": "2020.3",
+      "_upm": {
+        "changelog": "* MatchId added to MatchmakingResults payload."
+      },
+      "samples": [
+        {
+          "displayName": "Matchmaker Polling Sample",
+          "description": "A sample showcasing the features of the Matchmaker SDK.",
+          "path": "Samples~/PollingSample"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.services.matchmaker.tests": "1.0.0-pre.11"
+      },
+      "upmCi": {
+        "footprint": "ea6df988b8603d4b6b4a818fd1f9414859fc6aa0"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.services.matchmaker.git",
+        "type": "git",
+        "revision": "d562e3e97644699c8af8f1fe63f9cb222f636a93"
+      },
+      "_id": "com.unity.services.matchmaker@1.0.0-pre.11",
+      "_integrity": "sha512-cETSbFCKShLSBf8f/OLEkicBg/xd0ULeZhJ43sP5SjKZWGsxov+u9X6BuCMGwD8kyHMXX/aMZkTtF4rN4HKObA==",
+      "_resolved": "/tmp/com.unity.services.matchmaker@1.0.0-pre.11-u_isld71.tgz",
+      "_from": "file:/tmp/com.unity.services.matchmaker@1.0.0-pre.11-u_isld71.tgz",
+      "dist": {
+        "shasum": "d58c7eba38e0ef0d899c6a9584c0e42be819f118",
+        "tarball": "https://download.packages.unity.com/com.unity.services.matchmaker/-/com.unity.services.matchmaker-1.0.0-pre.11.tgz"
+      },
+      "name": "com.unity.services.matchmaker",
+      "version": "1.0.0-pre.11",
+      "description": "Unity Matchmaker is part of Unity's growing suite of multiplayer services that are designed to help you create and operate multiplayer games no matter what engine you're using.",
+      "displayName": "Matchmaker",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.services.core": "1.4.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0",
+        "com.unity.modules.unitywebrequestaudio": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.services.authentication": "2.0.0"
+      }
+    },
+    "1.0.0-pre.10": {
+      "unity": "2020.3",
+      "_upm": {
+        "changelog": "* MatchId field added to MultiplayAssignment for Photon.\n* Updated required fields for model classes (Player, Team).\n* Updated documentation."
+      },
+      "samples": [
+        {
+          "displayName": "Matchmaker Polling Sample",
+          "description": "A sample showcasing the features of the Matchmaker SDK.",
+          "path": "Samples~/PollingSample"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.services.matchmaker.tests": "1.0.0-pre.10"
+      },
+      "upmCi": {
+        "footprint": "1e284169524d40ce321802daf7af7696db48a8db"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.services.matchmaker.git",
+        "type": "git",
+        "revision": "db10548d4913f0669920e3505808d7a9230cec34"
+      },
+      "_id": "com.unity.services.matchmaker@1.0.0-pre.10",
+      "_integrity": "sha512-Lach3wVnaNSE9e5YvXAzazZ3P5O13n/4dj0YPZWfIyhLGoU7eBFgRfGfw3W3y6akcKppzYyOJVKUCC3jDGBH8A==",
+      "_resolved": "/tmp/com.unity.services.matchmaker@1.0.0-pre.10-24zahtne.tgz",
+      "_from": "file:/tmp/com.unity.services.matchmaker@1.0.0-pre.10-24zahtne.tgz",
+      "dist": {
+        "shasum": "4a925fe54526a64e5331c50b6069404bccde2ab3",
+        "tarball": "https://download.packages.unity.com/com.unity.services.matchmaker/-/com.unity.services.matchmaker-1.0.0-pre.10.tgz"
+      },
+      "name": "com.unity.services.matchmaker",
+      "version": "1.0.0-pre.10",
+      "description": "Unity Matchmaker is part of Unity's growing suite of multiplayer services that are designed to help you create and operate multiplayer games no matter what engine you're using.",
+      "displayName": "Matchmaker",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.services.core": "1.4.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0",
+        "com.unity.modules.unitywebrequestaudio": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.services.authentication": "2.0.0"
+      }
+    },
+    "1.0.0-pre.9": {
+      "unity": "2020.3",
+      "_upm": {
+        "changelog": "* Added QoS results integration for server region allocation.\n* Added PayloadAllocation model for integration with Multiplay SDK (or API) to serialize Matchmaker payload data.\n* Updated Auth, Core & Newtonsoft.Json dependencies.\n* IDynamicObject has been replaced with IDeserializable.\n* Dashboard URLs added to package (accessible via package manager on editor version 2022 and onwards).\n* Fixed infinite polling issue when timing out in sample.\n* Replaced coroutine usage with task usage in sample."
+      },
+      "samples": [
+        {
+          "displayName": "Matchmaker Polling Sample",
+          "description": "A sample showcasing the features of the Matchmaker SDK.",
+          "path": "Samples~/PollingSample"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.services.matchmaker.tests": "1.0.0-pre.9"
+      },
+      "upmCi": {
+        "footprint": "3d7e341e00b08f3ce9a946b1789c9a30b76888f1"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.services.matchmaker.git",
+        "type": "git",
+        "revision": "bbb0bd32a55aae7eb79dd4a7991350de8a73c7ad"
+      },
+      "_id": "com.unity.services.matchmaker@1.0.0-pre.9",
+      "_integrity": "sha512-KHuxZlt8ghPkxfr3j8NCGhZKzS8pmDXWPOMNVLpCT+q8hZilnD0OvmgPeTow39g44wQw3Zs9u58lPFlnPYDoxQ==",
+      "_resolved": "/tmp/com.unity.services.matchmaker@1.0.0-pre.9-j0dmbs6b.tgz",
+      "_from": "file:/tmp/com.unity.services.matchmaker@1.0.0-pre.9-j0dmbs6b.tgz",
+      "dist": {
+        "shasum": "33cea7d05eedfc0bfa8048c7621ec5050ec41099",
+        "tarball": "https://download.packages.unity.com/com.unity.services.matchmaker/-/com.unity.services.matchmaker-1.0.0-pre.9.tgz"
+      },
+      "name": "com.unity.services.matchmaker",
+      "version": "1.0.0-pre.9",
+      "description": "Unity Matchmaker is part of Unity's growing suite of multiplayer services that are designed to help you create and operate multiplayer games no matter what engine you're using.",
+      "displayName": "Matchmaker",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.services.core": "1.4.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0",
+        "com.unity.modules.unitywebrequestaudio": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.services.authentication": "2.0.0"
+      }
+    },
+    "1.0.0-pre.8": {
+      "unity": "2020.3",
+      "samples": [
+        {
+          "displayName": "Matchmaker Polling Sample",
+          "description": "A sample showcasing the features of the Matchmaker SDK.",
+          "path": "Samples~/PollingSample"
+        }
+      ],
+      "upm": {
+        "changelog": "* Updated MultiplayAssignment Status member to an enum instead of a string,* Updated BackfillTicketProperties with new Player list member."
+      },
+      "relatedPackages": {
+        "com.unity.services.matchmaker.tests": "1.0.0-pre.8"
+      },
+      "upmCi": {
+        "footprint": "4a1345a6290e1b59a78a2670e076a1fc832df600"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.services.matchmaker.git",
+        "type": "git",
+        "revision": "f610c7b6c637fc4566722be4f04e233db80da585"
+      },
+      "_id": "com.unity.services.matchmaker@1.0.0-pre.8",
+      "_integrity": "sha512-OguqSZqNLHOrJNASrGhR5CYKexqf0v4RbEl0cSCma0tdYzXg3+LutwBp0/IDkgYvMj0c2iAU+vQlKUl2ANncSg==",
+      "_resolved": "/tmp/com.unity.services.matchmaker@1.0.0-pre.8-fghtt7ty.tgz",
+      "_from": "file:/tmp/com.unity.services.matchmaker@1.0.0-pre.8-fghtt7ty.tgz",
+      "dist": {
+        "shasum": "e3e0f040ea7094fdd7659cbfd89e63b5527f3f0c",
+        "tarball": "https://download.packages.unity.com/com.unity.services.matchmaker/-/com.unity.services.matchmaker-1.0.0-pre.8.tgz"
+      },
+      "name": "com.unity.services.matchmaker",
+      "version": "1.0.0-pre.8",
+      "description": "Unity Matchmaker is part of Unity's growing suite of multiplayer services that are designed to help you create and operate multiplayer games no matter what engine you're using.",
+      "displayName": "Matchmaker",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.services.core": "1.2.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0",
+        "com.unity.modules.unitywebrequestaudio": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.nuget.newtonsoft-json": "2.0.0",
+        "com.unity.services.authentication": "1.0.0-pre.37"
+      }
+    },
+    "1.0.0-pre.7": {
+      "unity": "2020.3",
+      "samples": [
+        {
+          "displayName": "Matchmaker Polling Sample",
+          "description": "A sample showcasing the features of the Matchmaker SDK.",
+          "path": "Samples~/PollingSample"
+        }
+      ],
+      "upm": {
+        "changelog": "* Added Backfill API and implemented interface / wrapper for associated functionality.,* Removed QoSResult and CustomData from CreateTicketRequest.,* **Breaking Change!** Renamed IMatchmakerSdkService to IMatchmakerService and Matchmaker to MatchmakerService. SDK is now accessed via \"MatchmakerService.Instance\" instead of \"Matchmaker.Instance\".,* Updated Auth and Core dependencies."
+      },
+      "relatedPackages": {
+        "com.unity.services.matchmaker.tests": "1.0.0-pre.7"
+      },
+      "upmCi": {
+        "footprint": "62099df5972235638b0bc0a32587712a027ecd7e"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.services.matchmaker.git",
+        "type": "git",
+        "revision": "81a81936be54e35238fba4190ca62ad2ba58bf83"
+      },
+      "_id": "com.unity.services.matchmaker@1.0.0-pre.7",
+      "_integrity": "sha512-882JlrW7ZoruClqGOLvXyME+fRkf7t/U4yHYmaCxRsu2A0JNlxRSO8zGMVp2TZFjc1+HHlIBPxxzIB9n39vLyA==",
+      "_resolved": "/tmp/com.unity.services.matchmaker@1.0.0-pre.7-cdk1g1db.tgz",
+      "_from": "file:/tmp/com.unity.services.matchmaker@1.0.0-pre.7-cdk1g1db.tgz",
+      "dist": {
+        "shasum": "5304dc2af2ba6ede1c78e64db7f23ec8396dd3d5",
+        "tarball": "https://download.packages.unity.com/com.unity.services.matchmaker/-/com.unity.services.matchmaker-1.0.0-pre.7.tgz"
+      },
+      "name": "com.unity.services.matchmaker",
+      "version": "1.0.0-pre.7",
+      "description": "Unity Matchmaker is part of Unity's growing suite of multiplayer services that are designed to help you create and operate multiplayer games no matter what engine you're using.",
+      "displayName": "Matchmaker",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.services.core": "1.2.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0",
+        "com.unity.modules.unitywebrequestaudio": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.nuget.newtonsoft-json": "2.0.0",
+        "com.unity.services.authentication": "1.0.0-pre.37"
+      }
+    }
+  },
+  "etag": "\"494df98ae1231ba4649d022dbf54c090\"",
+  "time": {
+    "1.1.2": "2023-10-23T14:28:57Z",
+    "1.1.1": "2023-08-17T08:26:01Z",
+    "1.0.0": "2023-03-24T13:33:41Z",
+    "1.1.0-pre.3": "2023-03-09T13:32:54Z",
+    "1.0.0-pre.14": "2022-12-02T12:48:46Z",
+    "1.0.0-pre.13": "2022-08-24T15:51:18Z",
+    "1.0.0-pre.12": "2022-07-27T14:14:35Z",
+    "1.0.0-pre.11": "2022-06-27T10:54:04Z",
+    "1.0.0-pre.10": "2022-06-23T11:57:29Z",
+    "1.0.0-pre.9": "2022-05-27T16:50:03Z",
+    "1.0.0-pre.8": "2022-03-15T10:04:28Z",
+    "1.0.0-pre.7": "2022-03-04T14:08:40Z"
+  }
+}

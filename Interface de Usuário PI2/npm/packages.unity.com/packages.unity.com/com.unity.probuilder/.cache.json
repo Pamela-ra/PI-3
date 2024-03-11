@@ -1,0 +1,2992 @@
+{
+  "_id": "com.unity.probuilder",
+  "name": "com.unity.probuilder",
+  "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.\n\nIf you are using URP/HDRP, be careful to also import the corresponding sample project in the section below to get the proper materials.",
+  "provider": "upm",
+  "category": "",
+  "dist-tags": {
+    "latest": "6.0.1-pre.1"
+  },
+  "versions": {
+    "6.0.1-pre.1": {
+      "unity": "2023.3",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "6.0.1-pre.1"
+      },
+      "_upm": {
+        "changelog": "### Changes\n\n- Updated context menu to use the new API for Unity 2023.3.\n- Improved the action preview UX."
+      },
+      "upmCi": {
+        "footprint": "612daae3b01967655e9948af35e543922d509392"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.probuilder@6.0/manual/index.html",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder.git",
+        "type": "git",
+        "revision": "a95a87a183021b3e27f4ac81eb07204c4ba92f7b"
+      },
+      "dist": {
+        "shasum": "a4bb76428668848312cee257f3b44702e16e3fa3",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-6.0.1-pre.1.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "6.0.1-pre.1",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.\n\nIf you are using URP/HDRP, be careful to also import the corresponding sample project in the section below to get the proper materials.",
+      "displayName": "ProBuilder",
+      "type": "assets",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.3",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0"
+      }
+    },
+    "5.2.2": {
+      "unity": "2019.4",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "5.2.2"
+      },
+      "_upm": {
+        "changelog": "### Fixed\n\n- [PB-88] Fixed a bug that prevented the ProBuilder window to update its content after changing its docking position."
+      },
+      "upmCi": {
+        "footprint": "e6d9eb546c8cab68676fac49f980f98ff545146a"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.probuilder@5.2/manual/index.html",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder.git",
+        "type": "git",
+        "revision": "d1aaa03087398cf9477de8e6cfbfb66b180ab71d"
+      },
+      "dist": {
+        "shasum": "10f35f829e5e96e641a1373f087a3584fabcc537",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-5.2.2.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "5.2.2",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.\n\nIf you are using URP/HDRP, be careful to also import the corresponding sample project in the section below to get the proper materials.",
+      "displayName": "ProBuilder",
+      "type": "assets",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.3",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0"
+      }
+    },
+    "5.2.0": {
+      "unity": "2019.4",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "5.2.0"
+      },
+      "_upm": {
+        "changelog": "### Fixed\n\n- [PBLD-75] Fixed a bug where duplicating a GameObject with  `ProBuilderMesh` children would not make unique `Mesh` for the duplicates.\n- [PBLD-87] Fixed a bug where an infinite recursion loop could crash the editor when using the Boolean tool.  \n\n### Internal\n\n- Updated analytics API for 2023.2 and after.\n\n### Features\n\n- Significantly improved performance of \"ProBuilder Window.\""
+      },
+      "upmCi": {
+        "footprint": "3ff05bbe33bb965b4b8ee9b777ecf55b8c6fdfb0"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.probuilder@5.2/manual/index.html",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder.git",
+        "type": "git",
+        "revision": "055c214b0d0b28f37fb517537272945ae6696924"
+      },
+      "dist": {
+        "shasum": "c9ec23db27e7c7d026f01a06606cc27e1f8d1d05",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-5.2.0.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "5.2.0",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.\n\nIf you are using URP/HDRP, be careful to also import the corresponding sample project in the section below to get the proper materials.",
+      "displayName": "ProBuilder",
+      "type": "assets",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.3",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0"
+      }
+    },
+    "5.1.1": {
+      "unity": "2019.4",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "5.1.1"
+      },
+      "_upm": {
+        "changelog": "### Fixed\n\n- Fixed an exception in `CombineMeshes.AccumulateMeshesInfo` when a `ProBuilderMesh` contains an empty `Material` array.\n- [case: PBLD-78] Fixed a regression where it was no longer possible to set the extrusion point with the Poly Shape tool.\n- [case: UUM-43960] Fixed warning on project import caused by merge conflicts in a meta file."
+      },
+      "upmCi": {
+        "footprint": "34031fe19aed7822adbc883b0f3d4c979cd9eab1"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.probuilder@5.1/manual/index.html",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder.git",
+        "type": "git",
+        "revision": "2ffcb3295c03b76fcafb93b92d1b4041e67591c3"
+      },
+      "dist": {
+        "shasum": "85756a776efca853b1dc9645ebf9828514416701",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-5.1.1.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "5.1.1",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.\n\nIf you are using URP/HDRP, be careful to also import the corresponding sample project in the section below to get the proper materials.",
+      "displayName": "ProBuilder",
+      "type": "assets",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.3",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0"
+      }
+    },
+    "5.1.0": {
+      "unity": "2019.4",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "5.1.0"
+      },
+      "_upm": {
+        "changelog": "### Fixed\n\n- [case: PBLD-70] Fixed a bug where unused materials were not removed from the mesh renderer when deleting faces.\n- [case: PBLD-52] Fixed a bug where unused materials were not removed from the mesh renderer when detaching faces.\n- [case: STO-2878] Fixed `ProBuilderMesh` renaming `Mesh` asset any time the component instance ID was modified.\n- [case: STO-2878] In Unity Editor 2023.1 and newer, fixed an issue where reverting a prefab instance containing a `ProBuilderMesh` component would leak a `Mesh` asset in the scene.\n- [case: PBLD-61] Fixed a bug where drawing a shape of size zero was causing errors and incorrect values in ProBuilderShape.\n- [case: PBLD-65] Fixed stair shape \"Inner Radius\" parameter not being correctly applied when placing new stair shapes in scene.\n- [case: PBLD-63] \"Strip ProBuilder Scripts\" now creates a mesh asset, fixing an issue where prefabs would no longer contain a valid mesh reference after stripping ProBuilder scripts.\n- [case: PBLD-64] Fixed \"Strip ProBuilder Scripts\" not correctly appyling changes when used in a prefab stage.\n- [case: PBLD-54] Fixed a possible error when inserting edge loop.\n- Arch shape now allows 2 sides.\n\n### Changes\n\n- Moved cut tool cursor icon from runtime to editor resources.\n- Added `ProBuilderMesh.MakeUnique` to ensure `Mesh` asset is distinct.\n\n### Internal\n\n- Fixed \"Detach Faces\" not creating unique mesh asset for duplicate objects."
+      },
+      "upmCi": {
+        "footprint": "6fa562d0fb9eda1ccb4e76b6d170a35e7ea5c8c5"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.probuilder@5.1/manual/index.html",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder.git",
+        "type": "git",
+        "revision": "c6ea6d4928ae8881d73a4177d18a79e97a2b9955"
+      },
+      "dist": {
+        "shasum": "c064cb03f2b5b8285b03cca3c89c8ea38fc94ed3",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-5.1.0.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "5.1.0",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.\n\nIf you are using URP/HDRP, be careful to also import the corresponding sample project in the section below to get the proper materials.",
+      "displayName": "ProBuilder",
+      "type": "assets",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.3",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0"
+      }
+    },
+    "5.0.7": {
+      "unity": "2019.4",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "5.0.7"
+      },
+      "_upm": {
+        "changelog": "### Fixed\n\n- [case: PBLD-48] Fixed a bug where the minimum size of a shape did not take into account snap and grid sizes.\n- [case: PBLD-34] Fixed a bug where `Experimental Features Enabled` was not activating when using `Dedicated Server` platform.\n- [case: PBLD-41] Fixed an issue where UV distribution metric would not recalculate after the mesh optimization step.\n- [case: PBLD-32] Fixed `New Shape` start location being incorrect after using right mouse button.\n- [case: PBLD-19] Fixed shape creation when the camera perspective is set to Top.\n- Made minor performance improvements and reduced allocations when querying for components.\n- [case: PBLD-38] Fixed an issue where exported assets would incorrectly use the UInt32 mesh index format.\n- [case: PBLD-43] Fixed an issue where activating the **Edit Shape** tool would prevent the Editor tool context from switching. \n- [case: PBLD-57] Fixed error when building player with `EntityBehaviour` applied to prefabs.\n\n### Changes\n\n- Updated `Object.FindObjectsOfType` to use the new `Objects.FindObjectsByType` in Unity 2023.1."
+      },
+      "upmCi": {
+        "footprint": "a3131c294ad393212030641bde13d2403e1e8a5b"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.probuilder@5.0/manual/index.html",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder.git",
+        "type": "git",
+        "revision": "e430c5078768588ba33640b0f12fd3c7721dc9db"
+      },
+      "dist": {
+        "shasum": "f2e4dfec6dfe6c0a8313d08b12a3f93ee53df93e",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-5.0.7.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "5.0.7",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.\n\nIf you are using URP/HDRP, be careful to also import the corresponding sample project in the section below to get the proper materials.",
+      "displayName": "ProBuilder",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.3",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0"
+      }
+    },
+    "5.0.6": {
+      "unity": "2019.4",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder.git",
+        "type": "git",
+        "revision": "a2e0f7904211f195c1c7661cdbed49fdc4a4130d"
+      },
+      "_upm": {
+        "changelog": "### Bug Fixes\r\n\r\n- [case: 1407518] Fixed issue where 'Detach Faces' action would not undo correctly.\r\n- [case: 1393809] Fixed move tool when working with small scales.\r\n- [case: 1395936] Fixed Editor crash when opening a EditorWindow dropdown (MacOS).\r\n- [case: 1389642] Fixed Grid snapping not working properly with EditShape Tool.\r\n- [case: 1368465] Fixed issue where extruding an element orthogonally to their normal would result in some additional extrusion along the normal.\r\n- [case: 1369443] Fixed SerializedObjectNotCreatableException errors in the console with Shape Tool.\r\n- [case: 1348463] Fixed issue where instantiating a prefab would not build UV2s.\r\n- [case: 1348434] Added more detailed instructions in the missing UV2 warning log.\r\n- Fix some styling issues with Overlays in 21.2\r\n- [case: 1350635] Fixed crash when using CSG operations.\r\n- [case: 1405226] Fixed tooltips inconsistently showing and hiding.\r\n- [case: 1407039] Fixed stair creation tool missing the inner radius parameter.\r\n- [case: PBLD-3] Fixed vertex manipulation tools locking grid snapping settings on activation.\r\n- [case: PBLD-9] Fixed issue where adding and then removing Collider or Trigger behaviours would cause meshes to not render in builds.\r\n- [case: PBLD-7] Fixed ProBuilderize action not handling redo operation correctly.\r\n- [case: PBLD-6] Fixed unnecessary reimport of all project textures on package install.\r\n- [case: PBLD-11] Fixed Poly Shape Tool missing an undo step after setting height.\r\n- [case: PBLD-13] Fixed a bug where a newly created shape would not be redrawn with Redo. \r\n- [case: PBLD-15] Fixed a bug with URP that prevented some items from being selectable in the Game view. \r\n\r\n### Changes\r\n\r\n- Updates to API documentation\r\n- Cylinder shape is allowed to have 3 sides, and can have an odd number of sides."
+      },
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "5.0.6"
+      },
+      "upmCi": {
+        "footprint": "b6516dd50160cf2618444cee8ad0bcda3570db3a"
+      },
+      "_id": "com.unity.probuilder@5.0.6",
+      "_integrity": "sha512-vZbpzkDB2xQYt8WB71ZBXJyuXclAos534ygqutRQjV0cNU8jDruYzRgaHCTSLQHpq5AzIcHNytreBxxAJE9Xgw==",
+      "_resolved": "/tmp/com.unity.probuilder@5.0.6-rr3r66_4.tgz",
+      "_from": "file:/tmp/com.unity.probuilder@5.0.6-rr3r66_4.tgz",
+      "dist": {
+        "shasum": "d2e6899a1ca41ef441a61040716a61625429a746",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-5.0.6.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "5.0.6",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.\n\nIf you are using URP/HDRP, be careful to also import the corresponding sample project in the section below to get the proper materials.",
+      "displayName": "ProBuilder",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.3",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0"
+      }
+    },
+    "5.0.4": {
+      "unity": "2019.4",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder.git",
+        "type": "git",
+        "revision": "22982e248cc358e0d09dddd839f6d84cf33a8cb6"
+      },
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "5.0.4"
+      },
+      "upmCi": {
+        "footprint": "172cebec64bf8304837739698c61ca51d33c197c"
+      },
+      "_id": "com.unity.probuilder@5.0.4",
+      "_integrity": "sha512-Qe/abh6GhaTZM5lhopL/FvGqU/L/Nh3V4/DXhPTbr67iBK9PeWlTFCEHxukCFqwEANGgvsKWKEpy3zr2Hf9iwg==",
+      "_resolved": "/tmp/com.unity.probuilder@5.0.4-glimrts9.tgz",
+      "_from": "file:/tmp/com.unity.probuilder@5.0.4-glimrts9.tgz",
+      "dist": {
+        "shasum": "6cad147841c0b2825b8a3b69bc4e5fcd12779fd2",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-5.0.4.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "5.0.4",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.\n\nIf you are using URP/HDRP, be careful to also import the corresponding sample project in the section below to get the proper materials.",
+      "displayName": "ProBuilder",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.3",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0"
+      }
+    },
+    "4.5.2": {
+      "unity": "2018.4",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder.git",
+        "type": "git",
+        "revision": "27f52072e5f94638d1f81bc53df38e59d5bac785"
+      },
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "4.5.2"
+      },
+      "upmCi": {
+        "footprint": "b2d9ef5fa00059af2a439f0742c83246d2f6cd81"
+      },
+      "_id": "com.unity.probuilder@4.5.2",
+      "_integrity": "sha512-/9rx1z+x8AnrqKMnBfA+cIlcRxi+d62mTJArXGrRfbBk6PqgWFgU1QkkBVPQW2toBoQ0u90Q1T4L5E8wLT/NaA==",
+      "_resolved": "/Users/pascall/Downloads/packages/candidates/com.unity.probuilder-4.5.2.tgz",
+      "_from": "file:com.unity.probuilder-4.5.2.tgz",
+      "dist": {
+        "shasum": "494542b92207c30338a0f73344b143e8651fe074",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-4.5.2.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "4.5.2",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+      "displayName": "ProBuilder",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.3"
+      }
+    },
+    "5.0.3": {
+      "unity": "2019.4",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.probuilder.git",
+        "type": "git",
+        "revision": "6a81f0485f2eed8c8a0c193422d52d55f64cd79c"
+      },
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "5.0.3"
+      },
+      "upmCi": {
+        "footprint": "019db825664f50f786324eb87c52817c9df8a969"
+      },
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.probuilder#readme",
+      "_id": "com.unity.probuilder@5.0.3",
+      "dist": {
+        "shasum": "ab63a5da28a40d76866513357166c18e69bcdf73",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-5.0.3.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "5.0.3",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.\n\nIf you are using URP/HDRP, be careful to also import the corresponding sample project in the section below to get the proper materials.",
+      "displayName": "ProBuilder",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.3",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0"
+      }
+    },
+    "5.0.1": {
+      "unity": "2019.4",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.probuilder.git",
+        "type": "git",
+        "revision": "76309767188905d188c251248422a017963f4f2d"
+      },
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "5.0.1"
+      },
+      "upmCi": {
+        "footprint": "bfc4b320ac26102180d745800e1c3ac5f0eb0f14"
+      },
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.probuilder#readme",
+      "_id": "com.unity.probuilder@5.0.1",
+      "dist": {
+        "shasum": "05ea095596ac47bb113b59ada51f77e82ccf2808",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-5.0.1.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "5.0.1",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+      "displayName": "ProBuilder",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.3",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0"
+      }
+    },
+    "5.0.0-pre.10": {
+      "unity": "2019.4",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.probuilder.git",
+        "type": "git",
+        "revision": "6f99ddda7fd64d3ae3a79f12f1105bd4dd1d15d9"
+      },
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "5.0.0-pre.10"
+      },
+      "upmCi": {
+        "footprint": "42088ad53e4466123c91cac8655ffe9db2dc2506"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.probuilder-5.0.0-pre.10.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.probuilder#readme",
+      "_id": "com.unity.probuilder@5.0.0-pre.10",
+      "dist": {
+        "shasum": "1fd972f76c93c804ac748cb37264df232629cabf",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-5.0.0-pre.10.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "5.0.0-pre.10",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+      "displayName": "ProBuilder",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.3",
+        "com.unity.modules.physics": "1.0.0"
+      }
+    },
+    "4.5.0": {
+      "unity": "2018.4",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.probuilder.git",
+        "type": "git",
+        "revision": "c0048d825082c4ae352d19ea8bb13d5f63cbcde7"
+      },
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "4.5.0"
+      },
+      "upmCi": {
+        "footprint": "8689a0419920edbbd36c8da9d10999f56672cc7d"
+      },
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.probuilder#readme",
+      "_id": "com.unity.probuilder@4.5.0",
+      "dist": {
+        "shasum": "803038cacafa819b93813bc1947172b6c5edcea0",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-4.5.0.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "4.5.0",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+      "displayName": "ProBuilder",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.3"
+      }
+    },
+    "5.0.0-pre.7": {
+      "unity": "2019.4",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.probuilder.git",
+        "type": "git",
+        "revision": "674a065f24ee5ca883d31421884070787f97c3dc"
+      },
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "5.0.0-pre.7"
+      },
+      "upmCi": {
+        "footprint": "f54ad983fb38633e4a9990bafdd5fb0687004d64"
+      },
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.probuilder#readme",
+      "_id": "com.unity.probuilder@5.0.0-pre.7",
+      "dist": {
+        "shasum": "18a31e0bdb79d2cd4772ee61d82d85348b95c6f8",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-5.0.0-pre.7.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "5.0.0-pre.7",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+      "displayName": "ProBuilder",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.3"
+      }
+    },
+    "4.4.0": {
+      "unity": "2018.3",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.probuilder.git",
+        "type": "git",
+        "revision": "04b57a20391934bc7460d5fe1017d157545b2a5f"
+      },
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "4.4.0"
+      },
+      "upmCi": {
+        "footprint": "1bacebba175d730c831261b30e5cd998c796f5a4"
+      },
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.probuilder#readme",
+      "_id": "com.unity.probuilder@4.4.0",
+      "dist": {
+        "shasum": "25087e551bc4eea944a54c32724b57acca6e34a2",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-4.4.0.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "4.4.0",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+      "displayName": "ProBuilder",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.3"
+      }
+    },
+    "4.4.0-preview.1": {
+      "unity": "2018.3",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.probuilder.git",
+        "type": "git",
+        "revision": "8800fd8af8889ada50f56502f82ae9c4ee48c4b0"
+      },
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "4.4.0-preview.1"
+      },
+      "upmCi": {
+        "footprint": "6acfb678dd4a3941adef6b4dda13bf05dcac0bcd"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.probuilder-4.4.0-preview.1.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.probuilder#readme",
+      "_id": "com.unity.probuilder@4.4.0-preview.1",
+      "dist": {
+        "shasum": "c23e3708ec6738c9df37d51575e9e9f53e412f0a",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-4.4.0-preview.1.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "4.4.0-preview.1",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+      "displayName": "ProBuilder",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "4.3.1": {
+      "unity": "2018.3",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.probuilder.git",
+        "type": "git",
+        "revision": "4d5bc9e3bbe785ad15e8f88d2b080b0f0619dc52"
+      },
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "4.3.1"
+      },
+      "upmCi": {
+        "footprint": "1ec78ad72979139d73eb04f073b990a765ba93bd"
+      },
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.probuilder#readme",
+      "_id": "com.unity.probuilder@4.3.1",
+      "dist": {
+        "shasum": "e279de5a7dda0af059b78bbcd61771a76a529ab0",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-4.3.1.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "4.3.1",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+      "displayName": "ProBuilder",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "4.3.0-preview.9": {
+      "unity": "2018.3",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Unity-Technologies/com.unity.probuilder.git",
+        "revision": "0a679b03f509476419eb86b0323df05136752b8f"
+      },
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "4.3.0-preview.9"
+      },
+      "upmCi": {
+        "footprint": "c5ca84096c1122a145d5752deef6a6e1ed6265e9"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.probuilder-4.3.0-preview.9.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.probuilder#readme",
+      "_id": "com.unity.probuilder@4.3.0-preview.9",
+      "dist": {
+        "shasum": "5879bb6d3b70f4fc7e811b0d1505cb634398d3b1",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-4.3.0-preview.9.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "4.3.0-preview.9",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+      "displayName": "ProBuilder",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "4.3.0-preview.8": {
+      "unity": "2018.3",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Unity-Technologies/com.unity.probuilder.git",
+        "revision": "1ceeda311188f321983b164eabcd915ec8b70f22"
+      },
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "4.3.0-preview.8"
+      },
+      "upmCi": {
+        "footprint": "63a7c5eafd7060e86b42021d3bfc595acea4304c"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.probuilder-4.3.0-preview.8.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.probuilder#readme",
+      "_id": "com.unity.probuilder@4.3.0-preview.8",
+      "dist": {
+        "shasum": "9533489d9e27a02fe46f0a6ffc72f59386b5dc25",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-4.3.0-preview.8.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "4.3.0-preview.8",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+      "displayName": "ProBuilder",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "4.3.0-preview.7": {
+      "unity": "2018.3",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "repository": {
+        "footprint": "6622e8b13822510a38f9c75f0801dd970a6b4e6f",
+        "type": "git",
+        "url": "git+https://github.com/Unity-Technologies/com.unity.probuilder.git",
+        "revision": "5f413ba7e56d0d4abc49606efb981908d7491007"
+      },
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "4.3.0-preview.7"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.probuilder-4.3.0-preview.7.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.probuilder#readme",
+      "_id": "com.unity.probuilder@4.3.0-preview.7",
+      "dist": {
+        "shasum": "222cbdadd65afdf38abd29604696b1718a44df90",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-4.3.0-preview.7.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "4.3.0-preview.7",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+      "displayName": "ProBuilder",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "4.3.0-preview.6": {
+      "unity": "2018.3",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "repository": {
+        "footprint": "6991a41e0cceef8d9abcffbeee92a915df455b40",
+        "type": "git",
+        "url": "git+https://github.com/Unity-Technologies/com.unity.probuilder.git",
+        "revision": "cac0f29ffe7e9011b58ee34b2b299c782a332ce8"
+      },
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "4.3.0-preview.6"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.probuilder-4.3.0-preview.6.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.probuilder#readme",
+      "_id": "com.unity.probuilder@4.3.0-preview.6",
+      "dist": {
+        "shasum": "41177e5db39f349a034fb39b4bba16b88f9e24cb",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-4.3.0-preview.6.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "4.3.0-preview.6",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+      "displayName": "ProBuilder",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "4.3.0-preview.4": {
+      "unity": "2018.3",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "repository": {
+        "footprint": "a560bb20b5c1854736cdb8a9727e2be20cae5436",
+        "type": "git",
+        "url": "git+https://github.com/Unity-Technologies/com.unity.probuilder.git",
+        "revision": "61b375ddd38731f98a0bfb88a9fcacb87a966863"
+      },
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "4.3.0-preview.4"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.probuilder-4.3.0-preview.4.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.probuilder#readme",
+      "_id": "com.unity.probuilder@4.3.0-preview.4",
+      "dist": {
+        "shasum": "f4579aac95a41177a522acebaf99e13e22356049",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-4.3.0-preview.4.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "4.3.0-preview.4",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+      "displayName": "ProBuilder",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "4.2.4-preview.0": {
+      "unity": "2018.3",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "4.2.4-preview.0"
+      },
+      "repository": {
+        "footprint": "d3a5242e4b4d76a4637759749ee0e80201d0ec01",
+        "type": "git",
+        "url": "git+https://github.com/Unity-Technologies/com.unity.probuilder.git",
+        "revision": "24ac9093859a8b6e9e089563b9c56c7a139e3768"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.probuilder-4.2.4-preview.0.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.probuilder#readme",
+      "_id": "com.unity.probuilder@4.2.4-preview.0",
+      "dist": {
+        "shasum": "330bac93adc3a306d4e81df0061c43902bc4f1be",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-4.2.4-preview.0.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "4.2.4-preview.0",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+      "displayName": "ProBuilder",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.0"
+      }
+    },
+    "4.2.3": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:Unity-Technologies/com.unity.probuilder.git",
+        "revision": "8be464e9491a225fb90f7dac328bd7e39d909458"
+      },
+      "dist": {
+        "shasum": "b79f4ae92e79a7832a987caaffe27bd3f7201992",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-4.2.3.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.probuilder@4.2.3",
+      "unity": "2018.3",
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "4.2.3"
+      },
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "name": "com.unity.probuilder",
+      "version": "4.2.3",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+      "displayName": "ProBuilder",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.0"
+      }
+    },
+    "4.2.2-preview.2": {
+      "unity": "2018.3",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "4.2.2-preview.2"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/Unity-Technologies/com.unity.probuilder.git",
+        "revision": "6f58fbc25dad51a5ef9038634fe2c8361bd94cc2"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.probuilder-4.2.2-preview.2.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.probuilder#readme",
+      "_id": "com.unity.probuilder@4.2.2-preview.2",
+      "dist": {
+        "shasum": "ecde03c6a713977734adb28f690ef30d1406be2b",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-4.2.2-preview.2.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "4.2.2-preview.2",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+      "displayName": "ProBuilder",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.0"
+      }
+    },
+    "4.2.2-preview.1": {
+      "unity": "2018.3",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "4.2.2-preview.1"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/Unity-Technologies/com.unity.probuilder.git",
+        "revision": "a9fa79503278231d2ebc128030c8b301fb8ac37b"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.probuilder-4.2.2-preview.1.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.probuilder#readme",
+      "_id": "com.unity.probuilder@4.2.2-preview.1",
+      "dist": {
+        "shasum": "d940788e17f3f9a2a20f07f00ab1d6d3e9fd378f",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-4.2.2-preview.1.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "4.2.2-preview.1",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+      "displayName": "ProBuilder",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.0"
+      }
+    },
+    "4.3.0-preview.2": {
+      "unity": "2018.3",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "4.3.0-preview.2"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/Unity-Technologies/com.unity.probuilder.git",
+        "revision": "2c20699d44bc8875b246f0417f6550ebcfe865ca"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.probuilder-4.3.0-preview.2.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.probuilder#readme",
+      "_id": "com.unity.probuilder@4.3.0-preview.2",
+      "dist": {
+        "shasum": "e319930961ce6e12405085c94a51eafe4e811145",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-4.3.0-preview.2.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "4.3.0-preview.2",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+      "displayName": "ProBuilder",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.0"
+      }
+    },
+    "4.3.0-preview.1": {
+      "unity": "2018.3",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "4.3.0-preview.1"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/Unity-Technologies/com.unity.probuilder.git",
+        "revision": "5e8e3b76678b3a60e9cbb53adee1ae07ace768d0"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.probuilder-4.3.0-preview.1.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.probuilder#readme",
+      "_id": "com.unity.probuilder@4.3.0-preview.1",
+      "dist": {
+        "shasum": "0b16636864d5efbe166956790bac941a1acd0eb1",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-4.3.0-preview.1.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "4.3.0-preview.1",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+      "displayName": "ProBuilder",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.0"
+      }
+    },
+    "4.3.0-preview.0": {
+      "unity": "2018.3",
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "4.3.0-preview.0"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/Unity-Technologies/com.unity.probuilder.git",
+        "revision": "c9fdbbefac9a8284a804edae1ea1e1f611dde67f"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.probuilder-4.3.0-preview.0.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.probuilder#readme",
+      "_id": "com.unity.probuilder@4.3.0-preview.0",
+      "dist": {
+        "shasum": "5bc39e4e3df829a6184f742cf446227b45bf4630",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-4.3.0-preview.0.tgz"
+      },
+      "name": "com.unity.probuilder",
+      "version": "4.3.0-preview.0",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+      "displayName": "ProBuilder",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.0"
+      }
+    },
+    "4.1.2": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:Unity-Technologies/com.unity.probuilder.git",
+        "revision": "4114c14393dfb78bdd60ea7d440c85577ec22937"
+      },
+      "dist": {
+        "shasum": "c506e1e2bb9163887d5efdf57dcf0e05ff4cc025",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-4.1.2.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.probuilder@4.1.2",
+      "unity": "2018.3",
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "4.1.2"
+      },
+      "samples": [
+        {
+          "displayName": "HDRP Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "LWRP Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/LWRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "name": "com.unity.probuilder",
+      "version": "4.1.2",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+      "displayName": "ProBuilder",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.0"
+      }
+    },
+    "4.2.1": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:Unity-Technologies/com.unity.probuilder.git",
+        "revision": "b0538d4e4b4aca00c65912827a86aa4402774d5d"
+      },
+      "dist": {
+        "shasum": "71b120c3a66f52952e7e1b89504d4f66e6b7e795",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-4.2.1.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.probuilder@4.2.1",
+      "unity": "2018.3",
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "4.2.1"
+      },
+      "samples": [
+        {
+          "displayName": "Universal Render Pipeline Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/UniversalRenderPipeline"
+        },
+        {
+          "displayName": "High Definition Render Pipeline Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "name": "com.unity.probuilder",
+      "version": "4.2.1",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+      "displayName": "ProBuilder",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.0"
+      }
+    },
+    "4.1.0": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:Unity-Technologies/com.unity.probuilder.git",
+        "revision": "8a9d93b17e38772f21859fd46feaa4dd4acf375c"
+      },
+      "dist": {
+        "shasum": "ccab2504166299515a3a2554a853f06382d3be63",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-4.1.0.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.probuilder@4.1.0",
+      "unity": "2018.3",
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "4.1.0"
+      },
+      "samples": [
+        {
+          "displayName": "HDRP Support",
+          "description": "Shaders and materials for the High Definition Render Pipeline.",
+          "path": "Samples~/HDRP"
+        },
+        {
+          "displayName": "LWRP Support",
+          "description": "Shaders and materials for the Light Weight Render Pipeline.",
+          "path": "Samples~/LWRP"
+        },
+        {
+          "displayName": "Editor Examples",
+          "description": "Scripts demonstrating how to integrate new functionality into the ProBuilder editor window.",
+          "path": "Samples~/Editor"
+        },
+        {
+          "displayName": "Runtime Examples",
+          "description": "Scripts showing how to create and modify meshes at runtime.",
+          "path": "Samples~/Runtime"
+        }
+      ],
+      "name": "com.unity.probuilder",
+      "version": "4.1.0",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+      "displayName": "ProBuilder",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.0"
+      }
+    },
+    "3.10.1": {
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/Unity-Technologies/com.unity.probuilder.git",
+        "revision": "0e100ae271f50b1035793378f65d4874da17e336"
+      },
+      "dist": {
+        "shasum": "22fab4b7126c2ec9e4a89e8b01bf5d04e9719c64",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-3.10.1.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.probuilder@3.10.1",
+      "unity": "2018.1",
+      "name": "com.unity.probuilder",
+      "version": "3.10.1",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.\n\nDisclaimer: The ProBuilder API is currently in beta and will change before final release.",
+      "displayName": "ProBuilder",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "dependencies": {}
+    },
+    "4.0.5": {
+      "repository": {
+        "type": "git",
+        "url": "https://gitlab.cds.internal.unity3d.com/upm-packages/world-building/com.unity.probuilder.git",
+        "revision": "81241c9b0a963cd6322b8a5c568352b6440eed50"
+      },
+      "dist": {
+        "shasum": "808913064cbf80da80b6c9c7a36d0a15763ead9f",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-4.0.5.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.probuilder@4.0.5",
+      "unity": "2018.3",
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "4.0.4"
+      },
+      "name": "com.unity.probuilder",
+      "version": "4.0.5",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+      "displayName": "ProBuilder",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "dependencies": {}
+    },
+    "4.0.4": {
+      "repository": {
+        "type": "git",
+        "url": "https://gitlab.cds.internal.unity3d.com/upm-packages/world-building/com.unity.probuilder.git",
+        "revision": "7478700492444f0cc7abddf32c1ada0f7bf56dce"
+      },
+      "dist": {
+        "shasum": "85b99881b1c0043a8563c261984a0afc526de650",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-4.0.4.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.probuilder@4.0.4",
+      "unity": "2018.3",
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "4.0.4"
+      },
+      "name": "com.unity.probuilder",
+      "version": "4.0.4",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+      "displayName": "ProBuilder",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "dependencies": {}
+    },
+    "4.0.3": {
+      "repository": {
+        "type": "git",
+        "url": "https://gitlab.cds.internal.unity3d.com/upm-packages/world-building/com.unity.probuilder.git",
+        "revision": "0ac8d1c6085777169cc3fdd8241be190f88e7775"
+      },
+      "dist": {
+        "shasum": "369d5f016d3d43d111aca91fa2d4b394b03cbdd4",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-4.0.3.tgz"
+      },
+      "_id": "com.unity.probuilder@4.0.3",
+      "unity": "2018.3",
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "4.0.3"
+      },
+      "name": "com.unity.probuilder",
+      "version": "4.0.3",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+      "displayName": "ProBuilder",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "dependencies": {}
+    },
+    "4.0.2": {
+      "repository": {
+        "type": "git",
+        "url": "https://gitlab.cds.internal.unity3d.com/upm-packages/world-building/com.unity.probuilder.git",
+        "revision": "c2357845b86ac98a7f28eae55f0dd206f2393071"
+      },
+      "dist": {
+        "shasum": "e10524b3908779ed9889b326f097d2f73e4b9380",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-4.0.2.tgz"
+      },
+      "_id": "com.unity.probuilder@4.0.2",
+      "unity": "2018.3",
+      "relatedPackages": {
+        "com.unity.probuilder.tests": "0.0.1-preview"
+      },
+      "name": "com.unity.probuilder",
+      "version": "4.0.2",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+      "displayName": "ProBuilder",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "dependencies": {}
+    },
+    "3.0.9": {
+      "dist": {
+        "shasum": "6cda1435c3c47e22b6924049c4e93273d507f883",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-3.0.9.tgz"
+      },
+      "_id": "com.unity.probuilder@3.0.9",
+      "unity": "2018.1",
+      "name": "com.unity.probuilder",
+      "version": "3.0.9",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.\n\nDisclaimer: The ProBuilder API is currently in beta and will change before final release.",
+      "displayName": "ProBuilder",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "dependencies": {}
+    },
+    "3.0.8": {
+      "dist": {
+        "shasum": "e3e6457aca991af7abe2dbc3b684893923d29d2f",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-3.0.8.tgz"
+      },
+      "_id": "com.unity.probuilder@3.0.8",
+      "unity": "2018.1",
+      "name": "com.unity.probuilder",
+      "version": "3.0.8",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.\n\nDisclaimer: The ProBuilder API is currently in beta and will change before final release.",
+      "displayName": "ProBuilder",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "dependencies": {}
+    },
+    "3.0.6": {
+      "dist": {
+        "shasum": "2eb66af373ac2d127772993918fac31872654f2f",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-3.0.6.tgz"
+      },
+      "_id": "com.unity.probuilder@3.0.6",
+      "unity": "2018.1",
+      "name": "com.unity.probuilder",
+      "version": "3.0.6",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.\n\nDisclaimer: The ProBuilder API is currently in beta and will change before final release.",
+      "displayName": "ProBuilder",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "dependencies": {}
+    },
+    "3.0.3": {
+      "dist": {
+        "shasum": "a88511a002006addd4fcdb1faf6aabd42c32fcec",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-3.0.3.tgz"
+      },
+      "_id": "com.unity.probuilder@3.0.3",
+      "unity": "2018.1",
+      "name": "com.unity.probuilder",
+      "version": "3.0.3",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.\n\nDisclaimer: The ProBuilder API is currently in beta and will change before final release.",
+      "displayName": "ProBuilder",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "dependencies": {}
+    },
+    "3.0.2": {
+      "dist": {
+        "shasum": "4a924d5c9ed3da318bf9de4d6a410bf76ce42ac6",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-3.0.2.tgz"
+      },
+      "_id": "com.unity.probuilder@3.0.2",
+      "unity": "2018.1",
+      "name": "com.unity.probuilder",
+      "version": "3.0.2",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.\n\nDisclaimer: The ProBuilder API is currently in beta and will change before final release.",
+      "displayName": "ProBuilder",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "dependencies": {}
+    },
+    "3.0.1": {
+      "dist": {
+        "shasum": "f6687343e6d68c8b79af5ea31623093e2f93ea67",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-3.0.1.tgz"
+      },
+      "_id": "com.unity.probuilder@3.0.1",
+      "unity": "2018.1",
+      "name": "com.unity.probuilder",
+      "version": "3.0.1",
+      "description": "Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.\n\nDisclaimer: The ProBuilder API is currently in beta and will change before final release.",
+      "displayName": "ProBuilder",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "dependencies": {}
+    },
+    "3.0.0": {
+      "dist": {
+        "shasum": "a237cc670d0c82c0a27fd665a6a53df38ffc3cd9",
+        "tarball": "https://download.packages.unity.com/com.unity.probuilder/-/com.unity.probuilder-3.0.0.tgz"
+      },
+      "_id": "com.unity.probuilder@3.0.0",
+      "unity": "2018.1",
+      "name": "com.unity.probuilder",
+      "version": "3.0.0",
+      "description": "ProBuilder is a 3D modeling plugin that makes level design super fast.",
+      "displayName": "",
+      "keywords": [
+        "3d",
+        "model",
+        "mesh",
+        "modeling",
+        "geometry",
+        "shape",
+        "cube",
+        "blender",
+        "max",
+        "maya",
+        "fbx",
+        "obj",
+        "level",
+        "design",
+        "block",
+        "greybox",
+        "graybox",
+        "whitebox",
+        "prototype",
+        "probuilder"
+      ],
+      "dependencies": {}
+    }
+  },
+  "etag": "\"420a2c9cb7465c3c3bfc5995c9b4058f\"",
+  "time": {
+    "6.0.1-pre.1": "2023-12-15T12:11:40Z",
+    "5.2.2": "2023-11-29T15:54:46Z",
+    "5.2.0": "2023-10-05T07:25:01Z",
+    "5.1.1": "2023-08-07T08:12:43Z",
+    "5.1.0": "2023-06-13T08:45:55Z",
+    "5.0.7": "2023-04-12T15:45:16Z",
+    "5.0.6": "2022-07-08T13:46:00Z",
+    "5.0.4": "2022-02-07T15:30:01Z",
+    "4.5.2": "2021-07-08T18:27:45Z",
+    "5.0.3": "2021-04-08T14:58:49Z",
+    "5.0.1": "2021-03-11T22:34:35Z",
+    "5.0.0-pre.10": "2021-01-27T18:17:53Z",
+    "4.5.0": "2021-01-21T18:05:20Z",
+    "5.0.0-pre.7": "2020-11-17T23:08:46Z",
+    "4.4.0": "2020-08-19T18:21:57Z",
+    "4.4.0-preview.1": "2020-06-22T15:44:03Z",
+    "4.3.1": "2020-06-08T18:13:29Z",
+    "4.3.0-preview.9": "2020-05-04T16:45:48Z",
+    "4.3.0-preview.8": "2020-04-29T19:49:13Z",
+    "4.3.0-preview.7": "2020-04-02T17:47:08Z",
+    "4.3.0-preview.6": "2020-03-24T01:20:35Z",
+    "4.3.0-preview.4": "2020-03-04T19:40:41Z",
+    "4.2.4-preview.0": "2020-02-15T22:12:51Z",
+    "4.2.3": "2020-01-17T02:05:35Z",
+    "4.2.2-preview.2": "2020-01-16T15:44:41Z",
+    "4.2.2-preview.1": "2020-01-16T14:33:31Z",
+    "4.3.0-preview.2": "2020-01-15T22:13:03Z",
+    "4.3.0-preview.1": "2019-12-16T22:41:48Z",
+    "4.3.0-preview.0": "2019-12-16T21:56:51Z",
+    "4.1.2": "2019-11-28T20:05:31Z",
+    "4.2.1": "2019-11-27T16:05:14Z",
+    "4.1.0": "2019-07-17T22:02:47Z",
+    "3.10.1": "2019-06-18T23:02:15Z",
+    "4.0.5": "2019-05-09T17:01:51Z",
+    "4.0.4": "2019-04-03T12:11:28Z",
+    "4.0.3": "2019-04-03T12:11:25Z",
+    "4.0.2": "2019-04-03T12:11:22Z",
+    "3.0.9": "2019-04-03T12:11:19Z",
+    "3.0.8": "2019-04-03T12:11:16Z",
+    "3.0.6": "2019-04-03T12:11:13Z",
+    "3.0.3": "2019-04-03T12:11:10Z",
+    "3.0.2": "2019-04-03T12:11:08Z",
+    "3.0.1": "2019-04-03T12:11:05Z",
+    "3.0.0": "2019-04-03T12:11:02Z"
+  }
+}

@@ -1,0 +1,1532 @@
+{
+  "_id": "com.unity.serialization",
+  "name": "com.unity.serialization",
+  "description": "Use Unity's Serialization to serialize and deserialize from/to JSON and Binary formats.",
+  "provider": "upm",
+  "category": "",
+  "dist-tags": {
+    "latest": "3.1.1"
+  },
+  "versions": {
+    "3.1.1": {
+      "unity": "2022.2",
+      "unityRelease": "0a18",
+      "_upm": {
+        "changelog": "### Changed\n* Updated `com.unity.collections` to version `2.1.4`."
+      },
+      "upmCi": {
+        "footprint": "4a126bb109b3bbf0dac86f2b20182cf1542f2850"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.serialization@3.1/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.properties.git",
+        "type": "git",
+        "revision": "090f848dff6515cf21787143f17c107644263fe9"
+      },
+      "dist": {
+        "shasum": "a31a78f949b0b327339dbb19be2b93a421251113",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-3.1.1.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "3.1.1",
+      "description": "Use Unity's Serialization to serialize and deserialize from/to JSON and Binary formats.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "json",
+        "binary",
+        "unity"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "2.1.4",
+        "com.unity.burst": "1.7.2"
+      }
+    },
+    "3.0.0-pre.3": {
+      "unity": "2022.2",
+      "unityRelease": "0a18",
+      "_upm": {
+        "changelog": "### Changed\n* Updated `com.unity.test-framework.performance` to version `3.0.0-pre.1`."
+      },
+      "upmCi": {
+        "footprint": "57357729d9e7df1b0a74648f828380be8e30bee5"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.serialization@3.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.properties.git",
+        "type": "git",
+        "revision": "5282ac75f422dc970d767836b58d1326680ab730"
+      },
+      "dist": {
+        "shasum": "226c0be1c5b07ee22809a5af6df354214286d9df",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-3.0.0-pre.3.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "3.0.0-pre.3",
+      "description": "Use Unity's Serialization to serialize and deserialize from/to JSON and Binary formats.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "json",
+        "binary",
+        "unity"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "2.1.0-pre.2",
+        "com.unity.burst": "1.7.2",
+        "com.unity.test-framework.performance": "3.0.0-pre.1"
+      }
+    },
+    "3.0.0-pre.2": {
+      "unity": "2022.2",
+      "unityRelease": "0a18",
+      "_upm": {
+        "changelog": "### Fixed\n* Fixed tokenization error when reading strings ending with escape character."
+      },
+      "upmCi": {
+        "footprint": "08a8858e6535acd67133d936400e5e827803b0ca"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.serialization@3.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.properties.git",
+        "type": "git",
+        "revision": "b0a97eca2e3cebc4c3d8f9e169ba0fdf3c772648"
+      },
+      "dist": {
+        "shasum": "559ebf3a72fee938436ffc7c3635774daff70da6",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-3.0.0-pre.2.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "3.0.0-pre.2",
+      "description": "Use Unity's Serialization to serialize and deserialize from/to JSON and Binary formats.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "json",
+        "binary",
+        "unity"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "2.1.0-pre.2",
+        "com.unity.burst": "1.7.2",
+        "com.unity.test-framework.performance": "2.8.0-preview"
+      }
+    },
+    "2.1.2-exp.1": {
+      "unity": "2021.3",
+      "unityRelease": "0f1",
+      "_upm": {
+        "changelog": "### Fixed\n* Fixed tokenization error when reading strings ending with escape character."
+      },
+      "upmCi": {
+        "footprint": "ae2a1e4b83ab11bf15ed06b5238eef2e5c9978c3"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.serialization@2.1/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.properties.git",
+        "type": "git",
+        "revision": "c6b568efe890a193acd56be5591d1f513a39bddf"
+      },
+      "dist": {
+        "shasum": "ce81360f15835c941ff446299b051f9b8e5372d9",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-2.1.2-exp.1.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "2.1.2-exp.1",
+      "description": "Use Unity's Serialization to serialize and deserialize from/to JSON and Binary formats.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "json",
+        "binary",
+        "unity"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.4.0",
+        "com.unity.burst": "1.7.2",
+        "com.unity.jobs": "0.70.0-preview.7",
+        "com.unity.properties": "2.1.0-exp.2",
+        "com.unity.test-framework.performance": "2.8.0-preview"
+      }
+    },
+    "3.0.0-pre.1": {
+      "unity": "2022.2",
+      "unityRelease": "0a18",
+      "upmCi": {
+        "footprint": "c046888a730d1f14e285899fe4701c6d70e71847"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.properties.git",
+        "type": "git",
+        "revision": "713ee4b31a2d4bad63ef5122fb5a1765d7acabc4"
+      },
+      "dist": {
+        "shasum": "7e3daaea2365bca00762e8518833bbb4ab3b403a",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-3.0.0-pre.1.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "3.0.0-pre.1",
+      "description": "Use Unity's Serialization to serialize and deserialize from/to JSON and Binary formats.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "json",
+        "binary",
+        "unity"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "2.1.0-pre.2",
+        "com.unity.burst": "1.7.2",
+        "com.unity.test-framework.performance": "2.8.0-preview"
+      }
+    },
+    "2.1.1-exp.1": {
+      "unity": "2021.3",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "4b79489e509e06eddde4aa6ab572182126fd84eb"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.properties.git",
+        "type": "git",
+        "revision": "f21dc5cb5fa2aadea275dd1c8889d43f09938d9f"
+      },
+      "dist": {
+        "shasum": "f962be7c8b71bf6468a562fe2f0bf64ffe1194fa",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-2.1.1-exp.1.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "2.1.1-exp.1",
+      "description": "Use Unity's Serialization to serialize and deserialize from/to JSON and Binary formats.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "json",
+        "binary",
+        "unity"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.4.0",
+        "com.unity.burst": "1.7.2",
+        "com.unity.jobs": "0.70.0-preview.7",
+        "com.unity.properties": "2.1.0-exp.2",
+        "com.unity.test-framework.performance": "2.8.0-preview"
+      }
+    },
+    "2.1.0-exp.1": {
+      "unity": "2021.3",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "b597f92a3711f7ed5c06f83c5f6b99dc59d63888"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.properties.git",
+        "type": "git",
+        "revision": "0cb51a457cb2277c352fb6146694f7ef7a253923"
+      },
+      "dist": {
+        "shasum": "7eb302deb1a99cb7915ae9b680d606253a5815a1",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-2.1.0-exp.1.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "2.1.0-exp.1",
+      "description": "Use Unity's Serialization to serialize and deserialize from/to JSON and Binary formats.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "json",
+        "binary",
+        "unity"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.4.0",
+        "com.unity.burst": "1.7.2",
+        "com.unity.jobs": "0.70.0-preview.7",
+        "com.unity.properties": "2.1.0-exp.1",
+        "com.unity.test-framework.performance": "2.8.0-preview"
+      }
+    },
+    "2.0.0-exp.13": {
+      "unity": "2021.3",
+      "unityRelease": "0f1",
+      "_upm": {
+        "changelog": "### Added\n* Add `SerializeValue` API for `SerializationContext` objects for serialization re-entry.\n* Add `DeserializeValue` API for `SerializationContext` objects for serialization re-entry.\n* JSON serialization now supports simple json validation as an option.\n* Add `JsonWriter.WriteValue` override for bool values.\n* `JsonSerialization.ToJson` supports serializing `SerializedObjectView` and `SerializedArrayView`.\n\n### Changed\n* Updated minimum Unity version to `2021.3`.\n* Updated `com.unity.properties` to version `2.0.0-exp.13`.\n* Updated `com.unity.collections` to version `1.1.0`.\n* Updated `com.unity.burst` to version `1.6.1`.\n* Updated `com.unity.jobs` to version `0.11.0-preview.6`.\n* Updated `com.unity.test-framework.performance` to version `2.8.0-preview`.\n* ***Breaking change*** `IJsonAdapter` now pass a context object (`JsonSerializationContext` and `JsonDeserializationContext`). These context objects provide access to the underlying writer or serialized views. \n* ***Breaking change*** `IBinaryAdapter` now pass a context object (`BinarySerializationContext` and `BinaryDeserializationContext`). These context objects provide access to the underlying writer or reader.\n\n### Fixed\n* Fixed an issue where `BinarySerialization` was keeping serialized references until the next `ToBinary` call.\n* Fixed an issue where `JsonSerialization` validation was not detecting open scopes at the end of a stream.\n* JSON serialization now properly adds escape characters to `char` value `\\0`."
+      },
+      "upmCi": {
+        "footprint": "5645c79ae9460332bd5c908e37909db21af56fb7"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.properties.git",
+        "type": "git",
+        "revision": "733b021f5e5b986dad4243f1a65993aec291f777"
+      },
+      "_id": "com.unity.serialization@2.0.0-exp.13",
+      "_integrity": "sha512-ChME/M+n1aYq1SntTUCIVAhkGJCHTNJDxm3iJDb1sdeI1oC90wHGVgXI2IeWWP3HCj9GJf8SRHxYb9WNGfLNtg==",
+      "_resolved": "/tmp/com.unity.serialization@2.0.0-exp.13-xsyc_t4h.tgz",
+      "_from": "file:/tmp/com.unity.serialization@2.0.0-exp.13-xsyc_t4h.tgz",
+      "dist": {
+        "shasum": "9abd90cf67c2666c03b1b4f78c491527d95ced86",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-2.0.0-exp.13.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "2.0.0-exp.13",
+      "description": "Use Unity's Serialization to serialize and deserialize from/to JSON and Binary formats.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "json",
+        "binary",
+        "unity"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.1.0",
+        "com.unity.burst": "1.6.1",
+        "com.unity.jobs": "0.11.0-preview.6",
+        "com.unity.properties": "2.0.0-exp.13",
+        "com.unity.test-framework.performance": "2.8.0-preview"
+      }
+    },
+    "2.0.0-exp.11": {
+      "unity": "2021.3",
+      "unityRelease": "0f1",
+      "_upm": {
+        "changelog": "### Added\n* Add `SerializeValue` API for `SerializationContext` objects for serialization re-entry.\n* Add `DeserializeValue` API for `SerializationContext` objects for serialization re-entry.\n* JSON serialization now supports simple json validation as an option.\n* Add `JsonWriter.WriteValue` override for bool values.\n* `JsonSerialization.ToJson` supports serializing `SerializedObjectView` and `SerializedArrayView`.\n\n### Changed\n* Updated minimum Unity version to `2021.3`.\n* Updated `com.unity.properties` to version `2.0.0-exp.11`.\n* Updated `com.unity.collections` to version `1.1.0`.\n* Updated `com.unity.burst` to version `1.6.1`.\n* Updated `com.unity.jobs` to version `0.11.0-preview.6`.\n* Updated `com.unity.test-framework.performance` to version `2.8.0-preview`.\n* ***Breaking change*** `IJsonAdapter` now pass a context object (`JsonSerializationContext` and `JsonDeserializationContext`). These context objects provide access to the underlying writer or serialized views. \n* ***Breaking change*** `IBinaryAdapter` now pass a context object (`BinarySerializationContext` and `BinaryDeserializationContext`). These context objects provide access to the underlying writer or reader.\n\n### Fixed\n* Fixed an issue where `BinarySerialization` was keeping serialized references until the next `ToBinary` call.\n* Fixed an issue where `JsonSerialization` validation was not detecting open scopes at the end of a stream.\n* JSON serialization now properly adds escape characters to `char` value `\\0`."
+      },
+      "upmCi": {
+        "footprint": "3d07f15089ca99ac3454622b8c278f3add90897e"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.properties.git",
+        "type": "git",
+        "revision": "ed6d8a6ff20aad284e3798f0452025d3b922bf6c"
+      },
+      "_id": "com.unity.serialization@2.0.0-exp.11",
+      "_integrity": "sha512-IFiNnA2OB4ANUYRZDN7smxoSWewer6VJfpzDxFml2nGRjf5x1cuMWrRiRuu0+Z+BFwcZxvREIOVMPJH8j7ZQfQ==",
+      "_resolved": "/tmp/com.unity.serialization@2.0.0-exp.11-q7ua87gt.tgz",
+      "_from": "file:/tmp/com.unity.serialization@2.0.0-exp.11-q7ua87gt.tgz",
+      "dist": {
+        "shasum": "44c69352d31ece804eaeb143491d45a468262306",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-2.0.0-exp.11.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "2.0.0-exp.11",
+      "description": "The Serialization package provides a high level API serialization and deserialization.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.1.0",
+        "com.unity.burst": "1.6.1",
+        "com.unity.jobs": "0.11.0-preview.6",
+        "com.unity.properties": "2.0.0-exp.11",
+        "com.unity.test-framework.performance": "2.8.0-preview"
+      }
+    },
+    "1.8.3-preview": {
+      "unity": "2020.3",
+      "unityRelease": "17f1",
+      "upmCi": {
+        "footprint": "f4ff8ba191e58cfc18be11c24377df751d820fed"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.properties.git",
+        "type": "git",
+        "revision": "34d2714d39e35c2535a6587cd94b06267f5a6162"
+      },
+      "_id": "com.unity.serialization@1.8.3-preview",
+      "_integrity": "sha512-fOHF6QFmTPXOKr8u7IpMU+W5y8Wk4l1QDDRKA3FuURkkafBL9r1tzs28/CdK6TbsQyBTKCED5iYH93O//Eakjw==",
+      "_resolved": "/tmp/com.unity.serialization@1.8.3-preview-496ys8sr.tgz",
+      "_from": "file:/tmp/com.unity.serialization@1.8.3-preview-496ys8sr.tgz",
+      "dist": {
+        "shasum": "a9e711c07addf7f6781e01fafdbe0bb95a3cb065",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-1.8.3-preview.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "1.8.3-preview",
+      "description": "The Serialization package provides a high level API serialization and deserialization.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.1.0",
+        "com.unity.burst": "1.6.4",
+        "com.unity.jobs": "0.11.0-preview.6",
+        "com.unity.properties": "1.8.3-preview",
+        "com.unity.test-framework.performance": "2.3.1-preview"
+      }
+    },
+    "1.7.5-preview": {
+      "unity": "2020.1",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "4322ed6b7d23728e16f9f67509cf3c44452d27e4"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.properties.git",
+        "type": "git",
+        "revision": "e8269577044b782d9d9907281145d999429d647b"
+      },
+      "_id": "com.unity.serialization@1.7.5-preview",
+      "_integrity": "sha512-t8ZG2x/a8SQH6jRiLKTUC4JsKYo4g720RUelnR4483NdZ/NzjnIWlfxJwSBSyCzHR6WUu0oTJoAJ+waPuzfoHQ==",
+      "_resolved": "/tmp/com.unity.serialization@1.7.5-preview-okqze3g6.tgz",
+      "_from": "file:/tmp/com.unity.serialization@1.7.5-preview-okqze3g6.tgz",
+      "dist": {
+        "shasum": "bd1d043f7fe2aed523ea8ba8530354c1f93fe514",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-1.7.5-preview.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "1.7.5-preview",
+      "description": "The Serialization package provides a high level API serialization and deserialization.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "0.12.0-preview.13",
+        "com.unity.burst": "1.3.5",
+        "com.unity.jobs": "0.5.0-preview.14",
+        "com.unity.properties": "1.7.5-preview",
+        "com.unity.test-framework.performance": "2.3.1-preview"
+      }
+    },
+    "1.8.2-preview": {
+      "unity": "2020.3",
+      "unityRelease": "17f1",
+      "upmCi": {
+        "footprint": "b462967b935a6c47c852373ef593d800edce7d19"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.properties.git",
+        "type": "git",
+        "revision": "406086df96a9a3dd5306722133799fb3a88e8a6c"
+      },
+      "_id": "com.unity.serialization@1.8.2-preview",
+      "_integrity": "sha512-MTL+6Uz6wWBdnNGWmCVprZuxYu7GMyad0NaPKkBVKiwjg0J4ZQEA1B445OFW5gOgUBHVcDj5k0yOOngDXCxTUw==",
+      "_resolved": "/tmp/com.unity.serialization@1.8.2-preview-c5mx1fqy.tgz",
+      "_from": "file:/tmp/com.unity.serialization@1.8.2-preview-c5mx1fqy.tgz",
+      "dist": {
+        "shasum": "2ad320f9fd6f1c720d6f894f8d96cdce978198ac",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-1.8.2-preview.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "1.8.2-preview",
+      "description": "The Serialization package provides a high level API serialization and deserialization.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.1.0",
+        "com.unity.burst": "1.6.4",
+        "com.unity.jobs": "0.11.0-preview.6",
+        "com.unity.properties": "1.8.2-preview",
+        "com.unity.test-framework.performance": "2.3.1-preview"
+      }
+    },
+    "1.7.4-preview": {
+      "unity": "2020.1",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "69cd7c527a34fef563ea9e24067513fcd807c64b"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.properties.git",
+        "type": "git",
+        "revision": "84ae95efef203753ec32a75ac11f6abed94df12d"
+      },
+      "_id": "com.unity.serialization@1.7.4-preview",
+      "_integrity": "sha512-/DRGaVvEGy7+kwYI56UIPIX+LmcNd0CkLMoiHXTrbEBozAAOUKtWY/modo0GCl2gGoqLiDgaFCjsk4sm45gCdw==",
+      "_resolved": "/tmp/com.unity.serialization@1.7.4-preview-tp6nzjd3.tgz",
+      "_from": "file:/tmp/com.unity.serialization@1.7.4-preview-tp6nzjd3.tgz",
+      "dist": {
+        "shasum": "a58ea3d6f40eddb9c6aad8ea38b324c7a87e49f2",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-1.7.4-preview.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "1.7.4-preview",
+      "description": "The Serialization package provides a high level API serialization and deserialization.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "0.12.0-preview.13",
+        "com.unity.burst": "1.3.5",
+        "com.unity.jobs": "0.5.0-preview.14",
+        "com.unity.properties": "1.7.4-preview",
+        "com.unity.test-framework.performance": "2.3.1-preview"
+      }
+    },
+    "1.7.3-preview": {
+      "unity": "2020.1",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "7564e0415189ad02b8be0f2ac986973494bd0e7a"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.properties.git",
+        "type": "git",
+        "revision": "f63c5f26bb0cf3e4a7277ccd11d10a1f3b52160f"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.serialization-1.7.3-preview.tgz",
+      "_id": "com.unity.serialization@1.7.3-preview",
+      "dist": {
+        "shasum": "41835cbc542489e730a63c31f7e7f34cd8835b59",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-1.7.3-preview.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "1.7.3-preview",
+      "description": "The Serialization package provides a high level API serialization and deserialization.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "0.12.0-preview.13",
+        "com.unity.burst": "1.3.5",
+        "com.unity.jobs": "0.5.0-preview.14",
+        "com.unity.properties": "1.7.1-preview",
+        "com.unity.test-framework.performance": "2.3.1-preview"
+      }
+    },
+    "1.7.1-preview": {
+      "unity": "2020.1",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "c0dbfe301d9f1a0d1e213db5b5948fa601b50cc3"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.properties.git",
+        "type": "git",
+        "revision": "0dc9a171da1398d70da02960ebe04e6dd9e1d36b"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.serialization-1.7.1-preview.tgz",
+      "_id": "com.unity.serialization@1.7.1-preview",
+      "dist": {
+        "shasum": "6e5f15b5e3dc51d5c6da6b4e57d43a20e051ee4c",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-1.7.1-preview.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "1.7.1-preview",
+      "description": "The Serialization package provides a high level API serialization and deserialization.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "0.12.0-preview.13",
+        "com.unity.burst": "1.3.5",
+        "com.unity.jobs": "0.5.0-preview.14",
+        "com.unity.properties": "1.7.0-preview",
+        "com.unity.test-framework.performance": "2.3.1-preview"
+      }
+    },
+    "1.7.0-preview.1": {
+      "unity": "2020.1",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "eea05d9d3ef11faa1489c3bbec257c0e6d782c68"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.properties.git",
+        "type": "git",
+        "revision": "876499bb46f5a681ecb0e5bc97bb35029d658e75"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.serialization-1.7.0-preview.1.tgz",
+      "_id": "com.unity.serialization@1.7.0-preview.1",
+      "dist": {
+        "shasum": "b2090a9d0837fa0d766f0cde4ad3211170652c0a",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-1.7.0-preview.1.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "1.7.0-preview.1",
+      "description": "The Serialization package provides a high level API serialization and deserialization.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "0.12.0-preview.13",
+        "com.unity.burst": "1.3.5",
+        "com.unity.jobs": "0.5.0-preview.14",
+        "com.unity.properties": "1.7.0-preview",
+        "com.unity.test-framework.performance": "2.3.1-preview"
+      }
+    },
+    "1.6.2-preview": {
+      "unity": "2020.1",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "abf9f1cfcc910c1418cdbf9d27a7a3303fe21563"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.properties.git",
+        "type": "git",
+        "revision": "393796211f9cdb1ce65502cdca21d7cedd69e96c"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.serialization-1.6.2-preview.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.properties/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.properties#readme",
+      "_id": "com.unity.serialization@1.6.2-preview",
+      "dist": {
+        "shasum": "40e829df4fdd736969e0c28c1e7947c9526ac22e",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-1.6.2-preview.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "1.6.2-preview",
+      "description": "The Serialization package provides a high level API serialization and deserialization.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "0.12.0-preview.13",
+        "com.unity.burst": "1.3.5",
+        "com.unity.jobs": "0.5.0-preview.14",
+        "com.unity.properties": "1.6.0-preview",
+        "com.unity.test-framework.performance": "2.3.1-preview"
+      }
+    },
+    "1.6.1-preview": {
+      "unity": "2020.1",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "cc3d610948dc33e03bdfc32da60f57a01ed969e3"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.properties.git",
+        "type": "git",
+        "revision": "90a3046d7cc610df1466bb4e9cc765a82f306e12"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.serialization-1.6.1-preview.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.properties/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.properties#readme",
+      "_id": "com.unity.serialization@1.6.1-preview",
+      "dist": {
+        "shasum": "71e87c3af7fc13c1b94b6d48e705c2b7bd1d98a9",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-1.6.1-preview.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "1.6.1-preview",
+      "description": "The Serialization package provides a high level API serialization and deserialization.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "0.12.0-preview.13",
+        "com.unity.burst": "1.3.5",
+        "com.unity.jobs": "0.5.0-preview.14",
+        "com.unity.properties": "1.6.0-preview",
+        "com.unity.test-framework.performance": "2.3.1-preview"
+      }
+    },
+    "1.6.0-preview": {
+      "unity": "2020.1",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "59bb8f95728843321e1d0ff4b2f79c21b25bdebf"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.properties.git",
+        "type": "git",
+        "revision": "ef8a6ef3d38a560c9c302c5fc27375fca195ced7"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.serialization-1.6.0-preview.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.properties/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.properties#readme",
+      "_id": "com.unity.serialization@1.6.0-preview",
+      "dist": {
+        "shasum": "44c4bc9816fce5dcc6f641db95c80fe50e87fd16",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-1.6.0-preview.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "1.6.0-preview",
+      "description": "The Serialization package provides a high level API serialization and deserialization.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "0.12.0-preview.13",
+        "com.unity.burst": "1.3.5",
+        "com.unity.jobs": "0.5.0-preview.14",
+        "com.unity.properties": "1.6.0-preview",
+        "com.unity.test-framework.performance": "2.3.1-preview"
+      }
+    },
+    "1.5.0-preview": {
+      "unity": "2019.3",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "e5ca1860e5bb04677cc1fb700939f68f6c1080e2"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.properties.git",
+        "type": "git",
+        "revision": "6e6b8c016f2f98375b41bf2f3f079bfb6504da58"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.serialization-1.5.0-preview.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.properties/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.properties#readme",
+      "_id": "com.unity.serialization@1.5.0-preview",
+      "dist": {
+        "shasum": "4fc1adf3c2c2bb722201de6b29f1e07de211503a",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-1.5.0-preview.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "1.5.0-preview",
+      "description": "The Serialization package provides a high level API serialization and deserialization.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "0.8.0-preview.5",
+        "com.unity.burst": "1.3.0-preview.12",
+        "com.unity.jobs": "0.2.9-preview.15",
+        "com.unity.properties": "1.4.3-preview",
+        "com.unity.test-framework.performance": "2.0.8-preview"
+      }
+    },
+    "1.4.3-preview": {
+      "unity": "2019.3",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "05ddda4b3d41229a391ce698e7c012d2947776b2"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.properties.git",
+        "type": "git",
+        "revision": "827d95e323725edd57a1f738a8899327c0b66c59"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.serialization-1.4.3-preview.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.properties/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.properties#readme",
+      "_id": "com.unity.serialization@1.4.3-preview",
+      "dist": {
+        "shasum": "b0c2af7d042057d4074bf2159f69a643c1595362",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-1.4.3-preview.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "1.4.3-preview",
+      "description": "The Serialization package provides a high level API serialization and deserialization.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "0.8.0-preview.5",
+        "com.unity.burst": "1.3.0-preview.12",
+        "com.unity.jobs": "0.2.9-preview.15",
+        "com.unity.properties": "1.4.3-preview",
+        "com.unity.test-framework.performance": "2.0.8-preview"
+      }
+    },
+    "1.3.1-preview": {
+      "unity": "2019.3",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "0eb0861f79682b982199eccf4784ef44cac31168"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.properties.git",
+        "type": "git",
+        "revision": "1bea32daba9e0bb05feb9895e9ecb85854e08e2e"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.serialization-1.3.1-preview.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.properties/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.properties#readme",
+      "_id": "com.unity.serialization@1.3.1-preview",
+      "dist": {
+        "shasum": "09ea01feb452e39ca6a900277d6569569361d83b",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-1.3.1-preview.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "1.3.1-preview",
+      "description": "The Serialization package provides a high level API serialization and deserialization.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "0.8.0-preview.5",
+        "com.unity.burst": "1.3.0-preview.12",
+        "com.unity.jobs": "0.2.9-preview.15",
+        "com.unity.properties": "1.3.1-preview",
+        "com.unity.test-framework.performance": "2.0.8-preview"
+      }
+    },
+    "1.3.0-preview": {
+      "unity": "2019.3",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "621b358adce0c17fca032f007d02fef0d37cb06c"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Unity-Technologies/com.unity.properties.git",
+        "revision": "8aa9a1eb0b3192b2e72a2ddc3d4011917470ba1f"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.serialization-1.3.0-preview.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.properties/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.properties#readme",
+      "_id": "com.unity.serialization@1.3.0-preview",
+      "dist": {
+        "shasum": "c606f19cba4f19176752032d4abab3cda80c81f4",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-1.3.0-preview.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "1.3.0-preview",
+      "description": "The Serialization package provides a high level API serialization and deserialization.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "dependencies": {
+        "com.unity.collections": "0.8.0-preview.5",
+        "com.unity.burst": "1.3.0-preview.12",
+        "com.unity.jobs": "0.2.9-preview.15",
+        "com.unity.properties": "1.3.0-preview",
+        "com.unity.test-framework.performance": "2.0.8-preview"
+      }
+    },
+    "1.2.0-preview": {
+      "unity": "2019.3",
+      "unityRelease": "0f1",
+      "repository": {
+        "footprint": "7f330ad1a0447c1f65f85c0cb8aea3b71d2de774",
+        "type": "git",
+        "url": "git+https://github.com/Unity-Technologies/com.unity.properties.git",
+        "revision": "405a6f7ef406d62af3207044f2983017e1ec9517"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.serialization-1.2.0-preview.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.properties/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.properties#readme",
+      "_id": "com.unity.serialization@1.2.0-preview",
+      "dist": {
+        "shasum": "6f00a4443d2ca52845aae84f89872d95c172ac77",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-1.2.0-preview.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "1.2.0-preview",
+      "description": "The Serialization package provides a high level API serialization and deserialization.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "dependencies": {
+        "com.unity.collections": "0.7.0-preview.2",
+        "com.unity.burst": "1.3.0-preview.5",
+        "com.unity.jobs": "0.2.7-preview.11",
+        "com.unity.properties": "1.2.0-preview",
+        "com.unity.test-framework.performance": "1.3.3-preview"
+      }
+    },
+    "1.1.1-preview": {
+      "unity": "2019.3",
+      "unityRelease": "0f1",
+      "repository": {
+        "footprint": "73ffd21f9a16c2fde78e2d7e726b58b994b169a3",
+        "type": "git",
+        "url": "git+https://github.com/Unity-Technologies/com.unity.properties.git",
+        "revision": "15037e457ed98907dd1d44ea3d2bc72c09475b7d"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.serialization-1.1.1-preview.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.properties/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.properties#readme",
+      "_id": "com.unity.serialization@1.1.1-preview",
+      "dist": {
+        "shasum": "41440087996d5bc3e05c0ec63bbe7d0c3a4a642c",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-1.1.1-preview.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "1.1.1-preview",
+      "description": "The Serialization package provides a high level API serialization and deserialization.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "dependencies": {
+        "com.unity.collections": "0.7.0-preview.2",
+        "com.unity.burst": "1.3.0-preview.5",
+        "com.unity.jobs": "0.2.7-preview.11",
+        "com.unity.properties": "1.1.1-preview",
+        "com.unity.test-framework.performance": "1.3.3-preview"
+      }
+    },
+    "1.1.0-preview": {
+      "unity": "2019.3",
+      "unityRelease": "0f1",
+      "repository": {
+        "footprint": "aa048b5a2c27e1106105a7806059f2e466d2c91f",
+        "type": "git",
+        "url": "git+https://github.com/Unity-Technologies/com.unity.properties.git",
+        "revision": "978f105ff9fcee556f12d3f987d5dfdd05c8bfce"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.serialization-1.1.0-preview.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.properties/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.properties#readme",
+      "_id": "com.unity.serialization@1.1.0-preview",
+      "dist": {
+        "shasum": "47755982dc7f60414441efd80d66c66f72a0f0fc",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-1.1.0-preview.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "1.1.0-preview",
+      "description": "The Serialization package provides a high level API serialization and deserialization.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "dependencies": {
+        "com.unity.collections": "0.7.0-preview.2",
+        "com.unity.burst": "1.3.0-preview.5",
+        "com.unity.jobs": "0.2.7-preview.11",
+        "com.unity.properties": "1.1.0-preview",
+        "com.unity.test-framework.performance": "1.3.3-preview"
+      }
+    },
+    "1.0.0-preview.5": {
+      "unity": "2019.3",
+      "unityRelease": "0f1",
+      "repository": {
+        "footprint": "d5107ae971bd311b75b1f49fb91eba7775f0401d",
+        "type": "git",
+        "url": "git+https://github.com/Unity-Technologies/com.unity.properties.git",
+        "revision": "4e41df67af444999d17a714196575a08185a3985"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.serialization-1.0.0-preview.5.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.properties/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.properties#readme",
+      "_id": "com.unity.serialization@1.0.0-preview.5",
+      "dist": {
+        "shasum": "d1f681a33058d21fa694bb54d7a22b2ab8659666",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-1.0.0-preview.5.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "1.0.0-preview.5",
+      "description": "The Serialization package provides a high level API serialization and deserialization.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "dependencies": {
+        "com.unity.collections": "0.6.0-preview.9",
+        "com.unity.burst": "1.3.0-preview.3",
+        "com.unity.jobs": "0.2.6-preview.13",
+        "com.unity.properties": "1.0.0-preview.5",
+        "com.unity.test-framework.performance": "1.3.3-preview"
+      }
+    },
+    "0.6.4-preview": {
+      "unity": "2019.3",
+      "unityRelease": "0f1",
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.serialization.git",
+        "revision": "2bcc67af1e908d672bd5582fe06ab4fce9b577f5"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.serialization-0.6.4-preview.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.serialization@0.6.4-preview",
+      "dist": {
+        "shasum": "720b2f617a49437d6fdafd77dbce708d00281329",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-0.6.4-preview.tgz"
+      },
+      "name": "com.unity.serialization",
+      "version": "0.6.4-preview",
+      "description": "The Serialization package provides utilities for high performance serialization and deserialization. The package currently only supports the JSON format.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "dependencies": {
+        "com.unity.burst": "1.1.2",
+        "com.unity.collections": "0.1.1-preview",
+        "com.unity.jobs": "0.1.1-preview",
+        "com.unity.mathematics": "1.1.0",
+        "com.unity.properties": "0.10.4-preview",
+        "com.unity.test-framework.performance": "1.0.9-preview"
+      }
+    },
+    "0.6.3-preview": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.serialization.git",
+        "revision": "39f08bc923fb2cea6ea7c5a1219c84bf0c7c795f"
+      },
+      "dist": {
+        "shasum": "a1d23ac9ca74367ba57462fbf2dca70923d28aff",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-0.6.3-preview.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.serialization@0.6.3-preview",
+      "unity": "2019.3",
+      "unityRelease": "0f1",
+      "name": "com.unity.serialization",
+      "version": "0.6.3-preview",
+      "description": "The Serialization package provides utilities for high performance serialization and deserialization. The package currently only supports the JSON format.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "dependencies": {
+        "com.unity.burst": "1.1.2",
+        "com.unity.collections": "0.1.1-preview",
+        "com.unity.jobs": "0.1.1-preview",
+        "com.unity.mathematics": "1.1.0",
+        "com.unity.properties": "0.10.3-preview",
+        "com.unity.test-framework.performance": "1.0.9-preview"
+      }
+    },
+    "0.6.2-preview": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.serialization.git",
+        "revision": "a07f775628fcbcfb9c8d4c6485140b79752416f6"
+      },
+      "dist": {
+        "shasum": "3f6a5f98e0650900707052850d20037c70555583",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-0.6.2-preview.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.serialization@0.6.2-preview",
+      "unity": "2019.3",
+      "unityRelease": "0f1",
+      "name": "com.unity.serialization",
+      "version": "0.6.2-preview",
+      "description": "The Serialization package provides utilities for high performance serialization and deserialization. The package currently only supports the JSON format.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "dependencies": {
+        "com.unity.burst": "1.1.2",
+        "com.unity.collections": "0.1.1-preview",
+        "com.unity.jobs": "0.1.1-preview",
+        "com.unity.mathematics": "1.1.0",
+        "com.unity.properties": "0.10.1-preview",
+        "com.unity.test-framework.performance": "1.0.9-preview"
+      }
+    },
+    "0.6.1-preview": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.serialization.git",
+        "revision": "99c07981b7f4ad7a0f7b0c98f3e0ff025e1c2152"
+      },
+      "dist": {
+        "shasum": "31dc856fe0b782b13f8ad9b4ffb0792d5e1a71ba",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-0.6.1-preview.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.serialization@0.6.1-preview",
+      "unity": "2019.3",
+      "unityRelease": "0f1",
+      "name": "com.unity.serialization",
+      "version": "0.6.1-preview",
+      "description": "The Serialization package provides utilities for high performance serialization and deserialization. The package currently only supports the JSON format.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "dependencies": {
+        "com.unity.burst": "1.1.2",
+        "com.unity.collections": "0.1.1-preview",
+        "com.unity.jobs": "0.1.1-preview",
+        "com.unity.mathematics": "1.1.0",
+        "com.unity.properties": "0.10.0-preview",
+        "com.unity.test-framework.performance": "1.0.9-preview"
+      }
+    },
+    "0.6.0-preview": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.serialization.git",
+        "revision": "b6cf99a0e21e12e0bfbd70978bd76b618d387d43"
+      },
+      "dist": {
+        "shasum": "9e26a5ff30e50b7ecc9b9bde22b8bf8e8758e923",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-0.6.0-preview.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.serialization@0.6.0-preview",
+      "unity": "2019.3",
+      "unityRelease": "0f1",
+      "name": "com.unity.serialization",
+      "version": "0.6.0-preview",
+      "description": "The Serialization package provides utilities for high performance serialization and deserialization. The package currently only supports the JSON format.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "dependencies": {
+        "com.unity.burst": "1.1.2",
+        "com.unity.collections": "0.1.1-preview",
+        "com.unity.jobs": "0.1.1-preview",
+        "com.unity.mathematics": "1.1.0",
+        "com.unity.properties": "0.10.0-preview",
+        "com.unity.test-framework.performance": "1.0.9-preview"
+      }
+    },
+    "0.5.1-preview": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.serialization.git",
+        "revision": "260403364c32a6bdd1c3eceb1c9d3313c19f1f83"
+      },
+      "dist": {
+        "shasum": "0997e24b22a4e4e9c5a414b12dd528aa8ac76451",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-0.5.1-preview.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.serialization@0.5.1-preview",
+      "unity": "2019.3",
+      "unityRelease": "0f1",
+      "name": "com.unity.serialization",
+      "version": "0.5.1-preview",
+      "description": "The Serialization package provides utilities for high performance serialization and deserialization. The package currently only supports the JSON format.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "dependencies": {
+        "com.unity.burst": "1.1.2",
+        "com.unity.collections": "0.1.1-preview",
+        "com.unity.jobs": "0.1.1-preview",
+        "com.unity.mathematics": "1.1.0",
+        "com.unity.properties": "0.9.1-preview",
+        "com.unity.test-framework.performance": "1.0.9-preview"
+      }
+    },
+    "0.5.0-preview": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.serialization.git",
+        "revision": "a016e068724bc9b1db471a15835ce1e7f4c525cf"
+      },
+      "dist": {
+        "shasum": "7955af9894026e445cc26db463e94ea5bdccf1fd",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-0.5.0-preview.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.serialization@0.5.0-preview",
+      "unity": "2019.3",
+      "unityRelease": "0f1",
+      "name": "com.unity.serialization",
+      "version": "0.5.0-preview",
+      "description": "The Serialization package provides utilities for high performance serialization and deserialization. The package currently only supports the JSON format.",
+      "displayName": "Serialization",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "dependencies": {
+        "com.unity.burst": "1.1.2",
+        "com.unity.collections": "0.1.1-preview",
+        "com.unity.jobs": "0.1.1-preview",
+        "com.unity.mathematics": "1.1.0",
+        "com.unity.properties": "0.9.0-preview",
+        "com.unity.test-framework.performance": "1.0.9-preview"
+      }
+    },
+    "0.4.1-preview": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.serialization.git",
+        "revision": "c17a421091d3c1086b0bce6a1e45a586861d0047"
+      },
+      "dist": {
+        "shasum": "292e64e9e05e5e0e6b9f4b1a46c071c704d8fefe",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-0.4.1-preview.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.serialization@0.4.1-preview",
+      "unity": "2019.3",
+      "unityRelease": "0f1",
+      "name": "com.unity.serialization",
+      "version": "0.4.1-preview",
+      "description": "The Serialization package provides utilities for high performance serialization and deserialization. The package currently only supports the JSON format.",
+      "displayName": "Serialization",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "dependencies": {
+        "com.unity.burst": "1.1.2",
+        "com.unity.collections": "0.1.1-preview",
+        "com.unity.jobs": "0.1.1-preview",
+        "com.unity.mathematics": "1.1.0",
+        "com.unity.properties": "0.8.1-preview",
+        "com.unity.test-framework.performance": "1.0.9-preview"
+      }
+    },
+    "0.4.0-preview": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.serialization.git",
+        "revision": "75e587a9e1bc87bfd6a41758cfd6dfdd95cce6af"
+      },
+      "dist": {
+        "shasum": "3b6bf2976a09e3d74c35adea741434a6cff916e9",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-0.4.0-preview.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.serialization@0.4.0-preview",
+      "unity": "2019.3",
+      "unityRelease": "0f1",
+      "name": "com.unity.serialization",
+      "version": "0.4.0-preview",
+      "description": "The Serialization package provides utilities for high performance serialization and deserialization. The package currently only supports the JSON format.",
+      "displayName": "Serialization",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "dependencies": {
+        "com.unity.burst": "1.1.2",
+        "com.unity.collections": "0.1.1-preview",
+        "com.unity.jobs": "0.1.1-preview",
+        "com.unity.mathematics": "1.1.0",
+        "com.unity.properties": "0.8.0-preview",
+        "com.unity.test-framework.performance": "1.0.9-preview"
+      }
+    },
+    "0.3.1-preview": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.serialization.git",
+        "revision": "9ee94bddd3cf825a366d7c144d17ec71a52b7c55"
+      },
+      "dist": {
+        "shasum": "780aa470de6f8212733d8b8cb866c0adf7e890c7",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-0.3.1-preview.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.serialization@0.3.1-preview",
+      "unity": "2019.1",
+      "unityRelease": "0f1",
+      "name": "com.unity.serialization",
+      "version": "0.3.1-preview",
+      "description": "The Unity Serialization package provides utilities for high performance serialization and deserialization. The package currently only supports the JSON format.",
+      "displayName": "Unity Serialization",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "dependencies": {
+        "com.unity.burst": "1.1.2",
+        "com.unity.collections": "0.1.1-preview",
+        "com.unity.jobs": "0.1.1-preview",
+        "com.unity.mathematics": "1.1.0",
+        "com.unity.properties": "0.7.1-preview",
+        "com.unity.test-framework.performance": "1.0.9-preview"
+      }
+    },
+    "0.3.0-preview": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.serialization.git",
+        "revision": "61672f127d7b882f699534759c54d48c133f91e6"
+      },
+      "dist": {
+        "shasum": "f771a0961450a056823b9f990436a2c7e4e20329",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-0.3.0-preview.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.serialization@0.3.0-preview",
+      "unity": "2019.1",
+      "unityRelease": "0f1",
+      "name": "com.unity.serialization",
+      "version": "0.3.0-preview",
+      "description": "The Unity Serialization package provides utilities for high performance serialization and deserialization. The package currently only supports the JSON format.",
+      "displayName": "Unity Serialization",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "dependencies": {
+        "com.unity.burst": "1.1.2",
+        "com.unity.collections": "0.1.1-preview",
+        "com.unity.jobs": "0.1.1-preview",
+        "com.unity.mathematics": "1.1.0",
+        "com.unity.properties": "0.7.1-preview",
+        "com.unity.test-framework.performance": "1.0.9-preview"
+      }
+    },
+    "0.2.1-preview": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.serialization.git",
+        "revision": "fba505b859b7f9f2794517a93da6f9ec6fffee34"
+      },
+      "dist": {
+        "shasum": "595173cf301086ae40760ea0c854dad96dd1b9c4",
+        "tarball": "https://download.packages.unity.com/com.unity.serialization/-/com.unity.serialization-0.2.1-preview.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.serialization@0.2.1-preview",
+      "unity": "2019.1",
+      "unityRelease": "0f1",
+      "name": "com.unity.serialization",
+      "version": "0.2.1-preview",
+      "description": "The Unity Serialization package provides utilities for high performance serialziation and deserialization. The package currently only supports the JSON format.",
+      "displayName": "Unity Serialization",
+      "keywords": [
+        "serialization",
+        "dots",
+        "json"
+      ],
+      "dependencies": {
+        "com.unity.burst": "1.1.2",
+        "com.unity.collections": "0.1.1-preview",
+        "com.unity.jobs": "0.1.1-preview",
+        "com.unity.mathematics": "1.1.0",
+        "com.unity.properties": "0.6.3-preview",
+        "com.unity.test-framework.performance": "1.0.9-preview"
+      }
+    }
+  },
+  "etag": "\"97bd821e3b6d1129d21b9c962b1f1a0b\"",
+  "time": {
+    "3.1.1": "2023-05-11T16:08:44Z",
+    "3.0.0-pre.3": "2023-04-13T00:05:27Z",
+    "3.0.0-pre.2": "2023-02-15T20:12:31Z",
+    "2.1.2-exp.1": "2023-02-13T15:59:46Z",
+    "3.0.0-pre.1": "2022-11-18T12:02:58Z",
+    "2.1.1-exp.1": "2022-09-29T22:35:43Z",
+    "2.1.0-exp.1": "2022-08-29T19:30:16Z",
+    "2.0.0-exp.13": "2022-06-15T12:42:11Z",
+    "2.0.0-exp.11": "2022-05-09T20:26:21Z",
+    "1.8.3-preview": "2022-02-04T15:50:30Z",
+    "1.7.5-preview": "2022-01-26T05:04:38Z",
+    "1.8.2-preview": "2022-01-26T05:02:04Z",
+    "1.7.4-preview": "2022-01-25T19:33:46Z",
+    "1.7.3-preview": "2021-08-10T17:30:03Z",
+    "1.7.1-preview": "2021-06-15T22:29:23Z",
+    "1.7.0-preview.1": "2021-03-03T19:32:19Z",
+    "1.6.2-preview": "2021-01-11T16:41:10Z",
+    "1.6.1-preview": "2020-10-26T19:10:49Z",
+    "1.6.0-preview": "2020-10-09T18:49:00Z",
+    "1.5.0-preview": "2020-08-26T22:48:26Z",
+    "1.4.3-preview": "2020-08-10T16:16:27Z",
+    "1.3.1-preview": "2020-06-18T00:11:39Z",
+    "1.3.0-preview": "2020-05-20T20:39:07Z",
+    "1.2.0-preview": "2020-04-08T03:46:55Z",
+    "1.1.1-preview": "2020-03-24T14:25:48Z",
+    "1.1.0-preview": "2020-03-14T02:17:40Z",
+    "1.0.0-preview.5": "2020-03-04T20:37:57Z",
+    "0.6.4-preview": "2020-01-13T18:01:34Z",
+    "0.6.3-preview": "2019-11-08T21:05:08Z",
+    "0.6.2-preview": "2019-11-06T01:05:24Z",
+    "0.6.1-preview": "2019-10-25T20:04:45Z",
+    "0.6.0-preview": "2019-10-25T17:04:23Z",
+    "0.5.1-preview": "2019-10-21T15:04:41Z",
+    "0.5.0-preview": "2019-10-07T17:04:42Z",
+    "0.4.1-preview": "2019-09-25T20:04:37Z",
+    "0.4.0-preview": "2019-09-24T18:04:33Z",
+    "0.3.1-preview": "2019-09-17T17:03:40Z",
+    "0.3.0-preview": "2019-08-29T17:03:37Z",
+    "0.2.1-preview": "2019-08-12T18:03:41Z"
+  }
+}

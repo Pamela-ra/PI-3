@@ -1,0 +1,357 @@
+{
+  "_id": "com.unity.services.deployment",
+  "name": "com.unity.services.deployment",
+  "description": "The Deployment package allows for a cohesive interface for the deployment of assets and configurations for UGS services.\n\nIt is not used on its own as UGS services will integrate with it.\nIt provides the base tooling, such as the Deployment Window, so that UGS services have shared functionality surrounding the deployment of the service's configuration files.",
+  "provider": "upm",
+  "category": "",
+  "dist-tags": {
+    "latest": "1.3.0"
+  },
+  "versions": {
+    "1.3.0": {
+      "unity": "2021.3",
+      "_upm": {
+        "gameService": {
+          "groupId": "devops"
+        },
+        "changelog": "### Added\n- Added deployment samples for the following services\n  - Economy\n  - Cloud Code Scripts & Modules\n  - Leaderboards\n  - Remote Config\n\n### Fixed\n- Fixed a bug where DeploymentItems could be deployed multiple times concurrently"
+      },
+      "samples": [
+        {
+          "displayName": "Remote Config Deployment",
+          "description": "This is a simple sample to deploy and call a Remote Configuration.",
+          "path": "Samples~/RemoteConfigDeployment"
+        },
+        {
+          "displayName": "Leaderboards Deployment",
+          "description": "This is a simple sample to deploy and call a Leaderboard configuration.",
+          "path": "Samples~/LeaderboardsDeployment"
+        },
+        {
+          "displayName": "Economy Deployment",
+          "description": "This is a simple sample to deploy and call an Economy configuration.",
+          "path": "Samples~/EconomyDeployment"
+        },
+        {
+          "displayName": "Cloud Code Modules Deployment",
+          "description": "This is a simple sample to deploy and call a Cloud Code Module.",
+          "path": "Samples~/CloudCodeModulesDeployment"
+        },
+        {
+          "displayName": "Cloud Code Scripts Deployment",
+          "description": "This is a simple sample to deploy and call a Cloud Code Script.",
+          "path": "Samples~/CloudCodeScriptsDeployment"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.services.deployment.tests": "1.3.0"
+      },
+      "upmCi": {
+        "footprint": "fba51c06f9509838f825b3ccecf04f8a8a7628f4"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.deployment@1.3/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+        "type": "git",
+        "revision": "baf0a678d3c8d1ed1941a064174bbe134374446c"
+      },
+      "dist": {
+        "shasum": "0991a9c9ce0d545673c1c06c19242af6eca2d8ea",
+        "tarball": "https://download.packages.unity.com/com.unity.services.deployment/-/com.unity.services.deployment-1.3.0.tgz"
+      },
+      "name": "com.unity.services.deployment",
+      "version": "1.3.0",
+      "description": "The Deployment package allows for a cohesive interface for the deployment of assets and configurations for UGS services.\n\nIt is not used on its own as UGS services will integrate with it.\nIt provides the base tooling, such as the Deployment Window, so that UGS services have shared functionality surrounding the deployment of the service's configuration files.",
+      "displayName": "Deployment",
+      "type": "assets",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.services.deployment.api": "1.0.0",
+        "com.unity.services.core": "1.12.0"
+      }
+    },
+    "1.2.1": {
+      "unity": "2021.3",
+      "_upm": {
+        "gameService": {
+          "groupId": "devops"
+        },
+        "changelog": "### Added\n- Improved overall UI performance when using multiple services"
+      },
+      "relatedPackages": {
+        "com.unity.services.deployment.tests": "1.2.1"
+      },
+      "upmCi": {
+        "footprint": "86f59ead6ef1fd3b922f80072550272873516771"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.deployment@1.2/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+        "type": "git",
+        "revision": "a73dcb9652d23c18794db7004b74107d27d04e45"
+      },
+      "dist": {
+        "shasum": "d0469ae8ae178a8c9818e0473b279877a9fdb439",
+        "tarball": "https://download.packages.unity.com/com.unity.services.deployment/-/com.unity.services.deployment-1.2.1.tgz"
+      },
+      "name": "com.unity.services.deployment",
+      "version": "1.2.1",
+      "description": "The Deployment package allows for a cohesive interface for the deployment of assets and configurations for UGS services.\n\nIt is not used on its own as UGS services will integrate with it.\nIt provides the base tooling, such as the Deployment Window, so that UGS services have shared functionality surrounding the deployment of the service's configuration files.",
+      "displayName": "Deployment",
+      "type": "assets",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.services.deployment.api": "1.0.0",
+        "com.unity.services.core": "1.12.0"
+      }
+    },
+    "1.2.0": {
+      "unity": "2021.3",
+      "_upm": {
+        "gameService": {
+          "groupId": "devops"
+        },
+        "changelog": "### Added\n- Added new `Type` column in the Deployment window."
+      },
+      "relatedPackages": {
+        "com.unity.services.deployment.tests": "1.2.0"
+      },
+      "upmCi": {
+        "footprint": "fe42a5ee4fc247ef54c3086114d8d58822c961ab"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.deployment@1.2/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+        "type": "git",
+        "revision": "dc900f2f42085635c80197345bb69d5aaca659d7"
+      },
+      "dist": {
+        "shasum": "e44fdb6c99ceb2789e875ef3d8904a2fa4956c8d",
+        "tarball": "https://download.packages.unity.com/com.unity.services.deployment/-/com.unity.services.deployment-1.2.0.tgz"
+      },
+      "name": "com.unity.services.deployment",
+      "version": "1.2.0",
+      "description": "The Deployment package allows for a cohesive interface for the deployment of assets and configurations for UGS services.\n\nIt is not used on its own as UGS services will integrate with it.\nIt provides the base tooling, such as the Deployment Window, so that UGS services have shared functionality surrounding the deployment of the service's configuration files.",
+      "displayName": "Deployment",
+      "type": "assets",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.services.deployment.api": "1.0.0",
+        "com.unity.services.core": "1.12.0"
+      }
+    },
+    "1.1.0": {
+      "unity": "2021.3",
+      "_upm": {
+        "gameService": {
+          "groupId": "devops",
+          "configurePath": "Project/Services/Deployment"
+        },
+        "changelog": "### Added\n- Deployment now uses the main Environment Selector in Project Settings > Services > Environment, which can also be used to define the target runtime environment.\n- Added inspector support for deployment definition exclude paths.\n- Added support for deployment definition exclude paths in the Deployment window."
+      },
+      "relatedPackages": {
+        "com.unity.services.deployment.tests": "1.1.0"
+      },
+      "upmCi": {
+        "footprint": "dc2e6cf82a290b60a610ed357b404d02f9e92d60"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.deployment@1.1/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+        "type": "git",
+        "revision": "3b1be2f9224eedf16c2a0b31c469d7981fd687ea"
+      },
+      "dist": {
+        "shasum": "2f739594dfade2942924a879ad2622150463482c",
+        "tarball": "https://download.packages.unity.com/com.unity.services.deployment/-/com.unity.services.deployment-1.1.0.tgz"
+      },
+      "name": "com.unity.services.deployment",
+      "version": "1.1.0",
+      "description": "The Deployment package allows for a cohesive interface for the deployment of assets and configurations for UGS services.\n\nIt is not used on its own as UGS services will integrate with it.\nIt provides the base tooling, such as the Deployment Window, so that UGS services have shared functionality surrounding the deployment of the service's configuration files.",
+      "displayName": "Deployment",
+      "type": "assets",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.services.deployment.api": "1.0.0",
+        "com.unity.services.core": "1.10.1"
+      }
+    },
+    "1.0.1": {
+      "unity": "2021.3",
+      "_upm": {
+        "gameService": {
+          "groupId": "devops",
+          "configurePath": "Project/Services/Deployment"
+        },
+        "changelog": "### Fixed\n- Assets not appearing on load in Unity 2022."
+      },
+      "relatedPackages": {
+        "com.unity.services.deployment.tests": "1.0.1"
+      },
+      "upmCi": {
+        "footprint": "5788718568fe0df897c132536fe684b3fa56d710"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.deployment@1.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+        "type": "git",
+        "revision": "c043fef12f5996be2cbb76ce004569a35d50e628"
+      },
+      "dist": {
+        "shasum": "d15d13ea4decfdcc13c3e785c3dc5fea3095a2a2",
+        "tarball": "https://download.packages.unity.com/com.unity.services.deployment/-/com.unity.services.deployment-1.0.1.tgz"
+      },
+      "name": "com.unity.services.deployment",
+      "version": "1.0.1",
+      "description": "The Deployment package allows for a cohesive interface for the deployment of assets and configurations for UGS services.\n\nIt is not used on its own as UGS services will integrate with it.\nIt provides the base tooling, such as the Deployment Window, so that UGS services have shared functionality surrounding the deployment of the service's configuration files.",
+      "displayName": "Deployment",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.services.deployment.api": "1.0.0",
+        "com.unity.services.core": "1.7.1"
+      }
+    },
+    "1.0.0": {
+      "unity": "2021.3",
+      "_upm": {
+        "gameService": {
+          "groupId": "devops",
+          "configurePath": "Project/Services/Deployment"
+        },
+        "changelog": "### Fixed\n- Issues with displaying new environments in the Deployment window."
+      },
+      "relatedPackages": {
+        "com.unity.services.deployment.tests": "1.0.0"
+      },
+      "upmCi": {
+        "footprint": "6320af3040eaa1817e04b52a25128eaed26108eb"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.deployment@1.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+        "type": "git",
+        "revision": "29e81156f8824baf220364c048be5fb14fde3e10"
+      },
+      "dist": {
+        "shasum": "140278ff7192db07af04c3f4b5560224fc544824",
+        "tarball": "https://download.packages.unity.com/com.unity.services.deployment/-/com.unity.services.deployment-1.0.0.tgz"
+      },
+      "name": "com.unity.services.deployment",
+      "version": "1.0.0",
+      "description": "The Deployment package allows for a cohesive interface for the deployment of assets and configurations for UGS services.\n\nIt is not used on its own as UGS services will integrate with it.\nIt provides the base tooling, such as the Deployment Window, so that UGS services have shared functionality surrounding the deployment of the service's configuration files.",
+      "displayName": "Deployment",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.services.deployment.api": "1.0.0",
+        "com.unity.services.core": "1.7.1"
+      }
+    },
+    "1.0.0-pre.7": {
+      "unity": "2021.3",
+      "relatedPackages": {
+        "com.unity.services.deployment.tests": "1.0.0-pre.7"
+      },
+      "upmCi": {
+        "footprint": "f68e99251855c13fb784663211c380728229d667"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+        "type": "git",
+        "revision": "8001bbc398bf9c16043736d6cff2570150ec14f5"
+      },
+      "dist": {
+        "shasum": "ba26b8d3140da4f3724053dfd88e325b635c81fd",
+        "tarball": "https://download.packages.unity.com/com.unity.services.deployment/-/com.unity.services.deployment-1.0.0-pre.7.tgz"
+      },
+      "name": "com.unity.services.deployment",
+      "version": "1.0.0-pre.7",
+      "description": "This package contains the code to show the Deployment Window and its features.",
+      "displayName": "Deployment",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.services.deployment.api": "1.0.0-pre.5",
+        "com.unity.services.core": "1.4.0"
+      }
+    },
+    "1.0.0-pre.5": {
+      "unity": "2021.3",
+      "relatedPackages": {
+        "com.unity.services.deployment.tests": "1.0.0-pre.5"
+      },
+      "upmCi": {
+        "footprint": "95a1c5062462b32354e8bb9b4287add7362794a3"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+        "type": "git",
+        "revision": "1d95d9d58d9bde7e524d62bfc433a16d176ea03c"
+      },
+      "dist": {
+        "shasum": "a37fe526ae0a52285a607e8ede3a93f91285f8e0",
+        "tarball": "https://download.packages.unity.com/com.unity.services.deployment/-/com.unity.services.deployment-1.0.0-pre.5.tgz"
+      },
+      "name": "com.unity.services.deployment",
+      "version": "1.0.0-pre.5",
+      "description": "This package contains the code to show the Deployment Window and its features.",
+      "displayName": "Deployment",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.services.deployment.api": "1.0.0-pre.3",
+        "com.unity.services.core": "1.4.0"
+      }
+    },
+    "1.0.0-pre.4": {
+      "unity": "2021.3",
+      "relatedPackages": {
+        "com.unity.services.deployment.tests": "1.0.0-pre.4"
+      },
+      "upmCi": {
+        "footprint": "d931b375eb17b4269cb9fe06010e783e554d3300"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+        "type": "git",
+        "revision": "3f42f9fdc2ffcf8b08eb25629f8d83841926275a"
+      },
+      "dist": {
+        "shasum": "8de67ac99631433bd27cb89044dc822054e4cb6d",
+        "tarball": "https://download.packages.unity.com/com.unity.services.deployment/-/com.unity.services.deployment-1.0.0-pre.4.tgz"
+      },
+      "name": "com.unity.services.deployment",
+      "version": "1.0.0-pre.4",
+      "description": "This package contains the code to show the Deployment Window and its features.",
+      "displayName": "Deployment",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.services.deployment.api": "1.0.0-pre.3",
+        "com.unity.services.core": "1.4.0"
+      }
+    }
+  },
+  "etag": "\"57cca72fa880462c0fd145fbff987714\"",
+  "time": {
+    "1.3.0": "2023-12-18T09:51:38Z",
+    "1.2.1": "2023-11-29T14:06:27Z",
+    "1.2.0": "2023-10-25T14:28:49Z",
+    "1.1.0": "2023-06-06T07:50:07Z",
+    "1.0.1": "2023-05-12T08:52:36Z",
+    "1.0.0": "2023-03-30T11:55:19Z",
+    "1.0.0-pre.7": "2022-12-12T10:26:56Z",
+    "1.0.0-pre.5": "2022-10-28T20:23:21Z",
+    "1.0.0-pre.4": "2022-10-13T18:17:07Z"
+  }
+}

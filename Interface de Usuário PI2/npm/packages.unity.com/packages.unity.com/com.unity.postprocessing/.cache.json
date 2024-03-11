@@ -1,0 +1,777 @@
+{
+  "_id": "com.unity.postprocessing",
+  "name": "com.unity.postprocessing",
+  "description": "The post-processing stack (v2) comes with a collection of effects and image filters you can apply to your cameras to improve the visuals of your games.",
+  "provider": "upm",
+  "category": "",
+  "dist-tags": {
+    "latest": "3.4.0"
+  },
+  "versions": {
+    "3.4.0": {
+      "unity": "2019.4",
+      "unityRelease": "19f1",
+      "_upm": {
+        "changelog": "### Added\n- Added WebGPU support\n\n### Fixed\n- Fixed obsolete FormatUsage error\n- Fixed non-scalar logical operation error\n- Fixed MSVO to support platforms with limited storage texture support\n- Fixed compute based effects not supported on WebGL and Android OpenGL (IN-2999)\n- Fixed grid gizmo is visible through geometry when Post Process Layer is enabled (IN-10318)\n- Fixed transparent objects rendering incorrectly when TAA is disabled (IN-31494)"
+      },
+      "upmCi": {
+        "footprint": "edeb77f91ce97971a107effdd522676d85d7e360"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.postprocessing@3.4/manual/index.html",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/Graphics.git",
+        "type": "git",
+        "revision": "54427d2529ad1a9e8f31c693d751c6371f914e40"
+      },
+      "dist": {
+        "shasum": "026b2a0827a438e3079df62a60ca03d54961393d",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-3.4.0.tgz"
+      },
+      "name": "com.unity.postprocessing",
+      "version": "3.4.0",
+      "description": "The post-processing stack (v2) comes with a collection of effects and image filters you can apply to your cameras to improve the visuals of your games.",
+      "displayName": "Post Processing",
+      "type": "assets",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      }
+    },
+    "3.3.0": {
+      "unity": "2019.4",
+      "unityRelease": "19f1",
+      "_upm": {
+        "changelog": "### Fixed\n- Fixed some post effects not scaling correctly when dynamic resolution is enabled on a camera's target texture (case 1166603)\n- Fixed obsolete API call GetScriptingDefineSymbolsForGroup\n- Remove support for OpenGL ES 2.0 in Unity 2023.1 or newer"
+      },
+      "upmCi": {
+        "footprint": "b959bc2a78647b56209258ec1e18948ee2e3ee3a"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.postprocessing@3.3/manual/index.html",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/Graphics.git",
+        "type": "git",
+        "revision": "28cd9b8713470614fe9a99cd6096069f2631a903"
+      },
+      "dist": {
+        "shasum": "a90265b056440ea0c6bcdad975bc3d40528e5f5a",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-3.3.0.tgz"
+      },
+      "name": "com.unity.postprocessing",
+      "version": "3.3.0",
+      "description": "The post-processing stack (v2) comes with a collection of effects and image filters you can apply to your cameras to improve the visuals of your games.",
+      "displayName": "Post Processing",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      }
+    },
+    "3.2.2": {
+      "unity": "2019.4",
+      "unityRelease": "19f1",
+      "upm": {
+        "changelog": "### Fixed\n- Fixed FXAA artefact when trying to preserve alpha channel output."
+      },
+      "upmCi": {
+        "footprint": "7e33f4ab7a0086cc729e37566f9020d7d44a5fd1"
+      },
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/Graphics.git",
+        "type": "git",
+        "revision": "815ce78463c7d3006fa97cd6e8898d91cb9c3ebf"
+      },
+      "_id": "com.unity.postprocessing@3.2.2",
+      "_integrity": "sha512-JQsTr/XnF0vWxciuP4fV2IuKHtqp6XvEidg5qhvIDchWIY7eovZDpI9jlH1b9FqAjlbYUVmjQkRHrgL/H9sg9Q==",
+      "_resolved": "/tmp/com.unity.postprocessing@3.2.2-htv20nsg.tgz",
+      "_from": "file:/tmp/com.unity.postprocessing@3.2.2-htv20nsg.tgz",
+      "dist": {
+        "shasum": "4e904fb61e6bddcb875195c39fe043869b1c280e",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-3.2.2.tgz"
+      },
+      "name": "com.unity.postprocessing",
+      "version": "3.2.2",
+      "description": "The post-processing stack (v2) comes with a collection of effects and image filters you can apply to your cameras to improve the visuals of your games.",
+      "displayName": "Post Processing",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      }
+    },
+    "3.2.1": {
+      "unity": "2019.4",
+      "unityRelease": "19f1",
+      "upmCi": {
+        "footprint": "dd9e4eaffc53fe205b8cebd6e2f5917c76f16c83"
+      },
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/Graphics.git",
+        "type": "git",
+        "revision": "ffa21b54c20545786dd5e691f58f41468f0c153a"
+      },
+      "_id": "com.unity.postprocessing@3.2.1",
+      "_integrity": "sha512-DQId2GUFkrhfznybSfJB6WedgxgjOhLKpRQ/2+vg0QcIh2BHZBcl7NFr4sinxj7q8wJVYVKE4n/5G0spOtlAMA==",
+      "_resolved": "/tmp/com.unity.postprocessing@3.2.1-7m4y9ghe.tgz",
+      "_from": "file:/tmp/com.unity.postprocessing@3.2.1-7m4y9ghe.tgz",
+      "dist": {
+        "shasum": "c0a6979cda5efc34510e234920cefe33ba87327b",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-3.2.1.tgz"
+      },
+      "name": "com.unity.postprocessing",
+      "version": "3.2.1",
+      "description": "The post-processing stack (v2) comes with a collection of effects and image filters you can apply to your cameras to improve the visuals of your games.",
+      "displayName": "Post Processing",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      }
+    },
+    "3.2.0": {
+      "unity": "2019.4",
+      "unityRelease": "19f1",
+      "upmCi": {
+        "footprint": "9ac4a561950018d0d5cb3c7f3598297e7e7f7d4c"
+      },
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/Graphics.git",
+        "type": "git",
+        "revision": "b0e3273299e678bccb11e08d28c49d481c731c7e"
+      },
+      "_id": "com.unity.postprocessing@3.2.0",
+      "_integrity": "sha512-rBw8w6nHKjFC5iniVvfYVaKAmgHZ0/ukqzCu9Rc4T13EzT+XYYYVVFboW7ncMta4g9RMSBKTe8PymTF/RPtH2A==",
+      "_resolved": "/pkgprom/com.unity.postprocessing-3.2.0.tgz",
+      "_from": "file:com.unity.postprocessing-3.2.0.tgz",
+      "dist": {
+        "shasum": "63be688d2eeccc2c465afb2f7b617b878432f37c",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-3.2.0.tgz"
+      },
+      "name": "com.unity.postprocessing",
+      "version": "3.2.0",
+      "description": "The post-processing stack (v2) comes with a collection of effects and image filters you can apply to your cameras to improve the visuals of your games.",
+      "displayName": "Post Processing",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      }
+    },
+    "3.1.1": {
+      "unity": "2019.4",
+      "unityRelease": "19f1",
+      "upmCi": {
+        "footprint": "185a52ad9a73a9d64fc210d8393064e4db32cc1b"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/Graphics.git",
+        "type": "git",
+        "revision": "075b452f2c4bf910a168632b3cedbd6835477ddd"
+      },
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/Graphics/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/Graphics#readme",
+      "_id": "com.unity.postprocessing@3.1.1",
+      "dist": {
+        "shasum": "7f17893740f98a0943b2ff9c978f1de79fc3ba34",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-3.1.1.tgz"
+      },
+      "name": "com.unity.postprocessing",
+      "version": "3.1.1",
+      "description": "The post-processing stack (v2) comes with a collection of effects and image filters you can apply to your cameras to improve the visuals of your games.",
+      "displayName": "Post Processing",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      }
+    },
+    "3.1.0": {
+      "unity": "2019.4",
+      "unityRelease": "19f1",
+      "upmCi": {
+        "footprint": "4ad4ee02e15ebccc04ee8a3298811078142114ef"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/Graphics.git",
+        "type": "git",
+        "revision": "c3233d84609fb4c1da8b0f1ea07d0b6c75f8c114"
+      },
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/Graphics/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/Graphics#readme",
+      "_id": "com.unity.postprocessing@3.1.0",
+      "dist": {
+        "shasum": "275d1efda79cdcfa67b9e2b7bbd6338cd18ce80b",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-3.1.0.tgz"
+      },
+      "name": "com.unity.postprocessing",
+      "version": "3.1.0",
+      "description": "The post-processing stack (v2) comes with a collection of effects and image filters you can apply to your cameras to improve the visuals of your games.",
+      "displayName": "Post Processing",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      }
+    },
+    "3.0.3": {
+      "unity": "2018.4",
+      "upmCi": {
+        "footprint": "8127f92e3df3582481d993226f352d5b195b3dbe"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/Graphics.git",
+        "type": "git",
+        "revision": "267c9ab2b6aae8e296d78e27ca27af29b3bc7606"
+      },
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/Graphics/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/Graphics#readme",
+      "_id": "com.unity.postprocessing@3.0.3",
+      "dist": {
+        "shasum": "4bbda8bc0c22c1ee79f91a65b5da117df6d08032",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-3.0.3.tgz"
+      },
+      "name": "com.unity.postprocessing",
+      "version": "3.0.3",
+      "description": "The post-processing stack (v2) comes with a collection of effects and image filters you can apply to your cameras to improve the visuals of your games.",
+      "displayName": "Post Processing",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      }
+    },
+    "3.0.1": {
+      "unity": "2018.4",
+      "upmCi": {
+        "footprint": "3774814caddfacb6d4747d862082d9399b16581b"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/PostProcessing.git",
+        "type": "git",
+        "revision": "a6dfd0808db2b14acfc32417e8c5c037ff934a28"
+      },
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/PostProcessing/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/PostProcessing#readme",
+      "_id": "com.unity.postprocessing@3.0.1",
+      "dist": {
+        "shasum": "00396b87a5656de9c4cb96d87d54134a277089f9",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-3.0.1.tgz"
+      },
+      "name": "com.unity.postprocessing",
+      "version": "3.0.1",
+      "description": "The post-processing stack (v2) comes with a collection of effects and image filters you can apply to your cameras to improve the visuals of your games.",
+      "displayName": "Post Processing",
+      "type": "asset",
+      "host": "editor",
+      "category": ""
+    },
+    "2.3.0": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:Unity-Technologies/PostProcessing.git",
+        "revision": "e6de985c41f04a5fc7c7227dd67e3e73fac834e7"
+      },
+      "dist": {
+        "shasum": "74626fc10d7252d3e4b3390eaacdb5f2023088f6",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.3.0.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.postprocessing@2.3.0",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "2.3.0",
+      "description": "The post-processing stack (v2) comes with a collection of effects and image filters you can apply to your cameras to improve the visuals of your games.",
+      "displayName": "Post Processing",
+      "type": "asset",
+      "host": "editor",
+      "dependencies": {}
+    },
+    "2.2.2": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:Unity-Technologies/PostProcessing.git",
+        "revision": "b6809207bc66a115aca0c8b385cbc69a1bd37f80"
+      },
+      "dist": {
+        "shasum": "68ddf098c1fc87a3daef1494bd154cf662e083a8",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.2.2.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.postprocessing@2.2.2",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "2.2.2",
+      "description": "The post-processing stack (v2) comes with a collection of effects and image filters you can apply to your cameras to improve the visuals of your games.",
+      "displayName": "Post Processing",
+      "type": "asset",
+      "host": "editor",
+      "dependencies": {}
+    },
+    "2.2.1": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:Unity-Technologies/PostProcessing.git",
+        "revision": "ebead2c7a2692e0d2947003bbc321d9a9145743c"
+      },
+      "dist": {
+        "shasum": "3a5211c82b28fb9367d74e0587d92fecf771dbb8",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.2.1.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.postprocessing@2.2.1",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "2.2.1",
+      "description": "The post-processing stack (v2) comes with a collection of effects and image filters you can apply to your cameras to improve the visuals of your games.",
+      "displayName": "Post Processing",
+      "type": "asset",
+      "host": "editor",
+      "dependencies": {}
+    },
+    "2.1.7": {
+      "repository": {
+        "revision": "283c8187e0c51fdf4821858aed678f739e3b4235",
+        "type": "git",
+        "url": "ssh://git@github.com/Unity-Technologies/PostProcessing.git"
+      },
+      "dist": {
+        "shasum": "0488591f955e4bf50c621b343c26a65ec9ec34af",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.1.7.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.postprocessing@2.1.7",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "2.1.7",
+      "description": "The post-processing stack (v2) comes with a collection of effects and image filters you can apply to your cameras to improve the visuals of your games.",
+      "displayName": "Post Processing",
+      "dependencies": {}
+    },
+    "2.1.6": {
+      "repository": {
+        "revision": "eb573340761038ce6fb01ff007312a77ebbced31",
+        "type": "git",
+        "url": "ssh://git@github.com/Unity-Technologies/PostProcessing.git"
+      },
+      "dist": {
+        "shasum": "1a8a0634d993832156aad888272eb5ae2e78bd70",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.1.6.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.postprocessing@2.1.6",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "2.1.6",
+      "description": "The post-processing stack (v2) comes with a collection of effects and image filters you can apply to your cameras to improve the visuals of your games.",
+      "displayName": "Post Processing",
+      "dependencies": {}
+    },
+    "2.1.5": {
+      "repository": {
+        "revision": "047b544c7168240c000d276df8179693dc9ecd8c",
+        "type": "git",
+        "url": "ssh://git@github.com/Unity-Technologies/PostProcessing.git"
+      },
+      "dist": {
+        "shasum": "7cc7596be442d6c7697964e9275e9f530ead7cba",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.1.5.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.postprocessing@2.1.5",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "2.1.5",
+      "description": "The post-processing stack (v2) comes with a collection of effects and image filters you can apply to your cameras to improve the visuals of your games.",
+      "displayName": "Post Processing",
+      "dependencies": {}
+    },
+    "2.1.4": {
+      "repository": {
+        "revision": "80a69390a3559448807ac51d294265edaf4c7c4e",
+        "type": "git",
+        "url": "ssh://git@github.com/Unity-Technologies/PostProcessing.git"
+      },
+      "dist": {
+        "shasum": "5b36aef35f5f796284cb71f50fb881546c4e877e",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.1.4.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.postprocessing@2.1.4",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "2.1.4",
+      "description": "The post-processing stack (v2) comes with a collection of effects and image filters you can apply to your cameras to improve the visuals of your games.",
+      "displayName": "Post Processing",
+      "dependencies": {}
+    },
+    "2.1.3": {
+      "repository": {
+        "revision": "0c92d23eb8b5dff6c1ecb96ab807d0a7ace5bb97",
+        "type": "git",
+        "url": "ssh://git@github.com/Unity-Technologies/PostProcessing.git"
+      },
+      "dist": {
+        "shasum": "abbba235aaf0d11d8c4fa2671d11ae202692ccdb",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.1.3.tgz"
+      },
+      "_id": "com.unity.postprocessing@2.1.3",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "2.1.3",
+      "description": "The post-processing stack (v2) comes with a collection of effects and image filters you can apply to your cameras to improve the visuals of your games.",
+      "displayName": "Post Processing",
+      "dependencies": {}
+    },
+    "2.1.2": {
+      "repository": {
+        "revision": "bf46ec0c63f1581ca9e0917a95bac20ce7bc733b",
+        "type": "git",
+        "url": "ssh://git@github.com/Unity-Technologies/PostProcessing.git"
+      },
+      "dist": {
+        "shasum": "47f79b0dd779fd60463e97723b221c72fd95f9f8",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.1.2.tgz"
+      },
+      "_id": "com.unity.postprocessing@2.1.2",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "2.1.2",
+      "description": "The post-processing stack (v2) comes with a collection of effects and image filters you can apply to your cameras to improve the visuals of your games.",
+      "displayName": "Post Processing",
+      "dependencies": {}
+    },
+    "2.1.1": {
+      "repository": {
+        "revision": "9548d005230f55754633283a6318a96a5328b51e",
+        "type": "git",
+        "url": "ssh://git@github.com/Unity-Technologies/PostProcessing.git"
+      },
+      "dist": {
+        "shasum": "2761068c6002cf17217f2dd6bd2c23bed434795d",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.1.1.tgz"
+      },
+      "_id": "com.unity.postprocessing@2.1.1",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "2.1.1",
+      "description": "The post-processing stack (v2) comes with a collection of effects and image filters you can apply to your cameras to improve the visuals of your games.",
+      "displayName": "Post Processing",
+      "dependencies": {}
+    },
+    "2.1.0": {
+      "repository": {
+        "revision": "4575687ce5570e409e3e72aa354d7e4230a0e845",
+        "type": "git",
+        "url": "ssh://git@github.com/Unity-Technologies/PostProcessing.git"
+      },
+      "dist": {
+        "shasum": "85aca58069ae10b7a88b2319fff4ec30b0f0ab11",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.1.0.tgz"
+      },
+      "_id": "com.unity.postprocessing@2.1.0",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "2.1.0",
+      "description": "The post-processing stack (v2) comes with a collection of effects and image filters you can apply to your cameras to improve the visuals of your games.",
+      "displayName": "Post Processing",
+      "dependencies": {}
+    },
+    "2.0.17-preview": {
+      "dist": {
+        "shasum": "7cb14c153b5d0e113f214661a57b111e3c37ae10",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.0.17-preview.tgz"
+      },
+      "_id": "com.unity.postprocessing@2.0.17-preview",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "2.0.17-preview",
+      "description": "Unity post-processing framework (v2)",
+      "displayName": "Post-processing",
+      "dependencies": {}
+    },
+    "2.0.16-preview": {
+      "dist": {
+        "shasum": "23dc550ea6a4edd1645c57ab1a8d487593ba2f36",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.0.16-preview.tgz"
+      },
+      "_id": "com.unity.postprocessing@2.0.16-preview",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "2.0.16-preview",
+      "description": "Unity post-processing framework (v2)",
+      "displayName": "Post-processing",
+      "dependencies": {}
+    },
+    "2.0.15-preview": {
+      "dist": {
+        "shasum": "8e7dd5a3dc9e91680df1ae9ea333f5dfca67cf51",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.0.15-preview.tgz"
+      },
+      "_id": "com.unity.postprocessing@2.0.15-preview",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "2.0.15-preview",
+      "description": "Unity post-processing framework (v2)",
+      "displayName": "Post-processing",
+      "dependencies": {}
+    },
+    "2.0.14-preview": {
+      "dist": {
+        "shasum": "d96bedff027a4410ea0e8a76fea1b9f5a70ef734",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.0.14-preview.tgz"
+      },
+      "_id": "com.unity.postprocessing@2.0.14-preview",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "2.0.14-preview",
+      "description": "Unity post-processing framework (v2)",
+      "displayName": "Post-processing",
+      "dependencies": {}
+    },
+    "2.0.13-preview": {
+      "dist": {
+        "shasum": "fcf31042faa901d9cf87226082168bf550804c79",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.0.13-preview.tgz"
+      },
+      "_id": "com.unity.postprocessing@2.0.13-preview",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "2.0.13-preview",
+      "description": "Unity post-processing framework (v2)",
+      "displayName": "Post-processing",
+      "dependencies": {}
+    },
+    "2.0.12-preview": {
+      "dist": {
+        "shasum": "168a42d170b2f0609ffeb249c5d6849b78ffcec4",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.0.12-preview.tgz"
+      },
+      "_id": "com.unity.postprocessing@2.0.12-preview",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "2.0.12-preview",
+      "description": "Unity post-processing framework (v2)",
+      "displayName": "Post-processing",
+      "dependencies": {}
+    },
+    "2.0.11-preview": {
+      "dist": {
+        "shasum": "a786813372dde2e56488ff42bee4545c3b6913ec",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.0.11-preview.tgz"
+      },
+      "_id": "com.unity.postprocessing@2.0.11-preview",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "2.0.11-preview",
+      "description": "Unity post-processing framework (v2)",
+      "displayName": "Post-processing",
+      "dependencies": {}
+    },
+    "2.0.10-preview": {
+      "dist": {
+        "shasum": "b684dd64003b97f445ebd79c5f8e07086a7b2a14",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.0.10-preview.tgz"
+      },
+      "_id": "com.unity.postprocessing@2.0.10-preview",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "2.0.10-preview",
+      "description": "Unity post-processing framework (v2)",
+      "displayName": "Post-processing",
+      "dependencies": {}
+    },
+    "2.0.9-preview": {
+      "repository": {
+        "type": "git",
+        "url": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git"
+      },
+      "dist": {
+        "shasum": "311b3400cbbaa05c78b30f9597ea56ec0191aa69",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.0.9-preview.tgz"
+      },
+      "_id": "com.unity.postprocessing@2.0.9-preview",
+      "gitHead": "b5478c70cf61b32d8e4c21efc974bd8567e42dde",
+      "unity": "2018.1",
+      "repoPackagePath": "com.unity.postprocessing",
+      "name": "com.unity.postprocessing",
+      "version": "2.0.9-preview",
+      "description": "Unity post-processing framework (v2)",
+      "displayName": "Post-processing",
+      "dependencies": {}
+    },
+    "2.0.8-preview": {
+      "dist": {
+        "shasum": "215d3d93ef8658968f1d13f3a65127f135bb819d",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.0.8-preview.tgz"
+      },
+      "_id": "com.unity.postprocessing@2.0.8-preview",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "2.0.8-preview",
+      "description": "Unity post-processing framework (v2)",
+      "displayName": "Post-processing",
+      "dependencies": {}
+    },
+    "2.0.7-preview": {
+      "dist": {
+        "shasum": "464e532b8318b19dfaeca3f62e33a42da9c6183a",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.0.7-preview.tgz"
+      },
+      "_id": "com.unity.postprocessing@2.0.7-preview",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "2.0.7-preview",
+      "description": "Unity post-processing framework (v2)",
+      "displayName": "Post-processing",
+      "dependencies": {}
+    },
+    "2.0.5-preview": {
+      "dist": {
+        "shasum": "cf5872d17337fa2fcda223d866acfa199bfbe0d2",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.0.5-preview.tgz"
+      },
+      "_id": "com.unity.postprocessing@2.0.5-preview",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "2.0.5-preview",
+      "description": "Unity post-processing",
+      "displayName": "",
+      "dependencies": {}
+    },
+    "2.0.3-preview": {
+      "dist": {
+        "shasum": "1219183348c493ab8640e2ce1a6976093591c754",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.0.3-preview.tgz"
+      },
+      "_id": "com.unity.postprocessing@2.0.3-preview",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "2.0.3-preview",
+      "description": "Unity postprocessing",
+      "displayName": "",
+      "dependencies": {}
+    },
+    "2.0.2-preview": {
+      "dist": {
+        "shasum": "4fea1bf5f280b6c46218d0de9ee65b5ad7775b94",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.0.2-preview.tgz"
+      },
+      "_id": "com.unity.postprocessing@2.0.2-preview",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "2.0.2-preview",
+      "description": "Unity postprocessing",
+      "displayName": "",
+      "dependencies": {}
+    },
+    "2.0.1-beta": {
+      "dist": {
+        "shasum": "ef161323f70832ad87e60d7bf1138108b607b492",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.0.1-beta.tgz"
+      },
+      "_id": "com.unity.postprocessing@2.0.1-beta",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "2.0.1-beta",
+      "description": "Unity postprocessing",
+      "displayName": "",
+      "dependencies": {}
+    },
+    "2.0.0-beta": {
+      "dist": {
+        "shasum": "c5b8177f1b0c30f3dbaba804e8d01139546ea1bb",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.0.0-beta.tgz"
+      },
+      "_id": "com.unity.postprocessing@2.0.0-beta",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "2.0.0-beta",
+      "description": "Unity postprocessing",
+      "displayName": "",
+      "dependencies": {}
+    },
+    "0.1.8": {
+      "dist": {
+        "shasum": "ccc9efd19ff64a2c5edc2bc6e5ac9429f30ed94e",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-0.1.8.tgz"
+      },
+      "_id": "com.unity.postprocessing@0.1.8",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "0.1.8",
+      "description": "Unity postprocessing",
+      "displayName": "",
+      "dependencies": {}
+    },
+    "0.1.7": {
+      "dist": {
+        "shasum": "6df0f29b8c9b64513ec709fc749a4fe66a3e6001",
+        "tarball": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-0.1.7.tgz"
+      },
+      "_id": "com.unity.postprocessing@0.1.7",
+      "unity": "2018.1",
+      "name": "com.unity.postprocessing",
+      "version": "0.1.7",
+      "description": "Unity postprocessing",
+      "displayName": "",
+      "dependencies": {}
+    }
+  },
+  "etag": "\"a6bd2aee71254ffca9f9d7f607c23fa6\"",
+  "time": {
+    "3.4.0": "2023-12-18T09:48:26Z",
+    "3.3.0": "2023-05-15T09:17:04Z",
+    "3.2.2": "2022-04-14T09:39:45Z",
+    "3.2.1": "2022-02-21T15:50:45Z",
+    "3.2.0": "2021-11-16T14:12:56Z",
+    "3.1.1": "2021-05-26T23:17:56Z",
+    "3.1.0": "2021-03-04T02:15:32Z",
+    "3.0.3": "2021-02-23T14:06:53Z",
+    "3.0.1": "2020-10-20T14:45:03Z",
+    "2.3.0": "2020-01-12T20:05:16Z",
+    "2.2.2": "2019-11-21T20:04:33Z",
+    "2.2.1": "2019-11-08T18:04:25Z",
+    "2.1.7": "2019-06-12T18:02:07Z",
+    "2.1.6": "2019-04-12T19:01:51Z",
+    "2.1.5": "2019-04-03T12:10:57Z",
+    "2.1.4": "2019-04-03T12:10:53Z",
+    "2.1.3": "2019-04-03T12:10:47Z",
+    "2.1.2": "2019-04-03T12:10:41Z",
+    "2.1.1": "2019-04-03T12:10:35Z",
+    "2.1.0": "2019-04-03T12:10:29Z",
+    "2.0.17-preview": "2019-04-03T12:10:24Z",
+    "2.0.16-preview": "2019-04-03T12:10:18Z",
+    "2.0.15-preview": "2019-04-03T12:10:13Z",
+    "2.0.14-preview": "2019-04-03T12:10:07Z",
+    "2.0.13-preview": "2019-04-03T12:10:02Z",
+    "2.0.12-preview": "2019-04-03T12:09:56Z",
+    "2.0.11-preview": "2019-04-03T12:09:51Z",
+    "2.0.10-preview": "2019-04-03T12:09:46Z",
+    "2.0.9-preview": "2019-04-03T12:09:41Z",
+    "2.0.8-preview": "2019-04-03T12:09:36Z",
+    "2.0.7-preview": "2019-04-03T12:09:32Z",
+    "2.0.5-preview": "2019-04-03T12:09:26Z",
+    "2.0.3-preview": "2019-04-03T12:09:21Z",
+    "2.0.2-preview": "2019-04-03T12:09:16Z",
+    "2.0.1-beta": "2019-04-03T12:09:10Z",
+    "2.0.0-beta": "2019-04-03T12:09:05Z",
+    "0.1.8": "2019-04-03T12:09:00Z",
+    "0.1.7": "2019-04-03T12:08:53Z"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "_id": "com.unity.ugui",
+  "name": "com.unity.ugui",
+  "description": "Unity UI is a set of tools for developing user interfaces for games and applications. It is a GameObject-based UI system that uses Components and the Game View to arrange, position, and style user interfaces. ​ You cannot use Unity UI to create or change user interfaces in the Unity Editor.",
+  "provider": "upm",
+  "category": "",
+  "dist-tags": {
+    "latest": "3.0.0-exp.3"
+  },
+  "versions": {
+    "3.0.0-exp.3": {
+      "unity": "2023.2",
+      "_upm": {
+        "changelog": "### TextMeshPro\n- Fixed TextMeshPro crash when upgrading materials. Case #TMPB-187\n- Ensured PreferredHeight handles various line heights correctly in TextMeshPro. Case #TMPB-165\n- Set FaceInfo setter to public in TextMeshPro. Case #TMPB-182\n- Ensured FontCreationSettings are not exported in a build in TextMeshPro. Case #TMPB-202\n- Ensured sprites used correct indexes in TextMeshPro. Case #TMPB-200\n- Made Maskable now propagates to SubMesh in TextMeshPro. Case #TMPB-191\n- Added missing _ScaleRatioA to HDRP and URP shaders in TextMeshPro. Case #TMPB-169\n- Fixed TextCore crash when upgrading materials. Case #UUM-32513"
+      },
+      "upmCi": {
+        "footprint": "8f5f3413631286d119f21c1e25c9a1d55f2ff205"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.ugui@3.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/unity.git",
+        "type": "git",
+        "revision": "f1dd459547130a4d671d9fa0df2f7c71ce3c454b"
+      },
+      "dist": {
+        "shasum": "61cd48802f9d1307a3c1a4bbe4e485f693d7ee1a",
+        "tarball": "https://download.packages.unity.com/com.unity.ugui/-/com.unity.ugui-3.0.0-exp.3.tgz"
+      },
+      "name": "com.unity.ugui",
+      "version": "3.0.0-exp.3",
+      "description": "Unity UI is a set of tools for developing user interfaces for games and applications. It is a GameObject-based UI system that uses Components and the Game View to arrange, position, and style user interfaces. ​ You cannot use Unity UI to create or change user interfaces in the Unity Editor.",
+      "displayName": "Unity UI",
+      "type": "assets",
+      "host": "editor",
+      "keywords": [
+        "UI",
+        "ugui",
+        "Unity UI",
+        "Canvas",
+        "TextMeshPro",
+        "TextMesh Pro",
+        "Text",
+        "TMP",
+        "SDF"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0"
+      }
+    },
+    "3.0.0-exp.1": {
+      "unity": "2023.2",
+      "_upm": {
+        "changelog": "Added asset migration to TextCore, enabling the use of the same assets between UI Toolkit and UGUI."
+      },
+      "upmCi": {
+        "footprint": "c6644ea56ae217dae936a5b2ceaa2d86dccecb89"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.ugui@3.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/unity.git",
+        "type": "git",
+        "revision": "2e9da032f2f139168b318e0b6164b137b261d6b8"
+      },
+      "dist": {
+        "shasum": "e902d7caf8fe2282ab50be52666facac855af00c",
+        "tarball": "https://download.packages.unity.com/com.unity.ugui/-/com.unity.ugui-3.0.0-exp.1.tgz"
+      },
+      "name": "com.unity.ugui",
+      "version": "3.0.0-exp.1",
+      "description": "Unity UI is a set of tools for developing user interfaces for games and applications. It is a GameObject-based UI system that uses Components and the Game View to arrange, position, and style user interfaces. ​ You cannot use Unity UI to create or change user interfaces in the Unity Editor.",
+      "displayName": "Unity UI",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "UI",
+        "ugui",
+        "Unity UI",
+        "Canvas",
+        "TextMeshPro",
+        "TextMesh Pro",
+        "Text",
+        "TMP",
+        "SDF"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0"
+      }
+    }
+  },
+  "etag": "\"e99bbf9465c0b32246997dc886f4263c\"",
+  "time": {
+    "3.0.0-exp.3": "2023-07-19T15:25:50Z",
+    "3.0.0-exp.1": "2023-04-26T13:14:09Z"
+  }
+}

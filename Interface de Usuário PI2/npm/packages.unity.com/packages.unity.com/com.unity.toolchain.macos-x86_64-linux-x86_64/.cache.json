@@ -1,0 +1,1091 @@
+{
+  "_id": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+  "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+  "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+  "provider": "upm",
+  "category": "",
+  "dist-tags": {
+    "latest": "2.0.6"
+  },
+  "versions": {
+    "2.0.6": {
+      "unity": "2019.4",
+      "_upm": {
+        "changelog": "bump version number to publish"
+      },
+      "upmCi": {
+        "footprint": "ab164bd83cf7daf089e536028b3c1464b366566b"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.toolchain.macos-x86_64-linux-x86_64@2.0/manual/index.html",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.sysroot.git",
+        "type": "git",
+        "revision": "bf00578d8ff96f17f95a226bb361b69fe2860cc1"
+      },
+      "dist": {
+        "shasum": "539abfd5566687c0b4deb5f7bc1da771d04b90e7",
+        "tarball": "https://download.packages.unity.com/com.unity.toolchain.macos-x86_64-linux-x86_64/-/com.unity.toolchain.macos-x86_64-linux-x86_64-2.0.6.tgz"
+      },
+      "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+      "version": "2.0.6",
+      "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+      "displayName": "Toolchain MacOS Linux x64",
+      "type": "assets",
+      "host": "editor",
+      "keywords": [
+        "toolchain",
+        "macos",
+        "darwin",
+        "linux",
+        "cross-compilation"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.sysroot": "2.0.7",
+        "com.unity.sysroot.linux-x86_64": "2.0.6"
+      }
+    },
+    "2.0.5": {
+      "unity": "2019.4",
+      "_upm": {
+        "changelog": "bump version number to publish"
+      },
+      "upmCi": {
+        "footprint": "d3dcd9b7201ed86595d6deebb4fcd8864a80a4f3"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.toolchain.macos-x86_64-linux-x86_64@2.0/manual/index.html",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.sysroot.git",
+        "type": "git",
+        "revision": "51a7fbe63b09f6d0f31f346c0758152899a52668"
+      },
+      "dist": {
+        "shasum": "bc8e2d1e7ade63a6c1cf1f4015456b7584b953db",
+        "tarball": "https://download.packages.unity.com/com.unity.toolchain.macos-x86_64-linux-x86_64/-/com.unity.toolchain.macos-x86_64-linux-x86_64-2.0.5.tgz"
+      },
+      "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+      "version": "2.0.5",
+      "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+      "displayName": "Toolchain MacOS Linux x64",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "toolchain",
+        "macos",
+        "darwin",
+        "linux",
+        "cross-compilation"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.sysroot": "2.0.6",
+        "com.unity.sysroot.linux-x86_64": "2.0.5"
+      }
+    },
+    "2.0.4": {
+      "unity": "2019.4",
+      "upmCi": {
+        "footprint": "4db482cc6b2a5d02b3d9ca42f40dd5ecaf3be48d"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.toolchain.macos-x86_64-linux-x86_64@2.0/manual/index.html",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.sysroot.git",
+        "type": "git",
+        "revision": "06af5d019fed618daef07b5db278be147aed574b"
+      },
+      "dist": {
+        "shasum": "b106b3b00752522db333a2783eace4a316984430",
+        "tarball": "https://download.packages.unity.com/com.unity.toolchain.macos-x86_64-linux-x86_64/-/com.unity.toolchain.macos-x86_64-linux-x86_64-2.0.4.tgz"
+      },
+      "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+      "version": "2.0.4",
+      "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+      "displayName": "Toolchain MacOS Linux x64",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "toolchain",
+        "macos",
+        "darwin",
+        "linux",
+        "cross-compilation"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.sysroot": "2.0.5",
+        "com.unity.sysroot.linux-x86_64": "2.0.4"
+      }
+    },
+    "2.0.3": {
+      "unity": "2019.4",
+      "upmCi": {
+        "footprint": "eac6e77a632c3c57cb50431b1652ecc2af36b0ce"
+      },
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.sysroot.git",
+        "type": "git",
+        "revision": "573e391bf0f49bc3cce1c2eea80944b240187feb"
+      },
+      "dist": {
+        "shasum": "44ab640bc4fcdb3b6bfcc1b0ce32a657d07c662c",
+        "tarball": "https://download.packages.unity.com/com.unity.toolchain.macos-x86_64-linux-x86_64/-/com.unity.toolchain.macos-x86_64-linux-x86_64-2.0.3.tgz"
+      },
+      "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+      "version": "2.0.3",
+      "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+      "displayName": "Toolchain MacOS Linux x64",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "toolchain",
+        "macos",
+        "darwin",
+        "linux",
+        "cross-compilation"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.sysroot": "2.0.4",
+        "com.unity.sysroot.linux-x86_64": "2.0.3"
+      }
+    },
+    "2.0.2": {
+      "unity": "2019.4",
+      "_upm": {
+        "changelog": "bump version number to publish"
+      },
+      "upmCi": {
+        "footprint": "a39284df96e750d78805ba639e144986b76ab6a5"
+      },
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.sysroot.git",
+        "type": "git",
+        "revision": "66ed41bba76e1f66c4e578e9bad86d33dff8b82b"
+      },
+      "_id": "com.unity.toolchain.macos-x86_64-linux-x86_64@2.0.2",
+      "_integrity": "sha512-OvY0eq0WQ6sQhMTMPcgM3jt3irskM2OykuPstbt57+0rtgPcZgf4C6hm1+WkYZv1SO9gnvCUxvDQgqP9ga6uxw==",
+      "_resolved": "/tmp/com.unity.toolchain.macos-x86_64-linux-x86_64@2.0.2-jx9m01rk.tgz",
+      "_from": "file:/tmp/com.unity.toolchain.macos-x86_64-linux-x86_64@2.0.2-jx9m01rk.tgz",
+      "dist": {
+        "shasum": "ac52095fefbdfa252eb72ccadf7c9bdc987b5f52",
+        "tarball": "https://download.packages.unity.com/com.unity.toolchain.macos-x86_64-linux-x86_64/-/com.unity.toolchain.macos-x86_64-linux-x86_64-2.0.2.tgz"
+      },
+      "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+      "version": "2.0.2",
+      "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+      "displayName": "Toolchain MacOS Linux x64",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "toolchain",
+        "macos",
+        "darwin",
+        "linux",
+        "cross-compilation"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.sysroot": "2.0.3",
+        "com.unity.sysroot.linux-x86_64": "2.0.2"
+      }
+    },
+    "2.0.1": {
+      "unity": "2019.4",
+      "_upm": {
+        "changelog": "bump version number to publish"
+      },
+      "upmCi": {
+        "footprint": "5ba10a8af78cb5d3d0f2dbc7821101073ddb51f5"
+      },
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.sysroot.git",
+        "type": "git",
+        "revision": "79ad97256e4e2cbdfac64dec6ee1932a5c3aeacc"
+      },
+      "_id": "com.unity.toolchain.macos-x86_64-linux-x86_64@2.0.1",
+      "_integrity": "sha512-hptUipo6mtvcVBKSIcwkBKfJeVyMjMP7xqlJ27MHfOb1YjaLuyYhEdSH+rNt4fTzZSOpEzpdmXBZ9/OCLHghMw==",
+      "_resolved": "/tmp/com.unity.toolchain.macos-x86_64-linux-x86_64@2.0.1-auhqzv20.tgz",
+      "_from": "file:/tmp/com.unity.toolchain.macos-x86_64-linux-x86_64@2.0.1-auhqzv20.tgz",
+      "dist": {
+        "shasum": "c4a50b2c0c6c87b37c6c2af17b50f1b0b5de62cb",
+        "tarball": "https://download.packages.unity.com/com.unity.toolchain.macos-x86_64-linux-x86_64/-/com.unity.toolchain.macos-x86_64-linux-x86_64-2.0.1.tgz"
+      },
+      "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+      "version": "2.0.1",
+      "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+      "displayName": "Toolchain MacOS Linux x64",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "toolchain",
+        "macos",
+        "darwin",
+        "linux",
+        "cross-compilation"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.sysroot": "2.0.2",
+        "com.unity.sysroot.linux-x86_64": "2.0.1"
+      }
+    },
+    "2.0.0": {
+      "unity": "2019.4",
+      "upm": {
+        "changelog": "- Fix 1336012 - Build from windows fails if username contains space\n- Add support for new IL2CPP arguments APIs"
+      },
+      "upmCi": {
+        "footprint": "4f3ae256e266d74033f6df1a78a295fa9ed644c7"
+      },
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.sysroot.git",
+        "type": "git",
+        "revision": "e6c53e52ad77e8d1a6cfc2707e348f9e4799c595"
+      },
+      "_id": "com.unity.toolchain.macos-x86_64-linux-x86_64@2.0.0",
+      "_integrity": "sha512-7UZmT/Qgsb4zfsRkoPiXS8M6d2d9Y9LW/M4u5tuxv+GCMiOuUCdbXh3jYf8bD6eGRhoE3AEnJaH1JPDimp2/ag==",
+      "_resolved": "/tmp/com.unity.toolchain.macos-x86_64-linux-x86_64@2.0.0-uf8zykk8.tgz",
+      "_from": "file:/tmp/com.unity.toolchain.macos-x86_64-linux-x86_64@2.0.0-uf8zykk8.tgz",
+      "dist": {
+        "shasum": "8d5f92aa1fdc2326e2aab3c370d0cd568468d9d5",
+        "tarball": "https://download.packages.unity.com/com.unity.toolchain.macos-x86_64-linux-x86_64/-/com.unity.toolchain.macos-x86_64-linux-x86_64-2.0.0.tgz"
+      },
+      "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+      "version": "2.0.0",
+      "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+      "displayName": "Toolchain MacOS Linux x64",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "toolchain",
+        "macos",
+        "darwin",
+        "linux",
+        "cross-compilation"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.sysroot": "2.0.0",
+        "com.unity.sysroot.linux-x86_64": "2.0.0"
+      }
+    },
+    "1.0.0": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "7fca9971a3fd4b3f58cd0565090b6d2d42339b91"
+      },
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.sysroot.git",
+        "type": "git",
+        "revision": "0b6b1770930fd9a6c9365613ff2cba3eb81810dd"
+      },
+      "_id": "com.unity.toolchain.macos-x86_64-linux-x86_64@1.0.0",
+      "_integrity": "sha512-IWVDlN2WmL4NYHK5nrd61IlcZqJJ79nqMfSnrbBoYv9ZpGl5rQFX4M6xNV0Y15uKcVXfe0pIFkUnIuHaU8iCjg==",
+      "_resolved": "/pkgprom/com.unity.toolchain.macos-x86_64-linux-x86_64-1.0.0.tgz",
+      "_from": "file:com.unity.toolchain.macos-x86_64-linux-x86_64-1.0.0.tgz",
+      "dist": {
+        "shasum": "271295e99eb4fe0bccc3258ce223c90e39832185",
+        "tarball": "https://download.packages.unity.com/com.unity.toolchain.macos-x86_64-linux-x86_64/-/com.unity.toolchain.macos-x86_64-linux-x86_64-1.0.0.tgz"
+      },
+      "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+      "version": "1.0.0",
+      "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+      "displayName": "Toolchain MacOS Linux x64",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "toolchain",
+        "macos",
+        "darwin",
+        "linux",
+        "cross-compilation"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.sysroot": "1.0.0",
+        "com.unity.sysroot.linux-x86_64": "1.0.0"
+      }
+    },
+    "0.1.22-preview": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "ab9d36c617c4452318a332ab228f3b3d7ce6ac05"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.sysroot.git",
+        "type": "git",
+        "revision": "c23b9fb202dceb7b518aa7353d96a3e2eae227c5"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.22-preview.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.sysroot/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.sysroot#readme",
+      "_id": "com.unity.toolchain.macos-x86_64-linux-x86_64@0.1.22-preview",
+      "dist": {
+        "shasum": "272faf0a08fbc36f29757b71f17a2f166ba922a6",
+        "tarball": "https://download.packages.unity.com/com.unity.toolchain.macos-x86_64-linux-x86_64/-/com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.22-preview.tgz"
+      },
+      "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+      "version": "0.1.22-preview",
+      "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+      "displayName": "Toolchain MacOS Linux x64",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "toolchain",
+        "macos",
+        "darwin",
+        "linux",
+        "cross-compilation"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.sysroot": "0.1.19-preview",
+        "com.unity.sysroot.linux-x86_64": "0.1.14-preview"
+      }
+    },
+    "0.1.21-preview": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "0e005f007f27451976114fd45839997b8a5a12ee"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.sysroot.git",
+        "type": "git",
+        "revision": "7c94a58243a9e8b0a1375dff9e0ab89b630766be"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.21-preview.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.sysroot/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.sysroot#readme",
+      "_id": "com.unity.toolchain.macos-x86_64-linux-x86_64@0.1.21-preview",
+      "dist": {
+        "shasum": "22c629fd52d0c568eff081e2f7c23055f39e2e65",
+        "tarball": "https://download.packages.unity.com/com.unity.toolchain.macos-x86_64-linux-x86_64/-/com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.21-preview.tgz"
+      },
+      "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+      "version": "0.1.21-preview",
+      "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+      "displayName": "Toolchain MacOS Linux x64",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "toolchain",
+        "macos",
+        "darwin",
+        "linux",
+        "cross-compilation"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.sysroot": "0.1.19-preview",
+        "com.unity.sysroot.linux-x86_64": "0.1.14-preview"
+      }
+    },
+    "0.1.20-preview": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "1d5751057f78df66533df9905681871e7e9d948b"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.sysroot.git",
+        "type": "git",
+        "revision": "8717ab9c5b4f758bc542184e1872ed3fcce1e1f9"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.20-preview.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.sysroot/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.sysroot#readme",
+      "_id": "com.unity.toolchain.macos-x86_64-linux-x86_64@0.1.20-preview",
+      "dist": {
+        "shasum": "f61b45a2b22627aeb9210ef0f92d9067bb75b1b2",
+        "tarball": "https://download.packages.unity.com/com.unity.toolchain.macos-x86_64-linux-x86_64/-/com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.20-preview.tgz"
+      },
+      "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+      "version": "0.1.20-preview",
+      "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+      "displayName": "Toolchain MacOS Linux x64",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "toolchain",
+        "macos",
+        "darwin",
+        "linux",
+        "cross-compilation"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.sysroot": "0.1.19-preview",
+        "com.unity.sysroot.linux-x86_64": "0.1.14-preview"
+      }
+    },
+    "0.1.19-preview": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "b911ce69ab4acb6ae641535d8b37fc166315d3b1"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.sysroot.git",
+        "type": "git",
+        "revision": "0d5e7b07c95f3ae15d6d80931a071b042e97189b"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.19-preview.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.sysroot/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.sysroot#readme",
+      "_id": "com.unity.toolchain.macos-x86_64-linux-x86_64@0.1.19-preview",
+      "dist": {
+        "shasum": "b632e305deb71170422861845d9c5a998e9c0b5b",
+        "tarball": "https://download.packages.unity.com/com.unity.toolchain.macos-x86_64-linux-x86_64/-/com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.19-preview.tgz"
+      },
+      "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+      "version": "0.1.19-preview",
+      "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+      "displayName": "Toolchain MacOS Linux x64",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "toolchain",
+        "macos",
+        "darwin",
+        "linux",
+        "cross-compilation"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.sysroot": "0.1.18-preview",
+        "com.unity.sysroot.linux-x86_64": "0.1.14-preview"
+      }
+    },
+    "0.1.18-preview": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "b721ed9823d731b95a4f868c00a3fd1e18ec46cf"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.sysroot.git",
+        "type": "git",
+        "revision": "e75358d77f4b449b986678c1bceb41ad151d99be"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.18-preview.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.sysroot/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.sysroot#readme",
+      "_id": "com.unity.toolchain.macos-x86_64-linux-x86_64@0.1.18-preview",
+      "dist": {
+        "shasum": "d6aecb35ebdcdcf81d1091805c4e6a70387b79de",
+        "tarball": "https://download.packages.unity.com/com.unity.toolchain.macos-x86_64-linux-x86_64/-/com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.18-preview.tgz"
+      },
+      "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+      "version": "0.1.18-preview",
+      "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+      "displayName": "Toolchain MacOS Linux x64",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "toolchain",
+        "macos",
+        "darwin",
+        "linux",
+        "cross-compilation"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.sysroot": "0.1.17-preview",
+        "com.unity.sysroot.linux-x86_64": "0.1.13-preview"
+      }
+    },
+    "0.1.17-preview": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "8fdcecd2f7fbaca149d2f202be1d16ddb24a4161"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.sysroot.git",
+        "type": "git",
+        "revision": "ff1539e86bf56630844f67c5eb2548578a433e33"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.17-preview.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.sysroot/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.sysroot#readme",
+      "_id": "com.unity.toolchain.macos-x86_64-linux-x86_64@0.1.17-preview",
+      "dist": {
+        "shasum": "9244438379b2e21edee830525ecc29ac79932fc4",
+        "tarball": "https://download.packages.unity.com/com.unity.toolchain.macos-x86_64-linux-x86_64/-/com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.17-preview.tgz"
+      },
+      "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+      "version": "0.1.17-preview",
+      "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+      "displayName": "Toolchain MacOS Linux x64",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "toolchain",
+        "macos",
+        "darwin",
+        "linux",
+        "cross-compilation"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.sysroot": "0.1.16-preview",
+        "com.unity.sysroot.linux-x86_64": "0.1.12-preview"
+      }
+    },
+    "0.1.16-preview": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "7280f9add4dd978b34b5bb04e0b14d470e2d45d1"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.sysroot.git",
+        "type": "git",
+        "revision": "e39e4a088457f7e32424ae26effff65208c3c9a2"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.16-preview.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.sysroot/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.sysroot#readme",
+      "_id": "com.unity.toolchain.macos-x86_64-linux-x86_64@0.1.16-preview",
+      "dist": {
+        "shasum": "a3ecd400972b6f10345b6cbae97a25ef06c1d59b",
+        "tarball": "https://download.packages.unity.com/com.unity.toolchain.macos-x86_64-linux-x86_64/-/com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.16-preview.tgz"
+      },
+      "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+      "version": "0.1.16-preview",
+      "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+      "displayName": "Toolchain MacOS Linux x64",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "toolchain",
+        "macos",
+        "darwin",
+        "linux",
+        "cross-compilation"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.sysroot": "0.1.15-preview",
+        "com.unity.sysroot.linux-x86_64": "0.1.11-preview"
+      }
+    },
+    "0.1.15-preview": {
+      "unity": "2019.3",
+      "author": {
+        "name": "Unity Technologies Inc.",
+        "url": "https://www.unity3d.com"
+      },
+      "upmCi": {
+        "footprint": "6b2b42aa537f8ecd88aee09eacdd4348cacd98ad"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.sysroot.git",
+        "type": "git",
+        "revision": "50b119182aa2fd6c8f469d5917c5dfe4371f4986"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.15-preview.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.sysroot/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.sysroot#readme",
+      "_id": "com.unity.toolchain.macos-x86_64-linux-x86_64@0.1.15-preview",
+      "dist": {
+        "shasum": "850437b9d6b3b26758d79eedec7c849495fa0c15",
+        "tarball": "https://download.packages.unity.com/com.unity.toolchain.macos-x86_64-linux-x86_64/-/com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.15-preview.tgz"
+      },
+      "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+      "version": "0.1.15-preview",
+      "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+      "displayName": "Toolchain MacOS Linux x64",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "toolchain",
+        "macos",
+        "darwin",
+        "linux",
+        "cross-compilation"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.sysroot": "0.1.14-preview",
+        "com.unity.sysroot.linux-x86_64": "0.1.10-preview"
+      }
+    },
+    "0.1.13-preview": {
+      "unity": "2019.3",
+      "author": {
+        "name": "Unity Technologies Inc.",
+        "url": "https://www.unity3d.com"
+      },
+      "upmCi": {
+        "footprint": "17630df48a4e6d490d9cc6c2e1872f7d6d49e12d"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.sysroot.git",
+        "type": "git",
+        "revision": "2bfb535796029098235723b06450efd94adff446"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.13-preview.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.sysroot/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.sysroot#readme",
+      "_id": "com.unity.toolchain.macos-x86_64-linux-x86_64@0.1.13-preview",
+      "dist": {
+        "shasum": "917d9b7890235f63211feb96739be937776317eb",
+        "tarball": "https://download.packages.unity.com/com.unity.toolchain.macos-x86_64-linux-x86_64/-/com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.13-preview.tgz"
+      },
+      "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+      "version": "0.1.13-preview",
+      "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+      "displayName": "Toolchain MacOS Linux x64",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "toolchain",
+        "macos",
+        "darwin",
+        "linux",
+        "cross-compilation"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.sysroot": "0.1.12-preview",
+        "com.unity.sysroot.linux-x86_64": "0.1.10-preview"
+      }
+    },
+    "0.1.11-preview": {
+      "unity": "2019.3",
+      "author": {
+        "name": "Unity Technologies Inc.",
+        "url": "https://www.unity3d.com"
+      },
+      "upmCi": {
+        "footprint": "700036c177a6d49a9ddb1063c4291955f4d7f887"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.sysroot.git",
+        "type": "git",
+        "revision": "298c6f66b3f501f464fb4a97a0bcf3bd69366cfd"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.11-preview.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.sysroot/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.sysroot#readme",
+      "_id": "com.unity.toolchain.macos-x86_64-linux-x86_64@0.1.11-preview",
+      "dist": {
+        "shasum": "6c43a325b2cfdb3100348bc08bee239f7e1b1281",
+        "tarball": "https://download.packages.unity.com/com.unity.toolchain.macos-x86_64-linux-x86_64/-/com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.11-preview.tgz"
+      },
+      "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+      "version": "0.1.11-preview",
+      "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+      "displayName": "Toolchain MacOS Linux x64",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "toolchain",
+        "macos",
+        "darwin",
+        "linux",
+        "cross-compilation"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.sysroot": "0.1.11-preview",
+        "com.unity.sysroot.linux-x86_64": "0.1.9-preview"
+      }
+    },
+    "0.1.10-preview": {
+      "unity": "2019.3",
+      "author": {
+        "name": "Unity Technologies Inc.",
+        "url": "https://www.unity3d.com"
+      },
+      "upmCi": {
+        "footprint": "6bbc05e713a9e7bd49d7b38c0012fd239f8e6b66"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.sysroot.git",
+        "type": "git",
+        "revision": "90dfc0a0aa813ff749400d71ffd1755da46d2c83"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.10-preview.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.sysroot/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.sysroot#readme",
+      "_id": "com.unity.toolchain.macos-x86_64-linux-x86_64@0.1.10-preview",
+      "dist": {
+        "shasum": "b26240d14a508f72519768cd0613c671702aa9ed",
+        "tarball": "https://download.packages.unity.com/com.unity.toolchain.macos-x86_64-linux-x86_64/-/com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.10-preview.tgz"
+      },
+      "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+      "version": "0.1.10-preview",
+      "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+      "displayName": "Toolchain MacOS Linux x64",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "toolchain",
+        "macos",
+        "darwin",
+        "linux",
+        "cross-compilation"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.sysroot": "0.1.11-preview",
+        "com.unity.sysroot.linux-x86_64": "0.1.9-preview"
+      }
+    },
+    "0.1.9-preview": {
+      "unity": "2019.3",
+      "author": {
+        "name": "Unity Technologies Inc.",
+        "url": "https://www.unity3d.com"
+      },
+      "upmCi": {
+        "footprint": "2b60e8c719561675db68280bd2503fd7c3f56244"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.sysroot.git",
+        "type": "git",
+        "revision": "05a3bdb214c46a4029ef107ce9114ac64415b2ba"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.9-preview.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.sysroot/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.sysroot#readme",
+      "_id": "com.unity.toolchain.macos-x86_64-linux-x86_64@0.1.9-preview",
+      "dist": {
+        "shasum": "ced3a8aa004f4c1bfda59a2cee51325871d2cce6",
+        "tarball": "https://download.packages.unity.com/com.unity.toolchain.macos-x86_64-linux-x86_64/-/com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.9-preview.tgz"
+      },
+      "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+      "version": "0.1.9-preview",
+      "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+      "displayName": "Toolchain MacOS Linux x64",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "toolchain",
+        "macos",
+        "darwin",
+        "linux",
+        "cross-compilation"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.sysroot": "0.1.10-preview",
+        "com.unity.sysroot.linux-x86_64": "0.1.8-preview"
+      }
+    },
+    "0.1.8-preview": {
+      "unity": "2019.3",
+      "author": {
+        "name": "Unity Technologies Inc.",
+        "url": "https://www.unity3d.com"
+      },
+      "upmCi": {
+        "footprint": "d09317445ccfe0ef1805c679ba7c83f383fea2e0"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.sysroot.git",
+        "type": "git",
+        "revision": "bef980a18593622191dc0ad150961f2cd95fb88f"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.8-preview.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.sysroot/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.sysroot#readme",
+      "_id": "com.unity.toolchain.macos-x86_64-linux-x86_64@0.1.8-preview",
+      "dist": {
+        "shasum": "d9f510b0f4efe48201379b552640b661c8568d61",
+        "tarball": "https://download.packages.unity.com/com.unity.toolchain.macos-x86_64-linux-x86_64/-/com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.8-preview.tgz"
+      },
+      "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+      "version": "0.1.8-preview",
+      "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+      "displayName": "Toolchain MacOS Linux x64",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "toolchain",
+        "macos",
+        "darwin",
+        "linux",
+        "cross-compilation"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.sysroot": "0.1.10-preview",
+        "com.unity.sysroot.linux-x86_64": "0.1.8-preview"
+      }
+    },
+    "0.1.7-preview": {
+      "unity": "2019.3",
+      "author": {
+        "name": "Unity Technologies Inc.",
+        "url": "https://www.unity3d.com"
+      },
+      "upmCi": {
+        "footprint": "8769d2051ce5d07114479eabbf5fe90498cc9b6a"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.sysroot.git",
+        "type": "git",
+        "revision": "c80a1d0f7fd50d0b7d215e5f934bb13b8c016f29"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.7-preview.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.sysroot/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.sysroot#readme",
+      "_id": "com.unity.toolchain.macos-x86_64-linux-x86_64@0.1.7-preview",
+      "dist": {
+        "shasum": "b227b69f178266cfdad19f48a62e864761b5deaf",
+        "tarball": "https://download.packages.unity.com/com.unity.toolchain.macos-x86_64-linux-x86_64/-/com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.7-preview.tgz"
+      },
+      "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+      "version": "0.1.7-preview",
+      "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+      "displayName": "Toolchain MacOS Linux x64",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "toolchain",
+        "macos",
+        "darwin",
+        "linux",
+        "cross-compilation"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.sysroot": "0.1.9-preview",
+        "com.unity.sysroot.linux-x86_64": "0.1.8-preview"
+      }
+    },
+    "0.1.6-preview": {
+      "unity": "2019.3",
+      "author": {
+        "name": "Unity Technologies Inc.",
+        "url": "https://www.unity3d.com"
+      },
+      "upmCi": {
+        "footprint": "bf614ae8dcd900c087f77b36f651502ff3470743"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.sysroot.git",
+        "type": "git",
+        "revision": "0728ec6f89be9aeb3086ae0f2920cf7b075e6afc"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.6-preview.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.sysroot/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.sysroot#readme",
+      "_id": "com.unity.toolchain.macos-x86_64-linux-x86_64@0.1.6-preview",
+      "dist": {
+        "shasum": "190bfab9af7ed04b56fba4b816875438c3d5df86",
+        "tarball": "https://download.packages.unity.com/com.unity.toolchain.macos-x86_64-linux-x86_64/-/com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.6-preview.tgz"
+      },
+      "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+      "version": "0.1.6-preview",
+      "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+      "displayName": "Toolchain MacOS Linux x64",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "toolchain",
+        "macos",
+        "darwin",
+        "linux",
+        "cross-compilation"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.sysroot": "0.1.9-preview",
+        "com.unity.sysroot.linux-x86_64": "0.1.8-preview"
+      }
+    },
+    "0.1.5-preview": {
+      "unity": "2019.3",
+      "author": {
+        "name": "Unity",
+        "url": "https://www.unity3d.com"
+      },
+      "upmCi": {
+        "footprint": "ff77c39515e9c3f7f350e190ecc7c258690e479f"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.sysroot.git",
+        "type": "git",
+        "revision": "51d42010ec5c7735f037c6c079929866ade542f2"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.5-preview.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.sysroot/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.sysroot#readme",
+      "_id": "com.unity.toolchain.macos-x86_64-linux-x86_64@0.1.5-preview",
+      "dist": {
+        "shasum": "1b39b49c245be8b5079ab343e2d8ca4cb006ac83",
+        "tarball": "https://download.packages.unity.com/com.unity.toolchain.macos-x86_64-linux-x86_64/-/com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.5-preview.tgz"
+      },
+      "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+      "version": "0.1.5-preview",
+      "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+      "displayName": "Toolchain MacOS Linux x64",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "toolchain",
+        "macos",
+        "darwin",
+        "linux",
+        "cross-compilation"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.sysroot": "0.1.8-preview",
+        "com.unity.sysroot.linux-x86_64": "0.1.7-preview"
+      }
+    },
+    "0.1.4-preview": {
+      "unity": "2019.3",
+      "author": {
+        "name": "Unity",
+        "url": "https://www.unity3d.com"
+      },
+      "upmCi": {
+        "footprint": "c525818930c61c68e31dd7894f5309b79c3c12f6"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.sysroot.git",
+        "type": "git",
+        "revision": "174020d4f51d10fe5eef2238b69975643bddf4fc"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:C:/Users/BRIANR~1/AppData/Local/Temp/com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.4-preview.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.sysroot/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.sysroot#readme",
+      "_id": "com.unity.toolchain.macos-x86_64-linux-x86_64@0.1.4-preview",
+      "dist": {
+        "shasum": "f75d8aa8f40d7c078470be373c71231714a61eb6",
+        "tarball": "https://download.packages.unity.com/com.unity.toolchain.macos-x86_64-linux-x86_64/-/com.unity.toolchain.macos-x86_64-linux-x86_64-0.1.4-preview.tgz"
+      },
+      "name": "com.unity.toolchain.macos-x86_64-linux-x86_64",
+      "version": "0.1.4-preview",
+      "description": "Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+      "displayName": "Toolchain MacOS Linux x64",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "toolchain",
+        "macos",
+        "darwin",
+        "linux",
+        "cross-compilation"
+      ],
+      "dependencies": {
+        "com.unity.sysroot": "0.1.7-preview",
+        "com.unity.sysroot.linux-x86_64": "0.1.6-preview"
+      }
+    }
+  },
+  "etag": "\"c6d6297df959235b9962dccbb8ecc941\"",
+  "time": {
+    "2.0.6": "2023-07-24T14:29:23Z",
+    "2.0.5": "2023-05-09T12:46:08Z",
+    "2.0.4": "2022-12-16T11:51:10Z",
+    "2.0.3": "2022-11-10T12:43:11Z",
+    "2.0.2": "2022-06-07T20:38:39Z",
+    "2.0.1": "2022-05-06T18:36:30Z",
+    "2.0.0": "2022-04-04T21:05:37Z",
+    "1.0.0": "2022-01-07T10:50:07Z",
+    "0.1.22-preview": "2021-07-15T19:29:30Z",
+    "0.1.21-preview": "2021-05-03T04:46:26Z",
+    "0.1.20-preview": "2021-02-24T09:16:53Z",
+    "0.1.19-preview": "2021-01-12T18:10:31Z",
+    "0.1.18-preview": "2020-11-29T04:23:38Z",
+    "0.1.17-preview": "2020-11-10T12:34:53Z",
+    "0.1.16-preview": "2020-11-05T21:21:39Z",
+    "0.1.15-preview": "2020-09-23T19:02:21Z",
+    "0.1.13-preview": "2020-09-08T09:57:38Z",
+    "0.1.11-preview": "2020-09-04T06:26:28Z",
+    "0.1.10-preview": "2020-08-27T08:08:52Z",
+    "0.1.9-preview": "2020-08-26T23:26:08Z",
+    "0.1.8-preview": "2020-08-21T20:33:54Z",
+    "0.1.7-preview": "2020-08-21T01:01:15Z",
+    "0.1.6-preview": "2020-07-16T00:40:50Z",
+    "0.1.5-preview": "2020-06-18T18:19:01Z",
+    "0.1.4-preview": "2020-05-26T16:47:00Z"
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "_id": "com.unity.xr.hands",
+  "name": "com.unity.xr.hands",
+  "description": "Surfaces the cross-platform subsystem API for hand-tracking. Implementations of providers will be found in the package for that platform.",
+  "provider": "upm",
+  "category": "",
+  "dist-tags": {
+    "latest": "1.4.0-pre.1"
+  },
+  "versions": {
+    "1.4.0-pre.1": {
+      "unity": "2021.3",
+      "_upm": {
+        "changelog": "### Added\n- Added support for custom gestures. For additional information, refer to the [manual documentation](xref:xrhands-custom-gestures).\n\n### Fixed\n- OpenXR implementation now correctly responds to feature lifecycle callbacks."
+      },
+      "upmCi": {
+        "footprint": "097982041dc932785ccc5d847172b2f772501e1d"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.xr.hands@1.4/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.xr.hands.git",
+        "type": "git",
+        "revision": "4b6490faab4912d93bf26b97d25e22554452bf7a"
+      },
+      "samples": [
+        {
+          "displayName": "Gestures",
+          "description": "Sample showing how to detect and debug hand gestures.",
+          "path": "Samples~/Gestures"
+        },
+        {
+          "displayName": "HandVisualizer",
+          "description": "Basic sample showing how visualize hands.",
+          "path": "Samples~/HandVisualizer"
+        }
+      ],
+      "dist": {
+        "shasum": "f8215cf275b01d18ff03474093b4451eb78989fd",
+        "tarball": "https://download.packages.unity.com/com.unity.xr.hands/-/com.unity.xr.hands-1.4.0-pre.1.tgz"
+      },
+      "name": "com.unity.xr.hands",
+      "version": "1.4.0-pre.1",
+      "description": "Surfaces the cross-platform subsystem API for hand-tracking. Implementations of providers will be found in the package for that platform.",
+      "displayName": "XR Hands",
+      "type": "assets",
+      "host": "editor",
+      "keywords": [
+        "xr",
+        "vr",
+        "virtual",
+        "reality",
+        "hand",
+        "tracking",
+        "hands",
+        "subsystem"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.inputsystem": "1.3.0",
+        "com.unity.modules.xr": "1.0.0",
+        "com.unity.xr.core-utils": "2.2.0",
+        "com.unity.xr.management": "4.0.1",
+        "com.unity.mathematics": "1.2.6"
+      }
+    },
+    "1.3.0": {
+      "unity": "2021.3",
+      "_upm": {
+        "changelog": "### Added\n- Added a root pose offset to the `XRHandSkeletonDriver` that allows an additional offset to the root pose (typically the wrist). This is useful for situations where you want the visual hand representation to stop while interacting with objects in a scene.\n- Added missing sample script API documentation to make it easier to understand and build from.\n\n### Fixed\n- Fixed documentation links for OpenXR features to point at latest documentation version."
+      },
+      "upmCi": {
+        "footprint": "0bbae55093ac58c7fd5d935ba6abc59f0dd7f844"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.xr.hands@1.3/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.xr.hands.git",
+        "type": "git",
+        "revision": "3c7b72f0abeabbe733ac0f37b40f5560a732ceda"
+      },
+      "samples": [
+        {
+          "displayName": "HandVisualizer",
+          "description": "Basic sample showing how visualize hands.",
+          "path": "Samples~/HandVisualizer"
+        }
+      ],
+      "dist": {
+        "shasum": "255a58475da26b9ec7275d02f8b36cbbc1f14bb2",
+        "tarball": "https://download.packages.unity.com/com.unity.xr.hands/-/com.unity.xr.hands-1.3.0.tgz"
+      },
+      "name": "com.unity.xr.hands",
+      "version": "1.3.0",
+      "description": "Surfaces the cross-platform subsystem API for hand-tracking. Implementations of providers will be found in the package for that platform.",
+      "displayName": "XR Hands",
+      "type": "assets",
+      "host": "editor",
+      "keywords": [
+        "xr",
+        "vr",
+        "virtual",
+        "reality",
+        "hand",
+        "tracking",
+        "hands",
+        "subsystem"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.inputsystem": "1.3.0",
+        "com.unity.modules.xr": "1.0.0",
+        "com.unity.xr.core-utils": "2.2.0",
+        "com.unity.xr.management": "4.0.1"
+      }
+    },
+    "1.2.1": {
+      "unity": "2021.3",
+      "samples": [
+        {
+          "displayName": "HandVisualizer",
+          "description": "Basic sample showing how visualize hands.",
+          "path": "Samples~/HandVisualizer"
+        }
+      ],
+      "_upm": {
+        "changelog": "### Fixed\n- Fixed build pipeline that caused `UnityOpenXRHands` assembly to get skipped."
+      },
+      "upmCi": {
+        "footprint": "07b78b2d1075836984b7992eff696faf21517d94"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.xr.hands@1.2/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.xr.hands.git",
+        "type": "git",
+        "revision": "1747736627634d3431597c1ae3d1ee7bc9cf1901"
+      },
+      "dist": {
+        "shasum": "d8d5ee5371297746e920b367b64110f65530752f",
+        "tarball": "https://download.packages.unity.com/com.unity.xr.hands/-/com.unity.xr.hands-1.2.1.tgz"
+      },
+      "name": "com.unity.xr.hands",
+      "version": "1.2.1",
+      "description": "Surfaces the cross-platform subsystem API for hand-tracking. Implementations of providers will be found in the package for that platform.",
+      "displayName": "XR Hands",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "xr",
+        "vr",
+        "virtual",
+        "reality",
+        "hand",
+        "tracking",
+        "hands",
+        "subsystem"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.inputsystem": "1.4.3",
+        "com.unity.modules.xr": "1.0.0",
+        "com.unity.xr.core-utils": "2.2.0",
+        "com.unity.xr.management": "4.0.1"
+      }
+    },
+    "1.2.0": {
+      "unity": "2021.3",
+      "samples": [
+        {
+          "displayName": "HandVisualizer",
+          "description": "Basic sample showing how visualize hands.",
+          "path": "Samples~/HandVisualizer"
+        }
+      ],
+      "_upm": {
+        "changelog": "### Added\n\n- Added `IXRHandProcessor` interface that intercepts and allows post-processing joint data before being used by other scripts. More information can be found on the [XR Hands Joint Processing](../manual/process-joints.md) manual page.\n- Added two samples to the Hand Visualizer sample for how to use the new Joint Processing feature to change the visual output of hand tracking.\n- `XRHand` and `XRHandJoint` both now implement `IEquatable`, and have `Equals`, `GetHashCode`, and the `==` and `!=` operators overloaded.\n- Added `XRHandTrackingEvents` component that subscribes to hand tracking events for a specific hand and surfaces Unity Events when the hand updates or tracking state changes.\n- Added `XRHandMeshController` component that subscribes to events from a `XRHandTrackingEvents` and can optionally show or hide a mesh.\n- Added `XRHandSkeletonDriver` component that subscribes to events from a `XRHandTrackingEvents` and updates a hierarchy of Transforms for each `XRHandJoint`.\n\n### Changed\n- Minimum supported Unity Editor version has changed to 2021.3.\n\n### Fixed\n\n- Fixed Hand Visualizer component so it will use another running `XRHandSubsystem` if the first is stopped.\n- Fixed exception in Hand Visualizer component when a joint is invalid.\n- Fixed rendering of lines that connect joints in `HandVisualizer` sample when used with the device simulator. Also removed the Origin property from the component since it was no longer used."
+      },
+      "upmCi": {
+        "footprint": "f2cb3aa2052ca937bb96e96012cf466b3a245898"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.xr.hands@1.2/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.xr.hands.git",
+        "type": "git",
+        "revision": "3a2c98b05912caa06a643511c97a542eb868e8a9"
+      },
+      "dist": {
+        "shasum": "b90983b3686ac5538d41d60b47610e2979547400",
+        "tarball": "https://download.packages.unity.com/com.unity.xr.hands/-/com.unity.xr.hands-1.2.0.tgz"
+      },
+      "name": "com.unity.xr.hands",
+      "version": "1.2.0",
+      "description": "Surfaces the cross-platform subsystem API for hand-tracking. Implementations of providers will be found in the package for that platform.",
+      "displayName": "XR Hands",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "xr",
+        "vr",
+        "virtual",
+        "reality",
+        "hand",
+        "tracking",
+        "hands",
+        "subsystem"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.inputsystem": "1.4.3",
+        "com.unity.modules.xr": "1.0.0",
+        "com.unity.xr.core-utils": "2.2.0",
+        "com.unity.xr.management": "4.0.1"
+      }
+    },
+    "1.1.0": {
+      "unity": "2020.3",
+      "samples": [
+        {
+          "displayName": "HandVisualizer",
+          "description": "Basic sample showing how visualize hands.",
+          "path": "Samples~/HandVisualizer"
+        }
+      ],
+      "_upm": {
+        "changelog": "### Added\n\n- Added `isTracked` to `XRHand`.\n- Added `trackingAcquired` and `trackingLost` to `XRHandSubsystem`.\n- Added `XRHandDevice` and automatic managing of it if the Input System is enabled and hand-tracking is enabled in the target platform's build settings.\n- The `HandVisualizer` sample now opts into using optimized controls in the Input System if you enable the **Use Optimized Controls** option. You must be on at least version 1.5.0 of the Input System package for this to have an effect.\n- Added `handedness` getter property to `XRHandJoint`.\n- Added `updateSuccessFlags` property to `XRHandSubsystem` to allow the most recent `UpdateSuccessFlags` to be polled. This value matches the argument to the `updatedHands` callback.\n\nThe OpenXR package must be installed and enabled for these to work:\n- Added OpenXR support through `HandTracking` and `OpenXRHandProvider` types.\n- Added support for Meta Hand Tracking Aim extension in OpenXR through `MetaHandTrackingAim`.\n\n### Changed\n\n- `MetaAimHand` and `MetaAimFlags` have been moved outside of the `MetaHandTrackingAim` type and moved from the `UnityEngine.XR.Hands.OpenXR` namespace to `UnityEngine.XR.Hands`. The same input bindings will work the same as before.\n- The HandVisualizer sample meshes has been updated.\n- Changed Hand Visualizer component so it skips setting the shared material on the instantiated hand mesh prefabs when the Hand Mesh Material property is not set.\n- Providers must now create joints with a known `Handedness` during `TryUpdateHands` when calling `XRHandProviderUtility.CreateJoint`.\n- Changed Meta Aim Hand input devices that are added to the Input System to continue updating the `devicePosition` and `deviceRotation` controls even when the `MetaAimFlags.Valid` bit flag is not set. Instead it uses whether the hand root is valid. In practice, the `MetaAimFlags.Valid` flag currently does not necessarily indicate whether the pose is valid but instead is based on whether the user is in a natural orientation for distant UI panel selection.\n- Changed HandVisualizer sample by adding an Assembly Definition file (`.asmdef`).\n\n### Fixed\n\n- Fixed issue where OpenXR would incorrectly report joints as having updated when they weren't actually tracked that frame. `XRHandSubsystem`'s `trackingAcquired` and `trackingLost`, as well as `XRHand.isTracked`, will now work as expected.\n- Fixed issue where `<XRHandDevice>/isTracked` and `<XRHandDevice>/trackingState` controls would never clear.\n- Fixed `XRHandDevice` and `MetaAimHand` to also include `InputDeviceCharacteristics.TrackedDevice` in the `XRDeviceDescriptor`.\n- Fixed lifetime of GameObjects in `HandVisualizer` sample.\n- Fixed `HandVisualizer` so it uses the `XROrigin.Origin` property instead of the Transform of the `XROrigin` itself when transforming joints.\n- Reinstated the validation rule that the Meta Touch Interaction Profile is required in the OpenXR Interaction Profiles list.\n- OpenXR hand root poses now match the wrist, not the palm."
+      },
+      "upmCi": {
+        "footprint": "608e5f74a4eee9aa2e993e9696cc7f542ac2bb1a"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.xr.hands@1.1/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.xr.hands.git",
+        "type": "git",
+        "revision": "4cabf8b9828ca84256a180af37950cd5c5a0e5dd"
+      },
+      "dist": {
+        "shasum": "5f5754045a7ad5ff2df55f9436f2e5622e18d9cf",
+        "tarball": "https://download.packages.unity.com/com.unity.xr.hands/-/com.unity.xr.hands-1.1.0.tgz"
+      },
+      "name": "com.unity.xr.hands",
+      "version": "1.1.0",
+      "description": "Surfaces the cross-platform subsystem API for hand-tracking. Implementations of providers will be found in the package for that platform.",
+      "displayName": "XR Hands",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "xr",
+        "vr",
+        "virtual",
+        "reality",
+        "hand",
+        "tracking",
+        "hands",
+        "subsystem"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.inputsystem": "1.4.3",
+        "com.unity.modules.xr": "1.0.0",
+        "com.unity.xr.core-utils": "2.0.0",
+        "com.unity.xr.management": "4.0.1"
+      }
+    },
+    "1.1.0-pre.3": {
+      "unity": "2020.3",
+      "samples": [
+        {
+          "displayName": "HandVisualizer",
+          "description": "Basic sample showing how visualize hands.",
+          "path": "Samples~/HandVisualizer"
+        }
+      ],
+      "_upm": {
+        "changelog": "### Added\n\n- The `HandVisualizer` sample now opts into using optimized controls in the Input System. You must be on at least version 1.5.0 of the Input System package for this to have an effect.\n\n### Changed\n\n- `MetaAimHand` and `MetaAimFlags` have been moved outside of the `MetaHandTrackingAim` type and moved from the `UnityEngine.XR.Hands.OpenXR` namespace to `UnityEngine.XR.Hands`. The same input bindings will work the same as before.\n- The HandVisualizer sample meshes has been updated.\n\n### Fixed\n\n- Fixed issue where OpenXR would incorrectly report joints as having updated when they weren't actually tracked that frame. `XRHandSubsystem`'s `trackingAcquired` and `trackingLost`, as well as `XRHand.isTracked`, will now work as expected.\n- Fixed lifetime of `GameObject`s in `HandVisualizer` sample.\n- Reinstated the validation rule that the Meta Touch Interaction Profile is required in the OpenXR Interaction Profiles list."
+      },
+      "upmCi": {
+        "footprint": "a6896e67deea26da7d88c810111383043e248c42"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.xr.hands@1.1/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.xr.hands.git",
+        "type": "git",
+        "revision": "4b522cb7297b444be543fad211b01a2f105c9330"
+      },
+      "dist": {
+        "shasum": "704ac648f65fbabf8f5e7896c90b6b0760560d55",
+        "tarball": "https://download.packages.unity.com/com.unity.xr.hands/-/com.unity.xr.hands-1.1.0-pre.3.tgz"
+      },
+      "name": "com.unity.xr.hands",
+      "version": "1.1.0-pre.3",
+      "description": "Surfaces the cross-platform subsystem API for hand-tracking. Implementations of providers will be found in the package for that platform.",
+      "displayName": "XR Hands",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "xr",
+        "vr",
+        "virtual",
+        "reality",
+        "hand",
+        "tracking",
+        "hands",
+        "subsystem"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.inputsystem": "1.4.3",
+        "com.unity.modules.xr": "1.0.0",
+        "com.unity.xr.core-utils": "2.0.0",
+        "com.unity.xr.management": "4.0.1"
+      }
+    },
+    "1.1.0-pre.2": {
+      "unity": "2020.3",
+      "samples": [
+        {
+          "displayName": "HandVisualizer",
+          "description": "Basic sample showing how visualize hands.",
+          "path": "Samples~/HandVisualizer"
+        }
+      ],
+      "_upm": {
+        "changelog": "### Added\n\n- Added `isTracked` to `XRHand`.\n- Added `trackingAcquired` and `trackingLost` to `XRHandSubsystem`.\n- Added `XRHandDevice` and automatic managing of it if the Input System is enabled and hand-tracking is enabled in the target platform's build settings.\n\nThe OpenXR package must be installed and enabled for these to work:\n- Added OpenXR support through `HandTracking` and `OpenXRHandProvider` types.\n- Added support for Meta Hand Tracking Aim extension in OpenXR through `MetaHandTrackingAim`."
+      },
+      "upmCi": {
+        "footprint": "d55525aa00c2a79a272b94b44f35b7325c563bcb"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.xr.hands@1.1/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.xr.hands.git",
+        "type": "git",
+        "revision": "ae3454a8240c313ea3f95ecfd2d9aebc080b0626"
+      },
+      "dist": {
+        "shasum": "ecbdfd9859ec3ec4407d9b58eafacc247d2f392f",
+        "tarball": "https://download.packages.unity.com/com.unity.xr.hands/-/com.unity.xr.hands-1.1.0-pre.2.tgz"
+      },
+      "name": "com.unity.xr.hands",
+      "version": "1.1.0-pre.2",
+      "description": "Surfaces the cross-platform subsystem API for hand-tracking. Implementations of providers will be found in the package for that platform.",
+      "displayName": "XR Hands",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "xr",
+        "vr",
+        "virtual",
+        "reality",
+        "hand",
+        "tracking",
+        "hands",
+        "subsystem"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.inputsystem": "1.4.3",
+        "com.unity.modules.xr": "1.0.0",
+        "com.unity.xr.core-utils": "2.0.0",
+        "com.unity.xr.management": "4.0.1"
+      }
+    },
+    "1.0.0-pre.2": {
+      "unity": "2020.3",
+      "samples": [
+        {
+          "displayName": "HandVisualizer",
+          "description": "Basic sample showing how visualize hands.",
+          "path": "Samples~/HandVisualizer"
+        }
+      ],
+      "upmCi": {
+        "footprint": "7d103714b46e808ffe88613efc90d1e06e291d48"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.xr.hands.git",
+        "type": "git",
+        "revision": "1d0d38d59523beef6a61be3a6b4b82f0d54b92ce"
+      },
+      "dist": {
+        "shasum": "412b9d185b3595ae7da6182d146bf88d446a9861",
+        "tarball": "https://download.packages.unity.com/com.unity.xr.hands/-/com.unity.xr.hands-1.0.0-pre.2.tgz"
+      },
+      "name": "com.unity.xr.hands",
+      "version": "1.0.0-pre.2",
+      "description": "Surfaces the cross-platform subsystem API for hand-tracking. Implementations of providers will be found in the package for that platform.",
+      "displayName": "XR Hands",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "xr",
+        "vr",
+        "virtual",
+        "reality",
+        "hand",
+        "tracking",
+        "hands",
+        "subsystem"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.modules.xr": "1.0.0",
+        "com.unity.xr.core-utils": "2.0.0"
+      }
+    }
+  },
+  "etag": "\"79a1a41003c09f6eb826f8dbb9fefb92\"",
+  "time": {
+    "1.4.0-pre.1": "2023-11-29T15:57:11Z",
+    "1.3.0": "2023-08-22T15:58:21Z",
+    "1.2.1": "2023-06-01T13:36:42Z",
+    "1.2.0": "2023-05-30T15:19:12Z",
+    "1.1.0": "2023-03-21T17:25:39Z",
+    "1.1.0-pre.3": "2023-02-23T16:56:06Z",
+    "1.1.0-pre.2": "2022-12-14T23:02:08Z",
+    "1.0.0-pre.2": "2022-11-11T10:52:29Z"
+  }
+}

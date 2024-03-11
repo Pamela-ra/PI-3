@@ -1,0 +1,1132 @@
+{
+  "_id": "com.unity.services.vivox",
+  "name": "com.unity.services.vivox",
+  "description": "Unity's voice and text chat service for multiplayer communication offers voice chat and direct message text service with a managed hosted solution. Plug into your game and configure your project settings to add communications to your project immediately. Connect an unlimited number of users in 2D and 3D channels. Monitor concurrency on your dashboard. Add a custom UI to allow players to control voice volume, mute, and add audio effects to voice channels and manage them. Place users in team chat and allow them to participate in multiple channels.",
+  "provider": "upm",
+  "category": "",
+  "dist-tags": {
+    "latest": "16.0.1"
+  },
+  "versions": {
+    "16.0.1": {
+      "vivox_core_version": "5.22.0",
+      "unity": "2020.3",
+      "_upm": {
+        "gameService": {
+          "groupIndex": 2,
+          "groupName": "Multiplayer",
+          "genericDashboardUrl": "https://dashboard.unity3d.com/vivox",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/vivox/credentials",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+          "configurePath": "Project/Services/Vivox"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS",
+          "mac",
+          "Windows"
+        ],
+        "changelog": "### Added\n - `IVivoxService.GetConversationsAsync` method for querying channel and direct message conversations a user has participated in.\n - `IVivoxService.SetMessageAsReadAsync` method for setting a message as seen/read.\n - `VivoxConversation` class to neatly encompass all of the details of a particular channel or direct message conversation.\n - `ConversationType` enum to help identify the type of conversation that is provided by `IVivoxService.GetConversationsAsync`.\n - `ConversationQueryOptions` class used to provide optional configurations for the `IVivoxService.GetConversationsAsync` query.\n\n### Fixed\n - Fixed an issue where the default token expiration provided to `IVivoxTokenProvider.GetTokenAsync` was incorrect.\n - Fixed an issue causing an exception when calling `IVivoxService.LogoutAsync` while not in any channels.\n - Fixed an issue where the `IVivoxService.LogoutAsync` or `IVivoxService.JoinChannelAsync` methods would not complete if the user was not logged in.\n\n### Removed\n - Removed `AudioFadeDistance.None` option as it is not a valid 3d option"
+      },
+      "samples": [
+        {
+          "displayName": "Chat Channel Sample",
+          "description": "This sample showcases voice chat, text chat, text-to-speech, muting, and chat history features for immersive, interactive user engagement.",
+          "path": "Samples~/ChatChannelSample"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.services.vivox.tests": "16.0.1"
+      },
+      "upmCi": {
+        "footprint": "249773386eb5e862e1ec962dcd2a92e025dbd6a2"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.vivox@16.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/vivox-unity-sdk.git",
+        "type": "git",
+        "revision": "73a9d52a57222662df601a444dca5887f643d588"
+      },
+      "dist": {
+        "shasum": "3c02b450f2ee23fc64581df447b57e9aa50539ce",
+        "tarball": "https://download.packages.unity.com/com.unity.services.vivox/-/com.unity.services.vivox-16.0.1.tgz"
+      },
+      "name": "com.unity.services.vivox",
+      "version": "16.0.1",
+      "description": "Unity's voice and text chat service for multiplayer communication offers voice chat and direct message text service with a managed hosted solution. Plug into your game and configure your project settings to add communications to your project immediately. Connect an unlimited number of users in 2D and 3D channels. Monitor concurrency on your dashboard. Add a custom UI to allow players to control voice volume, mute, and add audio effects to voice channels and manage them. Place users in team chat and allow them to participate in multiple channels.",
+      "displayName": "Vivox",
+      "type": "assets",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "2.0.0",
+        "com.unity.services.core": "1.4.0",
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.modules.audio": "1.0.0"
+      }
+    },
+    "16.0.0-pre.1": {
+      "vivox_core_version": "5.21.1",
+      "unity": "2020.3",
+      "_upm": {
+        "gameService": {
+          "groupIndex": 2,
+          "groupName": "Multiplayer",
+          "genericDashboardUrl": "https://dashboard.unity3d.com/vivox",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/vivox/credentials",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+          "configurePath": "Project/Services/Vivox"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS",
+          "mac",
+          "Windows"
+        ],
+        "changelog": "### Added\n - Launch of the new Unity SDK with an easier-to-use API.\n - Vivox Unity SDK v16 is a major update to the API which will require manual changes. Follow the [16.0.0 upgrade guide](https://docs.unity.com/ugs/en-us/manual/vivox-unity/manual/Unity/v16-upgrade-guide) to upgrade an existing Unity Vivox implementation to this new version.\n - Audio Source per participant feature has been added.\n - Audio Source per channel feature has been added.\n - New Text Chat capabilities, featuring the addition of APIs for querying chat history and enabling the editing or deletion of sent direct or channel messages.\n\n### Fixed\n - Fixed issues where users could hear repeated audio blips in the Core SDK.\n - Fixed an issue that triggered when joining a 3D channel after a 2D channel where session groups ignored clamping distance.\n - Fixed a crash that triggered when a user attempted to send a message while Automatic Connection Recovery was ongoing.\n\n### Changed\n - Messages from blocked participants from chat history queries are now omitted.\n - Upgrading minimum Unity version support to 2020.3.\n\n### Removed\n- Substantial API revamp has resulted in the removal of the prior public API."
+      },
+      "samples": [
+        {
+          "displayName": "Chat Channel Sample",
+          "description": "This sample showcases voice chat, text chat, text-to-speech, muting, and chat history features for immersive, interactive user engagement.",
+          "path": "Samples~/ChatChannelSample"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.services.vivox.tests": "16.0.0-pre.1"
+      },
+      "upmCi": {
+        "footprint": "8c61c5a0e4439f69022c0aa18feb8d4360942499"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.vivox@16.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/vivox-unity-sdk.git",
+        "type": "git",
+        "revision": "76f0429a76a67394af07ee081229b43852cf36c4"
+      },
+      "dist": {
+        "shasum": "183917ba0425aa5fe50d0f1eefccc050ae70465c",
+        "tarball": "https://download.packages.unity.com/com.unity.services.vivox/-/com.unity.services.vivox-16.0.0-pre.1.tgz"
+      },
+      "name": "com.unity.services.vivox",
+      "version": "16.0.0-pre.1",
+      "description": "Unity's voice and text chat service for multiplayer communication offers voice chat and direct message text service with a managed hosted solution. Plug into your game and configure your project settings to add communications to your project immediately. Connect an unlimited number of users in 2D and 3D channels. Monitor concurrency on your dashboard. Add a custom UI to allow players to control voice volume, mute, and add audio effects to voice channels and manage them. Place users in team chat and allow them to participate in multiple channels.",
+      "displayName": "Vivox",
+      "type": "assets",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "2.0.0",
+        "com.unity.services.core": "1.4.0",
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.modules.audio": "1.0.0"
+      }
+    },
+    "15.1.210100-pre.1": {
+      "unity": "2019.4",
+      "_upm": {
+        "gameService": {
+          "groupIndex": 2,
+          "groupName": "Multiplayer",
+          "genericDashboardUrl": "https://dashboard.unity3d.com/vivox",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/vivox/credentials",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+          "configurePath": "Project/Services/Vivox"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS",
+          "mac",
+          "Windows"
+        ],
+        "changelog": "### Changed\n - Upgrades underlying Vivox SDK Dependency to version 5.21.1"
+      },
+      "relatedPackages": {
+        "com.unity.services.vivox.tests": "15.1.210100-pre.1"
+      },
+      "upmCi": {
+        "footprint": "f32dd5e2a5d873ea94256b64ab7c8c491120d9e1"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.vivox@15.1/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/vivox-unity-sdk.git",
+        "type": "git",
+        "revision": "42febba88c09dbfca4cb20959cd428195f93a14a"
+      },
+      "samples": [
+        {
+          "displayName": "Chat Channel Sample",
+          "description": "Try the chat service now, with a voice and text channel example. Login, Voice, Text, Text to Speech and mute example scripts are included.",
+          "path": "Samples~/ChatChannelSample"
+        }
+      ],
+      "dist": {
+        "shasum": "267cecec64030c9601843a5e631056f52c5d808c",
+        "tarball": "https://download.packages.unity.com/com.unity.services.vivox/-/com.unity.services.vivox-15.1.210100-pre.1.tgz"
+      },
+      "name": "com.unity.services.vivox",
+      "version": "15.1.210100-pre.1",
+      "description": "Unity's voice and text chat service, for multiplayer communication, offers a voice chat and direct message text service with a managed hosted solution. Plug in to your game and configure your project settings to immediately add communications to your project. Connect an unlimited number of users in 2D and 3D channels.  Monitor concurrency on your dashboard. Add a custom UI to allow player to control voice volume, mute, and manage channels. Place users in team chat; allow them to participate in multiple channels.",
+      "displayName": "Vivox",
+      "type": "assets",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "2.0.0",
+        "com.unity.services.core": "1.3.1",
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      }
+    },
+    "15.1.210000-pre.1": {
+      "unity": "2019.4",
+      "_upm": {
+        "gameService": {
+          "groupIndex": 2,
+          "groupName": "Multiplayer",
+          "genericDashboardUrl": "https://dashboard.unity3d.com/vivox",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/vivox/credentials",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+          "configurePath": "Project/Services/Vivox"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS",
+          "mac",
+          "Windows"
+        ],
+        "changelog": "### Changed\n - Upgrades underlying Vivox SDK Dependency to version 5.21.0"
+      },
+      "relatedPackages": {
+        "com.unity.services.vivox.tests": "15.1.210000-pre.1"
+      },
+      "upmCi": {
+        "footprint": "51a7531a6e184adf9e83320215d7289dc5d8353a"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.vivox@15.1/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/vivox-unity-sdk.git",
+        "type": "git",
+        "revision": "9e473c5826e066dbf5da3a44c4f90d4a575bdb11"
+      },
+      "samples": [
+        {
+          "displayName": "Chat Channel Sample",
+          "description": "Try the chat service now, with a voice and text channel example. Login, Voice, Text, Text to Speech and mute example scripts are included.",
+          "path": "Samples~/ChatChannelSample"
+        }
+      ],
+      "dist": {
+        "shasum": "13592949b2c808519c22c843073d2480455d87b4",
+        "tarball": "https://download.packages.unity.com/com.unity.services.vivox/-/com.unity.services.vivox-15.1.210000-pre.1.tgz"
+      },
+      "name": "com.unity.services.vivox",
+      "version": "15.1.210000-pre.1",
+      "description": "Unity's voice and text chat service, for multiplayer communication, offers a voice chat and direct message text service with a managed hosted solution. Plug in to your game and configure your project settings to immediately add communications to your project. Connect an unlimited number of users in 2D and 3D channels.  Monitor concurrency on your dashboard. Add a custom UI to allow player to control voice volume, mute, and manage channels. Place users in team chat; allow them to participate in multiple channels.",
+      "displayName": "Vivox",
+      "type": "assets",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "2.0.0",
+        "com.unity.services.core": "1.3.1",
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      }
+    },
+    "15.1.200000-pre.1": {
+      "unity": "2019.4",
+      "_upm": {
+        "gameService": {
+          "groupIndex": 2,
+          "groupName": "Multiplayer",
+          "genericDashboardUrl": "https://dashboard.unity3d.com/vivox",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/vivox/credentials",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+          "configurePath": "Project/Services/Vivox"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS",
+          "mac",
+          "Windows"
+        ],
+        "changelog": "### Changed\n - Upgrades underlying Vivox SDK Dependency to version 5.20.0\n - Obsoletion of the defunct SessionArchive and AccountArchive APIs"
+      },
+      "relatedPackages": {
+        "com.unity.services.vivox.tests": "15.1.200000-pre.1"
+      },
+      "upmCi": {
+        "footprint": "9b786fd8642f6d2229883523c7524e074bf2cb90"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.vivox@15.1/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/vivox-unity-sdk.git",
+        "type": "git",
+        "revision": "6a6dae9934b5f465d9c4adaec4361158868473da"
+      },
+      "samples": [
+        {
+          "displayName": "Chat Channel Sample",
+          "description": "Try the chat service now, with a voice and text channel example. Login, Voice, Text, Text to Speech and mute example scripts are included.",
+          "path": "Samples~/ChatChannelSample"
+        }
+      ],
+      "dist": {
+        "shasum": "2e1ca452a63abe54b312bacbf7cc6871339769ff",
+        "tarball": "https://download.packages.unity.com/com.unity.services.vivox/-/com.unity.services.vivox-15.1.200000-pre.1.tgz"
+      },
+      "name": "com.unity.services.vivox",
+      "version": "15.1.200000-pre.1",
+      "description": "Unity's voice and text chat service, for multiplayer communication, offers a voice chat and direct message text service with a managed hosted solution. Plug in to your game and configure your project settings to immediately add communications to your project. Connect an unlimited number of users in 2D and 3D channels.  Monitor concurrency on your dashboard. Add a custom UI to allow player to control voice volume, mute, and manage channels. Place users in team chat; allow them to participate in multiple channels.",
+      "displayName": "Vivox",
+      "type": "asset",
+      "host": "editor",
+      "deprecated": "As of August 31st 2023, this version is no longer available for download. To use the package going forward, upgrade to version 15.1.210000-pre.1 or higher.",
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "2.0.0",
+        "com.unity.services.core": "1.3.1",
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      }
+    },
+    "15.1.190400-pre.1": {
+      "unity": "2019.4",
+      "_upm": {
+        "gameService": {
+          "groupIndex": 2,
+          "groupName": "Multiplayer",
+          "genericDashboardUrl": "https://dashboard.unity3d.com/vivox",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/vivox/credentials",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+          "configurePath": "Project/Services/Vivox"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS",
+          "mac",
+          "Windows"
+        ],
+        "changelog": ""
+      },
+      "relatedPackages": {
+        "com.unity.services.vivox.tests": "15.1.190400-pre.1"
+      },
+      "upmCi": {
+        "footprint": "309fba961b6a4fb16bdc670cdc5de800708ded7d"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.vivox@15.1/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/vivox-unity-sdk.git",
+        "type": "git",
+        "revision": "22005d01b77472b26983b90f5c27429ef4f14a62"
+      },
+      "samples": [
+        {
+          "displayName": "Chat Channel Sample",
+          "description": "Try the chat service now, with a voice and text channel example. Login, Voice, Text, Text to Speech and mute example scripts are included.",
+          "path": "Samples~/ChatChannelSample"
+        }
+      ],
+      "dist": {
+        "shasum": "12c9b853d7e3af376beda41920c3a1566fce113d",
+        "tarball": "https://download.packages.unity.com/com.unity.services.vivox/-/com.unity.services.vivox-15.1.190400-pre.1.tgz"
+      },
+      "name": "com.unity.services.vivox",
+      "version": "15.1.190400-pre.1",
+      "description": "Unity's voice and text chat service, for multiplayer communication, offers a voice chat and direct message text service with a managed hosted solution. Plug in to your game and configure your project settings to immediately add communications to your project. Connect an unlimited number of users in 2D and 3D channels.  Monitor concurrency on your dashboard. Add a custom UI to allow player to control voice volume, mute, and manage channels. Place users in team chat; allow them to participate in multiple channels.",
+      "displayName": "Vivox",
+      "type": "asset",
+      "host": "editor",
+      "deprecated": "As of August 31st 2023, this version is no longer available for download. To use the package going forward, upgrade to version 15.1.210000-pre.1 or higher.",
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "2.0.0",
+        "com.unity.services.core": "1.3.1",
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      }
+    },
+    "15.1.190200-pre.2": {
+      "unity": "2019.4",
+      "_upm": {
+        "gameService": {
+          "groupIndex": 2,
+          "groupName": "Multiplayer",
+          "genericDashboardUrl": "https://dashboard.unity3d.com/vivox",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/vivox/credentials",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+          "configurePath": "Project/Services/Vivox"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS",
+          "mac",
+          "Windows"
+        ],
+        "changelog": "### Fixed\n - Fixed an issue with the Android VivoxNative.aar library causing it to have issues when trying to resolve internal dependencies."
+      },
+      "relatedPackages": {
+        "com.unity.services.vivox.tests": "15.1.190200-pre.2"
+      },
+      "upmCi": {
+        "footprint": "5c641587c7209dd3e1c4bebb3f9ce3b4eaf55025"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.vivox@15.1/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/vivox-unity-sdk.git",
+        "type": "git",
+        "revision": "b08d3ebea4a090754c6c876f6fd5726f440e7b62"
+      },
+      "samples": [
+        {
+          "displayName": "Chat Channel Sample",
+          "description": "Try the chat service now, with a voice and text channel example. Login, Voice, Text, Text to Speech and mute example scripts are included.",
+          "path": "Samples~/ChatChannelSample"
+        }
+      ],
+      "dist": {
+        "shasum": "2decf6cfca4f19bc73ee88db01ddec95f692d92c",
+        "tarball": "https://download.packages.unity.com/com.unity.services.vivox/-/com.unity.services.vivox-15.1.190200-pre.2.tgz"
+      },
+      "name": "com.unity.services.vivox",
+      "version": "15.1.190200-pre.2",
+      "description": "Unity's voice and text chat service, for multiplayer communication, offers a voice chat and direct message text service with a managed hosted solution. Plug in to your game and configure your project settings to immediately add communications to your project. Connect an unlimited number of users in 2D and 3D channels.  Monitor concurrency on your dashboard. Add a custom UI to allow player to control voice volume, mute, and manage channels. Place users in team chat; allow them to participate in multiple channels.",
+      "displayName": "Vivox",
+      "type": "asset",
+      "host": "editor",
+      "deprecated": "As of August 31st 2023, this version is no longer available for download. To use the package going forward, upgrade to version 15.1.210000-pre.1 or higher.",
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "2.0.0",
+        "com.unity.services.core": "1.3.1",
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      }
+    },
+    "15.1.190200-pre.1": {
+      "unity": "2019.4",
+      "_upm": {
+        "gameService": {
+          "groupIndex": 2,
+          "groupName": "Multiplayer",
+          "genericDashboardUrl": "https://dashboard.unity3d.com/vivox",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/vivox/credentials",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+          "configurePath": "Project/Services/Vivox"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS",
+          "mac",
+          "Windows"
+        ]
+      },
+      "relatedPackages": {
+        "com.unity.services.vivox.tests": "15.1.190200-pre.1"
+      },
+      "upmCi": {
+        "footprint": "2a97cf42c5b6d00ff6e64d0bfe98bafceb4230e2"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.vivox@15.1/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/vivox-unity-sdk.git",
+        "type": "git",
+        "revision": "9ee50003302d401616d6d1e5744a090a2679a7c4"
+      },
+      "samples": [
+        {
+          "displayName": "Chat Channel Sample",
+          "description": "Try the chat service now, with a voice and text channel example. Login, Voice, Text, Text to Speech and mute example scripts are included.",
+          "path": "Samples~/ChatChannelSample"
+        }
+      ],
+      "dist": {
+        "shasum": "511c912f53463295e163c8b6ef4de83511ac1c2e",
+        "tarball": "https://download.packages.unity.com/com.unity.services.vivox/-/com.unity.services.vivox-15.1.190200-pre.1.tgz"
+      },
+      "name": "com.unity.services.vivox",
+      "version": "15.1.190200-pre.1",
+      "description": "Unity's voice and text chat service, for multiplayer communication, offers a voice chat and direct message text service with a managed hosted solution. Plug in to your game and configure your project settings to immediately add communications to your project. Connect an unlimited number of users in 2D and 3D channels.  Monitor concurrency on your dashboard. Add a custom UI to allow player to control voice volume, mute, and manage channels. Place users in team chat; allow them to participate in multiple channels.",
+      "displayName": "Vivox",
+      "type": "asset",
+      "host": "editor",
+      "deprecated": "As of August 31st 2023, this version is no longer available for download. To use the package going forward, upgrade to version 15.1.210000-pre.1 or higher.",
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "2.0.0",
+        "com.unity.services.core": "1.3.1",
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      }
+    },
+    "15.1.190000-pre.1": {
+      "unity": "2019.4",
+      "_upm": {
+        "gameService": {
+          "groupIndex": 2,
+          "groupName": "Multiplayer",
+          "genericDashboardUrl": "https://dashboard.unity3d.com/vivox",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/vivox/credentials",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+          "configurePath": "Project/Services/Vivox"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS",
+          "mac",
+          "Windows"
+        ]
+      },
+      "relatedPackages": {
+        "com.unity.services.vivox.tests": "15.1.190000-pre.1"
+      },
+      "upmCi": {
+        "footprint": "f189ebef37de3472369ddee0fdad15bcc3e3fe9f"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/vivox-unity-sdk.git",
+        "type": "git",
+        "revision": "5e4f9be516c70072507d14ad09cf59b217b48eb7"
+      },
+      "samples": [
+        {
+          "displayName": "Chat Channel Sample",
+          "description": "Try the chat service now, with a voice and text channel example. Login, Voice, Text, Text to Speech and mute example scripts are included.",
+          "path": "Samples~/ChatChannelSample"
+        }
+      ],
+      "dist": {
+        "shasum": "cd95bc9ca6609843cfba8ff6671ebc30b173db46",
+        "tarball": "https://download.packages.unity.com/com.unity.services.vivox/-/com.unity.services.vivox-15.1.190000-pre.1.tgz"
+      },
+      "name": "com.unity.services.vivox",
+      "version": "15.1.190000-pre.1",
+      "description": "Unity's voice and text chat service, for multiplayer communication, offers a voice chat and direct message text service with a managed hosted solution. Plug in to your game and configure your project settings to immediately add communications to your project. Connect an unlimited number of users in 2D and 3D channels.  Monitor concurrency on your dashboard. Add a custom UI to allow player to control voice volume, mute, and manage channels. Place users in team chat; allow them to participate in multiple channels.",
+      "displayName": "Vivox",
+      "type": "asset",
+      "host": "editor",
+      "deprecated": "As of August 31st 2023, this version is no longer available for download. To use the package going forward, upgrade to version 15.1.210000-pre.1 or higher.",
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "2.0.0",
+        "com.unity.services.core": "1.3.1",
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      }
+    },
+    "15.1.180001-pre.5": {
+      "unity": "2019.4",
+      "_upm": {
+        "gameService": {
+          "groupIndex": 2,
+          "groupName": "Multiplayer",
+          "genericDashboardUrl": "https://dashboard.unity3d.com/vivox",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/vivox/credentials",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+          "configurePath": "Project/Services/Vivox"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS",
+          "mac",
+          "Windows"
+        ]
+      },
+      "relatedPackages": {
+        "com.unity.services.vivox.tests": "15.1.180001-pre.5"
+      },
+      "upmCi": {
+        "footprint": "5ccecbcad6a87f43c74a1f72192a17a6c661ad1d"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/vivox-unity-sdk.git",
+        "type": "git",
+        "revision": "bd54b51fa4b5cbff1cad464bf99f516487f3671e"
+      },
+      "samples": [
+        {
+          "displayName": "Chat Channel Sample",
+          "description": "Try the chat service now, with a voice and text channel example. Login, Voice, Text, Text to Speech and mute example scripts are included.",
+          "path": "Samples~/ChatChannelSample"
+        }
+      ],
+      "dist": {
+        "shasum": "a2c746d177d0d0aa01149e3bfb84233425d73a78",
+        "tarball": "https://download.packages.unity.com/com.unity.services.vivox/-/com.unity.services.vivox-15.1.180001-pre.5.tgz"
+      },
+      "name": "com.unity.services.vivox",
+      "version": "15.1.180001-pre.5",
+      "description": "Unity's voice and text chat service, for multiplayer communication, offers a voice chat and direct message text service with a managed hosted solution. Plug in to your game and configure your project settings to immediately add communications to your project. Connect an unlimited number of users in 2D and 3D channels.  Monitor concurrency on your dashboard. Add a custom UI to allow player to control voice volume, mute, and manage channels. Place users in team chat; allow them to participate in multiple channels.",
+      "displayName": "Vivox",
+      "type": "asset",
+      "host": "editor",
+      "deprecated": "As of August 31st 2023, this version is no longer available for download. To use the package going forward, upgrade to version 15.1.210000-pre.1 or higher.",
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "2.0.0",
+        "com.unity.services.core": "1.3.1",
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      }
+    },
+    "15.1.180001-pre.4": {
+      "unity": "2019.4",
+      "_upm": {
+        "gameService": {
+          "groupIndex": 2,
+          "groupName": "Multiplayer",
+          "genericDashboardUrl": "https://dashboard.unity3d.com/vivox",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/vivox/credentials",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+          "configurePath": "Project/Services/Vivox"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS",
+          "mac",
+          "Windows"
+        ]
+      },
+      "relatedPackages": {
+        "com.unity.services.vivox.tests": "15.1.180001-pre.4"
+      },
+      "upmCi": {
+        "footprint": "f6f94afd77daa4a81236ca7d561362ee896cd893"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/vivox-unity-sdk.git",
+        "type": "git",
+        "revision": "68eb42a1e48f79b22bb72b123f05cab2260a7b72"
+      },
+      "samples": [
+        {
+          "displayName": "Chat Channel Sample",
+          "description": "Try the chat service now, with a voice and text channel example. Login, Voice, Text, Text to Speech and mute example scripts are included.",
+          "path": "Samples~/ChatChannelSample"
+        }
+      ],
+      "dist": {
+        "shasum": "89609a6cc7f8130e63958f658c214a4b628fa5fa",
+        "tarball": "https://download.packages.unity.com/com.unity.services.vivox/-/com.unity.services.vivox-15.1.180001-pre.4.tgz"
+      },
+      "name": "com.unity.services.vivox",
+      "version": "15.1.180001-pre.4",
+      "description": "Unity's voice and text chat service, for multiplayer communication, offers a voice chat and direct message text service with a managed hosted solution. Plug in to your game and configure your project settings to immediately add communications to your project. Connect an unlimited number of users in 2D and 3D channels.  Monitor concurrency on your dashboard. Add a custom UI to allow player to control voice volume, mute, and manage channels. Place users in team chat; allow them to participate in multiple channels.",
+      "displayName": "Vivox",
+      "type": "asset",
+      "host": "editor",
+      "deprecated": "As of August 31st 2023, this version is no longer available for download. To use the package going forward, upgrade to version 15.1.210000-pre.1 or higher.",
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "2.0.0",
+        "com.unity.services.core": "1.3.1",
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      }
+    },
+    "15.1.180001-pre.3": {
+      "unity": "2019.4",
+      "_upm": {
+        "gameService": {
+          "groupIndex": 2,
+          "groupName": "Multiplayer",
+          "genericDashboardUrl": "https://dashboard.unity3d.com/vivox",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/vivox/credentials",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+          "configurePath": "Project/Services/Vivox"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS",
+          "mac",
+          "Windows"
+        ],
+        "changelog": "### Added\n - Added VivoxConfig as a parameter to the VivoxService.Instance.Initialize(...) method so developers can configure the Vivox Client's settings on startup.\n### Changed\n - Stopped removing minus ('-') characters from the Environment ID when appending it to the AccountId and ChannelId URIs. The Environment ID will now be appended verbatim.\n### Fixed\n - Fixed an issue causing generated files from the Android platform to make it into the package resulting in methods that could not be resolved due to the APIs not existing in any other library."
+      },
+      "relatedPackages": {
+        "com.unity.services.vivox.tests": "15.1.180001-pre.3"
+      },
+      "upmCi": {
+        "footprint": "db6f38bd869eb01fa666130a8d42da8c299836ed"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/vivox-unity-sdk.git",
+        "type": "git",
+        "revision": "9bbf9a9502e02d0c6271d34e5a3adb66d0f5a208"
+      },
+      "samples": [
+        {
+          "displayName": "Chat Channel Sample",
+          "description": "Try the chat service now, with a voice and text channel example. Login, Voice, Text, Text to Speech and mute example scripts are included.",
+          "path": "Samples~/ChatChannelSample"
+        }
+      ],
+      "_id": "com.unity.services.vivox@15.1.180001-pre.3",
+      "_integrity": "sha512-d7YFgBgHCrnLrVEzD9zFd6YijLUoIQAEA875LlBC9vvoENGcYCgHdgM1aJ774trONzgcce40ULolHrUb8P8agQ==",
+      "_resolved": "/tmp/com.unity.services.vivox@15.1.180001-pre.3-pc2nksff.tgz",
+      "_from": "file:/tmp/com.unity.services.vivox@15.1.180001-pre.3-pc2nksff.tgz",
+      "dist": {
+        "shasum": "100825b4cf008885515b5afabe3a01a621f28c39",
+        "tarball": "https://download.packages.unity.com/com.unity.services.vivox/-/com.unity.services.vivox-15.1.180001-pre.3.tgz"
+      },
+      "name": "com.unity.services.vivox",
+      "version": "15.1.180001-pre.3",
+      "description": "Unity's voice and text chat service, for multiplayer communication, offers a voice chat and direct message text service with a managed hosted solution. Plug in to your game and configure your project settings to immediately add communications to your project. Connect an unlimited number of users in 2D and 3D channels.  Monitor concurrency on your dashboard. Add a custom UI to allow player to control voice volume, mute, and manage channels. Place users in team chat; allow them to participate in multiple channels.",
+      "displayName": "Vivox",
+      "type": "asset",
+      "host": "editor",
+      "deprecated": "As of August 31st 2023, this version is no longer available for download. To use the package going forward, upgrade to version 15.1.210000-pre.1 or higher.",
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "2.0.0",
+        "com.unity.services.core": "1.3.1",
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      }
+    },
+    "15.1.180001-pre.2": {
+      "unity": "2019.4",
+      "_upm": {
+        "changelog": "### Fixed\n- Fixed a warning that would always throw when using custom credentials via InitializationOptions.SetVivoxCredentials and initializing the Vivox service.\n- Fixed IEnvironmentId not being added as an optional dependency in VivoxPackageInitializer.cs causing erroneous and confusing warnings when initializing the Vivox service."
+      },
+      "relatedPackages": {
+        "com.unity.services.vivox.tests": "15.1.180001-pre.2"
+      },
+      "upmCi": {
+        "footprint": "f75ab7056ac28690573c1e9acc16fe5c12363e67"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/vivox-unity-sdk.git",
+        "type": "git",
+        "revision": "7a820aa51ce71f28852785b3c76cbe79f86d114d"
+      },
+      "samples": [
+        {
+          "displayName": "Chat Channel Sample",
+          "description": "Try the chat service now, with a voice and text channel example. Login, Voice, Text, Text to Speech and mute example scripts are included.",
+          "path": "Samples~/ChatChannelSample"
+        }
+      ],
+      "_id": "com.unity.services.vivox@15.1.180001-pre.2",
+      "_integrity": "sha512-aoH0uBsArVkD2GA10CK2VPVEs9FidY2o3ydqMKz/vv1VUmVvPLcjI8vbHGANNknSOyPjLbAZx7radR6geXVOVg==",
+      "_resolved": "/tmp/com.unity.services.vivox@15.1.180001-pre.2-hybih_3k.tgz",
+      "_from": "file:/tmp/com.unity.services.vivox@15.1.180001-pre.2-hybih_3k.tgz",
+      "dist": {
+        "shasum": "65dc31245975c084dff3813a399968fa2993f019",
+        "tarball": "https://download.packages.unity.com/com.unity.services.vivox/-/com.unity.services.vivox-15.1.180001-pre.2.tgz"
+      },
+      "name": "com.unity.services.vivox",
+      "version": "15.1.180001-pre.2",
+      "description": "Unity's voice and text chat service, for multiplayer communication, offers a voice chat and direct message text service with a managed hosted solution. Plug in to your game and configure your project settings to immediately add communications to your project. Connect an unlimited number of users in 2D and 3D channels.  Monitor concurrency on your dashboard. Add a custom UI to allow player to control voice volume, mute, and manage channels. Place users in team chat; allow them to participate in multiple channels.",
+      "displayName": "Vivox",
+      "type": "asset",
+      "host": "editor",
+      "deprecated": "As of August 31st 2023, this version is no longer available for download. To use the package going forward, upgrade to version 15.1.210000-pre.1 or higher.",
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "2.0.0",
+        "com.unity.services.core": "1.3.1",
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      }
+    },
+    "15.1.180001-pre.1": {
+      "unity": "2019.4",
+      "_upm": {
+        "changelog": "### Fixed\n- Fixed how we fetch the Authentication package's Environment ID to fix the Vivox package not working when using newer versions of Authentication.\n- Fixed debug/local token generation when Test Mode is enabled in the Vivox service settings and the user is signed into Authentication."
+      },
+      "relatedPackages": {
+        "com.unity.services.vivox.tests": "15.1.180001-pre.1"
+      },
+      "upmCi": {
+        "footprint": "bfbb0975fab0f289042ddc82cc59e6e69d49bb19"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/vivox-unity-sdk.git",
+        "type": "git",
+        "revision": "9cedbaee31939d177f88257111c6a4787b1b0f42"
+      },
+      "samples": [
+        {
+          "displayName": "Chat Channel Sample",
+          "description": "Try the chat service now, with a voice and text channel example. Login, Voice, Text, Text to Speech and mute example scripts are included.",
+          "path": "Samples~/ChatChannelSample"
+        }
+      ],
+      "_id": "com.unity.services.vivox@15.1.180001-pre.1",
+      "_integrity": "sha512-o09IhG2TzCUhYKo63ioSimjePm+SHIuAG5LgDUSpnxLB8Isb5czkAfY81es0Sy8LtAhSgyImbGPghgrTyOALEg==",
+      "_resolved": "/tmp/com.unity.services.vivox@15.1.180001-pre.1-d4rtnksn.tgz",
+      "_from": "file:/tmp/com.unity.services.vivox@15.1.180001-pre.1-d4rtnksn.tgz",
+      "dist": {
+        "shasum": "c249c2b87145abc1a6bc1a7b23e4da84533f72d2",
+        "tarball": "https://download.packages.unity.com/com.unity.services.vivox/-/com.unity.services.vivox-15.1.180001-pre.1.tgz"
+      },
+      "name": "com.unity.services.vivox",
+      "version": "15.1.180001-pre.1",
+      "description": "Unity's voice and text chat service, for multiplayer communication, offers a voice chat and direct message text service with a managed hosted solution. Plug in to your game and configure your project settings to immediately add communications to your project. Connect an unlimited number of users in 2D and 3D channels.  Monitor concurrency on your dashboard. Add a custom UI to allow player to control voice volume, mute, and manage channels. Place users in team chat; allow them to participate in multiple channels.",
+      "displayName": "Vivox",
+      "type": "asset",
+      "host": "editor",
+      "deprecated": "As of August 31st 2023, this version is no longer available for download. To use the package going forward, upgrade to version 15.1.210000-pre.1 or higher.",
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "2.0.0",
+        "com.unity.services.core": "1.3.1",
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      }
+    },
+    "15.1.180000-pre.1": {
+      "unity": "2019.4",
+      "_upm": {
+        "changelog": "### Added\n- Automatic Connection Recovery has been added to the Unity API, along with an example Connection Indicator added to the Chat Channel Sample.\n### Changed\n- Fixed a bug that left the suggestion to add the Authentication package for easy Vivox Logins even after the Authentication package had been imported."
+      },
+      "relatedPackages": {
+        "com.unity.services.vivox.tests": "15.1.180000-pre.1"
+      },
+      "upmCi": {
+        "footprint": "42ccd6cffe52971eb85ed6ae12ebf4e95ccf6597"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/vivox-unity-sdk.git",
+        "type": "git",
+        "revision": "633646aa60ab337c52fd27203a1a40a371ed418e"
+      },
+      "samples": [
+        {
+          "displayName": "Chat Channel Sample",
+          "description": "Try the chat service now, with a voice and text channel example. Login, Voice, Text, Text to Speech and mute example scripts are included.",
+          "path": "Samples~/ChatChannelSample"
+        }
+      ],
+      "_id": "com.unity.services.vivox@15.1.180000-pre.1",
+      "_integrity": "sha512-tq56fqiAhNfSnC73OIJv4u1NJhIQH1ts7dZChkw2OwhIN6SaDMRnfElofKajA0KvvGfLP7thFs6dgIfUR0a96g==",
+      "_resolved": "/tmp/com.unity.services.vivox@15.1.180000-pre.1-ee44uxci.tgz",
+      "_from": "file:/tmp/com.unity.services.vivox@15.1.180000-pre.1-ee44uxci.tgz",
+      "dist": {
+        "shasum": "7ff3441053681d6baa72fab735b8fb9134884aff",
+        "tarball": "https://download.packages.unity.com/com.unity.services.vivox/-/com.unity.services.vivox-15.1.180000-pre.1.tgz"
+      },
+      "name": "com.unity.services.vivox",
+      "version": "15.1.180000-pre.1",
+      "description": "Unity's voice and text chat service, for multiplayer communication, offers a voice chat and direct message text service with a managed hosted solution. Plug in to your game and configure your project settings to immediately add communications to your project. Connect an unlimited number of users in 2D and 3D channels.  Monitor concurrency on your dashboard. Add a custom UI to allow player to control voice volume, mute, and manage channels. Place users in team chat; allow them to participate in multiple channels.",
+      "displayName": "Vivox",
+      "type": "asset",
+      "host": "editor",
+      "deprecated": "As of August 31st 2023, this version is no longer available for download. To use the package going forward, upgrade to version 15.1.210000-pre.1 or higher.",
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "2.0.0",
+        "com.unity.services.core": "1.3.1",
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      }
+    },
+    "15.1.170000-pre.1": {
+      "unity": "2019.4",
+      "_upm": {
+        "gameService": {
+          "groupIndex": 2,
+          "groupName": "Multiplayer",
+          "genericDashboardUrl": "https://dashboard.unity3d.com/vivox",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/vivox/credentials",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+          "configurePath": "Project/Services/Vivox"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS",
+          "mac",
+          "Windows"
+        ]
+      },
+      "upm": {
+        "changelog": "### Added,- Added a display name to constructs provided by the SDK when events fire for receiving a message, a transcribed message, or a buddy request.,### Changed,- Removed the option to provide custom credentials in the Vivox service window.,- Updated ChatChannelSample to demonstrate how to leverage both Authentication and a custom credential-based flow."
+      },
+      "relatedPackages": {
+        "com.unity.services.vivox.tests": "15.1.170000-pre.1"
+      },
+      "upmCi": {
+        "footprint": "05c7ea53c989690423c1bbce8ece0e03dfabb325"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/vivox-unity-sdk.git",
+        "type": "git",
+        "revision": "744b0201bd116075578b9324d9d581313a02cb48"
+      },
+      "samples": [
+        {
+          "displayName": "Chat Channel Sample",
+          "description": "Try the chat service now, with a voice and text channel example. Login, Voice, Text, Text to Speech and mute example scripts are included.",
+          "path": "Samples~/ChatChannelSample"
+        }
+      ],
+      "_id": "com.unity.services.vivox@15.1.170000-pre.1",
+      "_integrity": "sha512-uVwva+ZANGS+20hpstNI69sovyDH3oNV6S5U5GT0O3Pi9q/7aCjaMHRGVLuYkXqv6FuLB00UlqI+v2PjkMdwUg==",
+      "_resolved": "/tmp/com.unity.services.vivox@15.1.170000-pre.1-bf0uzkow.tgz",
+      "_from": "file:/tmp/com.unity.services.vivox@15.1.170000-pre.1-bf0uzkow.tgz",
+      "dist": {
+        "shasum": "7de05bd69e67f16a2d34bb168e57fab16f576098",
+        "tarball": "https://download.packages.unity.com/com.unity.services.vivox/-/com.unity.services.vivox-15.1.170000-pre.1.tgz"
+      },
+      "name": "com.unity.services.vivox",
+      "version": "15.1.170000-pre.1",
+      "description": "Unity's voice and text chat service, for multiplayer communication, offers a voice chat and direct message text service with a managed hosted solution. Plug in to your game and configure your project settings to immediately add communications to your project. Connect an unlimited number of users in 2D and 3D channels.  Monitor concurrency on your dashboard. Add a custom UI to allow player to control voice volume, mute, and manage channels. Place users in team chat; allow them to participate in multiple channels.",
+      "displayName": "Vivox",
+      "type": "asset",
+      "host": "editor",
+      "deprecated": "As of August 31st 2023, this version is no longer available for download. To use the package going forward, upgrade to version 15.1.210000-pre.1 or higher.",
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "2.0.0",
+        "com.unity.services.core": "1.1.0-pre.10",
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      }
+    },
+    "15.1.160000-pre.1": {
+      "unity": "2019.4",
+      "_upm": {
+        "gameService": {
+          "groupIndex": 2,
+          "groupName": "Multiplayer",
+          "genericDashboardUrl": "https://dashboard.unity3d.com/vivox",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/vivox/credentials",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+          "configurePath": "Project/Services/Vivox"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS",
+          "mac",
+          "Windows"
+        ]
+      },
+      "relatedPackages": {
+        "com.unity.services.vivox.tests": "15.1.160000-pre.1"
+      },
+      "upmCi": {
+        "footprint": "3d969b552998221894539a4f8bfd449b61af4fb2"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/vivox-unity-sdk.git",
+        "type": "git",
+        "revision": "6d7d8b1774ce1b95b4ee5b17aa1193996c17dbab"
+      },
+      "samples": [
+        {
+          "displayName": "Chat Channel Sample",
+          "description": "Try the chat service now, with a voice and text channel example. Login, Voice, Text, Text to Speech and mute example scripts are included.",
+          "path": "Samples~/ChatChannelSample"
+        }
+      ],
+      "_id": "com.unity.services.vivox@15.1.160000-pre.1",
+      "_integrity": "sha512-2x5SeSHa2Ym7zJ4arOa87RHHGHz6+3p4xDZ6dHiiDdXN5cxveQsgpFa6lbqVOCw6UY/U/aIKvz2fOc7WJcAA+A==",
+      "_resolved": "/pkgprom/com.unity.services.vivox-15.1.160000-pre.1.tgz",
+      "_from": "file:com.unity.services.vivox-15.1.160000-pre.1.tgz",
+      "dist": {
+        "shasum": "be518cf4b877546f43623b652921117c3fd8e67b",
+        "tarball": "https://download.packages.unity.com/com.unity.services.vivox/-/com.unity.services.vivox-15.1.160000-pre.1.tgz"
+      },
+      "name": "com.unity.services.vivox",
+      "version": "15.1.160000-pre.1",
+      "description": "Unity's voice and text chat service, for multiplayer communication, offers a voice chat and direct message text service with a managed hosted solution. Plug in to your game and configure your project settings to immediately add communications to your project. Connect an unlimited number of users in 2D and 3D channels.  Monitor concurrency on your dashboard. Add a custom UI to allow player to control voice volume, mute, and manage channels. Place users in team chat; allow them to participate in multiple channels.",
+      "displayName": "Vivox",
+      "type": "asset",
+      "host": "editor",
+      "deprecated": "As of August 31st 2023, this version is no longer available for download. To use the package going forward, upgrade to version 15.1.210000-pre.1 or higher.",
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "2.0.0",
+        "com.unity.services.core": "1.1.0-pre.10",
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      }
+    },
+    "15.1.150002-pre.2": {
+      "unity": "2019.4",
+      "_upm": {
+        "gameService": {
+          "groupIndex": 2,
+          "groupName": "Multiplayer",
+          "genericDashboardUrl": "https://dashboard.unity3d.com/vivox",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/vivox/credentials",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+          "configurePath": "Project/Services/Vivox"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS",
+          "mac",
+          "Windows"
+        ]
+      },
+      "relatedPackages": {
+        "com.unity.services.vivox.tests": "15.1.150002-pre.2"
+      },
+      "upmCi": {
+        "footprint": "ef7823664843b5956adb28c02a64be3a2f719a43"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/vivox-unity-sdk.git",
+        "type": "git",
+        "revision": "b10135161b40b14efc7713ce5e9aba4d2f76dfe4"
+      },
+      "samples": [
+        {
+          "displayName": "Chat Channel Sample",
+          "description": "Try the chat service now, with a voice and text channel example. Login, Voice, Text, Text to Speech and mute example scripts are included.",
+          "path": "Samples~/ChatChannelSample"
+        }
+      ],
+      "_id": "com.unity.services.vivox@15.1.150002-pre.2",
+      "_integrity": "sha512-tgQUmw0nuRrIdXLv+FcCsqDXSGdauILILVc2QUnBacq73txf4iB9Csg1wZcG3DT4k1j3E27n0H50fHHsadRBhA==",
+      "_resolved": "/pkgprom/com.unity.services.vivox-15.1.150002-pre.2.tgz",
+      "_from": "file:com.unity.services.vivox-15.1.150002-pre.2.tgz",
+      "dist": {
+        "shasum": "2d0bae3d66a0c686c308dddf7db447fb7eaeb68d",
+        "tarball": "https://download.packages.unity.com/com.unity.services.vivox/-/com.unity.services.vivox-15.1.150002-pre.2.tgz"
+      },
+      "name": "com.unity.services.vivox",
+      "version": "15.1.150002-pre.2",
+      "description": "Unity's voice and text chat service, for multiplayer communication, offers a voice chat and direct message text service with a managed hosted solution. Plug in to your game and configure your project settings to immediately add communications to your project. Connect an unlimited number of users in 2D and 3D channels.  Monitor concurrency on your dashboard. Add a custom UI to allow player to control voice volume, mute, and manage channels. Place users in team chat; allow them to participate in multiple channels.",
+      "displayName": "Vivox",
+      "type": "asset",
+      "host": "editor",
+      "deprecated": "As of August 31st 2023, this version is no longer available for download. To use the package going forward, upgrade to version 15.1.210000-pre.1 or higher.",
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.3",
+        "com.unity.services.core": "1.1.0-pre.10",
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      }
+    },
+    "15.1.150002-pre.1": {
+      "unity": "2019.4",
+      "_upm": {
+        "gameService": {
+          "groupIndex": 2,
+          "groupName": "Multiplayer",
+          "genericDashboardUrl": "https://dashboard.unity3d.com/vivox",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/vivox/credentials",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+          "configurePath": "Project/Services/Vivox"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS",
+          "mac",
+          "Windows"
+        ]
+      },
+      "relatedPackages": {
+        "com.unity.services.vivox.tests": "15.1.150002-pre.1"
+      },
+      "upmCi": {
+        "footprint": "d9ba3772a20c14027c937197b36d480524247cfa"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/vivox-unity-sdk.git",
+        "type": "git",
+        "revision": "c9d50d8b2150326f18eb679baafa787f327d06ca"
+      },
+      "samples": [
+        {
+          "displayName": "Chat Channel Sample",
+          "description": "Try the chat service now, with a voice and text channel example. Login, Voice, Text, Text to Speech and mute example scripts are included.",
+          "path": "Samples~/ChatChannelSample"
+        }
+      ],
+      "_id": "com.unity.services.vivox@15.1.150002-pre.1",
+      "_integrity": "sha512-YKYA28gPty4iPzkuNY3lIpGB5TKs7saEcfRpBnyf4kRkC7+NdoZPorJCqMWcyPG683U10w3rWv0VmfH+jfgWfA==",
+      "_resolved": "/pkgprom/com.unity.services.vivox-15.1.150002-pre.1.tgz",
+      "_from": "file:com.unity.services.vivox-15.1.150002-pre.1.tgz",
+      "dist": {
+        "shasum": "db0992c3da72b2fe6324b112f2b848c5f8c3d489",
+        "tarball": "https://download.packages.unity.com/com.unity.services.vivox/-/com.unity.services.vivox-15.1.150002-pre.1.tgz"
+      },
+      "name": "com.unity.services.vivox",
+      "version": "15.1.150002-pre.1",
+      "description": "Unity's voice and text chat service, for multiplayer communication, offers a voice chat and direct message text service with a managed hosted solution. Plug in to your game and configure your project settings to immediately add communications to your project. Connect an unlimited number of users in 2D and 3D channels.  Monitor concurrency on your dashboard. Add a custom UI to allow player to control voice volume, mute, and manage channels. Place users in team chat; allow them to participate in multiple channels.",
+      "displayName": "Vivox",
+      "type": "asset",
+      "host": "editor",
+      "deprecated": "As of August 31st 2023, this version is no longer available for download. To use the package going forward, upgrade to version 15.1.210000-pre.1 or higher.",
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.3",
+        "com.unity.services.core": "1.1.0-pre.8",
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      }
+    },
+    "15.1.150000-pre.6": {
+      "unity": "2019.4",
+      "_upm": {
+        "gameService": {
+          "groupIndex": 2,
+          "groupName": "Multiplayer",
+          "genericDashboardUrl": "https://dashboard.unity3d.com/vivox",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/vivox/credentials",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+          "configurePath": "Project/Services/Vivox"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS",
+          "mac",
+          "Windows"
+        ]
+      },
+      "relatedPackages": {
+        "com.unity.services.vivox.tests": "15.1.150000-pre.6"
+      },
+      "upmCi": {
+        "footprint": "a67fa84d4e90ac9621ce93828f35109af6a64ecc"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/vivox-unity-sdk.git",
+        "type": "git",
+        "revision": "e4d7b1e6560c177f0d5dd34077b56f2fb262b923"
+      },
+      "samples": [
+        {
+          "displayName": "Chat Channel Sample",
+          "description": "Try the chat service now, with a voice and text channel example. Login, Voice, Text, Text to Speech and mute example scripts are included.",
+          "path": "Samples~/ChatChannelSample"
+        }
+      ],
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.services.vivox-15.1.150000-pre.6.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.services.vivox@15.1.150000-pre.6",
+      "dist": {
+        "shasum": "f38b38ec1a08cce5d1df3e91127d8965438d4f1f",
+        "tarball": "https://download.packages.unity.com/com.unity.services.vivox/-/com.unity.services.vivox-15.1.150000-pre.6.tgz"
+      },
+      "name": "com.unity.services.vivox",
+      "version": "15.1.150000-pre.6",
+      "description": "Unity's voice and text chat service, for multiplayer communication, offers a voice chat and direct message text service with a managed hosted solution. Plug in to your game and configure your project settings to immediately add communications to your project. Connect an unlimited number of users in 2D and 3D channels.  Monitor concurrency on your dashboard. Add a custom UI to allow player to control voice volume, mute, and manage channels. Place users in team chat; allow them to participate in multiple channels.",
+      "displayName": "Vivox",
+      "type": "asset",
+      "host": "editor",
+      "deprecated": "As of August 31st 2023, this version is no longer available for download. To use the package going forward, upgrade to version 15.1.210000-pre.1 or higher.",
+      "category": "",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.3",
+        "com.unity.services.core": "1.1.0-pre.8",
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      }
+    }
+  },
+  "etag": "\"b278820e281fbbecd217b8e7e1aa89a0\"",
+  "time": {
+    "16.0.1": "2023-12-15T12:13:32Z",
+    "16.0.0-pre.1": "2023-09-25T13:30:13Z",
+    "15.1.210100-pre.1": "2023-09-18T10:47:48Z",
+    "15.1.210000-pre.1": "2023-08-01T23:18:49Z",
+    "15.1.200000-pre.1": "2023-03-24T11:42:01Z",
+    "15.1.190400-pre.1": "2023-01-18T16:29:12Z",
+    "15.1.190200-pre.2": "2022-12-22T00:09:43Z",
+    "15.1.190200-pre.1": "2022-12-05T10:40:01Z",
+    "15.1.190000-pre.1": "2022-10-18T10:23:58Z",
+    "15.1.180001-pre.5": "2022-09-07T15:04:14Z",
+    "15.1.180001-pre.4": "2022-08-08T20:29:39Z",
+    "15.1.180001-pre.3": "2022-07-14T18:55:54Z",
+    "15.1.180001-pre.2": "2022-06-23T21:27:44Z",
+    "15.1.180001-pre.1": "2022-06-10T01:01:03Z",
+    "15.1.180000-pre.1": "2022-05-17T18:34:38Z",
+    "15.1.170000-pre.1": "2022-03-07T16:18:09Z",
+    "15.1.160000-pre.1": "2021-12-16T07:53:08Z",
+    "15.1.150002-pre.2": "2021-10-21T19:43:00Z",
+    "15.1.150002-pre.1": "2021-10-11T16:31:08Z",
+    "15.1.150000-pre.6": "2021-08-24T09:25:00Z"
+  }
+}

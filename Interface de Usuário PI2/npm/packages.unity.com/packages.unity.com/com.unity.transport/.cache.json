@@ -1,0 +1,2481 @@
+{
+  "_id": "com.unity.transport",
+  "name": "com.unity.transport",
+  "description": "Unity network transport layer - the low-level interface for connecting and sending data through a network",
+  "provider": "upm",
+  "category": "",
+  "dist-tags": {
+    "latest": "2.2.1"
+  },
+  "versions": {
+    "2.2.1": {
+      "unity": "2022.2",
+      "unityRelease": "0a18",
+      "relatedPackages": {
+        "com.unity.transport.tests": "0.0.0"
+      },
+      "_upm": {
+        "changelog": "### Fixes\n* Fixed an issue where `NetworkEndpoint.TryParse` would leave the out parameter endpoint with a valid `NetworkFamily`, even if parsing of the address had failed."
+      },
+      "upmCi": {
+        "footprint": "0082e82b059a837341ce02865299e2d44989765f"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.transport@2.2/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "f4df716a8fc9c55cdb6a886dbe660c33647b0b9b"
+      },
+      "samples": [
+        {
+          "displayName": "Cross-play Example",
+          "description": "Example of how to use MultiNetworkDriver to create a server that accepts both UDP and WebSocket connections.",
+          "path": "Samples~/CrossPlay"
+        },
+        {
+          "displayName": "Jobified Client and Server",
+          "description": "Very simple client and server implementations using jobs. Meant to tie in with the package documentation.",
+          "path": "Samples~/JobifiedClientServer"
+        },
+        {
+          "displayName": "Ping Sample",
+          "description": "Small application to compute round-trip time (ping) between client and server.",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Ping Sample (with Relay)",
+          "description": "Small application to compute round-trip time (ping) between client and host, using Unity Relay.",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Simple Client and Server",
+          "description": "Simplest possible client and server implementations. Meant to tie in with the package documentation.",
+          "path": "Samples~/SimpleClientServer"
+        }
+      ],
+      "dist": {
+        "shasum": "ec41260a0877061a1999c7782c9a3e49ec674297",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-2.2.1.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "2.2.1",
+      "description": "Unity network transport layer - the low-level interface for connecting and sending data through a network",
+      "displayName": "Unity Transport",
+      "type": "assets",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "2.2.1",
+        "com.unity.burst": "1.8.8",
+        "com.unity.mathematics": "1.3.1"
+      }
+    },
+    "1.4.1": {
+      "unity": "2020.3",
+      "unityRelease": "0f1",
+      "_upm": {
+        "changelog": "### Fixes\n* Fixed an issue where reliable packets could be resent even after they had been acknowledged, which would lead to wasted bandwidth."
+      },
+      "upmCi": {
+        "footprint": "315a9eac1391a4410ec35f60ca57c348a58f790e"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.transport@1.4/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "3d7fb2e8ffa7b7e375f55d80a592865e48f26888"
+      },
+      "samples": [
+        {
+          "displayName": "Custom Network Interface",
+          "description": "Shows how to build a custom network interface using the INetworkInterface API",
+          "path": "Samples~/CustomNetworkInterface"
+        },
+        {
+          "displayName": "Ping/Pong Sample",
+          "description": "Several samples on the basics of jobs, mainthread setups using the Unity Transport",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Pipelines Sample",
+          "description": "Shows how to use Pipeline stages",
+          "path": "Samples~/Pipeline"
+        },
+        {
+          "displayName": "Unity Relay with Unity Transport",
+          "description": "Basic sample on how to use Unity Relay with Unity Transport, your project must depend on com.unity.services.relay",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Soak Sample",
+          "description": "Shows how to use pipelines and jobs to gather stats and create traffic using Unity Transport",
+          "path": "Samples~/Soaker"
+        }
+      ],
+      "dist": {
+        "shasum": "482863698d4473903994bdc2bf0b7f10521014a3",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-1.4.1.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "1.4.1",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "assets",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.2.4",
+        "com.unity.burst": "1.6.6",
+        "com.unity.mathematics": "1.2.6"
+      }
+    },
+    "2.1.0": {
+      "unity": "2022.2",
+      "unityRelease": "0a18",
+      "relatedPackages": {
+        "com.unity.transport.tests": "0.0.0"
+      },
+      "_upm": {
+        "changelog": "### New features\n* It is now possible to configure the maximum message size that the transport will send through a new `maxMessageSize` parameter in `NetworkSettings.WithNetworkConfigParameters`. This is useful for environments where network equipment mishandles larger packets (like some mobile networks or VPNs). The value excludes IP and UDP headers, but includes headers added by the transport itself (e.g. reliability headers). The default value is 1400. Note that it is recommended that both client and server be configured to use the same value.\n* Added new values `AuthenticationFailure` and `ProtocolError` to the `Error.DisconnectReason` enum. These values are respectively returned when a connection fails to be established because of DTLS/TLS handshake failure, and for unexpected and unrecoverable errors encountered by the transport (e.g. unexpected socket errors or malformed WebSocket frames).\n* Added a new `NetworkFamily.Custom` value and proper support for it in `NetworkEndpoint`. This value is intended for usage with custom `INetworkInterface` implementations, where endpoints are not IP addresses.\n\n### Changes\n* Updated Collections dependency to 2.2.1.\n* Updated Burst dependency to 1.8.8.\n* Updated Mathematics dependency to 1.3.1.\n* `NetworkDriver.GetRelayConnectionStatus` will now return the new enum value `RelayConnectionStatus.NotUsingRelay` when called on a `NetworkDriver` that has not been configured to use Unity Relay. The previous behavior was to throw an exception. This can be used to safely determine if a driver is using Relay, even from Burst-compiled code.\n* `RelayServerData` now exposes a `IsWebSocket` field that can be used to determine if the server data will be using a WebSocket endpoint. This value is set automatically if constructing the `RelayServerData` from an allocation object, and can be set through a new optional `isWebSocket` parameter for low-level constructors.\n* `NetworkEndpoint.RawPort` is now obsolete. There is little use for this API since it basically only converts to/from network byte order. There are standard C# APIs to do this.\n\n### Fixes\n* Fixed a possible crash when using secure WebSockets that would occur if a connection was closed suddenly with pending packets waiting to be sent.\n* Fixed an issue where empty messages would not properly be received if sent on a non-default pipeline.\n* Fixed \"Input string was not in a correct format\" log when listening on a port already in use."
+      },
+      "upmCi": {
+        "footprint": "64f999ac3b1e584257d9d025c5c761c76dcc538e"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.transport@2.1/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "6f83b98fdc9ce9f33261055e34cedb5583730039"
+      },
+      "samples": [
+        {
+          "displayName": "Cross-play Example",
+          "description": "Example of how to use MultiNetworkDriver to create a server that accepts both UDP and WebSocket connections.",
+          "path": "Samples~/CrossPlay"
+        },
+        {
+          "displayName": "Jobified Client and Server",
+          "description": "Very simple client and server implementations using jobs. Meant to tie in with the package documentation.",
+          "path": "Samples~/JobifiedClientServer"
+        },
+        {
+          "displayName": "Ping Sample",
+          "description": "Small application to compute round-trip time (ping) between client and server.",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Ping Sample (with Relay)",
+          "description": "Small application to compute round-trip time (ping) between client and host, using Unity Relay.",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Simple Client and Server",
+          "description": "Simplest possible client and server implementations. Meant to tie in with the package documentation.",
+          "path": "Samples~/SimpleClientServer"
+        }
+      ],
+      "dist": {
+        "shasum": "6d461370b7a64478864ae52825d9050de835b1e3",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-2.1.0.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "2.1.0",
+      "description": "Unity network transport layer - the low-level interface for connecting and sending data through a network",
+      "displayName": "Unity Transport",
+      "type": "assets",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "2.2.1",
+        "com.unity.burst": "1.8.8",
+        "com.unity.mathematics": "1.3.1"
+      }
+    },
+    "1.4.0": {
+      "unity": "2020.3",
+      "unityRelease": "0f1",
+      "_upm": {
+        "changelog": "### New features\n* Added a new `GetUnsafeReadOnlyPtr` method to `DataStreamReader`. This is meant as an escape hatch for use cases that require passing stream readers outside of a job (this not possible with `DataStreamReader` directly since the safety system will not allow it). As the name implies, this throws away many safety guarantees and is thus not recommended to use unless absolutely required.\n\n### Changes\n* `NetworkDriver.GetRelayConnectionStatus` will now return the new enum value `RelayConnectionStatus.NotUsingRelay` when called on a `NetworkDriver` that has not been configured to use Unity Relay. The previous behavior was to throw an exception.\n* It is now possible to configure the maximum message size that the transport will send through a new `maxMessageSize` parameter in `NetworkSettings.WithNetworkConfigParameters`. This is useful for environments where network equipment mishandles larger packets (like some mobile networks or VPNs). The value excludes IP and UDP headers, but includes headers added by the transport itself (e.g. reliability headers). The default value is 1400. Note that it is recommended that both client and server be configured to use the same value."
+      },
+      "upmCi": {
+        "footprint": "3422cf5c7f2cac02947030d94f332733127d3eff"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.transport@1.4/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "4a6bba09bd32ed2fa840f331651875d68e73cadc"
+      },
+      "samples": [
+        {
+          "displayName": "Custom Network Interface",
+          "description": "Shows how to build a custom network interface using the INetworkInterface API",
+          "path": "Samples~/CustomNetworkInterface"
+        },
+        {
+          "displayName": "Ping/Pong Sample",
+          "description": "Several samples on the basics of jobs, mainthread setups using the Unity Transport",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Pipelines Sample",
+          "description": "Shows how to use Pipeline stages",
+          "path": "Samples~/Pipeline"
+        },
+        {
+          "displayName": "Unity Relay with Unity Transport",
+          "description": "Basic sample on how to use Unity Relay with Unity Transport, your project must depend on com.unity.services.relay",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Soak Sample",
+          "description": "Shows how to use pipelines and jobs to gather stats and create traffic using Unity Transport",
+          "path": "Samples~/Soaker"
+        }
+      ],
+      "dist": {
+        "shasum": "0fc371b61622fb45014024037b989d821bd4691d",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-1.4.0.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "1.4.0",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "assets",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.2.4",
+        "com.unity.burst": "1.6.6",
+        "com.unity.mathematics": "1.2.6"
+      }
+    },
+    "2.0.2": {
+      "unity": "2022.2",
+      "unityRelease": "0a18",
+      "relatedPackages": {
+        "com.unity.transport.tests": "0.0.0"
+      },
+      "_upm": {
+        "changelog": "### Changes\n* When using Unity Relay, `NetworkDriver.GetRemoteEndpoint` will now always return the address of the Relay server, instead of returning the address until a connection is established, and then returning the allocation ID encoded as an endpoint (appearing as an invalid endpoint). This makes the behavior the same as it was in version 1.X of the package.\n* Updated Collections dependency to 2.1.2.\n* A warning will now be emitted if passing a connection type other than \"wss\" to the `RelayServerData` constructors on WebGL (other connection types are not supported on that platform).\n\n### Fixes\n* Fixed an issue where the reliable pipeline stage could end up writing past the end of its internal buffer and thrashing the buffers of other connections. This could result in packet corruption, but would most likely result in erroneous -7 (`NetworkDriverParallelForErr`) errors being reported when calling `EndSend`.\n* Fixed an issue where upon returning -7 (`NetworkDriverParallelForErr`), `EndSend` would leak the send handle. Over time, this would result in less send handles being available, resulting in more -5 (`NetworkSendQueueFull`) errors.\n* Fixed an issue where WebSocket connections would always take at least `connectTimeoutMS` milliseconds to be reported as established, even if the connection was actually established faster than that.\n* Fixed an issue where `ArgumentOutOfRangeException` could be thrown in situations where a new WebSocket connection is established while a previous connection is in the process of being closed.\n* If nothing is received from a Unity Relay server for a while, the transport will now attempt to rebind to it. This should improve the accuracy of `GetRelayConnectionStatus` in scenarios where the Relay allocation times out while communications with the server are out.\n* Fixed an issue where `UDPNetworkInterface` (the default one) would not bind to the correct address if the local IP address change and the socket needs to be recreated (e.g. because the app was backgrounded on a mobile device).\n* Fixed an issue where `Disconnect` events would fail to be reported correctly for WebSocket connections.\n* Fixed an issue where, when using Relay, heartbeats would be sent constantly when they are disabled by setting `relayConnectionTimeMS` to 0 in the Relay parameters."
+      },
+      "upmCi": {
+        "footprint": "7710c66ac941b52add3b21671eccd025a5899b40"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.transport@2.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "db5ae79bb3752916ed2b57fcc112e0b4b052f227"
+      },
+      "samples": [
+        {
+          "displayName": "Cross-play Example",
+          "description": "Example of how to use MultiNetworkDriver to create a server that accepts both UDP and WebSocket connections.",
+          "path": "Samples~/CrossPlay"
+        },
+        {
+          "displayName": "Jobified Client and Server",
+          "description": "Very simple client and server implementations using jobs. Meant to tie in with the package documentation.",
+          "path": "Samples~/JobifiedClientServer"
+        },
+        {
+          "displayName": "Ping Sample",
+          "description": "Small application to compute round-trip time (ping) between client and server.",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Ping Sample (with Relay)",
+          "description": "Small application to compute round-trip time (ping) between client and host, using Unity Relay.",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Simple Client and Server",
+          "description": "Simplest possible client and server implementations. Meant to tie in with the package documentation.",
+          "path": "Samples~/SimpleClientServer"
+        }
+      ],
+      "dist": {
+        "shasum": "185ed4c612457f70a9552b18c8a63299c1bea671",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-2.0.2.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "2.0.2",
+      "description": "Unity network transport layer - the low-level interface for connecting and sending data through a network",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "2.1.4",
+        "com.unity.burst": "1.8.4",
+        "com.unity.mathematics": "1.2.6"
+      }
+    },
+    "1.3.4": {
+      "unity": "2020.3",
+      "unityRelease": "0f1",
+      "_upm": {
+        "changelog": "### Fixes\n* Fixed an issue where the reliable pipeline stage could end up writing past the end of its internal buffer and thrashing the buffers of other connections. This could result in packet corruption, but would most likely result in erroneous -7 (`NetworkDriverParallelForErr`) errors being reported when calling `EndSend`.\n* Fixed an issue where upon returning -7 (`NetworkDriverParallelForErr`), `EndSend` would leak the send handle. Over time, this would result in less send handles being available, resulting in more -5 (`NetworkSendQueueFull`) errors.\n* If nothing is received from a Unity Relay server for a while, the transport will now attempt to rebind to it. This should improve the accuracy of `GetRelayConnectionStatus` in scenarios where the Relay allocation times out while communications with the server are out."
+      },
+      "upmCi": {
+        "footprint": "77cfea86fd01638c603a80494dac4e1a07173d8d"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.transport@1.3/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "5e7f04b9ae40d63aeda6d97eab9d86e86fa40d3b"
+      },
+      "samples": [
+        {
+          "displayName": "Custom Network Interface",
+          "description": "Shows how to build a custom network interface using the INetworkInterface API",
+          "path": "Samples~/CustomNetworkInterface"
+        },
+        {
+          "displayName": "Ping/Pong Sample",
+          "description": "Several samples on the basics of jobs, mainthread setups using the Unity Transport",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Pipelines Sample",
+          "description": "Shows how to use Pipeline stages",
+          "path": "Samples~/Pipeline"
+        },
+        {
+          "displayName": "Unity Relay with Unity Transport",
+          "description": "Basic sample on how to use Unity Relay with Unity Transport, your project must depend on com.unity.services.relay",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Soak Sample",
+          "description": "Shows how to use pipelines and jobs to gather stats and create traffic using Unity Transport",
+          "path": "Samples~/Soaker"
+        }
+      ],
+      "dist": {
+        "shasum": "18611c63580413525af01af1c874c3c740fe7d6e",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-1.3.4.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "1.3.4",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.2.4",
+        "com.unity.burst": "1.6.6",
+        "com.unity.mathematics": "1.2.6"
+      }
+    },
+    "2.0.1": {
+      "unity": "2022.2",
+      "unityRelease": "0a18",
+      "relatedPackages": {
+        "com.unity.transport.tests": "0.0.0"
+      },
+      "_upm": {
+        "changelog": "### Changes\n* Updated Collections dependency to 2.1.1."
+      },
+      "upmCi": {
+        "footprint": "1ccf20ae93e34c2254559619d32d560089e6f675"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.transport@2.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "f7c618013b165797b9f23a38cd9dd1c219422030"
+      },
+      "samples": [
+        {
+          "displayName": "Cross-play Example",
+          "description": "Example of how to use MultiNetworkDriver to create a server that accepts both UDP and WebSocket connections.",
+          "path": "Samples~/CrossPlay"
+        },
+        {
+          "displayName": "Jobified Client and Server",
+          "description": "Very simple client and server implementations using jobs. Meant to tie in with the package documentation.",
+          "path": "Samples~/JobifiedClientServer"
+        },
+        {
+          "displayName": "Ping Sample",
+          "description": "Small application to compute round-trip time (ping) between client and server.",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Ping Sample (with Relay)",
+          "description": "Small application to compute round-trip time (ping) between client and host, using Unity Relay.",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Simple Client and Server",
+          "description": "Simplest possible client and server implementations. Meant to tie in with the package documentation.",
+          "path": "Samples~/SimpleClientServer"
+        }
+      ],
+      "dist": {
+        "shasum": "62827bfd2e38cdf0ccf65e367a4650d8e377fcc9",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-2.0.1.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "2.0.1",
+      "description": "Unity network transport layer - the low-level interface for connecting and sending data through a network",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "2.1.1",
+        "com.unity.burst": "1.8.4",
+        "com.unity.mathematics": "1.2.6"
+      }
+    },
+    "2.0.0-pre.8": {
+      "unity": "2022.2",
+      "unityRelease": "0a18",
+      "relatedPackages": {
+        "com.unity.transport.tests": "0.0.0"
+      },
+      "_upm": {
+        "changelog": "### New features\n* `MultiNetworkDriver` can then be used for client drivers too. The restriction on it accepting only listening drivers has been lifted, and it now offers a new `Connect` method to connect client drivers. This makes it easier to write networking code that can be shared between server and client.\n* Added a new `ReliableUtility.SetMaximumResendTime` static method, allowing to modify the maximum resend time of the reliable pipeline at runtime (there's already a similar method for the minimum resend time). Increasing this value can improve bandwidth usage for poor connections (RTT greater than 200ms).\n* Added the possibility of setting the minimum and maximum resend times of the reliable pipeline through `NetworkSettings` (with `WithReliableStageParameters`).\n\n### Changes\n* `NetworkEndpoint.TryParse` will now return false and log an error when attempting to parse an IPv6 address on platforms where IPv6 is not supported. The previous behavior was to throw an exception, but only in the editor. On the devices themselves, the address would be successfully parsed silently, which would lead to confusing socket errors down the line.\n* The `SimulatorUtility.Context` structure has been made internal. It contained only implementation details, or values that appeared useful but were actually either misleading or broken.\n* The `RelayMessageType` enum has been made internal. The only purpose of this type was to list the different messages of the Relay protocol, which is an implementation detail that should not be relevant to users.\n\n### Fixes\n* Fixed an issue where calling `ScheduleFlushSend` before the socket was bound would still result in socket system calls being made, resulting in errors being logged.\n* No warning will be printed when attempting to send on a WebSocket connection that has been closed by the remote peer (would only happen if calling `ScheduleFlushSend`)."
+      },
+      "upmCi": {
+        "footprint": "5f6e0a8c8727135d9a9d705f763707a98d2e0a4e"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.transport@2.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "9466e5ce5be3bce43c0968e901a1610a2d382f49"
+      },
+      "samples": [
+        {
+          "displayName": "Cross-play Example",
+          "description": "Example of how to use MultiNetworkDriver to create a server that accepts both UDP and WebSocket connections.",
+          "path": "Samples~/CrossPlay"
+        },
+        {
+          "displayName": "Jobified Client and Server",
+          "description": "Very simple client and server implementations using jobs. Meant to tie in with the package documentation.",
+          "path": "Samples~/JobifiedClientServer"
+        },
+        {
+          "displayName": "Ping Sample",
+          "description": "Small application to compute round-trip time (ping) between client and server.",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Ping Sample (with Relay)",
+          "description": "Small application to compute round-trip time (ping) between client and host, using Unity Relay.",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Simple Client and Server",
+          "description": "Simplest possible client and server implementations. Meant to tie in with the package documentation.",
+          "path": "Samples~/SimpleClientServer"
+        }
+      ],
+      "dist": {
+        "shasum": "e8b03b64d286f7b036affacd174ae61c3de5c802",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-2.0.0-pre.8.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "2.0.0-pre.8",
+      "description": "Unity network transport layer - the low-level interface for connecting and sending data through a network",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "2.1.0-pre.6",
+        "com.unity.burst": "1.8.3",
+        "com.unity.mathematics": "1.2.6"
+      }
+    },
+    "1.3.3": {
+      "unity": "2020.3",
+      "unityRelease": "0f1",
+      "_upm": {
+        "changelog": "### Fixes\n* Fixed an issue where calling `ScheduleFlushSend` before the socket was bound would still result in socket system calls being made, resulting in errors being logged."
+      },
+      "upmCi": {
+        "footprint": "45bfeaef19c4c8984cb161a101b0d5d39c3e154d"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.transport@1.3/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "705fec881f66f56109ff57cc62cf2fba6b87e73d"
+      },
+      "samples": [
+        {
+          "displayName": "Custom Network Interface",
+          "description": "Shows how to build a custom network interface using the INetworkInterface API",
+          "path": "Samples~/CustomNetworkInterface"
+        },
+        {
+          "displayName": "Ping/Pong Sample",
+          "description": "Several samples on the basics of jobs, mainthread setups using the Unity Transport",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Pipelines Sample",
+          "description": "Shows how to use Pipeline stages",
+          "path": "Samples~/Pipeline"
+        },
+        {
+          "displayName": "Unity Relay with Unity Transport",
+          "description": "Basic sample on how to use Unity Relay with Unity Transport, your project must depend on com.unity.services.relay",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Soak Sample",
+          "description": "Shows how to use pipelines and jobs to gather stats and create traffic using Unity Transport",
+          "path": "Samples~/Soaker"
+        }
+      ],
+      "dist": {
+        "shasum": "cf072a0468979706a8971922086d02eab4695694",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-1.3.3.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "1.3.3",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.2.4",
+        "com.unity.burst": "1.6.6",
+        "com.unity.mathematics": "1.2.6"
+      }
+    },
+    "2.0.0-pre.7": {
+      "unity": "2022.2",
+      "unityRelease": "0a18",
+      "relatedPackages": {
+        "com.unity.transport.tests": "0.0.0"
+      },
+      "_upm": {
+        "changelog": "### New features\n* Added a new `MultiNetworkDriver` API to make it easier to handle multiple `NetworkDriver` instances at the same time for cross-play scenarios. Refer to the \"cross-play support\" section of the documentation for more details on this feature. This new API is also showcased in a new \"CrossPlay\" package sample.\n\n### Changes\n* Update Burst dependency to 1.8.3.\n* The `QueuedSendMessage` structure was removed as it didn't serve any purpose anymore.\n* The `dependency` argument of `NetworkDriver.ScheduleFlushSend` is now optional.\n* `SequenceHelpers`, `RandomHelpers`, and the extensions in `NativeListExt` and `FixedStringExt` have all been made internal. These are all internal helper classes that shouldn't have been part of the public API in the first place.\n* Many APIs and types inside `ReliableUtility` have been made internal (among them all APIs and types dealing with send/receive contexts and packet information and timers). The information they contain was meant purely for internal consumption in the first place. The statistics and RTT information inside the shared context remains public.\n* Removed `errorCode` from `ReliableUtility.SharedContext`. Any useful information it can provide is already returned by higher-level APIs like `NetworkDriver.EndSend`.\n* Default send and receive queue sizes are now set to 512 packets (previous value was 64). The queue sizes are modifiable with `NetworkSettings.WithNetworkConfigParameters`.\n\n### Fixes\n* Fixed a possible exception in `IPCNetworkInterface` if it was fed an unknown endpoint.\n* Fixed `NetworkDriver.GetLocalEndpoint` when using `WebSocketNetworkInterface` (note that on web browsers this will now print a warning since local endpoints are not available on WebGL)."
+      },
+      "upmCi": {
+        "footprint": "c45ffcc2bb06b4280f5bc8a908302b1be03a1eea"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.transport@2.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "c5887e7909cf6789b70020500a4f5d5a106004e2"
+      },
+      "samples": [
+        {
+          "displayName": "Cross-play Example",
+          "description": "Example of how to use MultiNetworkDriver to create a server that accepts both UDP and WebSocket connections.",
+          "path": "Samples~/CrossPlay"
+        },
+        {
+          "displayName": "Jobified Client and Server",
+          "description": "Very simple client and server implementations using jobs. Meant to tie in with the package documentation.",
+          "path": "Samples~/JobifiedClientServer"
+        },
+        {
+          "displayName": "Ping Sample",
+          "description": "Small application to compute round-trip time (ping) between client and server.",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Ping Sample (with Relay)",
+          "description": "Small application to compute round-trip time (ping) between client and host, using Unity Relay.",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Simple Client and Server",
+          "description": "Simplest possible client and server implementations. Meant to tie in with the package documentation.",
+          "path": "Samples~/SimpleClientServer"
+        }
+      ],
+      "dist": {
+        "shasum": "be0092bb9af2462527dda4d25d6e5edb70e9b098",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-2.0.0-pre.7.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "2.0.0-pre.7",
+      "description": "Unity network transport layer - the low-level interface for connecting and sending data through a network",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "2.1.0-pre.6",
+        "com.unity.burst": "1.8.3",
+        "com.unity.mathematics": "1.2.6"
+      }
+    },
+    "1.3.2": {
+      "unity": "2020.3",
+      "unityRelease": "0f1",
+      "_upm": {
+        "changelog": "### Fixes\n* Fixed issue where UWP Xbox builds were crashing because the split buffer fix was not including UWP defines.\n* Fixed an issue where `IPCNetworkInterface` would perform useless work for each packet received.\n* Fixed an issue where `ReliableSequencedPipelineStage` could end up duplicating packets when sending reliable packets while the send queue is full."
+      },
+      "upmCi": {
+        "footprint": "98182eeaea2fd3b091f4a2b16b9c9471598db23b"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.transport@1.3/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "21ae74bd7af3124f937100ff2cf8d2130fcd9307"
+      },
+      "samples": [
+        {
+          "displayName": "Custom Network Interface",
+          "description": "Shows how to build a custom network interface using the INetworkInterface API",
+          "path": "Samples~/CustomNetworkInterface"
+        },
+        {
+          "displayName": "Ping/Pong Sample",
+          "description": "Several samples on the basics of jobs, mainthread setups using the Unity Transport",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Pipelines Sample",
+          "description": "Shows how to use Pipeline stages",
+          "path": "Samples~/Pipeline"
+        },
+        {
+          "displayName": "Unity Relay with Unity Transport",
+          "description": "Basic sample on how to use Unity Relay with Unity Transport, your project must depend on com.unity.services.relay",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Soak Sample",
+          "description": "Shows how to use pipelines and jobs to gather stats and create traffic using Unity Transport",
+          "path": "Samples~/Soaker"
+        }
+      ],
+      "dist": {
+        "shasum": "c5aff8e0cceaacd68834989248465a0d5e669294",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-1.3.2.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "1.3.2",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.2.4",
+        "com.unity.burst": "1.6.6",
+        "com.unity.mathematics": "1.2.6"
+      }
+    },
+    "2.0.0-pre.6": {
+      "unity": "2022.2",
+      "unityRelease": "0a18",
+      "relatedPackages": {
+        "com.unity.transport.tests": "0.0.0"
+      },
+      "_upm": {
+        "changelog": "### New features\n* Added a `NetworkConnection.ToFixedString` method to allow logging network connections from Burst."
+      },
+      "upmCi": {
+        "footprint": "b73f1f937329188e851a12384466beba96be832f"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.transport@2.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "d4142945f605514459ee1595f609366ac3ac3194"
+      },
+      "samples": [
+        {
+          "displayName": "Jobified Client and Server",
+          "description": "Very simple client and server implementations using jobs. Meant to tie in with the package documentation.",
+          "path": "Samples~/JobifiedClientServer"
+        },
+        {
+          "displayName": "Ping Sample",
+          "description": "Small application to compute round-trip time (ping) between client and server.",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Ping Sample (with Relay)",
+          "description": "Small application to compute round-trip time (ping) between client and host, using Unity Relay.",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Simple Client and Server",
+          "description": "Simplest possible client and server implementations. Meant to tie in with the package documentation.",
+          "path": "Samples~/SimpleClientServer"
+        }
+      ],
+      "dist": {
+        "shasum": "cab642f817def3d0bfcb8f58f49400ae247dcb12",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-2.0.0-pre.6.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "2.0.0-pre.6",
+      "description": "Unity network transport layer - the low-level interface for connecting and sending data through a network",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "2.1.0-pre.6",
+        "com.unity.burst": "1.8.2",
+        "com.unity.mathematics": "1.2.6"
+      }
+    },
+    "2.0.0-pre.5": {
+      "unity": "2022.2",
+      "unityRelease": "0a18",
+      "relatedPackages": {
+        "com.unity.transport.tests": "0.0.0"
+      },
+      "_upm": {
+        "changelog": "### Changes\n* Revert to Collections 2.1.0-pre.6 as pre.7 is not promoted yet."
+      },
+      "upmCi": {
+        "footprint": "5fb8d0de53e3c978343415161ff932abc89ade11"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.transport@2.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "0fbd7b4b034a044c92c7b55c3a6e2c860bd5a1f5"
+      },
+      "samples": [
+        {
+          "displayName": "Jobified Client and Server",
+          "description": "Very simple client and server implementations using jobs. Meant to tie in with the package documentation.",
+          "path": "Samples~/JobifiedClientServer"
+        },
+        {
+          "displayName": "Ping Sample",
+          "description": "Small application to compute round-trip time (ping) between client and server.",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Ping Sample (with Relay)",
+          "description": "Small application to compute round-trip time (ping) between client and host, using Unity Relay.",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Simple Client and Server",
+          "description": "Simplest possible client and server implementations. Meant to tie in with the package documentation.",
+          "path": "Samples~/SimpleClientServer"
+        }
+      ],
+      "dist": {
+        "shasum": "af2cca23937615efd2ce96c67098680812610f5c",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-2.0.0-pre.5.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "2.0.0-pre.5",
+      "description": "Unity network transport layer - the low-level interface for connecting and sending data through a network",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "2.1.0-pre.6",
+        "com.unity.burst": "1.8.2",
+        "com.unity.mathematics": "1.2.6"
+      }
+    },
+    "1.3.1": {
+      "unity": "2020.3",
+      "unityRelease": "0f1",
+      "_upm": {
+        "changelog": "### Changes\n* It is now possible to set a window size of up to 64 for `ReliableSequencedPipelineStage` (use `NetworkSettings.WithReliableStageParameters` to modify the value). Doing so increases the packet header size by 4 bytes though, so the default value remains at 32.\n\n### Fixes\n* Fixed an issue where if one end of a reliable pipeline stopped sending any traffic and its latest ACK message was lost, then the other end would stall.\n* Fixed a crash when using DTLS if an update was delayed for long enough that both the disconnection and heartbeat timeouts expire."
+      },
+      "upmCi": {
+        "footprint": "d5689bea7cfc3808f75e8306def417c52e04f307"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.transport@1.3/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "80ac568c7067b2af506786cefbe8a71e4025d032"
+      },
+      "samples": [
+        {
+          "displayName": "Custom Network Interface",
+          "description": "Shows how to build a custom network interface using the INetworkInterface API",
+          "path": "Samples~/CustomNetworkInterface"
+        },
+        {
+          "displayName": "Ping/Pong Sample",
+          "description": "Several samples on the basics of jobs, mainthread setups using the Unity Transport",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Pipelines Sample",
+          "description": "Shows how to use Pipeline stages",
+          "path": "Samples~/Pipeline"
+        },
+        {
+          "displayName": "Unity Relay with Unity Transport",
+          "description": "Basic sample on how to use Unity Relay with Unity Transport, your project must depend on com.unity.services.relay",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Soak Sample",
+          "description": "Shows how to use pipelines and jobs to gather stats and create traffic using Unity Transport",
+          "path": "Samples~/Soaker"
+        }
+      ],
+      "dist": {
+        "shasum": "4f3db2bf008949b810873caa4c3fa764f8792d55",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-1.3.1.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "1.3.1",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.2.4",
+        "com.unity.burst": "1.6.6",
+        "com.unity.mathematics": "1.2.6"
+      }
+    },
+    "2.0.0-pre.3": {
+      "unity": "2022.2",
+      "unityRelease": "0a18",
+      "relatedPackages": {
+        "com.unity.transport.tests": "0.0.0"
+      },
+      "upmCi": {
+        "footprint": "f4fbffc8e2f3f8be77870d9b794402d9bd59c9bc"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.transport@2.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "d4259f6d85730357a30a702129c7c83760c24b0e"
+      },
+      "samples": [
+        {
+          "displayName": "Ping/Pong Sample",
+          "description": "Several samples on the basics of jobs, mainthread setups using the Unity Transport",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Unity Relay with Unity Transport",
+          "description": "Basic sample on how to use Unity Relay with Unity Transport, your project must depend on com.unity.services.relay",
+          "path": "Samples~/RelayPing"
+        }
+      ],
+      "dist": {
+        "shasum": "ff2c9e29e2f381fc939700b98605b8bf3dcb0e1a",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-2.0.0-pre.3.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "2.0.0-pre.3",
+      "description": "Unity network transport layer - the low-level interface for connecting and sending data through a network",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "2.1.0-pre.2",
+        "com.unity.burst": "1.7.3",
+        "com.unity.mathematics": "1.2.6"
+      }
+    },
+    "2.0.0-pre.2": {
+      "unity": "2022.2",
+      "unityRelease": "0a18",
+      "relatedPackages": {
+        "com.unity.transport.tests": "0.0.0"
+      },
+      "upmCi": {
+        "footprint": "f29191e029a138c4827de88026b8420108c2eb0c"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "c16901c4afe1d25090be322db474bb67c73a8e3e"
+      },
+      "samples": [
+        {
+          "displayName": "Ping/Pong Sample",
+          "description": "Several samples on the basics of jobs, mainthread setups using the Unity Transport",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Pipelines Sample",
+          "description": "Shows how to use Pipeline stages",
+          "path": "Samples~/Pipeline"
+        },
+        {
+          "displayName": "Unity Relay with Unity Transport",
+          "description": "Basic sample on how to use Unity Relay with Unity Transport, your project must depend on com.unity.services.relay",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Soak Sample",
+          "description": "Shows how to use pipelines and jobs to gather stats and create traffic using Unity Transport",
+          "path": "Samples~/Soaker"
+        }
+      ],
+      "dist": {
+        "shasum": "b69431c33ade68f17eed4ad08fab9d2ceadd6b98",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-2.0.0-pre.2.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "2.0.0-pre.2",
+      "description": "Unity network transport layer - the low-level interface for connecting and sending data through a network",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "2.1.0-pre.2",
+        "com.unity.burst": "1.7.3",
+        "com.unity.mathematics": "1.2.6"
+      }
+    },
+    "2.0.0-exp.8": {
+      "unity": "2022.2",
+      "unityRelease": "0a18",
+      "relatedPackages": {
+        "com.unity.transport.tests": "0.0.0"
+      },
+      "upmCi": {
+        "footprint": "a73d612c39ecc0840ffbd45ce985af919ce54b54"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "c2757babdc8db0c4042ad67526b24c8235575cbe"
+      },
+      "samples": [
+        {
+          "displayName": "Ping/Pong Sample",
+          "description": "Several samples on the basics of jobs, mainthread setups using the Unity Transport",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Pipelines Sample",
+          "description": "Shows how to use Pipeline stages",
+          "path": "Samples~/Pipeline"
+        },
+        {
+          "displayName": "Unity Relay with Unity Transport",
+          "description": "Basic sample on how to use Unity Relay with Unity Transport, your project must depend on com.unity.services.relay",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Soak Sample",
+          "description": "Shows how to use pipelines and jobs to gather stats and create traffic using Unity Transport",
+          "path": "Samples~/Soaker"
+        }
+      ],
+      "dist": {
+        "shasum": "6d6e51c9410e5eba6549b0fbee56bfb1e534bb3d",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-2.0.0-exp.8.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "2.0.0-exp.8",
+      "description": "Unity network transport layer - the low-level interface for connecting and sending data through a network",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "2.1.0-exp.4",
+        "com.unity.burst": "1.7.3",
+        "com.unity.mathematics": "1.2.6"
+      }
+    },
+    "1.3.0": {
+      "unity": "2020.3",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "31f22ba11171691d997674e0ee95fb20c0442cd3"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "6ca6b799abad242031e9148bebeee95d74fb5df2"
+      },
+      "samples": [
+        {
+          "displayName": "Custom Network Interface",
+          "description": "Shows how to build a custom network interface using the INetworkInterface API",
+          "path": "Samples~/CustomNetworkInterface"
+        },
+        {
+          "displayName": "Ping/Pong Sample",
+          "description": "Several samples on the basics of jobs, mainthread setups using the Unity Transport",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Pipelines Sample",
+          "description": "Shows how to use Pipeline stages",
+          "path": "Samples~/Pipeline"
+        },
+        {
+          "displayName": "Unity Relay with Unity Transport",
+          "description": "Basic sample on how to use Unity Relay with Unity Transport, your project must depend on com.unity.services.relay",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Soak Sample",
+          "description": "Shows how to use pipelines and jobs to gather stats and create traffic using Unity Transport",
+          "path": "Samples~/Soaker"
+        }
+      ],
+      "dist": {
+        "shasum": "6e6b9db6f10f7e5dd2419f6ef741556868abdde8",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-1.3.0.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "1.3.0",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.2.4",
+        "com.unity.burst": "1.6.6",
+        "com.unity.mathematics": "1.2.6"
+      }
+    },
+    "2.0.0-exp.7": {
+      "unity": "2022.2",
+      "unityRelease": "0a18",
+      "relatedPackages": {
+        "com.unity.transport.tests": "0.0.0"
+      },
+      "upmCi": {
+        "footprint": "462808f15d236493cb0da5308b1dacc0da3c2a8c"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "cdc3da7767c6d4981931968b246055980585ef30"
+      },
+      "samples": [
+        {
+          "displayName": "Ping/Pong Sample",
+          "description": "Several samples on the basics of jobs, mainthread setups using the Unity Transport",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Pipelines Sample",
+          "description": "Shows how to use Pipeline stages",
+          "path": "Samples~/Pipeline"
+        },
+        {
+          "displayName": "Unity Relay with Unity Transport",
+          "description": "Basic sample on how to use Unity Relay with Unity Transport, your project must depend on com.unity.services.relay",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Soak Sample",
+          "description": "Shows how to use pipelines and jobs to gather stats and create traffic using Unity Transport",
+          "path": "Samples~/Soaker"
+        }
+      ],
+      "dist": {
+        "shasum": "d8d88da596bb0e633fa05b88a0d7b9962d738488",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-2.0.0-exp.7.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "2.0.0-exp.7",
+      "description": "Unity network transport layer - the low-level interface for connecting and sending data through a network",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "2.1.0-exp.4",
+        "com.unity.burst": "1.7.3",
+        "com.unity.mathematics": "1.2.6"
+      }
+    },
+    "2.0.0-exp.6": {
+      "unity": "2022.2",
+      "unityRelease": "0a18",
+      "relatedPackages": {
+        "com.unity.transport.tests": "0.0.0"
+      },
+      "upmCi": {
+        "footprint": "ae0c94fd1e9687f90a185f24a4518a96261572a0"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "23d0879f8d0b103358842e05e1a40c951b712dfe"
+      },
+      "samples": [
+        {
+          "displayName": "Ping/Pong Sample",
+          "description": "Several samples on the basics of jobs, mainthread setups using the Unity Transport",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Pipelines Sample",
+          "description": "Shows how to use Pipeline stages",
+          "path": "Samples~/Pipeline"
+        },
+        {
+          "displayName": "Unity Relay with Unity Transport",
+          "description": "Basic sample on how to use Unity Relay with Unity Transport, your project must depend on com.unity.services.relay",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Soak Sample",
+          "description": "Shows how to use pipelines and jobs to gather stats and create traffic using Unity Transport",
+          "path": "Samples~/Soaker"
+        }
+      ],
+      "dist": {
+        "shasum": "525f6a4b34bc8ef07d28ef3f4f28bf28bdcf5ba7",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-2.0.0-exp.6.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "2.0.0-exp.6",
+      "description": "Unity network transport layer - the low-level interface for connecting and sending data through a network",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "2.1.0-exp.4",
+        "com.unity.burst": "1.7.3",
+        "com.unity.mathematics": "1.2.6"
+      }
+    },
+    "1.2.0": {
+      "unity": "2020.3",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "b86aef366145fa59d88b43f35ef32b38cf576ef6"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "b4fadab8f255b0b13f371bea8d2819c2ca472648"
+      },
+      "samples": [
+        {
+          "displayName": "Custom Network Interface",
+          "description": "Shows how to build a custom network interface using the INetworkInterface API",
+          "path": "Samples~/CustomNetworkInterface"
+        },
+        {
+          "displayName": "Ping/Pong Sample",
+          "description": "Several samples on the basics of jobs, mainthread setups using the Unity Transport",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Pipelines Sample",
+          "description": "Shows how to use Pipeline stages",
+          "path": "Samples~/Pipeline"
+        },
+        {
+          "displayName": "Unity Relay with Unity Transport",
+          "description": "Basic sample on how to use Unity Relay with Unity Transport, your project must depend on com.unity.services.relay",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Soak Sample",
+          "description": "Shows how to use pipelines and jobs to gather stats and create traffic using Unity Transport",
+          "path": "Samples~/Soaker"
+        }
+      ],
+      "dist": {
+        "shasum": "cd60f6fa4ba1f119b5027ea64e212f894450b648",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-1.2.0.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "1.2.0",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.2.4",
+        "com.unity.burst": "1.6.6",
+        "com.unity.mathematics": "1.2.6"
+      }
+    },
+    "1.1.0": {
+      "unity": "2020.3",
+      "unityRelease": "0f1",
+      "_upm": {
+        "changelog": "### New features\n* A `DataStreamReader` can now be passed to another job without triggering the job safety system.\n* A `GetRelayConnectionStatus` method has been added to `NetworkDriver` to query the status of the connection to the Relay server.\n\n### Changes\n* `NetworkSettings.WithDataStreamParameters` is now obsolete. The functionality still works and will remain supported for version 1.X of the package, but will be removed in version 2.0. The reason for the removal is that in 2.0 the data stream size is always dynamically-sized to avoid out-of-memory errors.\n* `NetworkSettings.WithPipelineParameters` is now obsolete. The functionality still works and will remain supported for version 1.X of the package, but will be removed in version 2.0, where pipeline buffer sizing is handled internally.\n* Updated Burst dependency to 1.6.6.\n* Updated Collections dependency to 1.2.4.\n* Updated Mathematics dependency to 1.2.6.\n\n### Fixes\n* `BeginSend` would not return an error if called on a closed connection before the next `ScheduleUpdate` call.\n* Fixed a warning if using the default maximum payload size with DTLS.\n* Removed an error log when receiving messages on a closed DTLS connection (this scenario is common if there were in-flight messages at the moment of disconnection).\n* Fix broken link in package documentation."
+      },
+      "upmCi": {
+        "footprint": "cd3960b74c34568953deb592a44e23402c3a914c"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "ce258b46039e4d4937778aa8d02c6532b9ea0888"
+      },
+      "samples": [
+        {
+          "displayName": "Custom Network Interface",
+          "description": "Shows how to build a custom network interface using the INetworkInterface API",
+          "path": "Samples~/CustomNetworkInterface"
+        },
+        {
+          "displayName": "Ping/Pong Sample",
+          "description": "Several samples on the basics of jobs, mainthread setups using the Unity Transport",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Pipelines Sample",
+          "description": "Shows how to use Pipeline stages",
+          "path": "Samples~/Pipeline"
+        },
+        {
+          "displayName": "Unity Relay with Unity Transport",
+          "description": "Basic sample on how to use Unity Relay with Unity Transport, your project must depend on com.unity.services.relay",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Soak Sample",
+          "description": "Shows how to use pipelines and jobs to gather stats and create traffic using Unity Transport",
+          "path": "Samples~/Soaker"
+        }
+      ],
+      "_id": "com.unity.transport@1.1.0",
+      "_integrity": "sha512-PaI3pP+QTM53SarmWDmmMjKry4NtY437MBVxzWGjy4Xg0Tzmn/XJ5Ca0KftjIcBVsGBkYrO9hsxrebl6cj5z6Q==",
+      "_resolved": "/tmp/com.unity.transport@1.1.0-gr88mv2k.tgz",
+      "_from": "file:/tmp/com.unity.transport@1.1.0-gr88mv2k.tgz",
+      "dist": {
+        "shasum": "78a14616d9579d75ac659b1f112bd2e78aa7ad88",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-1.1.0.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "1.1.0",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.2.4",
+        "com.unity.burst": "1.6.6",
+        "com.unity.mathematics": "1.2.6"
+      }
+    },
+    "1.0.0": {
+      "unity": "2020.3",
+      "unityRelease": "0f1",
+      "upm": {
+        "changelog": "### Changes\n* Changed version to 1.0.0."
+      },
+      "upmCi": {
+        "footprint": "38407b6505436c019e602001e0267b831314df13"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "6a2ab2aed4ceaaef42b07fdcae1a89d0e09014a4"
+      },
+      "samples": [
+        {
+          "displayName": "Custom Network Interface",
+          "description": "Shows how to build a custom network interface using the INetworkInterface API",
+          "path": "Samples~/CustomNetworkInterface"
+        },
+        {
+          "displayName": "Ping/Pong Sample",
+          "description": "Several samples on the basics of jobs, mainthread setups using the Unity Transport",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Pipelines Sample",
+          "description": "Shows how to use Pipeline stages",
+          "path": "Samples~/Pipeline"
+        },
+        {
+          "displayName": "Unity Relay with Unity Transport",
+          "description": "Basic sample on how to use Unity Relay with Unity Transport, your project must depend on com.unity.services.relay",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Soak Sample",
+          "description": "Shows how to use pipelines and jobs to gather stats and create traffic using Unity Transport",
+          "path": "Samples~/Soaker"
+        }
+      ],
+      "_id": "com.unity.transport@1.0.0",
+      "_integrity": "sha512-xze119WhEVkjUrTx3VmsJiD39WlDHbM+iiVd2sxk0LBoKH/XnJQlthojk/x7hRmOjLenD+mxZ2dfD5Q95Pt/kQ==",
+      "_resolved": "/tmp/com.unity.transport@1.0.0-z7tfhqrp.tgz",
+      "_from": "file:/tmp/com.unity.transport@1.0.0-z7tfhqrp.tgz",
+      "dist": {
+        "shasum": "979b0379b9f473fb9669d0bdbcac1f3d9a08f1a5",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-1.0.0.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "1.0.0",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.2.3",
+        "com.unity.burst": "1.6.4",
+        "com.unity.mathematics": "1.2.5"
+      }
+    },
+    "1.0.0-pre.16": {
+      "unity": "2020.3",
+      "unityRelease": "0f1",
+      "upm": {
+        "changelog": "### Changes\n* Don't warn when overwriting settings in `NetworkSettings` (e.g. when calling the same `WithFooParameters` method twice).\n* Added new methods to set security parameters: `NetworkSettings.WithSecureClientParameters` and `NetworkSettings.WithSecureServerParameters`. These replace the existing `WithSecureParameters`, which is now obsolete.\n* Updated Collections dependency to 1.2.3.\n\n### Fixes\n* Fixed client certificate not being passed to UnityTLS on secure connections. This prevented client authentication from properly working.\n* Fixed: Reliable pipeline drop statistics inaccurate."
+      },
+      "upmCi": {
+        "footprint": "32ccb3482ac9d890f7e187edc0daf79ada94cda0"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "bf571bfef0171c649524988792968413ac8e8878"
+      },
+      "samples": [
+        {
+          "displayName": "Custom Network Interface",
+          "description": "Shows how to build a custom network interface using the INetworkInterface API",
+          "path": "Samples~/CustomNetworkInterface"
+        },
+        {
+          "displayName": "Ping/Pong Sample",
+          "description": "Several samples on the basics of jobs, mainthread setups using the Unity Transport",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Pipelines Sample",
+          "description": "Shows how to use Pipeline stages",
+          "path": "Samples~/Pipeline"
+        },
+        {
+          "displayName": "Unity Relay with Unity Transport",
+          "description": "Basic sample on how to use Unity Relay with Unity Transport, your project must depend on com.unity.services.relay",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Soak Sample",
+          "description": "Shows how to use pipelines and jobs to gather stats and create traffic using Unity Transport",
+          "path": "Samples~/Soaker"
+        }
+      ],
+      "_id": "com.unity.transport@1.0.0-pre.16",
+      "_integrity": "sha512-2fx2IHmTqVski1W+/1p8wNEi8Dyj8zhJ0Ad3DCNcglIoAhxxFTT8PNFJvhcmrN6hXYmIwk8M6GWxQ/i/Vd82uA==",
+      "_resolved": "/tmp/com.unity.transport@1.0.0-pre.16-owa98rqj.tgz",
+      "_from": "file:/tmp/com.unity.transport@1.0.0-pre.16-owa98rqj.tgz",
+      "dist": {
+        "shasum": "33b179e9f6836544bf975d74c73af9988bb8d860",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-1.0.0-pre.16.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "1.0.0-pre.16",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.2.3",
+        "com.unity.burst": "1.6.4",
+        "com.unity.mathematics": "1.2.5"
+      }
+    },
+    "1.0.0-pre.15": {
+      "unity": "2020.3",
+      "unityRelease": "0f1",
+      "upm": {
+        "changelog": "### Changes,* An error is now logged if failing to decrypt a DTLS message when using Relay.,* Decreased default Relay keep-alive period to 3 seconds (was 9 seconds). The value can still be configured through the `relayConnectionTimeMS` parameter of `NetworkSettings.WithRelayParameters`.,### Fixes,* Updated Relay sample to the most recent Relay SDK APIs (would fail to compile with latest packages)."
+      },
+      "upmCi": {
+        "footprint": "432ca06b01a515cf8fb6819fafe456fa5920ec8c"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "6e153d31705a6c82c14e0c6287ad98ce4f5c428c"
+      },
+      "samples": [
+        {
+          "displayName": "Custom Network Interface",
+          "description": "Shows how to build a custom network interface using the INetworkInterface API",
+          "path": "Samples~/CustomNetworkInterface"
+        },
+        {
+          "displayName": "Ping/Pong Sample",
+          "description": "Several samples on the basics of jobs, mainthread setups using the Unity Transport",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Pipelines Sample",
+          "description": "Shows how to use Pipeline stages",
+          "path": "Samples~/Pipeline"
+        },
+        {
+          "displayName": "Unity Relay with Unity Transport",
+          "description": "Basic sample on how to use Unity Relay with Unity Transport, your project must depend on com.unity.services.relay",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Soak Sample",
+          "description": "Shows how to use pipelines and jobs to gather stats and create traffic using Unity Transport",
+          "path": "Samples~/Soaker"
+        }
+      ],
+      "_id": "com.unity.transport@1.0.0-pre.15",
+      "_integrity": "sha512-AwjD2l5921CaVSUJHe22gQmVTqv0Zzc771OlCwTo+N0dsHHBTkNuhD3XdTMfzxHsuSt7R8TQbulTe7nhjenksg==",
+      "_resolved": "/tmp/com.unity.transport@1.0.0-pre.15-y_9tmdw_.tgz",
+      "_from": "file:/tmp/com.unity.transport@1.0.0-pre.15-y_9tmdw_.tgz",
+      "dist": {
+        "shasum": "8c726349352591b8919c7990c5c2ae76667419bf",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-1.0.0-pre.15.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "1.0.0-pre.15",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.1.0",
+        "com.unity.burst": "1.6.4",
+        "com.unity.mathematics": "1.2.5"
+      }
+    },
+    "1.0.0-pre.14": {
+      "unity": "2020.3",
+      "unityRelease": "0f1",
+      "upm": {
+        "changelog": "### Changes,* `IValidatableNetworkParameter.Validate()` method is now part of `INetworkParameter`.,* Added: `NetworkDriver.Create<>()` generic methods.,### Fixes,* Fixed compilation on WebGL. Note that the platform is still unsupported, but at least including the package in a WebGL project will not create compilation errors anymore. Creating a `NetworkDriver` in WebGL projects will now produce a warning."
+      },
+      "upmCi": {
+        "footprint": "70fe4d4c8cc14171e96a28410bc1f5a71c1dc8f2"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "e2f1f8587a7a90600af52138046b51cde18c5e78"
+      },
+      "samples": [
+        {
+          "displayName": "Custom Network Interface",
+          "description": "Shows how to build a custom network interface using the INetworkInterface API",
+          "path": "Samples~/CustomNetworkInterface"
+        },
+        {
+          "displayName": "Ping/Pong Sample",
+          "description": "Several samples on the basics of jobs, mainthread setups using the Unity Transport",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Pipelines Sample",
+          "description": "Shows how to use Pipeline stages",
+          "path": "Samples~/Pipeline"
+        },
+        {
+          "displayName": "Unity Relay with Unity Transport",
+          "description": "Basic sample on how to use Unity Relay with Unity Transport, your project must depend on com.unity.services.relay",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Soak Sample",
+          "description": "Shows how to use pipelines and jobs to gather stats and create traffic using Unity Transport",
+          "path": "Samples~/Soaker"
+        }
+      ],
+      "_id": "com.unity.transport@1.0.0-pre.14",
+      "_integrity": "sha512-MTckkonbMzRIJaEc972GhaELOF9iwdnd3STffgYNKJoqwhiDN6SaYTTbWwkoVrnjLWRQbRfChgaOsfuRH0LzMA==",
+      "_resolved": "/tmp/com.unity.transport@1.0.0-pre.14-nawz40io.tgz",
+      "_from": "file:/tmp/com.unity.transport@1.0.0-pre.14-nawz40io.tgz",
+      "dist": {
+        "shasum": "44183731aca94123fa35b276bad17438c817eb83",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-1.0.0-pre.14.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "1.0.0-pre.14",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.1.0",
+        "com.unity.burst": "1.6.4",
+        "com.unity.mathematics": "1.2.5"
+      }
+    },
+    "1.0.0-pre.13": {
+      "unity": "2020.3",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "57b492bfcb2bf65e61199af180e784a496d45851"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "83e229da512ae50e8039c3688e22572ebd5a8c7d"
+      },
+      "samples": [
+        {
+          "displayName": "Custom Network Interface",
+          "description": "Shows how to build a custom network interface using the INetworkInterface API",
+          "path": "Samples~/CustomNetworkInterface"
+        },
+        {
+          "displayName": "Ping/Pong Sample",
+          "description": "Several samples on the basics of jobs, mainthread setups using the Unity Transport",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Pipelines Sample",
+          "description": "Shows how to use Pipeline stages",
+          "path": "Samples~/Pipeline"
+        },
+        {
+          "displayName": "Unity Relay with Unity Transport",
+          "description": "Basic sample on how to use Unity Relay with Unity Transport, your project must depend on com.unity.services.relay",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Soak Sample",
+          "description": "Shows how to use pipelines and jobs to gather stats and create traffic using Unity Transport",
+          "path": "Samples~/Soaker"
+        }
+      ],
+      "_id": "com.unity.transport@1.0.0-pre.13",
+      "_integrity": "sha512-L3TMDxuL6pGuogWrUdLQXPbB7swjoGzokpLmNzoDD2pQ3OsMGRzFwCQKTAkyQMJSKCBWDnJYPmcEZ8TYFQIXRA==",
+      "_resolved": "/tmp/com.unity.transport@1.0.0-pre.13-ofsn3lk3.tgz",
+      "_from": "file:/tmp/com.unity.transport@1.0.0-pre.13-ofsn3lk3.tgz",
+      "dist": {
+        "shasum": "20bf2283746c0514a1b42a6b3934097844eb6475",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-1.0.0-pre.13.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "1.0.0-pre.13",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.1.0",
+        "com.unity.burst": "1.6.4",
+        "com.unity.mathematics": "1.2.5"
+      }
+    },
+    "1.0.0-pre.12": {
+      "dist": {
+        "shasum": "254f5b98cdcca63d6b9d0682036cd7fa206a3553",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-1.0.0-pre.12.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "1.0.0-pre.12",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.1.0",
+        "com.unity.burst": "1.6.4",
+        "com.unity.mathematics": "1.2.5"
+      }
+    },
+    "1.0.0-pre.10": {
+      "unity": "2020.3",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "f3dc8eba91dfd32393f7fa090ad6edcb829cda68"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "5acd333c1b77b8eee2eed9803cbf5b30a2f38b83"
+      },
+      "samples": [
+        {
+          "displayName": "Custom Network Interface",
+          "description": "Shows how to build a custom network interface using the INetworkInterface API",
+          "path": "Samples~/CustomNetworkInterface"
+        },
+        {
+          "displayName": "Ping/Pong Sample",
+          "description": "Several samples on the basics of jobs, mainthread setups using the Unity Transport",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Pipelines Sample",
+          "description": "Shows how to use Pipeline stages",
+          "path": "Samples~/Pipeline"
+        },
+        {
+          "displayName": "Unity Relay with Unity Transport",
+          "description": "Basic sample on how to use Unity Relay with Unity Transport, your project must depend on com.unity.services.relay",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Soak Sample",
+          "description": "Shows how to use pipelines and jobs to gather stats and create traffic using Unity Transport",
+          "path": "Samples~/Soaker"
+        }
+      ],
+      "_id": "com.unity.transport@1.0.0-pre.10",
+      "_integrity": "sha512-LJSNmS/xn3uokSnp+vOast575ddSNjTngdwGyabt+wl0akBQXReXjDG8CV7Ti9yIvFbCzc/WQ5bDsgX5y77eLw==",
+      "_resolved": "/pkgprom/com.unity.transport-1.0.0-pre.10.tgz",
+      "_from": "file:com.unity.transport-1.0.0-pre.10.tgz",
+      "dist": {
+        "shasum": "c5734ee35e47131b675ef8206348162961710076",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-1.0.0-pre.10.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "1.0.0-pre.10",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.1.0",
+        "com.unity.burst": "1.5.5",
+        "com.unity.mathematics": "1.2.1"
+      }
+    },
+    "1.0.0-pre.9": {
+      "unity": "2020.3",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "a44523c3c6bf06fc16c1c7e10cb639178c93aaf7"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "19e6f0975064ffd6eb9882715550c4e8709adf09"
+      },
+      "samples": [
+        {
+          "displayName": "Custom Network Interface",
+          "description": "Shows how to build a custom network interface using the INetworkInterface API",
+          "path": "Samples~/CustomNetworkInterface"
+        },
+        {
+          "displayName": "Ping/Pong Sample",
+          "description": "Several samples on the basics of jobs, mainthread setups using the Unity Transport",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Pipelines Sample",
+          "description": "Shows how to use Pipeline stages",
+          "path": "Samples~/Pipeline"
+        },
+        {
+          "displayName": "Unity Relay with Unity Transport",
+          "description": "Basic sample on how to use Unity Relay with Unity Transport, your project must depend on com.unity.services.relay",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Soak Sample",
+          "description": "Shows how to use pipelines and jobs to gather stats and create traffic using Unity Transport",
+          "path": "Samples~/Soaker"
+        }
+      ],
+      "_id": "com.unity.transport@1.0.0-pre.9",
+      "_integrity": "sha512-6SwcFzBOxdJpD4g/zsx+NRAPksUi3wlR/07FAWy+Tw9nJYv72NaSbZHL7n2oQchZJjyMXi0+Ozo3NaaFL+LsmA==",
+      "_resolved": "/pkgprom/com.unity.transport-1.0.0-pre.9.tgz",
+      "_from": "file:com.unity.transport-1.0.0-pre.9.tgz",
+      "dist": {
+        "shasum": "2c54b26900bb157e0f0948f3c0c92d115a03796e",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-1.0.0-pre.9.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "1.0.0-pre.9",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.1.0",
+        "com.unity.burst": "1.5.5",
+        "com.unity.mathematics": "1.2.1"
+      }
+    },
+    "1.0.0-pre.8": {
+      "unity": "2020.3",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "2a4eaabb1d2b7c751ad32f7ed02455f20825220e"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "00c4030412ab1ecd660dc48273b55657bbc5bc5e"
+      },
+      "samples": [
+        {
+          "displayName": "Custom Network Interface",
+          "description": "Shows how to build a custom network interface using the INetworkInterface API",
+          "path": "Samples~/CustomNetworkInterface"
+        },
+        {
+          "displayName": "Ping/Pong Sample",
+          "description": "Several samples on the basics of jobs, mainthread setups using the Unity Transport",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Pipelines Sample",
+          "description": "Shows how to use Pipeline stages",
+          "path": "Samples~/Pipeline"
+        },
+        {
+          "displayName": "Unity Relay with Unity Transport",
+          "description": "Basic sample on how to use Unity Relay with Unity Transport, your project must depend on com.unity.services.relay",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Soak Sample",
+          "description": "Shows how to use pipelines and jobs to gather stats and create traffic using Unity Transport",
+          "path": "Samples~/Soaker"
+        }
+      ],
+      "_id": "com.unity.transport@1.0.0-pre.8",
+      "_integrity": "sha512-vzIHbAMWQTwoDCoIFHYEnlDu/Lj+N0DHmHAclsy2T5lHSvJ/Hds/5jY8g0SAuPyZMV7UlLj9gYXxKiGCRfdgHg==",
+      "_resolved": "/pkgprom/com.unity.transport-1.0.0-pre.8.tgz",
+      "_from": "file:com.unity.transport-1.0.0-pre.8.tgz",
+      "dist": {
+        "shasum": "82cb70ec27a040f3967e6f93991dd215a6bfdd5a",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-1.0.0-pre.8.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "1.0.0-pre.8",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.1.0",
+        "com.unity.burst": "1.5.5",
+        "com.unity.mathematics": "1.2.1"
+      }
+    },
+    "1.0.0-pre.7": {
+      "unity": "2020.3",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "a5dba4c3aa5093ad3d3cff267cd85e30183e8267"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "5048cef3563a02e4d6d81d147a15bc9125026326"
+      },
+      "samples": [
+        {
+          "displayName": "Custom Network Interface",
+          "description": "Shows how to build a custom network interface using the INetworkInterface API",
+          "path": "Samples~/CustomNetworkInterface"
+        },
+        {
+          "displayName": "Ping/Pong Sample",
+          "description": "Several samples on the basics of jobs, mainthread setups using the Unity Transport",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Pipelines Sample",
+          "description": "Shows how to use Pipeline stages",
+          "path": "Samples~/Pipeline"
+        },
+        {
+          "displayName": "Unity Relay with Unity Transport",
+          "description": "Basic sample on how to use Unity Relay with Unity Transport, your project must depend on com.unity.services.relay",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Soak Sample",
+          "description": "Shows how to use pipelines and jobs to gather stats and create traffic using Unity Transport",
+          "path": "Samples~/Soaker"
+        }
+      ],
+      "_id": "com.unity.transport@1.0.0-pre.7",
+      "_integrity": "sha512-Hx+kAJesF9QGA9ImYJGqEYsouKIJgDPg9MHInke1elmCjAykJwEnF4MrlL5Ip95wuLoYOGZxnOFfXvvgodRwcQ==",
+      "_resolved": "/pkgprom/com.unity.transport-1.0.0-pre.7.tgz",
+      "_from": "file:com.unity.transport-1.0.0-pre.7.tgz",
+      "dist": {
+        "shasum": "653338cf7de51f52235875c1868cdb547ef99543",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-1.0.0-pre.7.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "1.0.0-pre.7",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.0.0-pre.5",
+        "com.unity.burst": "1.5.5",
+        "com.unity.mathematics": "1.2.1"
+      }
+    },
+    "1.0.0-pre.6": {
+      "unity": "2020.3",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "2014ca50a1dea8d4cc5561d89658046a26ea3e62"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "cdb4e644d2876b103155e105342fbd827f802583"
+      },
+      "samples": [
+        {
+          "displayName": "Custom Network Interface",
+          "description": "Shows how to build a custom network interface using the INetworkInterface API",
+          "path": "Samples~/CustomNetworkInterface"
+        },
+        {
+          "displayName": "Ping/Pong Sample",
+          "description": "Several samples on the basics of jobs, mainthread setups using the Unity Transport",
+          "path": "Samples~/Ping"
+        },
+        {
+          "displayName": "Pipelines Sample",
+          "description": "Shows how to use Pipeline stages",
+          "path": "Samples~/Pipeline"
+        },
+        {
+          "displayName": "Unity Relay with Unity Transport",
+          "description": "Basic sample on how to use Unity Relay with Unity Transport, your project must depend on com.unity.services.relay",
+          "path": "Samples~/RelayPing"
+        },
+        {
+          "displayName": "Soak Sample",
+          "description": "Shows how to use pipelines and jobs to gather stats and create traffic using Unity Transport",
+          "path": "Samples~/Soaker"
+        }
+      ],
+      "_id": "com.unity.transport@1.0.0-pre.6",
+      "_integrity": "sha512-a7x87vyPEIQF00PX7gUFzcpfU6oG7gxXcSG2nrv9ywMwjA/bqE6CyAln4P9wXB1AeJ7w1rT6AouOvI7uEDF4Zg==",
+      "_resolved": "/pkgprom/com.unity.transport-1.0.0-pre.6.tgz",
+      "_from": "file:com.unity.transport-1.0.0-pre.6.tgz",
+      "dist": {
+        "shasum": "edd8e666edd7433472e7a3e03d4f9bfa8fa3a1cd",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-1.0.0-pre.6.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "1.0.0-pre.6",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.0.0-pre.5",
+        "com.unity.burst": "1.5.5",
+        "com.unity.mathematics": "1.2.1"
+      }
+    },
+    "1.0.0-pre.5": {
+      "unity": "2020.3",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "6924caef81054f1fe3561593f75ba8a4103a6eee"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "9c54911978e05861c4111d55680dee3c04ca79d5"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.transport-1.0.0-pre.5.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.transport@1.0.0-pre.5",
+      "dist": {
+        "shasum": "e30682736daf7750d183e02b69fd48d4f9a8c129",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-1.0.0-pre.5.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "1.0.0-pre.5",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.0.0-pre.5",
+        "com.unity.burst": "1.5.5",
+        "com.unity.mathematics": "1.2.1"
+      }
+    },
+    "1.0.0-pre.4": {
+      "unity": "2020.3",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "ac68ae7ba7d2e53d3c898f856f6fbfc2d2a0a283"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "aa9ebe9fae100cbde93996423cd9032caca08834"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.transport-1.0.0-pre.4.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.transport@1.0.0-pre.4",
+      "dist": {
+        "shasum": "cc66aa7c311a271a43bd14f8576d3a751d6fb9f8",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-1.0.0-pre.4.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "1.0.0-pre.4",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.0.0-pre.5",
+        "com.unity.burst": "1.5.5",
+        "com.unity.mathematics": "1.2.1"
+      }
+    },
+    "1.0.0-pre.3": {
+      "unity": "2020.3",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "fb472ee86d74904fb781ec601603032f7d069b27"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "49a1da43ce5b89f2f023d5c2b7ab63bfae573e49"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.transport-1.0.0-pre.3.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.transport@1.0.0-pre.3",
+      "dist": {
+        "shasum": "411e5f35470ddd4f537ce7fec4ddda22563fcb73",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-1.0.0-pre.3.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "1.0.0-pre.3",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.0.0-pre.5",
+        "com.unity.burst": "1.5.5",
+        "com.unity.mathematics": "1.2.1"
+      }
+    },
+    "1.0.0-pre.2": {
+      "unity": "2020.3",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "0c9e09e12a146fa4ad9a017dd116ed52e36553ef"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+        "type": "git",
+        "revision": "1f7f8fbd9096f7b13cfb7a21d3ed15ae16b48a5b"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.transport-1.0.0-pre.2.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.transport@1.0.0-pre.2",
+      "dist": {
+        "shasum": "51b557c2940358667408b70b595e3228974e2b89",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-1.0.0-pre.2.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "1.0.0-pre.2",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "1.0.0-pre.5",
+        "com.unity.burst": "1.5.5",
+        "com.unity.mathematics": "1.2.1"
+      }
+    },
+    "0.8.0-preview.8": {
+      "unity": "2020.3",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "f4ac6d1e17d1839c024a0985f5bcc5ca909710df"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/netcode.git",
+        "type": "git",
+        "revision": "a2c8b3132fa8d626631512a2006ed68b024a6bf4"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.transport-0.8.0-preview.8.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/netcode/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/netcode#readme",
+      "_id": "com.unity.transport@0.8.0-preview.8",
+      "dist": {
+        "shasum": "894bc4741a43ac1f91aa583505f14c067cc25776",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-0.8.0-preview.8.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "0.8.0-preview.8",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.collections": "0.17.0-preview.18",
+        "com.unity.mathematics": "1.2.1"
+      }
+    },
+    "0.6.0-preview.7": {
+      "unity": "2020.1",
+      "unityRelease": "9f1",
+      "upmCi": {
+        "footprint": "1619488fe883cf1780f26686c2e6392d18511acf"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/netcode.git",
+        "type": "git",
+        "revision": "f5463f493744a4b8b62680e2ed23a5687b8aabfd"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.transport-0.6.0-preview.7.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/netcode/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/netcode#readme",
+      "_id": "com.unity.transport@0.6.0-preview.7",
+      "dist": {
+        "shasum": "0288bf969fa604c792e14f1ce08ca4169c37f460",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-0.6.0-preview.7.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "0.6.0-preview.7",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.burst": "1.4.1",
+        "com.unity.collections": "0.15.0-preview.21",
+        "com.unity.mathematics": "1.2.1"
+      }
+    },
+    "0.5.0-preview.5": {
+      "unity": "2020.1",
+      "unityRelease": "2f1",
+      "upmCi": {
+        "footprint": "82eb82829b51b7dc5b5b3e79999f6167cec6e864"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/netcode.git",
+        "type": "git",
+        "revision": "c552d8192df620055f641922198b0b4a247a808a"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.transport-0.5.0-preview.5.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/netcode/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/netcode#readme",
+      "_id": "com.unity.transport@0.5.0-preview.5",
+      "dist": {
+        "shasum": "01ed07e5bb26c748204cc1509b1948b65a9dc926",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-0.5.0-preview.5.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "0.5.0-preview.5",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.burst": "1.3.7",
+        "com.unity.collections": "0.14.0-preview.16",
+        "com.unity.mathematics": "1.2.1"
+      }
+    },
+    "0.4.1-preview.1": {
+      "unity": "2020.1",
+      "unityRelease": "2f1",
+      "upmCi": {
+        "footprint": "80686054621d2e24b06157c3de9959703c52ecb2"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/netcode.git",
+        "type": "git",
+        "revision": "8d757f092a828f913aee73fda7a813ff58a7b8b9"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.transport-0.4.1-preview.1.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/netcode/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/netcode#readme",
+      "_id": "com.unity.transport@0.4.1-preview.1",
+      "dist": {
+        "shasum": "3e7e5b7f629d2f77575f45a5bd7eb157f404b1c0",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-0.4.1-preview.1.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "0.4.1-preview.1",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.burst": "1.3.0",
+        "com.unity.collections": "0.12.0-preview.13",
+        "com.unity.mathematics": "1.1.0"
+      }
+    },
+    "0.4.0-preview.3": {
+      "unity": "2020.1",
+      "unityRelease": "2f1",
+      "upmCi": {
+        "footprint": "d558f1ebb7ae3171f3fee80f82e7beb4bc93c8a4"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/netcode.git",
+        "type": "git",
+        "revision": "0c7a798930d3efad8cf72fb01612efddba074783"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.transport-0.4.0-preview.3.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/netcode/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/netcode#readme",
+      "_id": "com.unity.transport@0.4.0-preview.3",
+      "dist": {
+        "shasum": "1f93b4c39fa02ccf6c5189d94538981ad92251e7",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-0.4.0-preview.3.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "0.4.0-preview.3",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.burst": "1.3.0",
+        "com.unity.collections": "0.12.0-preview.13",
+        "com.unity.mathematics": "1.1.0"
+      }
+    },
+    "0.3.1-preview.4": {
+      "unity": "2019.3",
+      "unityRelease": "0b11",
+      "upmCi": {
+        "footprint": "d3e0fb24c701f830362f2d356df7db48fc140e2f"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Unity-Technologies/netcode.git",
+        "revision": "2fb0954cceae679b397cea825faf7fc34e258ced"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.transport-0.3.1-preview.4.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/netcode/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/netcode#readme",
+      "_id": "com.unity.transport@0.3.1-preview.4",
+      "dist": {
+        "shasum": "be2da3fa19d88f2568d19550076651ed0857aa12",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-0.3.1-preview.4.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "0.3.1-preview.4",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.burst": "1.3.0",
+        "com.unity.collections": "0.9.0-preview.5",
+        "com.unity.mathematics": "1.1.0"
+      }
+    },
+    "0.2.4-preview.0": {
+      "unity": "2019.3",
+      "unityRelease": "0b11",
+      "repository": {
+        "footprint": "95e27655c03018627aec514b12f1a52273241f14",
+        "type": "git",
+        "url": "git+https://github.com/Unity-Technologies/netcode.git",
+        "revision": "54b0b552036ddbf69361d463fc5393e5360c0554"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.transport-0.2.4-preview.0.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/netcode/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/netcode#readme",
+      "_id": "com.unity.transport@0.2.4-preview.0",
+      "dist": {
+        "shasum": "390b4654ccbf7aefe6071d44b163beb7f9798bfc",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-0.2.4-preview.0.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "0.2.4-preview.0",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "dependencies": {
+        "com.unity.burst": "1.2.0-preview.10",
+        "com.unity.collections": "0.3.0-preview.0",
+        "com.unity.mathematics": "1.1.0"
+      }
+    },
+    "0.3.0-preview.6": {
+      "unity": "2019.3",
+      "unityRelease": "0b11",
+      "repository": {
+        "footprint": "d877cabe46cdf275d2e2a771121f8b4a15c740e7",
+        "type": "git",
+        "url": "git+https://github.com/Unity-Technologies/netcode.git",
+        "revision": "e057ccf4fb0b19bbd5e6ea8615a121abcfc49fbb"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.transport-0.3.0-preview.6.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/netcode/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/netcode#readme",
+      "_id": "com.unity.transport@0.3.0-preview.6",
+      "dist": {
+        "shasum": "e3b4730c6c31b7455e6c04734159e8f9e121eae7",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-0.3.0-preview.6.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "0.3.0-preview.6",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "dependencies": {
+        "com.unity.burst": "1.3.0-preview.3",
+        "com.unity.collections": "0.5.2-preview.8",
+        "com.unity.mathematics": "1.1.0"
+      }
+    },
+    "0.2.3-preview.0": {
+      "unity": "2019.3",
+      "unityRelease": "0b11",
+      "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/Unity-Technologies/netcode.git",
+        "revision": "2c437c67f30b8dd7b9a6848a979abded4b5ffd3b"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.transport-0.2.3-preview.0.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/netcode/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/netcode#readme",
+      "_id": "com.unity.transport@0.2.3-preview.0",
+      "dist": {
+        "shasum": "f758342be6aca564978958e4c16c380876dfa72e",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-0.2.3-preview.0.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "0.2.3-preview.0",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "dependencies": {
+        "com.unity.burst": "1.2.0-preview.10",
+        "com.unity.collections": "0.3.0-preview.0",
+        "com.unity.mathematics": "1.1.0"
+      }
+    },
+    "0.2.2-preview.2": {
+      "unity": "2019.3",
+      "unityRelease": "0b11",
+      "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/Unity-Technologies/netcode.git",
+        "revision": "a66f6695feb879621aa4a464939ffb6d92d3be4e"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.transport-0.2.2-preview.2.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/netcode/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/netcode#readme",
+      "_id": "com.unity.transport@0.2.2-preview.2",
+      "dist": {
+        "shasum": "77c68e504848781b8e67a10829df0a99c6070779",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-0.2.2-preview.2.tgz"
+      },
+      "name": "com.unity.transport",
+      "version": "0.2.2-preview.2",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "dependencies": {
+        "com.unity.burst": "1.2.0-preview.9",
+        "com.unity.collections": "0.3.0-preview.0",
+        "com.unity.mathematics": "1.1.0"
+      }
+    },
+    "0.2.1-preview.1": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:Unity-Technologies/netcode.git",
+        "revision": "dc6ff1b90bd08de36cbf05fc07d05cc47f6ba114"
+      },
+      "dist": {
+        "shasum": "db96837633eba2429e73dab030dc9bf7ecbabaa3",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-0.2.1-preview.1.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.transport@0.2.1-preview.1",
+      "unity": "2019.3",
+      "unityRelease": "0b11",
+      "name": "com.unity.transport",
+      "version": "0.2.1-preview.1",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "dependencies": {
+        "com.unity.burst": "1.2.0-preview.9",
+        "com.unity.collections": "0.2.0-preview.13",
+        "com.unity.mathematics": "1.1.0"
+      }
+    },
+    "0.2.0-preview.4": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:Unity-Technologies/netcode.git",
+        "revision": "2a580c3ed0739a86c9e66aea2eca8b80cb8f118a"
+      },
+      "dist": {
+        "shasum": "e3d0eb949d965f6312b2c7a0a5318f012bb59f1b",
+        "tarball": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-0.2.0-preview.4.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.transport@0.2.0-preview.4",
+      "unity": "2019.3",
+      "unityRelease": "0b11",
+      "name": "com.unity.transport",
+      "version": "0.2.0-preview.4",
+      "description": "Unity network transport layer - the low-level interface for sending UDP data",
+      "displayName": "Unity Transport",
+      "type": "asset",
+      "host": "editor",
+      "dependencies": {
+        "com.unity.burst": "1.2.0-preview.9",
+        "com.unity.collections": "0.2.0-preview.13",
+        "com.unity.mathematics": "1.1.0"
+      }
+    }
+  },
+  "etag": "\"60cbd660df22c6935fd563587eb9c182\"",
+  "time": {
+    "2.2.1": "2023-12-08T10:29:41Z",
+    "1.4.1": "2023-12-01T08:49:31Z",
+    "2.1.0": "2023-09-25T15:12:09Z",
+    "1.4.0": "2023-06-28T10:20:40Z",
+    "2.0.2": "2023-06-01T13:35:43Z",
+    "1.3.4": "2023-04-27T09:56:23Z",
+    "2.0.1": "2023-04-24T16:44:27Z",
+    "2.0.0-pre.8": "2023-03-31T18:55:11Z",
+    "1.3.3": "2023-03-20T09:34:56Z",
+    "2.0.0-pre.7": "2023-03-16T16:54:16Z",
+    "1.3.2": "2023-03-13T13:32:55Z",
+    "2.0.0-pre.6": "2023-01-13T19:49:49Z",
+    "2.0.0-pre.5": "2023-01-12T22:51:46Z",
+    "1.3.1": "2023-01-11T09:55:51Z",
+    "2.0.0-pre.3": "2022-11-30T18:32:01Z",
+    "2.0.0-pre.2": "2022-11-15T10:52:37Z",
+    "2.0.0-exp.8": "2022-10-27T22:26:19Z",
+    "1.3.0": "2022-10-03T15:26:21Z",
+    "2.0.0-exp.7": "2022-09-29T16:58:12Z",
+    "2.0.0-exp.6": "2022-09-06T14:03:54Z",
+    "1.2.0": "2022-08-16T15:33:53Z",
+    "1.1.0": "2022-06-16T21:10:10Z",
+    "1.0.0": "2022-03-31T16:07:03Z",
+    "1.0.0-pre.16": "2022-03-24T18:09:58Z",
+    "1.0.0-pre.15": "2022-03-11T20:08:49Z",
+    "1.0.0-pre.14": "2022-03-01T20:36:48Z",
+    "1.0.0-pre.13": "2022-02-14T21:38:36Z",
+    "1.0.0-pre.12": "2022-01-25T03:02:43Z",
+    "1.0.0-pre.10": "2021-12-03T03:32:45Z",
+    "1.0.0-pre.9": "2021-11-26T19:06:41Z",
+    "1.0.0-pre.8": "2021-11-23T15:59:45Z",
+    "1.0.0-pre.7": "2021-10-21T20:38:53Z",
+    "1.0.0-pre.6": "2021-10-15T20:44:56Z",
+    "1.0.0-pre.5": "2021-09-17T10:17:28Z",
+    "1.0.0-pre.4": "2021-09-07T14:38:57Z",
+    "1.0.0-pre.3": "2021-09-02T12:44:05Z",
+    "1.0.0-pre.2": "2021-09-02T10:44:17Z",
+    "0.8.0-preview.8": "2021-05-21T19:26:24Z",
+    "0.6.0-preview.7": "2021-01-22T16:59:24Z",
+    "0.5.0-preview.5": "2020-10-29T22:44:26Z",
+    "0.4.1-preview.1": "2020-09-17T00:51:33Z",
+    "0.4.0-preview.3": "2020-08-21T13:14:14Z",
+    "0.3.1-preview.4": "2020-06-05T08:21:59Z",
+    "0.2.4-preview.0": "2020-02-28T08:02:08Z",
+    "0.3.0-preview.6": "2020-02-24T15:09:58Z",
+    "0.2.3-preview.0": "2019-12-12T12:31:05Z",
+    "0.2.2-preview.2": "2019-12-05T11:00:18Z",
+    "0.2.1-preview.1": "2019-11-28T10:08:41Z",
+    "0.2.0-preview.4": "2019-11-26T20:06:38Z"
+  }
+}

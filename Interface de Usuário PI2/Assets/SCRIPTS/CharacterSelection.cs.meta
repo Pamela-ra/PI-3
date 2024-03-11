@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 20021bb25d797744d9f5046f9358b312
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - masculinoCharacterPrefab: {fileID: 7106673915371522267, guid: 5fc0c82fe5aa36946b1fd415b4e37b6c, type: 3}
+  - femininoCharacterPrefab: {fileID: 5620461294769135678, guid: 35e0ca5ae7dfe8c418df07708e3f55bd, type: 3}
+  - spawnPoint: {fileID: 3204948006849571369, guid: 5ec7b1d21a2fbc5429239a26e63ce110, type: 3}
+  - leftPanel: {fileID: 4001154575049456168, guid: 492ff85fdab906d4ca0747a311dbd117, type: 3}
+  - rightPanel: {fileID: 4001154575049456168, guid: 492ff85fdab906d4ca0747a311dbd117, type: 3}
+  - characterPanelLeft: {fileID: 8887717620546521298, guid: 492ff85fdab906d4ca0747a311dbd117, type: 3}
+  - characterPanelRight: {fileID: 8887717620546521298, guid: 492ff85fdab906d4ca0747a311dbd117, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

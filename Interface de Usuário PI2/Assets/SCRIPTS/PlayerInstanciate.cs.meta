@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: ea25a215e6b5a0245a8e9d04e5a19be7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - masculinoCharacterPrefab: {fileID: 7106673915371522267, guid: 5fc0c82fe5aa36946b1fd415b4e37b6c, type: 3}
+  - femininoCharacterPrefab: {fileID: 5620461294769135678, guid: 35e0ca5ae7dfe8c418df07708e3f55bd, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

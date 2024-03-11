@@ -1,0 +1,46 @@
+{
+  "name": "com.unity.services.leaderboards",
+  "displayName": "Leaderboards",
+  "version": "1.0.0",
+  "unity": "2020.3",
+  "description": "Add socio-competitive elements to your game by allowing users to compete on leaderboards. Use the Leaderboards service to store, sort, and rank player scores powered by Unity Gaming Services.",
+  "dependencies": {
+    "com.unity.services.authentication": "2.5.0",
+    "com.unity.services.core": "1.9.0"
+  },
+  "samples": [
+    {
+      "displayName": "Leaderboards Sample Scene",
+      "description": "Example scripts demonstrating the Leaderboards package.",
+      "path": "Samples~/Basic Example"
+    }
+  ],
+  "_upm": {
+    "gameService": {
+      "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/leaderboards/about",
+      "projectDashboardUrlType": "OrganizationKeyAndProjectGuid"
+    },
+    "supportedPlatforms": [
+      "Android",
+      "iOS",
+      "Linux",
+      "Mac",
+      "PC",
+      "Windows 8 Universal",
+      "Windows 10 Universal"
+    ],
+    "changelog": "Major release of the Leaderboards SDK, containing some added documentation and changes to the names, parameters, and namespace of the public interface.\n\n### Changed\n\n* Added XML documentation to service methods.\n* Updated the signature of service methods:\n  * Renamed service methods to omit repetitive \"Leaderboards\".\n  * Wrapped optional parameters in options objects instead of specifying them directly.\n* Service methods are now directly on `LeaderboardsService.Instance`, instead of `LeaderboardsService.Instance.LeaderboardsApi`."
+  },
+  "relatedPackages": {
+    "com.unity.services.leaderboards.tests": "1.0.0"
+  },
+  "upmCi": {
+    "footprint": "7c0d4130b86236e425ff760422652077e759e5e2"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.leaderboards@1.0/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+    "type": "git",
+    "revision": "bb6aa5dc30f77096e920f56e3d9107aaf53439cc"
+  }
+}

@@ -1,0 +1,964 @@
+{
+  "_id": "com.unity.connect.share",
+  "name": "com.unity.connect.share",
+  "description": "This tool allows you to make a WebGL build of your current project and upload it to Unity's website, where it can be shared with others.",
+  "provider": "upm",
+  "category": "",
+  "dist-tags": {
+    "latest": "4.2.3"
+  },
+  "versions": {
+    "4.2.3": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "fe62384420bac1b8e79388619c7e68b2d0206892"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.connect.share.git",
+        "type": "git",
+        "revision": "9a66a825d48494378f81fc94289eddd505df1c40"
+      },
+      "_id": "com.unity.connect.share@4.2.3",
+      "_integrity": "sha512-NvNYDWsQx2PSizbw9RDPajtyS/+CWoOH2GB9XLcedQM1xpSBYKnl6JW//WmASq9sxujJi58ymKW0e3+P/ddbog==",
+      "_resolved": "/pkgprom/com.unity.connect.share-4.2.3.tgz",
+      "_from": "file:com.unity.connect.share-4.2.3.tgz",
+      "dist": {
+        "shasum": "2f75d100c2a4b2dde614abc1b56dc52f96a7ed91",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-4.2.3.tgz"
+      },
+      "name": "com.unity.connect.share",
+      "version": "4.2.3",
+      "description": "This tool allows you to make a WebGL build of your current project and upload it to Unity's website, where it can be shared with others.",
+      "displayName": "WebGL Publisher",
+      "type": "tool",
+      "host": "editor",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "4.2.2": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "184d6f29c7a595adbd07af37c1720348351c60de"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.connect.share.git",
+        "type": "git",
+        "revision": "e74c365a80ad2496b1a07f69075a8963a41a6f88"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.connect.share-4.2.2.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.connect.share@4.2.2",
+      "dist": {
+        "shasum": "31eb2d121fbd89ce141404daac05190f8b06f893",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-4.2.2.tgz"
+      },
+      "name": "com.unity.connect.share",
+      "version": "4.2.2",
+      "description": "This tool allows you to make a WebGL build of your current project and upload it to Unity's website, where it can be shared with others.",
+      "displayName": "WebGL Publisher",
+      "type": "tool",
+      "host": "editor",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "4.2.1": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "1141cc199c4386d350630306f584d14d046e4823"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.connect.share.git",
+        "type": "git",
+        "revision": "33ab251316cf20854ce5ac9aaa0f645030209fc1"
+      },
+      "readmeFilename": "README.md",
+      "_id": "com.unity.connect.share@4.2.1",
+      "dist": {
+        "shasum": "94068089db106a0b5e6e0bf6172414438a1485a1",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-4.2.1.tgz"
+      },
+      "name": "com.unity.connect.share",
+      "version": "4.2.1",
+      "description": "This tool allows you to make a WebGL build of your current project and upload it to Unity's website, where it can be shared with others.",
+      "displayName": "WebGL Publisher",
+      "type": "tool",
+      "host": "editor",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "4.1.1": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "7f13e50645b6cfe6dc0f3247f6edeb627ae67f0f"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.connect.share.git",
+        "type": "git",
+        "revision": "c4a6cf2baf5f9479da3e7e8ec79d8df7f4962e7c"
+      },
+      "readmeFilename": "README.md",
+      "_id": "com.unity.connect.share@4.1.1",
+      "dist": {
+        "shasum": "02e79ac29da2175f07c44defdc634df95790e0d5",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-4.1.1.tgz"
+      },
+      "name": "com.unity.connect.share",
+      "version": "4.1.1",
+      "description": "This tool allows you to make a WebGL build of your current project and upload it to Unity's website, where it can be shared with others.",
+      "displayName": "WebGL Publisher",
+      "type": "tool",
+      "host": "editor",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "4.1.0": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "e9d33c4547fbb438f1255a0e41053bafeb6358d7"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.connect.share.git",
+        "type": "git",
+        "revision": "fbcf4de3100e9e9db19a814990bd79ddc48a30ec"
+      },
+      "readmeFilename": "README.md",
+      "_id": "com.unity.connect.share@4.1.0",
+      "dist": {
+        "shasum": "04a547c3ff1400be2c7b487406059bcb46064b01",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-4.1.0.tgz"
+      },
+      "name": "com.unity.connect.share",
+      "version": "4.1.0",
+      "description": "This tool allows you to make a WebGL build of your current project and upload it to Unity's website, where it can be shared with others.",
+      "displayName": "WebGL Publisher",
+      "type": "tool",
+      "host": "editor",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "4.0.3": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "9db63fead230d542d1473e76b9a83e79536fad10"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.connect.share.git",
+        "type": "git",
+        "revision": "ca030cb5823d90b82021cff2090e6a059e990d3b"
+      },
+      "readmeFilename": "README.md",
+      "_id": "com.unity.connect.share@4.0.3",
+      "dist": {
+        "shasum": "afe40edb846999676483a7e6839d2386cf2a5b85",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-4.0.3.tgz"
+      },
+      "name": "com.unity.connect.share",
+      "version": "4.0.3",
+      "description": "This tool allows you to make a WebGL build of your current project and upload it to Unity's website, where it can be shared with others.",
+      "displayName": "WebGL Publisher",
+      "type": "tool",
+      "host": "editor",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "4.0.2": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "ca09f24db6d3c2a0a22d97589a615f7e911c5160"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.connect.share.git",
+        "type": "git",
+        "revision": "43a81dd1a529598e4ec522e889c77f4bb91e415c"
+      },
+      "readmeFilename": "README.md",
+      "_id": "com.unity.connect.share@4.0.2",
+      "dist": {
+        "shasum": "8f075fd5d41c9a0c4ec9972a7a205090c7fab0b1",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-4.0.2.tgz"
+      },
+      "name": "com.unity.connect.share",
+      "version": "4.0.2",
+      "description": "This tool allows you to make a WebGL build of your current project and upload it to Unity's website, where it can be shared with others.",
+      "displayName": "WebGL Publisher",
+      "type": "tool",
+      "host": "editor",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "4.0.1": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "bc9ebaf2d9861e5b59b4b2758ddcaeb2d56e717d"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.connect.share.git",
+        "type": "git",
+        "revision": "de74ccf5049054d1e1f8fab580e5b2045711f38b"
+      },
+      "readmeFilename": "README.md",
+      "_id": "com.unity.connect.share@4.0.1",
+      "dist": {
+        "shasum": "89f10b7fcba3851927ad7b91791cfc313afe775c",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-4.0.1.tgz"
+      },
+      "name": "com.unity.connect.share",
+      "version": "4.0.1",
+      "description": "This tool allows you to make a WebGL build of your current project and upload it to Unity's website, where it can be shared with others.",
+      "displayName": "WebGL Publisher",
+      "type": "tool",
+      "host": "editor",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "3.0.0": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "3586699005d1657f77a0da4be0611c709f87afac"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.connect.share.git",
+        "type": "git",
+        "revision": "13685b89f4d3d3f9416586bf28d3427eab5c1290"
+      },
+      "readmeFilename": "README.md",
+      "_id": "com.unity.connect.share@3.0.0",
+      "dist": {
+        "shasum": "830f468a764c59c202e1c8aa760d7fbdcb82fdb1",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-3.0.0.tgz"
+      },
+      "name": "com.unity.connect.share",
+      "version": "3.0.0",
+      "description": "This tool allows you to make a WebGL build of your current project and upload it to Unity's website, where it can be shared with others.",
+      "displayName": "WebGL Publisher",
+      "type": "tool",
+      "host": "editor",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "2.1.0": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "b6d27c273c9265f676d62cc3adb996b37441a6cd"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.connect.share.git",
+        "type": "git",
+        "revision": "95152b33464a9c1820daf43f3a798a515ea1276a"
+      },
+      "readmeFilename": "README.md",
+      "_id": "com.unity.connect.share@2.1.0",
+      "dist": {
+        "shasum": "1fe2c227a6596d4cc61570bb28555d18b494e7ad",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-2.1.0.tgz"
+      },
+      "name": "com.unity.connect.share",
+      "version": "2.1.0",
+      "description": "This tool allows you to make a WebGL build of your current project and upload it to Unity's website, where it can be shared with others.",
+      "displayName": "WebGL Publisher",
+      "type": "tool",
+      "host": "editor",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "2.0.6": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "60ff8e2af72033a601052f2f3f8e50a7366c3ee6"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.connect.share.git",
+        "type": "git",
+        "revision": "d025f84715cb38725d4bfd46ee28b23169e14e9f"
+      },
+      "readmeFilename": "README.md",
+      "_id": "com.unity.connect.share@2.0.6",
+      "dist": {
+        "shasum": "b7f0d8807f19cd59aa8711e141ca693884bb8c54",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-2.0.6.tgz"
+      },
+      "name": "com.unity.connect.share",
+      "version": "2.0.6",
+      "description": "This tool allows you to make a WebGL build of your current project and upload it to Unity’s website, where it can be shared with others.",
+      "displayName": "WebGL Publisher",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "2.0.5": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "8668405af3d7f5b9b25b0b1e878a46af1656c37e"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.connect.share.git",
+        "type": "git",
+        "revision": "e6e3498e1b4660a6e017aa518a6d50f03af46960"
+      },
+      "readmeFilename": "README.md",
+      "_id": "com.unity.connect.share@2.0.5",
+      "dist": {
+        "shasum": "4bd934ed68b43d7c8c99ff42330edb3639a2340b",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-2.0.5.tgz"
+      },
+      "name": "com.unity.connect.share",
+      "version": "2.0.5",
+      "description": "This tool allows you to make a WebGL build of your current project and upload it to Unity’s website, where it can be shared with others.",
+      "displayName": "WebGL Publisher",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "2.0.3": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "a339982e9d51037c3cf5bdb4d32411f15b58e8b2"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.connect.share.git",
+        "type": "git",
+        "revision": "2aeee100bc751b43b49c211a8bb48e9c923d3d02"
+      },
+      "readmeFilename": "README.md",
+      "_id": "com.unity.connect.share@2.0.3",
+      "dist": {
+        "shasum": "09b5e70d2ba9b5710b8a88aa4b92d566cc37525c",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-2.0.3.tgz"
+      },
+      "name": "com.unity.connect.share",
+      "version": "2.0.3",
+      "description": "This tool allows you to make a WebGL build of your current project and upload it to Unity’s website, where it can be shared with others.",
+      "displayName": "WebGL Publisher",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "2.0.2-preview.4": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "4623eba2daa0d4d32131a54b8500a1d337af4e95"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.connect.share.git",
+        "type": "git",
+        "revision": "eaaf7b3d914af62a0572bed957f46dc748b57a06"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.connect.share-2.0.2-preview.4.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.connect.share@2.0.2-preview.4",
+      "dist": {
+        "shasum": "9c7dfc7e4e9468e9ce8cab579c98ffdfe3f0c43a",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-2.0.2-preview.4.tgz"
+      },
+      "name": "com.unity.connect.share",
+      "version": "2.0.2-preview.4",
+      "description": "This tool allows you to make a WebGL build of your current project and upload it to Unity’s website, where it can be shared with others.",
+      "displayName": "WebGL Publisher",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "2.0.2-preview.3": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "0a77b4a61f2a8c82a9864ec37d938c6967369407"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.connect.share.git",
+        "type": "git",
+        "revision": "6bb3a5364547f40f83a64b3153dad4463234d188"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.connect.share-2.0.2-preview.3.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.connect.share@2.0.2-preview.3",
+      "dist": {
+        "shasum": "f7acec6287bef751cf869c52ccc9f0314e9cd320",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-2.0.2-preview.3.tgz"
+      },
+      "name": "com.unity.connect.share",
+      "version": "2.0.2-preview.3",
+      "description": "This tool allows you to make a WebGL build of your current project and upload it to Unity’s website, where it can be shared with others.",
+      "displayName": "WebGL Publisher",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "2.0.1-preview": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "62fdf36d756e5343f2f66a25716d464a937afadb"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.connect.share.git",
+        "type": "git",
+        "revision": "5c69195c022388878f9ba7ab7a12225536a412c4"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.connect.share-2.0.1-preview.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.connect.share@2.0.1-preview",
+      "dist": {
+        "shasum": "bb39ec15e6b4c00de109dff3d7b06f256d34901a",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-2.0.1-preview.tgz"
+      },
+      "name": "com.unity.connect.share",
+      "version": "2.0.1-preview",
+      "description": "This tool allows you to make a WebGL build of your current project and upload it to Unity’s website, where it can be shared with others.",
+      "displayName": "WebGL Publisher",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "1.2.0-preview.1": {
+      "unity": "2019.3",
+      "repository": {
+        "footprint": "1c64eb0befc6f236f2773f6f20589947c3755047",
+        "type": "git",
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.connect.share.git",
+        "revision": "9f8c6fec760d9bf6e42ac04348d31572bc695533"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.connect.share-1.2.0-preview.1.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.connect.share@1.2.0-preview.1",
+      "dist": {
+        "shasum": "159827431307ed2dd107280d5394f148708c86bb",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-1.2.0-preview.1.tgz"
+      },
+      "name": "com.unity.connect.share",
+      "version": "1.2.0-preview.1",
+      "description": "Use Share WebGL Game package to upload and share WebGL game on Unity Connect website.",
+      "displayName": "Share WebGL Game",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "dependencies": {
+        "com.unity.editorcoroutines": "0.1.0-preview.1"
+      }
+    },
+    "1.1.0-preview.1": {
+      "unity": "2019.3",
+      "repository": {
+        "footprint": "f0a4ba00a9783eaf6e441137058775ce247874c6",
+        "type": "git",
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.connect.share.git",
+        "revision": "42ba181a5749705c5e0ff3dd49fa3da2368735ed"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.connect.share-1.1.0-preview.1.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.connect.share@1.1.0-preview.1",
+      "dist": {
+        "shasum": "5c1a6bba90bc416702af94d9e51ba6501eee26f4",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-1.1.0-preview.1.tgz"
+      },
+      "name": "com.unity.connect.share",
+      "version": "1.1.0-preview.1",
+      "description": "Use Share WebGL Game package to upload and share WebGL game on Unity Connect website.",
+      "displayName": "Share WebGL Game",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "dependencies": {
+        "com.unity.uiwidgets": "1.5.4-preview.8"
+      }
+    },
+    "1.0.10-preview": {
+      "unity": "2018.4",
+      "repository": {
+        "footprint": "9be997c0095479963ecc6fa01aab977bb4636e1d",
+        "type": "git",
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.connect.share.git",
+        "revision": "68cdd72ca3a55da3b57a171f573b070e57c85765"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.connect.share-1.0.10-preview.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.connect.share@1.0.10-preview",
+      "dist": {
+        "shasum": "4cec34e5c39478eadf5cb9899b2da1e171c1f17a",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-1.0.10-preview.tgz"
+      },
+      "name": "com.unity.connect.share",
+      "version": "1.0.10-preview",
+      "description": "Use Share WebGL Game package to upload and share WebGL game on Unity Connect website.",
+      "displayName": "Share WebGL Game",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "dependencies": {
+        "com.unity.uiwidgets": "1.5.4-preview.8"
+      }
+    },
+    "1.0.9-preview": {
+      "unity": "2018.4",
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.connect.share.git",
+        "revision": "344fdd25210f529bd1e0ef183e252532b74197be"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.connect.share-1.0.9-preview.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.connect.share@1.0.9-preview",
+      "dist": {
+        "shasum": "1a50797026415e78b6c828c5e911114caf959b07",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-1.0.9-preview.tgz"
+      },
+      "name": "com.unity.connect.share",
+      "version": "1.0.9-preview",
+      "description": "Use Share WebGL Game package to upload and share WebGL game on Unity Connect website.",
+      "displayName": "Share WebGL Game",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "dependencies": {
+        "com.unity.uiwidgets": "1.5.4-preview.8"
+      }
+    },
+    "1.0.8-preview": {
+      "unity": "2018.4",
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.connect.share.git",
+        "revision": "a0adcbfd5e63ad83a057416774bd3e4055e661c4"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.connect.share-1.0.8-preview.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.connect.share@1.0.8-preview",
+      "dist": {
+        "shasum": "353fd031776e9b3fbb4636fcb3d498bae280c578",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-1.0.8-preview.tgz"
+      },
+      "name": "com.unity.connect.share",
+      "version": "1.0.8-preview",
+      "description": "Use Share WebGL Game package to upload and share WebGL game on Unity Connect website.",
+      "displayName": "Share WebGL Game",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "dependencies": {
+        "com.unity.uiwidgets": "1.5.4-preview.8"
+      }
+    },
+    "1.0.7-preview": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.connect.share.git",
+        "revision": "79a5fec8bff29ee628add2f311b99599328622ac"
+      },
+      "dist": {
+        "shasum": "a1ce5cace6e2ec9560a4626bab11fcf33d0ecfca",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-1.0.7-preview.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.connect.share@1.0.7-preview",
+      "unity": "2018.4",
+      "name": "com.unity.connect.share",
+      "version": "1.0.7-preview",
+      "description": "Use Share WebGL Game package to upload and share WebGL game on Unity Connect website.",
+      "displayName": "Share WebGL Game",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "dependencies": {
+        "com.unity.uiwidgets": "1.5.4-preview.8"
+      }
+    },
+    "1.0.6-preview.2": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.connect.share.git",
+        "revision": "070daa24ed9cfd22450f7f77d992ac9753dc4c71"
+      },
+      "dist": {
+        "shasum": "ee37d322c55dee31a27a33b963be5834313e6e2d",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-1.0.6-preview.2.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.connect.share@1.0.6-preview.2",
+      "unity": "2018.4",
+      "name": "com.unity.connect.share",
+      "version": "1.0.6-preview.2",
+      "description": "Use Share WebGL Game package to upload and share WebGL game on Unity Connect website.",
+      "displayName": "Share WebGL Game",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "dependencies": {
+        "com.unity.uiwidgets": "1.0.6-preview"
+      }
+    },
+    "1.0.5-preview": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.connect.share.git",
+        "revision": "53739fb09bf68e50525771b4342bbbfb4e432a67"
+      },
+      "dist": {
+        "shasum": "fc3887411cd96a34207ba45c0baf42a99e4fd16a",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-1.0.5-preview.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.connect.share@1.0.5-preview",
+      "unity": "2018.3",
+      "name": "com.unity.connect.share",
+      "version": "1.0.5-preview",
+      "description": "Use Share WebGL Game package to upload and share WebGL game on Unity Connect website.",
+      "displayName": "Share WebGL Game",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "dependencies": {
+        "com.unity.uiwidgets": "1.0.6-preview"
+      }
+    },
+    "1.0.4-preview": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.connect.share.git",
+        "revision": "d81aafff45383459bfd369ad0eca6fc2024faa36"
+      },
+      "dist": {
+        "shasum": "ab388b806479e7cd5d30075717db4c68c8292d69",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-1.0.4-preview.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.connect.share@1.0.4-preview",
+      "unity": "2018.3",
+      "name": "com.unity.connect.share",
+      "version": "1.0.4-preview",
+      "description": "Use Share WebGL Game package to upload and share WebGL game on Unity Connect website.",
+      "displayName": "Share WebGL Game",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "dependencies": {
+        "com.unity.uiwidgets": "1.0.6-preview"
+      }
+    },
+    "1.0.3-preview": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.connect.share.git",
+        "revision": "258d23f50bef056ed69b564069d2cbc812d3bab0"
+      },
+      "dist": {
+        "shasum": "21e1f654c2910c76ae87792e2e429ea0180e8197",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-1.0.3-preview.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.connect.share@1.0.3-preview",
+      "unity": "2018.3",
+      "hideInEditor": true,
+      "type": "tool",
+      "name": "com.unity.connect.share",
+      "version": "1.0.3-preview",
+      "description": "Use Share WebGL Game package to upload and share WebGL game on Unity Connect website.",
+      "displayName": "Share WebGL Game",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "dependencies": {
+        "com.unity.uiwidgets": "1.0.2-preview"
+      }
+    },
+    "1.0.2-preview": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.connect.share.git",
+        "revision": "8ae27cb6db307444ef456577c197009e67a0204e"
+      },
+      "dist": {
+        "shasum": "405eac9694112749dc118b616c49a1f411b5b8e6",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-1.0.2-preview.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.connect.share@1.0.2-preview",
+      "unity": "2018.3",
+      "hideInEditor": true,
+      "type": "tool",
+      "name": "com.unity.connect.share",
+      "version": "1.0.2-preview",
+      "description": "Use Share WebGL Game package to upload and share WebGL game on Unity Connect website.",
+      "displayName": "Share WebGL Game",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "dependencies": {
+        "com.unity.uiwidgets": "1.0.2-preview"
+      }
+    },
+    "1.0.1-preview": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.connect.share.git",
+        "revision": "264ba1bbd00975e437e071187b9b92bc5ac9f006"
+      },
+      "dist": {
+        "shasum": "57e9015cdbb18ac7b2c7028b7821ceff3b17bd10",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-1.0.1-preview.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.connect.share@1.0.1-preview",
+      "unity": "2018.3",
+      "hideInEditor": true,
+      "type": "tool",
+      "name": "com.unity.connect.share",
+      "version": "1.0.1-preview",
+      "description": "Share Webgl Game package, used to upload and share webgl game on unity connect website. ",
+      "displayName": "Share Webgl Game",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "dependencies": {
+        "com.unity.uiwidgets": "1.0.2-preview"
+      }
+    },
+    "1.0.0-preview": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.connect.share.git",
+        "revision": "16a3a5e743cc35cf8acb0f3b5940bed40fc43f80"
+      },
+      "dist": {
+        "shasum": "82a0a01ba3e385bc516528e7b222705096de5480",
+        "tarball": "https://download.packages.unity.com/com.unity.connect.share/-/com.unity.connect.share-1.0.0-preview.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.connect.share@1.0.0-preview",
+      "unity": "2018.3",
+      "hideInEditor": true,
+      "type": "tool",
+      "name": "com.unity.connect.share",
+      "version": "1.0.0-preview",
+      "description": "Share Webgl Game package, used to upload and share webgl game on unity connect website. ",
+      "displayName": "Share Webgl Game",
+      "keywords": [
+        "webgl",
+        "share",
+        "connect"
+      ],
+      "dependencies": {
+        "com.unity.uiwidgets": "1.0.2-preview"
+      }
+    }
+  },
+  "etag": "\"aea68e1ab3030498928de3a644d58cf2\"",
+  "time": {
+    "4.2.3": "2021-10-11T17:23:29Z",
+    "4.2.2": "2021-04-01T17:20:36Z",
+    "4.2.1": "2021-03-22T16:27:14Z",
+    "4.1.1": "2021-01-21T14:04:45Z",
+    "4.1.0": "2020-12-15T21:21:51Z",
+    "4.0.3": "2020-11-27T15:32:31Z",
+    "4.0.2": "2020-11-24T16:14:28Z",
+    "4.0.1": "2020-11-09T19:20:43Z",
+    "3.0.0": "2020-10-28T15:14:12Z",
+    "2.1.0": "2020-09-28T14:20:05Z",
+    "2.0.6": "2020-08-31T13:33:07Z",
+    "2.0.5": "2020-08-27T15:56:30Z",
+    "2.0.3": "2020-07-13T12:51:18Z",
+    "2.0.2-preview.4": "2020-06-24T10:59:14Z",
+    "2.0.2-preview.3": "2020-06-18T09:09:39Z",
+    "2.0.1-preview": "2020-06-09T15:01:25Z",
+    "1.2.0-preview.1": "2020-03-25T22:06:35Z",
+    "1.1.0-preview.1": "2020-03-16T22:53:59Z",
+    "1.0.10-preview": "2020-02-27T17:17:22Z",
+    "1.0.9-preview": "2019-12-13T12:22:37Z",
+    "1.0.8-preview": "2019-12-10T17:48:04Z",
+    "1.0.7-preview": "2019-12-03T12:02:12Z",
+    "1.0.6-preview.2": "2019-11-22T13:02:04Z",
+    "1.0.5-preview": "2019-08-14T11:01:28Z",
+    "1.0.4-preview": "2019-05-27T16:00:50Z",
+    "1.0.3-preview": "2019-05-27T05:00:52Z",
+    "1.0.2-preview": "2019-05-23T13:00:54Z",
+    "1.0.1-preview": "2019-05-22T16:00:58Z",
+    "1.0.0-preview": "2019-05-21T15:00:57Z"
+  }
+}

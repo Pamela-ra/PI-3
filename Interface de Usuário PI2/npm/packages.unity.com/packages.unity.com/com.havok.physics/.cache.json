@@ -1,0 +1,1153 @@
+{
+  "_id": "com.havok.physics",
+  "name": "com.havok.physics",
+  "description": "Havok Physics for Unity is available to Pro, Enterprise, and Unity Industrial Collection users.\n\nHavok's award winning physics engine, applied to Unity’s Entity Component System (ECS)  framework. Havok Physics for Unity augments the Unity Physics package, allowing physics scenes authored for ECS to be simulated using the Havok Physics engine.",
+  "provider": "upm",
+  "category": "Havok",
+  "dist-tags": {
+    "latest": "1.2.0-pre.6"
+  },
+  "versions": {
+    "1.2.0-pre.6": {
+      "author": {
+        "name": "Microsoft"
+      },
+      "unity": "2022.3",
+      "unityRelease": "11f1",
+      "_upm": {
+        "changelog": "### Changed\n\n* Promotion preparation"
+      },
+      "upmCi": {
+        "footprint": "0625dae9e7f1e4390761c18b2575cdeb39b05971"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.havok.physics@1.2/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/dots.git",
+        "type": "git",
+        "revision": "c2136868e2bfbe78d7c68475d8ced6c623b4cb6d"
+      },
+      "dist": {
+        "shasum": "2e7bdb824e0326933bc1eac31d5332860e954b67",
+        "tarball": "https://download.packages.unity.com/com.havok.physics/-/com.havok.physics-1.2.0-pre.6.tgz"
+      },
+      "name": "com.havok.physics",
+      "version": "1.2.0-pre.6",
+      "description": "Havok Physics for Unity is available to Pro, Enterprise, and Unity Industrial Collection users.\n\nHavok's award winning physics engine, applied to Unity’s Entity Component System (ECS)  framework. Havok Physics for Unity augments the Unity Physics package, allowing physics scenes authored for ECS to be simulated using the Havok Physics engine.",
+      "displayName": "Havok Physics for Unity",
+      "type": "assets",
+      "host": "editor",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "category": "Havok",
+      "dependencies": {
+        "com.unity.burst": "1.8.10",
+        "com.unity.collections": "2.4.0-pre.2",
+        "com.unity.entities": "1.2.0-pre.6",
+        "com.unity.mathematics": "1.3.1",
+        "com.unity.physics": "1.2.0-pre.6",
+        "com.unity.test-framework": "1.3.8"
+      }
+    },
+    "1.2.0-pre.4": {
+      "author": {
+        "name": "Microsoft"
+      },
+      "unity": "2022.3",
+      "unityRelease": "11f1",
+      "_upm": {
+        "changelog": "### Changed\n\n* Updated Burst dependency to 1.8.10"
+      },
+      "upmCi": {
+        "footprint": "50d42b8dfad1b1374336356ef2f78406608f24cb"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.havok.physics@1.2/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/dots.git",
+        "type": "git",
+        "revision": "38c44b22a14cc4a35bc1b7a2f5ab1846208176d5"
+      },
+      "dist": {
+        "shasum": "44411864df75f2f3c80d118d47d1b726c50e3ca8",
+        "tarball": "https://download.packages.unity.com/com.havok.physics/-/com.havok.physics-1.2.0-pre.4.tgz"
+      },
+      "name": "com.havok.physics",
+      "version": "1.2.0-pre.4",
+      "description": "Havok Physics for Unity is available to Pro, Enterprise, and Unity Industrial Collection users.\n\nHavok's award winning physics engine, applied to Unity’s Entity Component System (ECS)  framework. Havok Physics for Unity augments the Unity Physics package, allowing physics scenes authored for ECS to be simulated using the Havok Physics engine.",
+      "displayName": "Havok Physics for Unity",
+      "type": "assets",
+      "host": "editor",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "category": "Havok",
+      "dependencies": {
+        "com.unity.burst": "1.8.10",
+        "com.unity.collections": "2.4.0-pre.2",
+        "com.unity.entities": "1.2.0-pre.4",
+        "com.unity.mathematics": "1.3.1",
+        "com.unity.physics": "1.2.0-pre.4",
+        "com.unity.test-framework": "1.3.8"
+      }
+    },
+    "1.2.0-exp.3": {
+      "author": {
+        "name": "Microsoft"
+      },
+      "unity": "2022.3",
+      "unityRelease": "11f1",
+      "_upm": {
+        "changelog": "### Changed\n* The minimum supported editor version is now 2022.3.11f1"
+      },
+      "upmCi": {
+        "footprint": "cb0f44d4e44946518c2318d2fdf91f15735fc3bc"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.havok.physics@1.2/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/dots.git",
+        "type": "git",
+        "revision": "9bfd95fb576e8fa710c8544b6706bdd73e25afef"
+      },
+      "dist": {
+        "shasum": "0489f011e6cea006b6e1f1c035ba15f047696b83",
+        "tarball": "https://download.packages.unity.com/com.havok.physics/-/com.havok.physics-1.2.0-exp.3.tgz"
+      },
+      "name": "com.havok.physics",
+      "version": "1.2.0-exp.3",
+      "description": "Havok Physics for Unity is available to Pro, Enterprise, and Unity Industrial Collection users.\n\nHavok's award winning physics engine, applied to Unity’s Entity Component System (ECS)  framework. Havok Physics for Unity augments the Unity Physics package, allowing physics scenes authored for ECS to be simulated using the Havok Physics engine.",
+      "displayName": "Havok Physics for Unity",
+      "type": "assets",
+      "host": "editor",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "category": "Havok",
+      "dependencies": {
+        "com.unity.burst": "1.8.8",
+        "com.unity.collections": "2.4.0-exp.2",
+        "com.unity.entities": "1.2.0-exp.3",
+        "com.unity.mathematics": "1.3.1",
+        "com.unity.physics": "1.2.0-exp.3",
+        "com.unity.test-framework": "1.3.8"
+      }
+    },
+    "1.1.0-pre.3": {
+      "author": {
+        "name": "Microsoft"
+      },
+      "unity": "2022.3",
+      "unityRelease": "0f1",
+      "_upm": {
+        "changelog": "### Changed\n* Updated com.unity.physics version to 1.1.0-pre.3\n\n### Fixed\n* IOS native plugin has been reworked to deploy as a set of archive files.\n* IOS native plugin has been integrated with the low-level native plugin interfaces and lifecycle."
+      },
+      "upmCi": {
+        "footprint": "096d84b72a7e884a74a6185ae8672bedfec4b44f"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.havok.physics@1.1/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/dots.git",
+        "type": "git",
+        "revision": "5edeb315aa3ca0d26060290a69660b2afdabe2ff"
+      },
+      "dist": {
+        "shasum": "fbc9f22dd41db119802d9777ade06c0dc545d189",
+        "tarball": "https://download.packages.unity.com/com.havok.physics/-/com.havok.physics-1.1.0-pre.3.tgz"
+      },
+      "name": "com.havok.physics",
+      "version": "1.1.0-pre.3",
+      "description": "Havok Physics for Unity is available to Pro, Enterprise, and Unity Industrial Collection users.\n\nHavok's award winning physics engine, applied to Unity’s Entity Component System (ECS)  framework. Havok Physics for Unity augments the Unity Physics package, allowing physics scenes authored for ECS to be simulated using the Havok Physics engine.",
+      "displayName": "Havok Physics for Unity",
+      "type": "assets",
+      "host": "editor",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "category": "Havok",
+      "dependencies": {
+        "com.unity.burst": "1.8.8",
+        "com.unity.collections": "2.3.0-pre.3",
+        "com.unity.entities": "1.1.0-pre.3",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.physics": "1.1.0-pre.3",
+        "com.unity.test-framework": "1.3.8"
+      }
+    },
+    "1.1.0-exp.1": {
+      "author": {
+        "name": "Microsoft"
+      },
+      "unity": "2022.3",
+      "unityRelease": "0f1",
+      "_upm": {
+        "changelog": "### Changed\n* Updated com.unity.physics version to 1.1.0-exp.1"
+      },
+      "upmCi": {
+        "footprint": "b1c33880e307203c10ac161cfa1a7f0199c53ee7"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.havok.physics@1.1/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/dots.git",
+        "type": "git",
+        "revision": "c3274ed2015eeec85914d62bfbd32e39f0dd112b"
+      },
+      "dist": {
+        "shasum": "14b49cce55fdce3c234ce903b7e3d8079fa59344",
+        "tarball": "https://download.packages.unity.com/com.havok.physics/-/com.havok.physics-1.1.0-exp.1.tgz"
+      },
+      "name": "com.havok.physics",
+      "version": "1.1.0-exp.1",
+      "description": "Havok Physics for Unity is available to Pro, Enterprise, and Unity Industrial Collection users.\n\nHavok's award winning physics engine, applied to Unity’s Entity Component System (ECS)  framework. Havok Physics for Unity augments the Unity Physics package, allowing physics scenes authored for ECS to be simulated using the Havok Physics engine.",
+      "displayName": "Havok Physics for Unity",
+      "type": "assets",
+      "host": "editor",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "category": "Havok",
+      "dependencies": {
+        "com.unity.burst": "1.8.8",
+        "com.unity.collections": "2.3.0-exp.1",
+        "com.unity.entities": "1.1.0-exp.1",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.physics": "1.1.0-exp.1",
+        "com.unity.test-framework": "1.3.8"
+      }
+    },
+    "1.0.16": {
+      "author": {
+        "name": "Microsoft"
+      },
+      "unity": "2022.3",
+      "unityRelease": "0f1",
+      "_upm": {
+        "changelog": "### Changed\n\n* Updated Burst dependency to version 1.8.8\n* Updated com.unity.physics version to 1.0.16"
+      },
+      "upmCi": {
+        "footprint": "2d0eab659cc835d8c1a4b521701a29ce1f57312e"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.havok.physics@1.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/dots.git",
+        "type": "git",
+        "revision": "8f9a34fef643cca2b5f84470ac61c171c1831168"
+      },
+      "dist": {
+        "shasum": "772285a07e880df8e3e752e50ab25fd5fb6975c8",
+        "tarball": "https://download.packages.unity.com/com.havok.physics/-/com.havok.physics-1.0.16.tgz"
+      },
+      "name": "com.havok.physics",
+      "version": "1.0.16",
+      "description": "Havok Physics for Unity is available to Pro, Enterprise, and Unity Industrial Collection users.\n\nHavok's award winning physics engine, applied to Unity’s Entity Component System (ECS)  framework. Havok Physics for Unity augments the Unity Physics package, allowing physics scenes authored for ECS to be simulated using the Havok Physics engine.",
+      "displayName": "Havok Physics for Unity",
+      "type": "assets",
+      "host": "editor",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "category": "Havok",
+      "dependencies": {
+        "com.unity.burst": "1.8.8",
+        "com.unity.collections": "2.1.4",
+        "com.unity.entities": "1.0.16",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.physics": "1.0.16"
+      }
+    },
+    "1.0.14": {
+      "author": {
+        "name": "Microsoft"
+      },
+      "unity": "2022.3",
+      "unityRelease": "0f1",
+      "_upm": {
+        "changelog": "### Changed\n\n* Updated Burst dependency to version 1.8.7\n* Updated com.unity.physics version to 1.0.14"
+      },
+      "upmCi": {
+        "footprint": "f6ac8d2aebbb0bc16d1fc4819ee9c929ca162e0b"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.havok.physics@1.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/dots.git",
+        "type": "git",
+        "revision": "13433ff314ae6503bb855899b83d26a063650441"
+      },
+      "dist": {
+        "shasum": "28b1f63d1f461f2649f97fbff7b3f377d9179208",
+        "tarball": "https://download.packages.unity.com/com.havok.physics/-/com.havok.physics-1.0.14.tgz"
+      },
+      "name": "com.havok.physics",
+      "version": "1.0.14",
+      "description": "Havok Physics for Unity is available to Pro, Enterprise, and Unity Industrial Collection users.\n\nHavok's award winning physics engine, applied to Unity’s Entity Component System (ECS)  framework. Havok Physics for Unity augments the Unity Physics package, allowing physics scenes authored for ECS to be simulated using the Havok Physics engine.",
+      "displayName": "Havok Physics for Unity",
+      "type": "assets",
+      "host": "editor",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "category": "Havok",
+      "dependencies": {
+        "com.unity.burst": "1.8.7",
+        "com.unity.collections": "2.1.4",
+        "com.unity.entities": "1.0.14",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.physics": "1.0.14"
+      }
+    },
+    "1.0.11": {
+      "author": {
+        "name": "Microsoft"
+      },
+      "unity": "2022.2",
+      "unityRelease": "15f1",
+      "_upm": {
+        "changelog": "### Changed\n* Updated com.unity.physics version to 1.0.11"
+      },
+      "upmCi": {
+        "footprint": "6be61adafb33b844042cba5edaa10daf66f6ff81"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.havok.physics@1.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/dots.git",
+        "type": "git",
+        "revision": "81c21934f16a49fc5f826187f07aaea4728d63c3"
+      },
+      "dist": {
+        "shasum": "3312a788300037e2190fa91d84d48da6ed7185e5",
+        "tarball": "https://download.packages.unity.com/com.havok.physics/-/com.havok.physics-1.0.11.tgz"
+      },
+      "name": "com.havok.physics",
+      "version": "1.0.11",
+      "description": "Havok Physics for Unity is available to Pro, Enterprise, and Unity Industrial Collection users.\n\nHavok's award winning physics engine, applied to Unity’s Entity Component System (ECS)  framework. Havok Physics for Unity augments the Unity Physics package, allowing physics scenes authored for ECS to be simulated using the Havok Physics engine.",
+      "displayName": "Havok Physics for Unity",
+      "type": "assets",
+      "host": "editor",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "category": "Havok",
+      "dependencies": {
+        "com.unity.burst": "1.8.4",
+        "com.unity.collections": "2.1.4",
+        "com.unity.entities": "1.0.11",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.physics": "1.0.11"
+      }
+    },
+    "1.0.10": {
+      "author": {
+        "name": "Microsoft"
+      },
+      "unity": "2022.2",
+      "unityRelease": "15f1",
+      "_upm": {
+        "changelog": "### Changed\n* Updated com.unity.physics version to 1.0.10"
+      },
+      "upmCi": {
+        "footprint": "ffa4084dc105e2ee183dc2567772de5e99c05700"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.havok.physics@1.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/dots.git",
+        "type": "git",
+        "revision": "464acdc5351df3c5deeb425d7aa31f4c7b20c0cf"
+      },
+      "dist": {
+        "shasum": "bbd11e6680ef4500132387fe4fd58357b114039d",
+        "tarball": "https://download.packages.unity.com/com.havok.physics/-/com.havok.physics-1.0.10.tgz"
+      },
+      "name": "com.havok.physics",
+      "version": "1.0.10",
+      "description": "Havok Physics for Unity is available to Pro, Enterprise, and Unity Industrial Collection users.\n\nHavok's award winning physics engine, applied to Unity’s Entity Component System (ECS)  framework. Havok Physics for Unity augments the Unity Physics package, allowing physics scenes authored for ECS to be simulated using the Havok Physics engine.",
+      "displayName": "Havok Physics for Unity",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "category": "Havok",
+      "dependencies": {
+        "com.unity.burst": "1.8.4",
+        "com.unity.collections": "2.1.4",
+        "com.unity.entities": "1.0.10",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.physics": "1.0.10"
+      }
+    },
+    "1.0.8": {
+      "author": {
+        "name": "Microsoft"
+      },
+      "unity": "2022.2",
+      "unityRelease": "15f1",
+      "_upm": {
+        "changelog": "### Changed\n* Updated Burst version to 1.8.4\n\n### Removed\n* Dependency on com.unity.test-framework\n\n### Fixed\n* Outdated licensing information for Havok Physics package"
+      },
+      "upmCi": {
+        "footprint": "302ec5085c7b3adf7c73f98117b939af25d48abc"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.havok.physics@1.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/dots.git",
+        "type": "git",
+        "revision": "25dfb648cd0fabcf13fed46219e5fbe0fdabe4ac"
+      },
+      "dist": {
+        "shasum": "28a39725e3a889d77248803821fa0e5266342134",
+        "tarball": "https://download.packages.unity.com/com.havok.physics/-/com.havok.physics-1.0.8.tgz"
+      },
+      "name": "com.havok.physics",
+      "version": "1.0.8",
+      "description": "Havok Physics for Unity is available to Pro, Enterprise, and Unity Industrial Collection users.\n\nHavok's award winning physics engine, applied to Unity’s Entity Component System (ECS)  framework. Havok Physics for Unity augments the Unity Physics package, allowing physics scenes authored for ECS to be simulated using the Havok Physics engine.",
+      "displayName": "Havok Physics for Unity",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "category": "Havok",
+      "dependencies": {
+        "com.unity.burst": "1.8.4",
+        "com.unity.collections": "2.1.4",
+        "com.unity.entities": "1.0.8",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.physics": "1.0.8"
+      }
+    },
+    "1.0.0-pre.65": {
+      "author": {
+        "name": "Microsoft"
+      },
+      "unity": "2022.2",
+      "unityRelease": "2f1",
+      "_upm": {
+        "changelog": "### Changed\n\n* Updated Burst version in use to 1.8.3\n\n### Fixed\n\n* The Havok Visual Debugger (VDB) does not work on 12th Gen and later Intel® Core™ devices."
+      },
+      "upmCi": {
+        "footprint": "5da160044f8fde192a7c40c730d7979c8dcea5f4"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.havok.physics@1.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/dots.git",
+        "type": "git",
+        "revision": "85530c484ef7afedc5b128081152ec5e1f6f30e2"
+      },
+      "dist": {
+        "shasum": "216c992c4dc3451c850f7e6cc505bef042c852c6",
+        "tarball": "https://download.packages.unity.com/com.havok.physics/-/com.havok.physics-1.0.0-pre.65.tgz"
+      },
+      "name": "com.havok.physics",
+      "version": "1.0.0-pre.65",
+      "description": "Havok Physics for Unity is available to Pro, Enterprise, and Unity Industrial Collection users.\n\nHavok's award winning physics engine, applied to Unity’s Entity Component System (ECS)  framework. Havok Physics for Unity augments the Unity Physics package, allowing physics scenes authored for ECS to be simulated using the Havok Physics engine.\n\nNOTE: The licensing and distribution model of Havok Physics for Unity is owned and managed entirely by Microsoft (Havok) and not by Unity.",
+      "displayName": "Havok Physics for Unity",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "category": "Havok",
+      "dependencies": {
+        "com.unity.burst": "1.8.3",
+        "com.unity.collections": "2.1.0-pre.18",
+        "com.unity.entities": "1.0.0-pre.65",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.physics": "1.0.0-pre.65",
+        "com.unity.test-framework": "1.3.2"
+      }
+    },
+    "1.0.0-pre.44": {
+      "author": {
+        "name": "Microsoft"
+      },
+      "unity": "2022.2",
+      "unityRelease": "2f1",
+      "_upm": {
+        "changelog": "### Added\n\n* Setting added in editor preferences for logging of Havok Plugin build version after editor startup and after every domain reload.\n\n### Fixed\n\n* Fixed stability issues with rotational motor around normalized angle of (175-180] degrees.\n* Fixed stability issues when RotationMotor Constraint is not followed by Angular Constraint that locks the remaining 2 angular axes.\n* Fixed the slowness of linear position motor to reach the target position (even with high MaxImpulse)."
+      },
+      "upmCi": {
+        "footprint": "c90c099ac560ffa7b96bb44d14b68ccd6227a1aa"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.havok.physics@1.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/dots.git",
+        "type": "git",
+        "revision": "0e572178431e16c09c6c434c873bf0c60e52a5e9"
+      },
+      "dist": {
+        "shasum": "778584765329b343b4d80db6abec7cc9922fc91b",
+        "tarball": "https://download.packages.unity.com/com.havok.physics/-/com.havok.physics-1.0.0-pre.44.tgz"
+      },
+      "name": "com.havok.physics",
+      "version": "1.0.0-pre.44",
+      "description": "Havok Physics for Unity is available to Pro, Enterprise, and Unity Industrial Collection users.\n\nHavok's award winning physics engine, applied to Unity’s Entity Component System (ECS)  framework. Havok Physics for Unity augments the Unity Physics package, allowing physics scenes authored for ECS to be simulated using the Havok Physics engine.\n\nNOTE: The licensing and distribution model of Havok Physics for Unity is owned and managed entirely by Microsoft (Havok) and not by Unity.",
+      "displayName": "Havok Physics for Unity",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "category": "Havok",
+      "dependencies": {
+        "com.unity.burst": "1.8.2",
+        "com.unity.collections": "2.1.0-pre.11",
+        "com.unity.entities": "1.0.0-pre.44",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.physics": "1.0.0-pre.44",
+        "com.unity.test-framework": "1.3.2"
+      }
+    },
+    "1.0.0-pre.15": {
+      "author": {
+        "name": "Microsoft"
+      },
+      "unity": "2022.2",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "7158dabbc35fc01e1592f0d5dffb815ca0ee5fa5"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/dots.git",
+        "type": "git",
+        "revision": "82387d7cb4bc4aee07e94656ef8103860ef6ec55"
+      },
+      "dist": {
+        "shasum": "0266a2b048cd356da978def817fe5ff13795d7a9",
+        "tarball": "https://download.packages.unity.com/com.havok.physics/-/com.havok.physics-1.0.0-pre.15.tgz"
+      },
+      "name": "com.havok.physics",
+      "version": "1.0.0-pre.15",
+      "description": "Havok Physics for Unity is available to Pro, Enterprise, and Unity Industrial Collection users.\n\nHavok's award winning physics engine, applied to Unity’s Entity Component System (ECS)  framework. Havok Physics for Unity augments the Unity Physics package, allowing physics scenes authored for ECS to be simulated using the Havok Physics engine.\n\nNOTE: The licensing and distribution model of Havok Physics for Unity is owned and managed entirely by Microsoft (Havok) and not by Unity.",
+      "displayName": "Havok Physics for Unity",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "category": "Havok",
+      "dependencies": {
+        "com.unity.burst": "1.7.4",
+        "com.unity.collections": "2.1.0-pre.2",
+        "com.unity.entities": "1.0.0-pre.15",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.physics": "1.0.0-pre.15",
+        "com.unity.test-framework": "1.1.33"
+      }
+    },
+    "0.51.1-preview.21": {
+      "author": "Microsoft",
+      "unity": "2020.3",
+      "unityRelease": "30f1",
+      "upm": {
+        "changelog": "### Changed\n* Package Dependencies\n    * `com.unity.entities` to version `0.51.1`\n    * `com.unity.physics` to version `0.51.1`\n    * `com.unity.collections` to version `1.4.0`"
+      },
+      "upmCi": {
+        "footprint": "d3c4141657abf818e2c682cfbe3c924dfdea4556"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/dots.git",
+        "type": "git",
+        "revision": "063a98897b40805f53b859bb426ce664229d0c00"
+      },
+      "dist": {
+        "shasum": "ed2403fd33d1906ec4be37d9dbcd2b8f5e65bec4",
+        "tarball": "https://download.packages.unity.com/com.havok.physics/-/com.havok.physics-0.51.1-preview.21.tgz"
+      },
+      "name": "com.havok.physics",
+      "version": "0.51.1-preview.21",
+      "description": "Havok's award winning physics engine, applied to the DOTS framework. This augments the Unity Physics package, allowing physics scenes authored for DOTS to be simulated using the Havok Physics engine.\n\nHavok Physics for Unity is free to use for both Unity Personal and Unity Plus users. Unity Pro users must purchase a Havok subscription from the Unity Asset Store. For more details on licensing, see the package documentation.\n\nNOTE: The licensing and distribution model of Havok Physics for Unity is owned and managed entirely by Microsoft (Havok) and not by Unity.",
+      "displayName": "Havok Physics for Unity",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "category": "Havok",
+      "dependencies": {
+        "com.unity.burst": "1.6.6",
+        "com.unity.collections": "1.4.0",
+        "com.unity.entities": "0.51.1-preview.21",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.physics": "0.51.1-preview.21",
+        "com.unity.test-framework": "1.1.31"
+      }
+    },
+    "0.51.0-preview.32": {
+      "author": "Microsoft",
+      "unity": "2020.3",
+      "unityRelease": "0f1",
+      "upm": {
+        "changelog": "### Changed\n* Package Dependencies\n    * `com.unity.burst` to version `1.6.6`\n    * `com.unity.entities` to version `0.51.0`\n    * `com.unity.mathematics` to version `1.2.6`\n    * `com.unity.physics` to version `0.51.0`\n    * `com.unity.collections` to version `1.3.1`"
+      },
+      "upmCi": {
+        "footprint": "aa0dda88940ccbb5b22f6682d0c5430c74853bde"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/dots.git",
+        "type": "git",
+        "revision": "469d2b30300a7ff2c2b15f72ee8613e374c37b63"
+      },
+      "_id": "com.havok.physics@0.51.0-preview.32",
+      "_integrity": "sha512-Y1c31yiGl367kgxwRE5p/AILzzvOV6vAKKfBTDWekcDKZUWsrOy5hdFaZENl9lbV3bF/U/y+kcmWITpEG9xF8w==",
+      "_resolved": "/tmp/com.havok.physics@0.51.0-preview.32-qdy65lac.tgz",
+      "_from": "file:/tmp/com.havok.physics@0.51.0-preview.32-qdy65lac.tgz",
+      "dist": {
+        "shasum": "462cffbbd5ecd423345afd4d2d447a5ddb24c91c",
+        "tarball": "https://download.packages.unity.com/com.havok.physics/-/com.havok.physics-0.51.0-preview.32.tgz"
+      },
+      "name": "com.havok.physics",
+      "version": "0.51.0-preview.32",
+      "description": "Havok's award winning physics engine, applied to the DOTS framework. This augments the Unity Physics package, allowing physics scenes authored for DOTS to be simulated using the Havok Physics engine.\n\nHavok Physics for Unity is free to use for both Unity Personal and Unity Plus users. Unity Pro users must purchase a Havok subscription from the Unity Asset Store. For more details on licensing, see the package documentation.\n\nNOTE: The licensing and distribution model of Havok Physics for Unity is owned and managed entirely by Microsoft (Havok) and not by Unity.",
+      "displayName": "Havok Physics for Unity",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "category": "Havok",
+      "dependencies": {
+        "com.unity.burst": "1.6.6",
+        "com.unity.collections": "1.3.1",
+        "com.unity.entities": "0.51.0-preview.32",
+        "com.unity.jobs": "0.51.0-preview.32",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.physics": "0.51.0-preview.32",
+        "com.unity.test-framework": "1.1.31"
+      }
+    },
+    "0.50.0-preview.37": {
+      "author": "Microsoft",
+      "unity": "2020.3",
+      "unityRelease": "0f1",
+      "upm": {
+        "changelog": "### Changed\n* Upgraded com.unity.burst to 1.5.5"
+      },
+      "upmCi": {
+        "footprint": "ba7d4d72783c6f7b04c382a1030c9c132b411704"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/dots.git",
+        "type": "git",
+        "revision": "f8349c67e89576875c1839a3564429fd9c4bccee"
+      },
+      "_id": "com.havok.physics@0.50.0-preview.37",
+      "_integrity": "sha512-n+Z3p9aMZLQbYPTSKXT5fEcCIJl2U6Sb4I+G+EMbX5TdRAkaLzoMa4+oklYpUszFPBM/OFKC4K3N26/QsIV/0g==",
+      "_resolved": "/tmp/com.havok.physics@0.50.0-preview.37-w2shkrcn.tgz",
+      "_from": "file:/tmp/com.havok.physics@0.50.0-preview.37-w2shkrcn.tgz",
+      "dist": {
+        "shasum": "051c67d452707931b7a850fe1418c7556a974904",
+        "tarball": "https://download.packages.unity.com/com.havok.physics/-/com.havok.physics-0.50.0-preview.37.tgz"
+      },
+      "name": "com.havok.physics",
+      "version": "0.50.0-preview.37",
+      "description": "Havok's award winning physics engine, applied to the DOTS framework. This augments the Unity Physics package, allowing physics scenes authored for DOTS to be simulated using the Havok Physics engine.\n\nHavok Physics for Unity is free to use for both Unity Personal and Unity Plus users. Unity Pro users must purchase a Havok subscription from the Unity Asset Store. For more details on licensing, see the package documentation.\n\nNOTE: The licensing and distribution model of Havok Physics for Unity is owned and managed entirely by Microsoft (Havok) and not by Unity.",
+      "displayName": "Havok Physics for Unity",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "category": "Havok",
+      "dependencies": {
+        "com.unity.burst": "1.6.4",
+        "com.unity.collections": "1.2.3",
+        "com.unity.entities": "0.50.0-preview.37",
+        "com.unity.jobs": "0.50.0-preview.9",
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.physics": "0.50.0-preview.37",
+        "com.unity.test-framework": "1.1.31"
+      }
+    },
+    "0.50.0-preview.24": {
+      "author": "Microsoft",
+      "unity": "2020.3",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "afc734168a4561967da17dbb6d1fc98fd2a1db48"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/dots.git",
+        "type": "git",
+        "revision": "8327688fcdee91448c8d4aa1ebbd5a4c1e665bef"
+      },
+      "_id": "com.havok.physics@0.50.0-preview.24",
+      "_integrity": "sha512-XDwmlttqBSLR8lpKqpJz+RNvH98bVH3FRhefP+wzCtS9Ew4z3cORiEcMpueBd09rPh75JNTc80bt2akM3yXWoQ==",
+      "_resolved": "/tmp/com.havok.physics@0.50.0-preview.24-z1wmp1rx.tgz",
+      "_from": "file:/tmp/com.havok.physics@0.50.0-preview.24-z1wmp1rx.tgz",
+      "dist": {
+        "shasum": "5d770c103a608e53f6a744ce44ae93edd3731b3c",
+        "tarball": "https://download.packages.unity.com/com.havok.physics/-/com.havok.physics-0.50.0-preview.24.tgz"
+      },
+      "name": "com.havok.physics",
+      "version": "0.50.0-preview.24",
+      "description": "Havok's award winning physics engine, applied to the DOTS framework. This augments the Unity Physics package, allowing physics scenes authored for DOTS to be simulated using the Havok Physics engine.\n\nHavok Physics for Unity is free to use for both Unity Personal and Unity Plus users. Unity Pro users must purchase a Havok subscription from the Unity Asset Store. For more details on licensing, see the package documentation.\n\nNOTE: The licensing and distribution model of Havok Physics for Unity is owned and managed entirely by Microsoft (Havok) and not by Unity.",
+      "displayName": "Havok Physics for Unity",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "category": "Havok",
+      "dependencies": {
+        "com.unity.burst": "1.6.4",
+        "com.unity.collections": "1.2.3-pre.1",
+        "com.unity.entities": "0.50.0-preview.24",
+        "com.unity.jobs": "0.50.0-preview.8",
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.physics": "0.50.0-preview.24",
+        "com.unity.test-framework": "1.1.31"
+      }
+    },
+    "0.6.0-preview.3": {
+      "author": {
+        "name": "Microsoft"
+      },
+      "unity": "2020.1",
+      "unityRelease": "9f1",
+      "upmCi": {
+        "footprint": "33fbc955049c36f76ef5a82248ac4d2232da2169"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/Unity.Physics.git",
+        "type": "git",
+        "revision": "6ec1fba588df68052879913d6e4b14ed3714e90e"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.havok.physics-0.6.0-preview.3.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/Unity.Physics/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/Unity.Physics#readme",
+      "_id": "com.havok.physics@0.6.0-preview.3",
+      "dist": {
+        "shasum": "f56f30b748fed7bf03d7665fed69d50bf7bf9a59",
+        "tarball": "https://download.packages.unity.com/com.havok.physics/-/com.havok.physics-0.6.0-preview.3.tgz"
+      },
+      "name": "com.havok.physics",
+      "version": "0.6.0-preview.3",
+      "description": "Havok's award winning physics engine, applied to the DOTS framework. This augments the Unity Physics package, allowing physics scenes authored for DOTS to be simulated using the Havok Physics engine.\n\nHavok Physics for Unity is free to use for both Unity Personal and Unity Plus users. Unity Pro users must purchase a Havok subscription from the Unity Asset Store. For more details on licensing, see the package documentation.\n\nNOTE: The licensing and distribution model of Havok Physics for Unity is owned and managed entirely by Microsoft (Havok) and not by Unity.",
+      "displayName": "Havok Physics for Unity",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "category": "Havok",
+      "dependencies": {
+        "com.unity.burst": "1.4.1",
+        "com.unity.collections": "0.15.0-preview.21",
+        "com.unity.entities": "0.17.0-preview.41",
+        "com.unity.jobs": "0.8.0-preview.23",
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.physics": "0.6.0-preview.3",
+        "com.unity.test-framework": "1.1.11"
+      }
+    },
+    "0.4.1-preview.2": {
+      "author": {
+        "name": "Microsoft"
+      },
+      "unity": "2020.1",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "4e2230fef42c78d4cb3204d7e8cc0fa3d3c34bec"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/Unity.Physics.git",
+        "type": "git",
+        "revision": "107c985da0b8a22d04b85a01c17e3beedce0f5de"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.havok.physics-0.4.1-preview.2.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/Unity.Physics/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/Unity.Physics#readme",
+      "_id": "com.havok.physics@0.4.1-preview.2",
+      "dist": {
+        "shasum": "97d3a949a1e71c23ae3c055e7c1f7e1e848fc11d",
+        "tarball": "https://download.packages.unity.com/com.havok.physics/-/com.havok.physics-0.4.1-preview.2.tgz"
+      },
+      "name": "com.havok.physics",
+      "version": "0.4.1-preview.2",
+      "description": "Havok's award winning physics engine, applied to the DOTS framework. This augments the Unity Physics package, allowing physics scenes authored for DOTS to be simulated using the Havok Physics engine.\n\nHavok Physics for Unity is free to use for both Unity Personal and Unity Plus users. Unity Pro users must purchase a Havok subscription from the Unity Asset Store. For more details on licensing, see the package documentation.\n\nNOTE: The licensing and distribution model of Havok Physics for Unity is owned and managed entirely by Microsoft (Havok) and not by Unity.",
+      "displayName": "Havok Physics for Unity",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "category": "Havok",
+      "dependencies": {
+        "com.unity.burst": "1.3.7",
+        "com.unity.collections": "0.14.0-preview.16",
+        "com.unity.entities": "0.16.0-preview.21",
+        "com.unity.jobs": "0.7.0-preview.17",
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.physics": "0.5.1-preview.2",
+        "com.unity.test-framework": "1.1.11"
+      }
+    },
+    "0.4.0-preview.1": {
+      "author": {
+        "name": "Microsoft"
+      },
+      "unity": "2020.1",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "dfefe40198107a4062d0393271debd1d0ec0b26d"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/Unity.Physics.git",
+        "type": "git",
+        "revision": "26a96b1afb0b7cc0e600b2b911765e00b9fd31bd"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.havok.physics-0.4.0-preview.1.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/Unity.Physics/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/Unity.Physics#readme",
+      "_id": "com.havok.physics@0.4.0-preview.1",
+      "dist": {
+        "shasum": "5f8e2443d0955c05bece1a32e9b31a80ac8531a5",
+        "tarball": "https://download.packages.unity.com/com.havok.physics/-/com.havok.physics-0.4.0-preview.1.tgz"
+      },
+      "name": "com.havok.physics",
+      "version": "0.4.0-preview.1",
+      "description": "Havok's award winning physics engine, applied to the DOTS framework. This augments the Unity Physics package, allowing physics scenes authored for DOTS to be simulated using the Havok Physics engine.\n\nHavok Physics for Unity is free to use for both Unity Personal and Unity Plus users. Unity Pro users must purchase a Havok subscription from the Unity Asset Store. For more details on licensing, see the package documentation.\n\nNOTE: The licensing and distribution model of Havok Physics for Unity is owned and managed entirely by Microsoft (Havok) and not by Unity.",
+      "displayName": "Havok Physics for Unity",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "category": "Havok",
+      "dependencies": {
+        "com.unity.burst": "1.3.2",
+        "com.unity.collections": "0.11.0-preview.17",
+        "com.unity.entities": "0.13.0-preview.24",
+        "com.unity.jobs": "0.4.0-preview.18",
+        "com.unity.physics": "0.5.0-preview.1",
+        "com.unity.test-framework": "1.1.11"
+      }
+    },
+    "0.3.1-preview": {
+      "author": {
+        "name": "Microsoft"
+      },
+      "unity": "2019.4",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "2beda68e500b6b4ff4be01bbde941a70c2cdd874"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/Unity.Physics.git",
+        "type": "git",
+        "revision": "c96a366de0bfeca237d52699d877b1a2cfb7496f"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.havok.physics-0.3.1-preview.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/Unity.Physics/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/Unity.Physics#readme",
+      "_id": "com.havok.physics@0.3.1-preview",
+      "dist": {
+        "shasum": "6dee07994a8e91b210e038cc758da17a959ee649",
+        "tarball": "https://download.packages.unity.com/com.havok.physics/-/com.havok.physics-0.3.1-preview.tgz"
+      },
+      "name": "com.havok.physics",
+      "version": "0.3.1-preview",
+      "description": "Havok's award winning physics engine, applied to the DOTS framework. This augments the Unity Physics package, allowing physics scenes authored for DOTS to be simulated using the Havok Physics engine.\n\nHavok Physics for Unity is free to use for both Unity Personal and Unity Plus users. Unity Pro users must purchase a Havok subscription from the Unity Asset Store. For more details on licensing, see the package documentation.\n\nNOTE: The licensing and distribution model of Havok Physics for Unity is owned and managed entirely by Microsoft (Havok) and not by Unity.",
+      "displayName": "Havok Physics for Unity",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "category": "Havok",
+      "dependencies": {
+        "com.unity.burst": "1.3.0",
+        "com.unity.collections": "0.9.0-preview.6",
+        "com.unity.entities": "0.11.1-preview.4",
+        "com.unity.jobs": "0.2.10-preview.12",
+        "com.unity.physics": "0.4.1-preview",
+        "com.unity.test-framework": "1.1.11"
+      }
+    },
+    "0.3.0-preview.1": {
+      "author": {
+        "name": "Microsoft"
+      },
+      "unity": "2019.4",
+      "unityRelease": "0f1",
+      "upmCi": {
+        "footprint": "8211ff6baa42e82751d4278b31d574abba649990"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/Unity.Physics.git",
+        "type": "git",
+        "revision": "5b84e9fb6a4f7f152f671aec08554b3106d711c1"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.havok.physics-0.3.0-preview.1.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/Unity.Physics/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/Unity.Physics#readme",
+      "_id": "com.havok.physics@0.3.0-preview.1",
+      "dist": {
+        "shasum": "699ef04edc2337cc2883f338f625dba3b8136137",
+        "tarball": "https://download.packages.unity.com/com.havok.physics/-/com.havok.physics-0.3.0-preview.1.tgz"
+      },
+      "name": "com.havok.physics",
+      "version": "0.3.0-preview.1",
+      "description": "Havok's award winning physics engine, applied to the DOTS framework. This augments the Unity Physics package, allowing physics scenes authored for DOTS to be simulated using the Havok Physics engine.\n\nHavok Physics for Unity is free to use for both Unity Personal and Unity Plus users. Unity Pro users must purchase a Havok subscription from the Unity Asset Store. For more details on licensing, see the package documentation.\n\nNOTE: The licensing and distribution model of Havok Physics for Unity is owned and managed entirely by Microsoft (Havok) and not by Unity.",
+      "displayName": "Havok Physics for Unity",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "category": "Havok",
+      "dependencies": {
+        "com.unity.burst": "1.3.0",
+        "com.unity.collections": "0.9.0-preview.6",
+        "com.unity.entities": "0.11.1-preview.4",
+        "com.unity.jobs": "0.2.10-preview.12",
+        "com.unity.physics": "0.4.0-preview.5",
+        "com.unity.test-framework": "1.1.11"
+      }
+    },
+    "0.2.2-preview": {
+      "author": {
+        "name": "Microsoft"
+      },
+      "unity": "2019.3",
+      "unityRelease": "0f1",
+      "repository": {
+        "footprint": "e9819d82b341f17e7e7e1a1eda63961d674b28b2",
+        "type": "git",
+        "url": "git+https://github.com/Unity-Technologies/Havok.Physics.git",
+        "revision": "a94d668fcb19fa5159bf5494b3930060f8a0995a"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.havok.physics-0.2.2-preview.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/Havok.Physics/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/Havok.Physics#readme",
+      "_id": "com.havok.physics@0.2.2-preview",
+      "dist": {
+        "shasum": "9e6c36bfa98786971499e4fcbd40075db4e9bffc",
+        "tarball": "https://download.packages.unity.com/com.havok.physics/-/com.havok.physics-0.2.2-preview.tgz"
+      },
+      "name": "com.havok.physics",
+      "version": "0.2.2-preview",
+      "description": "Havok's award winning physics engine, applied to the DOTS framework. This augments the Unity Physics package, allowing physics scenes authored for DOTS to be simulated using the Havok Physics engine.\n\nHavok Physics for Unity is free to use for both Unity Personal and Unity Plus users. Unity Pro users must purchase a Havok subscription from the Unity Asset Store. For more details on licensing, see the package documentation.\n\nNOTE: The licensing and distribution model of Havok Physics for Unity is owned and managed entirely by Microsoft (Havok) and not by Unity.",
+      "displayName": "Havok Physics for Unity",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "category": "Havok",
+      "dependencies": {
+        "com.unity.physics": "0.3.2-preview"
+      }
+    },
+    "0.2.1-preview": {
+      "author": {
+        "name": "Microsoft"
+      },
+      "unity": "2019.3",
+      "unityRelease": "0f1",
+      "repository": {
+        "footprint": "c934740dda10718a2603e0df62f23d0eeeade0de",
+        "type": "git",
+        "url": "git+https://github.com/Unity-Technologies/Havok.Physics.git",
+        "revision": "4a318e4a108e5211601b9bd4763bce1972ff2853"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.havok.physics-0.2.1-preview.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/Havok.Physics/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/Havok.Physics#readme",
+      "_id": "com.havok.physics@0.2.1-preview",
+      "dist": {
+        "shasum": "0cac76c412369a9b34664ad0d9067e070e995ae4",
+        "tarball": "https://download.packages.unity.com/com.havok.physics/-/com.havok.physics-0.2.1-preview.tgz"
+      },
+      "name": "com.havok.physics",
+      "version": "0.2.1-preview",
+      "description": "Havok's award winning physics engine, applied to the DOTS framework. This augments the Unity Physics package, allowing physics scenes authored for DOTS to be simulated using the Havok Physics engine.\n\nHavok Physics for Unity is free to use for both Unity Personal and Unity Plus users. Unity Pro users must purchase a Havok subscription from the Unity Asset Store. For more details on licensing, see the package documentation.\n\nNOTE: The licensing and distribution model of Havok Physics for Unity is owned and managed entirely by Microsoft (Havok) and not by Unity.",
+      "displayName": "Havok Physics for Unity",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "category": "Havok",
+      "dependencies": {
+        "com.unity.physics": "0.3.1-preview"
+      }
+    },
+    "0.2.0-preview": {
+      "author": {
+        "name": "Microsoft"
+      },
+      "unity": "2019.3",
+      "unityRelease": "0f1",
+      "repository": {
+        "footprint": "c3c1aec8c4d95b78a8da35374ed2e2d508fd7a9a",
+        "type": "git",
+        "url": "git+https://github.com/Unity-Technologies/Havok.Physics.git",
+        "revision": "bdfef626741ec94ca697488e867d071ae4ff25ed"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.havok.physics-0.2.0-preview.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/Havok.Physics/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/Havok.Physics#readme",
+      "_id": "com.havok.physics@0.2.0-preview",
+      "dist": {
+        "shasum": "74a89bf09109ccd8273d4ee9a33fae9c0d232ef0",
+        "tarball": "https://download.packages.unity.com/com.havok.physics/-/com.havok.physics-0.2.0-preview.tgz"
+      },
+      "name": "com.havok.physics",
+      "version": "0.2.0-preview",
+      "description": "Havok's award winning physics engine, applied to the DOTS framework. This augments the Unity Physics package, allowing physics scenes authored for DOTS to be simulated using the Havok Physics engine.\n\nHavok Physics for Unity is free to use for both Unity Personal and Unity Plus users. Unity Pro users must purchase a Havok subscription from the Unity Asset Store. For more details on licensing, see the package documentation.\n\nNOTE: The licensing and distribution model of Havok Physics for Unity is owned and managed entirely by Microsoft (Havok) and not by Unity.",
+      "displayName": "Havok Physics for Unity",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "category": "Havok",
+      "dependencies": {
+        "com.unity.physics": "0.3.0-preview.1"
+      }
+    },
+    "0.1.2-preview": {
+      "author": "Microsoft",
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:Unity-Technologies/Havok.Physics.git",
+        "revision": "bc86dadca4dcef5867d199c1c2285937cf9fe638"
+      },
+      "dist": {
+        "shasum": "bbae45218c224c21033f1c4ea3c13b96c8971c1e",
+        "tarball": "https://download.packages.unity.com/com.havok.physics/-/com.havok.physics-0.1.2-preview.tgz"
+      },
+      "scripts": {},
+      "_id": "com.havok.physics@0.1.2-preview",
+      "unity": "2019.3",
+      "unityRelease": "0f1",
+      "name": "com.havok.physics",
+      "version": "0.1.2-preview",
+      "description": "Havok's award winning physics engine, applied to the DOTS framework. This augments the Unity Physics package, allowing physics scenes authored for DOTS to be simulated using the Havok Physics engine.\n\nHavok Physics for Unity is free to use for both Unity Personal and Unity Plus users. Unity Pro users must purchase a Havok subscription from the Unity Asset Store. For more details on licensing, see the package documentation.\n\nNOTE: The licensing and distribution model of Havok Physics for Unity is owned and managed entirely by Microsoft (Havok) and not by Unity.",
+      "displayName": "Havok Physics for Unity",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "category": "Havok",
+      "dependencies": {
+        "com.unity.physics": "0.2.5-preview.1"
+      }
+    },
+    "0.1.1-preview": {
+      "author": "Microsoft",
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:Unity-Technologies/Havok.Physics.git",
+        "revision": "5a728ef8e6bd511e7dc8a6b360a504d22e264752"
+      },
+      "dist": {
+        "shasum": "fa4026fa413cc3c5a8e207067dfae002c5eb0c4c",
+        "tarball": "https://download.packages.unity.com/com.havok.physics/-/com.havok.physics-0.1.1-preview.tgz"
+      },
+      "scripts": {},
+      "_id": "com.havok.physics@0.1.1-preview",
+      "unity": "2019.1",
+      "unityRelease": "10f1",
+      "name": "com.havok.physics",
+      "version": "0.1.1-preview",
+      "description": "Havok's award winning physics engine, applied to the DOTS framework. This augments the Unity.Physics package, allowing physics scenes authored for DOTS to be simulated using the Havok Physics engine.\n\nPLEASE NOTE: This is a trial version, which expires on January 15th 2020.\n\nAfter the trial period, the native plugins will no longer function in the editor. If you want to continue using Havok Physics after the trial period, you will have to upgrade to a newer version of this package when it becomes available.\n\nHavok Physics will continue to be free to use for Unity Personal and Unity Plus users after the trial period has ended. Unity Pro users will have to purchase a Havok subscription from the Unity Asset Store. For more details on licensing, please see the package documentation.",
+      "displayName": "Havok Physics",
+      "keywords": [
+        "havok",
+        "physics"
+      ],
+      "dependencies": {
+        "com.unity.physics": "0.2.4-preview"
+      }
+    }
+  },
+  "etag": "\"0f2013e2ca4392ffdb67318b93be6205\"",
+  "time": {
+    "1.2.0-pre.6": "2023-12-15T14:21:36Z",
+    "1.2.0-pre.4": "2023-12-04T14:49:08Z",
+    "1.2.0-exp.3": "2023-11-14T17:42:54Z",
+    "1.1.0-pre.3": "2023-11-08T19:28:43Z",
+    "1.1.0-exp.1": "2023-09-20T14:42:27Z",
+    "1.0.16": "2023-09-13T11:26:49Z",
+    "1.0.14": "2023-08-10T08:45:12Z",
+    "1.0.11": "2023-06-21T08:41:32Z",
+    "1.0.10": "2023-05-25T14:09:14Z",
+    "1.0.8": "2023-05-11T16:09:05Z",
+    "1.0.0-pre.65": "2023-03-22T17:32:27Z",
+    "1.0.0-pre.44": "2023-02-16T16:52:51Z",
+    "1.0.0-pre.15": "2022-11-23T17:30:55Z",
+    "0.51.1-preview.21": "2022-08-02T15:11:11Z",
+    "0.51.0-preview.32": "2022-06-15T17:54:13Z",
+    "0.50.0-preview.37": "2022-04-26T12:16:59Z",
+    "0.50.0-preview.24": "2022-03-16T10:13:35Z",
+    "0.6.0-preview.3": "2021-01-22T16:58:38Z",
+    "0.4.1-preview.2": "2020-10-29T22:43:20Z",
+    "0.4.0-preview.1": "2020-09-18T07:39:48Z",
+    "0.3.1-preview": "2020-07-28T23:19:53Z",
+    "0.3.0-preview.1": "2020-06-18T18:40:14Z",
+    "0.2.2-preview": "2020-04-16T23:58:52Z",
+    "0.2.1-preview": "2020-03-19T19:18:47Z",
+    "0.2.0-preview": "2020-03-12T06:50:01Z",
+    "0.1.2-preview": "2020-01-10T16:00:19Z",
+    "0.1.1-preview": "2019-09-20T20:00:14Z"
+  }
+}

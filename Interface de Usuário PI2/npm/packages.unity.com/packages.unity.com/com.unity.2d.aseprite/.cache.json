@@ -1,0 +1,365 @@
+{
+  "_id": "com.unity.2d.aseprite",
+  "name": "com.unity.2d.aseprite",
+  "description": "2D Aseprite Importer is a package which enables the import of .aseprite files from the Pixel Art tool Aseprite.",
+  "provider": "upm",
+  "category": "2D",
+  "dist-tags": {
+    "latest": "1.1.1"
+  },
+  "versions": {
+    "1.1.1": {
+      "unity": "2021.3",
+      "unityRelease": "15f1",
+      "relatedPackages": {
+        "com.unity.2d.aseprite.tests": "1.1.1"
+      },
+      "_upm": {
+        "changelog": "### Fixed\n- Fixed an issue where the Sprite Editor could be opened even though there were no valid texture to open it with.\n- Fixed an issue where the importer would not generate a square power of two texture for compressions which needs it (pvrtc).\n- Fixed an issue where changes to linked cells would not be taken into account when reimporting."
+      },
+      "upmCi": {
+        "footprint": "5fc56abd22b7390d24fa554986c2cca858e86214"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.2d.aseprite@1.1/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/AsepriteImporter.git",
+        "type": "git",
+        "revision": "4c5ce5be19fca25f82112eb80561965bc91c72c2"
+      },
+      "dist": {
+        "shasum": "582f540eea708eb9c5b9bd387b24b8e9e5368659",
+        "tarball": "https://download.packages.unity.com/com.unity.2d.aseprite/-/com.unity.2d.aseprite-1.1.1.tgz"
+      },
+      "name": "com.unity.2d.aseprite",
+      "version": "1.1.1",
+      "description": "2D Aseprite Importer is a package which enables the import of .aseprite files from the Pixel Art tool Aseprite.",
+      "displayName": "2D Aseprite Importer",
+      "type": "assets",
+      "host": "editor",
+      "keywords": [
+        "2d",
+        "Aseprite",
+        "Pixel",
+        "Art",
+        "assetimporter"
+      ],
+      "category": "2D",
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.2d.common": "6.0.6",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.modules.animation": "1.0.0"
+      }
+    },
+    "1.1.0": {
+      "unity": "2021.3",
+      "unityRelease": "15f1",
+      "relatedPackages": {
+        "com.unity.2d.aseprite.tests": "1.1.0"
+      },
+      "_upm": {
+        "changelog": "### Added\n- Added a mosaic padding option to the importer editor.\n- Added Generate Physics Shape option to the importer editor.\n\n### Changed\n- Fixed an issue where the background importer would act on files that were not Aseprite files."
+      },
+      "upmCi": {
+        "footprint": "5831c945926a949ac1a8465a7593967c60a48800"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.2d.aseprite@1.1/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/AsepriteImporter.git",
+        "type": "git",
+        "revision": "1b0a451670ab3ee197ea415f7941f9c2a81c20fc"
+      },
+      "dist": {
+        "shasum": "b09d8de4ea099c8c0cc2feefbac7654657d4adeb",
+        "tarball": "https://download.packages.unity.com/com.unity.2d.aseprite/-/com.unity.2d.aseprite-1.1.0.tgz"
+      },
+      "name": "com.unity.2d.aseprite",
+      "version": "1.1.0",
+      "description": "2D Aseprite Importer is a package which enables the import of .aseprite files from the Pixel Art tool Aseprite.",
+      "displayName": "2D Aseprite Importer",
+      "type": "assets",
+      "host": "editor",
+      "keywords": [
+        "2d",
+        "Aseprite",
+        "Pixel",
+        "Art",
+        "assetimporter"
+      ],
+      "category": "2D",
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.2d.common": "6.0.6",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.modules.animation": "1.0.0"
+      }
+    },
+    "1.0.1": {
+      "unity": "2021.3",
+      "unityRelease": "15f1",
+      "relatedPackages": {
+        "com.unity.2d.aseprite.tests": "1.0.1"
+      },
+      "_upm": {
+        "changelog": "### Changed\n- Fixed an issue where the background importer would act on files that were not Aseprite files."
+      },
+      "upmCi": {
+        "footprint": "c156ef9f1609ad05612f17fa73770f7d9aaec884"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.2d.aseprite@1.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/AsepriteImporter.git",
+        "type": "git",
+        "revision": "f35a0fd1f63d861882dcf1ab563fa2e23f8566ae"
+      },
+      "dist": {
+        "shasum": "34cc045f811c076d18cf657c6372819bdeb7d81d",
+        "tarball": "https://download.packages.unity.com/com.unity.2d.aseprite/-/com.unity.2d.aseprite-1.0.1.tgz"
+      },
+      "name": "com.unity.2d.aseprite",
+      "version": "1.0.1",
+      "description": "2D Aseprite Importer is a package which enables the import of .aseprite files from the Pixel Art tool Aseprite.",
+      "displayName": "2D Aseprite Importer",
+      "type": "assets",
+      "host": "editor",
+      "keywords": [
+        "2d",
+        "Aseprite",
+        "Pixel",
+        "Art",
+        "assetimporter"
+      ],
+      "category": "2D",
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.2d.common": "6.0.6",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.modules.animation": "1.0.0"
+      }
+    },
+    "1.0.0": {
+      "unity": "2021.3",
+      "unityRelease": "15f1",
+      "relatedPackages": {
+        "com.unity.2d.aseprite.tests": "1.0.0"
+      },
+      "_upm": {
+        "changelog": "### Added\n- Added a new event to the Aseprite Importer which is fired at the last import process step.\n- Made the Aseprite file property publicly available.\n- Made the Aseprite file parsing API publicly available.\n\n### Fixed\n- Fixed an issue where the Animation Window would no longer detect Animation Clips on a prefab. (DANB-458)"
+      },
+      "upmCi": {
+        "footprint": "284aaeaccbfee1f13ee277742633d42acd7c05ab"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.2d.aseprite@1.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/AsepriteImporter.git",
+        "type": "git",
+        "revision": "419b070b489a77cf611d9d4ebff29eed4ef0bea7"
+      },
+      "dist": {
+        "shasum": "4bcfffc0993b50ad42441c19088f5a78cd598f20",
+        "tarball": "https://download.packages.unity.com/com.unity.2d.aseprite/-/com.unity.2d.aseprite-1.0.0.tgz"
+      },
+      "name": "com.unity.2d.aseprite",
+      "version": "1.0.0",
+      "description": "2D Aseprite Importer is a package which enables the import of .aseprite files from the Pixel Art tool Aseprite.",
+      "displayName": "2D Aseprite Importer",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "2d",
+        "Aseprite",
+        "Pixel",
+        "Art",
+        "assetimporter"
+      ],
+      "category": "2D",
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.2d.common": "6.0.6",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.modules.animation": "1.0.0"
+      }
+    },
+    "1.0.0-pre.4": {
+      "unity": "2021.3",
+      "unityRelease": "15f1",
+      "relatedPackages": {
+        "com.unity.2d.aseprite.tests": "1.0.0-pre.4"
+      },
+      "_upm": {
+        "changelog": "### Added\n- Added a property to set the padding within each generated SpriteRect.\n- Added an option to select import mode for the file, either Animated Sprite or Sprite Sheet.\n\n### Fixed\n- Fixed an issue where the platform settings could not be modified. (DANB-445)\n- Fixed an issue where the Animation Events would be generated with the wrong time stamp."
+      },
+      "upmCi": {
+        "footprint": "6eca4a67e33611dfbb6bec0b2ebe460771f6b3ba"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.2d.aseprite@1.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/AsepriteImporter.git",
+        "type": "git",
+        "revision": "a91ec89b192168b21b832c1b8a92cd612050989c"
+      },
+      "dist": {
+        "shasum": "50dbe1e588e2de0a378458c1cf884fdff70ed892",
+        "tarball": "https://download.packages.unity.com/com.unity.2d.aseprite/-/com.unity.2d.aseprite-1.0.0-pre.4.tgz"
+      },
+      "name": "com.unity.2d.aseprite",
+      "version": "1.0.0-pre.4",
+      "description": "2D Aseprite Importer is a package which enables the import of .aseprite files from the Pixel Art tool Aseprite.",
+      "displayName": "2D Aseprite Importer",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "2d",
+        "Aseprite",
+        "Pixel",
+        "Art",
+        "assetimporter"
+      ],
+      "category": "2D",
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.2d.common": "6.0.6",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.modules.animation": "1.0.0"
+      }
+    },
+    "1.0.0-pre.3": {
+      "unity": "2021.3",
+      "unityRelease": "15f1",
+      "relatedPackages": {
+        "com.unity.2d.aseprite.tests": "1.0.0-pre.3"
+      },
+      "_upm": {
+        "changelog": "### Added\n- Bursted the texture generation tasks, to speed up importation of Aseprite files. (Note: Only for Unity 2022.2 and newer).\n- Layer blend modes are now supported with Import Mode: Merge Frames.\n- Added ability to generate Animation Events from Cell user data.\n- Added ability to export Animator Controller and/or Animation Clips.\n- Added canvasSize to the Aseprite Importer's public API.\n\n### Fixed\n- Fixed an issue where the last frame in a generated Animation Clip would receive an incorrect length. (DANB-434)\n- Improved the background importer, so that it only imports modified Aseprite files in the background."
+      },
+      "upmCi": {
+        "footprint": "3db6c2648a467cf4d3238f146a45089491640b05"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.2d.aseprite@1.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/AsepriteImporter.git",
+        "type": "git",
+        "revision": "e552cb20af4f9ed7608a26c7304c29e8f2c81ed5"
+      },
+      "dist": {
+        "shasum": "bcf6004c8837251ff2164754edff747ea90fca49",
+        "tarball": "https://download.packages.unity.com/com.unity.2d.aseprite/-/com.unity.2d.aseprite-1.0.0-pre.3.tgz"
+      },
+      "name": "com.unity.2d.aseprite",
+      "version": "1.0.0-pre.3",
+      "description": "2D Aseprite Importer is a package which enables the import of .aseprite files from the Pixel Art tool Aseprite.",
+      "displayName": "2D Aseprite Importer",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "2d",
+        "Aseprite",
+        "Pixel",
+        "Art",
+        "assetimporter"
+      ],
+      "category": "2D",
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.2d.common": "6.0.6",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.modules.animation": "1.0.0"
+      }
+    },
+    "1.0.0-pre.2": {
+      "unity": "2021.3",
+      "unityRelease": "15f1",
+      "relatedPackages": {
+        "com.unity.2d.aseprite.tests": "1.0.0-pre.2"
+      },
+      "_upm": {
+        "changelog": "### Added\n- Added support for individual frame timings in animation clips.\n- Added support for layer groups.\n- Added support for Layer & Cel opacity.\n- Added support for repeating/non repeating tags/clips.\n\n### Changed\n- The importer UI is now re-written in UI Toolkit.\n- If a Model Prefab only contains one SpriteRenderer, all components will be placed on the root GameObject, rather than generating a single GameObject to house them.\n- A Sorting Group component is added by default to Model Prefabs with more than one Sprite Renderer.\n\n### Fixed\n- Fixed an issue where renaming an Asperite file in Unity would throw a null reference exception. (DANB-384)\n- Fixed an issue where the background importer would import assets even when Unity Editor has focus.\n- Fixed an issue where the Pixels Per Unit value could be set to invalid values."
+      },
+      "upmCi": {
+        "footprint": "6df5555d3e33f314aca7cbc1d64fe44e1a7e5409"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.2d.aseprite@1.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/AsepriteImporter.git",
+        "type": "git",
+        "revision": "265ec772cb80031ba531dcf28a7b5ab26bb7dfa2"
+      },
+      "dist": {
+        "shasum": "a71a3c96976a7cc916cec959b00bab45af6049a8",
+        "tarball": "https://download.packages.unity.com/com.unity.2d.aseprite/-/com.unity.2d.aseprite-1.0.0-pre.2.tgz"
+      },
+      "name": "com.unity.2d.aseprite",
+      "version": "1.0.0-pre.2",
+      "description": "2D Aseprite Importer is a package which enables the import of .aseprite files from the Pixel Art tool Aseprite.",
+      "displayName": "2D Aseprite Importer",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "2d",
+        "Aseprite",
+        "Pixel",
+        "Art",
+        "assetimporter"
+      ],
+      "category": "2D",
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.2d.common": "6.0.6",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.modules.animation": "1.0.0"
+      }
+    },
+    "1.0.0-pre.1": {
+      "unity": "2021.3",
+      "unityRelease": "15f1",
+      "relatedPackages": {},
+      "_upm": {
+        "changelog": "### Added\n- First release of this package."
+      },
+      "upmCi": {
+        "footprint": "870668e99047630fb49b38a4e3b88f267d53a82d"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.2d.aseprite@1.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/AsepriteImporter.git",
+        "type": "git",
+        "revision": "6833a032278576fb7aa839122fb4a9a6417bf689"
+      },
+      "dist": {
+        "shasum": "31c54fa9c40f14d4d29679561fa858d37ecdf3a6",
+        "tarball": "https://download.packages.unity.com/com.unity.2d.aseprite/-/com.unity.2d.aseprite-1.0.0-pre.1.tgz"
+      },
+      "name": "com.unity.2d.aseprite",
+      "version": "1.0.0-pre.1",
+      "description": "2D Aseprite Importer is a package which enables the import of .aseprite files from the Pixel Art tool Aseprite.",
+      "displayName": "2D Aseprite Importer",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "2d",
+        "Aseprite",
+        "Pixel",
+        "Art",
+        "assetimporter"
+      ],
+      "category": "2D",
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.modules.animation": "1.0.0",
+        "com.unity.burst": "1.8.2"
+      }
+    }
+  },
+  "etag": "\"319ff24544605718627f37503742cd17\"",
+  "time": {
+    "1.1.1": "2024-01-22T10:15:37Z",
+    "1.1.0": "2023-11-27T12:51:18Z",
+    "1.0.1": "2023-08-25T10:09:38Z",
+    "1.0.0": "2023-05-22T11:16:50Z",
+    "1.0.0-pre.4": "2023-04-17T10:59:14Z",
+    "1.0.0-pre.3": "2023-04-11T08:22:53Z",
+    "1.0.0-pre.2": "2023-03-14T15:35:57Z",
+    "1.0.0-pre.1": "2023-02-13T09:46:09Z"
+  }
+}

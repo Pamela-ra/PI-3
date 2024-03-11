@@ -1,0 +1,55 @@
+{
+  "name": "com.unity.services.user-reporting",
+  "displayName": "User Reporting",
+  "version": "2.0.6",
+  "unity": "2022.1",
+  "description": "This package is a SDK toolset that helps you collect and identify issues that users or testers encounter with your apps.",
+  "_upm": {
+    "gameService": {
+      "groupIndex": 0,
+      "groupName": "DevOps",
+      "genericDashboardUrl": "https://unity3d.com/unity/features/cloud-diagnostics",
+      "projectDashboardUrl": "https://developer.cloud.unity3d.com/diagnostics/orgs/{0}/projects/{1}/user-reports",
+      "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+      "configurePath": "Project/Services/User Reporting"
+    },
+    "supportedPlatforms": [
+      "Android",
+      "iOS",
+      "Linux",
+      "Mac",
+      "PC",
+      "WebGL",
+      "Windows 8 Universal",
+      "Windows 10 Universal"
+    ],
+    "changelog": "### Fixed\n- Upgrade package dependencies and sample."
+  },
+  "dependencies": {
+    "com.unity.modules.ui": "1.0.0",
+    "com.unity.modules.unitywebrequesttexture": "1.0.0",
+    "com.unity.modules.xr": "1.0.0",
+    "com.unity.nuget.newtonsoft-json": "3.0.2",
+    "com.unity.services.core": "1.8.1",
+    "com.unity.ugui": "1.0.0"
+  },
+  "type": "library",
+  "samples": [
+    {
+      "displayName": "User Reporting Example",
+      "description": "Example scripts and UI elements demonstrating the User Reporting SDK.",
+      "path": "Samples~"
+    }
+  ],
+  "relatedPackages": {
+    "com.unity.services.user-reporting.tests": "2.0.6"
+  },
+  "upmCi": {
+    "footprint": "0466848eba07afa7d80bd47016b57a9530395d37"
+  },
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+    "type": "git",
+    "revision": "499e70a9f45e573d67de4847b1582302cdba5c9f"
+  }
+}

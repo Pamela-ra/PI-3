@@ -1,0 +1,4307 @@
+{
+  "_id": "com.unity.cinemachine",
+  "name": "com.unity.cinemachine",
+  "description": "Smart camera tools for passionate creators. \n\nCinemachine 3.0 is a newer and better version of Cinemachine, but upgrading an existing project from 2.X will likely require some effort.  If you're considering upgrading an older project, please see our upgrade guide in the user manual.",
+  "provider": "upm",
+  "category": "cinematography",
+  "dist-tags": {
+    "latest": "3.0.1"
+  },
+  "versions": {
+    "3.0.1": {
+      "unity": "2022.3",
+      "samples": [
+        {
+          "displayName": "2D Samples",
+          "description": "Sample scenes illustrating various ways to use Cinemachine in a 2D setting",
+          "path": "Samples~/2D Samples"
+        },
+        {
+          "displayName": "3D Samples",
+          "description": "Sample scenes illustrating various ways to use Cinemachine in a 3D setting",
+          "path": "Samples~/3D Samples"
+        },
+        {
+          "displayName": "Input System Samples",
+          "description": "Sample scenes illustrating various ways to use Cinemachine with the input system.",
+          "path": "Samples~/Input System Samples"
+        }
+      ],
+      "_upm": {
+        "changelog": "### Fixed\n- Bugfix: Divide-by-zero error in InputAxis.CancelDeltaTime if deltaTime is zero.\n- Regression fix: CinemachineCamera inspector Solo functionality was not updating correctly.\n- Regression fix: Legacy Lens settings had lost their ability to be animated.\n- Bugfix: Upgrader was not correctly upgrading animation bindings in some cases.\n\n### Added\n- Added CinemachineVirtualCameraBase.CancelDamping() convenience method to snap camera to its target position.\n- Added CinemachineOrbitalFollow.TargetOffset to reposition orbit center.\n- Added CinemachineGroupFraming.CenterOffset to reposition group center on the screen.\n- Added LookAtOffset to CinemachineHardLookAt behaviour.\n- Added support for the new Camera Overlay.\n\n### Changed\n- RuntimeUtility.GetScratchCollider and RuntimeUtility.DestroyScratchCollider are now public, to allow custom extensions to use them.\n- SaveDuringPlay supports multi-scene editing."
+      },
+      "upmCi": {
+        "footprint": "8dbacd4d9b0a6b48101d75d340d9aec38952a306"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.cinemachine@3.0/manual/index.html",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "89795a80001883b5db6cbda532b1669685645702"
+      },
+      "dist": {
+        "shasum": "596235a333ac34bcd57d15bdd4effe74c8803bc2",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-3.0.1.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "3.0.1",
+      "description": "Smart camera tools for passionate creators. \n\nCinemachine 3.0 is a newer and better version of Cinemachine, but upgrading an existing project from 2.X will likely require some effort.  If you're considering upgrading an older project, please see our upgrade guide in the user manual.",
+      "displayName": "Cinemachine",
+      "type": "assets",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {
+        "com.unity.splines": "2.0.0",
+        "com.unity.test-framework": "1.1.33"
+      }
+    },
+    "3.0.0-pre.9": {
+      "unity": "2022.3",
+      "samples": [
+        {
+          "displayName": "2D Samples",
+          "description": "Sample scenes illustrating various ways to use Cinemachine in a 2D setting",
+          "path": "Samples~/2D Samples"
+        },
+        {
+          "displayName": "3D Samples",
+          "description": "Sample scenes illustrating various ways to use Cinemachine in a 3D setting",
+          "path": "Samples~/3D Samples"
+        },
+        {
+          "displayName": "Input System Samples",
+          "description": "Sample scenes illustrating various ways to use Cinemachine with the input system.",
+          "path": "Samples~/Input System Samples"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.cinemachine.tests": "3.0.0-pre.9"
+      },
+      "_upm": {
+        "changelog": "### Fixed\n- Regresion fix: Sequencer inspector child camera popups were not being populated.\n- Regresion fix: Manager Camera's child camera warning icons were not being updated correctly.\n- Bugfix: CinemachineInputAxisController editor was missing foldout arrows on the Driven Axis items."
+      },
+      "upmCi": {
+        "footprint": "67dd41595f7501252202dd8812e745b15849c10a"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.cinemachine@3.0/manual/index.html",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "219d6ce5c9e86adab75b9647fe7c0050a52798d5"
+      },
+      "dist": {
+        "shasum": "dcc7450837428aa6d44f74cf168dfdc06d1c552f",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-3.0.0-pre.9.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "3.0.0-pre.9",
+      "description": "Smart camera tools for passionate creators. \n\nCinemachine 3.0 is a newer and better version of Cinemachine, but upgrading an existing project from 2.X will likely require some effort.  If you're considering upgrading an older project, please see our upgrade guide in the user manual.",
+      "displayName": "Cinemachine",
+      "type": "assets",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {
+        "com.unity.splines": "2.0.0",
+        "com.unity.test-framework": "1.1.33"
+      }
+    },
+    "3.0.0-pre.8": {
+      "unity": "2022.2",
+      "unityRelease": "16f1",
+      "samples": [
+        {
+          "displayName": "2D Samples",
+          "description": "Sample scenes illustrating various ways to use Cinemachine in a 2D setting",
+          "path": "Samples~/2D Samples"
+        },
+        {
+          "displayName": "3D Samples",
+          "description": "Sample scenes illustrating various ways to use Cinemachine in a 3D setting",
+          "path": "Samples~/3D Samples"
+        },
+        {
+          "displayName": "Input System Samples",
+          "description": "Sample scenes illustrating various ways to use Cinemachine with the input system.",
+          "path": "Samples~/Input System Samples"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.cinemachine.tests": "3.0.0-pre.8"
+      },
+      "_upm": {
+        "changelog": "### Fixed\n- Bugfix: Occasional precision issue when camera rotation is exactly 180 degress, causing rotational flickering.\n- Bugfix: Deceleration at the end of axis range was too aggressive.\n- Bugfix: Orbital recentering should not be forced when transitioning to a camera.\n- Bugfix: InheritPosition takes the actual camera position, so it works consistently if transitioning mid-blend.\n- Bugfix: CinemachineDeoccluder was causing a pop when OnTargetObjectWarped was called.\n- Bugfix: Spurious camera cut events were being issued, especially in HDRP.\n- Bugfix: Null reference exceptions when inspector is hidden behind another tab.\n- Bugfix: GroupFraming inspector was displaying incorrect warning when LookAt target is a group.\n- Bugfix: GroupFraming displays more accurate group size indicator in the game view.\n- Bugfix: nullrefs in log when target group was deleted but was still being referenced by vcams.\n- Regression fix: CinemachineCollider generated NaN positions if no target was set.\n\n### Added\n- New sample: ThirdPersonWithAimMode showing how to implement a FreeLook camera with Aim mode.\n- Added Recentering Target to OrbitalFollow.  Recentering is now possible with Lazy Follow.\n- Added API in Deoccluder and ThirdPersonFollow to access which collision objects are impacting the camera position.\n- Added ICinemachineTargetGroup.IsValid property to detect deleted groups.\n- Added option to disable deltaTime scaling in CinemachineInputAxisProvider.\n\n### Changed\n- Improved OrbitalFollow's ForceCameraPosition algorithm.\n- Deoccluder accommodates camera radius in all modes.\n- Renamed CinemachineSplineDolly.CameraUp to CameraRotation, which more accurately reflects what it does.\n- Renamed InputAxis.DoRecentering() to InputAxis.UpdateRecentering()\n- StateDrivenCamera: child camera enabled status and priority are now taken into account when choosing the current active camera.\n\n### Deprecated\n- Removed CinemachineToolSettings overlay."
+      },
+      "upmCi": {
+        "footprint": "0fc7ee30a3ab744963f8e8381965e7adc144ef03"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.cinemachine@3.0/manual/index.html",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "cbbc72dc8c9eda308b324b75fccded8524badf5a"
+      },
+      "dist": {
+        "shasum": "92a5e5f9c44c73da32d4249e67fe30749bba7018",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-3.0.0-pre.8.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "3.0.0-pre.8",
+      "description": "Smart camera tools for passionate creators. \n\nCinemachine 3.0 is a newer and better version of Cinemachine, but upgrading an existing project from 2.X will likely require some effort.  If you're considering upgrading an older project, please see our upgrade guide in the user manual.",
+      "displayName": "Cinemachine",
+      "type": "assets",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {
+        "com.unity.splines": "2.0.0",
+        "com.unity.test-framework": "1.1.33"
+      }
+    },
+    "2.9.7": {
+      "unity": "2019.4",
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "_upm": {
+        "changelog": "- Bugfix: AxisState was not respecting timescale == 0.\n- Bugfix: Very occasional axis drift in SimpleFollow when viewing angle is +-90 degrees.\n- URP: add temporal effects reset on camera cut for URP 14.0.4 and up.\n- Bugfix: MixingCamera calls OnTransitionFromCamera correctly for all its children.\n- Bugfix: Passive vcams with noise were not respecting transform's z rotation during blends.\n- Regression fix: CinemachineSmoothPath.GetLocalOrientation was returning global orientations."
+      },
+      "upmCi": {
+        "footprint": "9da93759119bb2786ea56a4d58becb19a8690c0a"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/index.html",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "46485ca80113434766f2b256525bb98def548fb9"
+      },
+      "dist": {
+        "shasum": "87214183027608fb66679434b3e734b706601d3d",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.9.7.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.9.7",
+      "description": "Smart camera tools for passionate creators. \n\nNew starting from 2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.31"
+      }
+    },
+    "3.0.0-pre.7": {
+      "unity": "2022.2",
+      "unityRelease": "16f1",
+      "samples": [
+        {
+          "displayName": "2D Samples",
+          "description": "Sample scenes illustrating various ways to use Cinemachine in a 2D setting",
+          "path": "Samples~/2D Samples"
+        },
+        {
+          "displayName": "3D Samples",
+          "description": "Sample scenes illustrating various ways to use Cinemachine in a 3D setting",
+          "path": "Samples~/3D Samples"
+        },
+        {
+          "displayName": "Input System Samples",
+          "description": "Sample scenes illustrating various ways to use Cinemachine with the input system.",
+          "path": "Samples~/Input System Samples"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.cinemachine.tests": "3.0.0-pre.7"
+      },
+      "_upm": {
+        "changelog": "### Added\n- Added CinemachineCore.GetCustomBlender and BlendCreatedEvent to allow custom blend behaviour.\n- New Custom Blends sample scene illustrating how to customize the blend algorithm.\n- CinemachineChannels can now be named via the CinemachineChannelNames asset.  OutputChannel struct has been removed.\n- Added CinemachineCameraManagerEvents behaviour.\n- Added the option of defining CINEMACHINE_NO_CM2_SUPPORT, to lighten the package by removing legacy CM2 support.\n- ThirdPerson Shooter sample scene now has an option to swap shoulders.\n\n### Changed\n- Improved handling of nested blends.\n- CinemachineCameraEvents and CinemachineBrainEvents and CnemachineCameraManagerEvents can be added to any GameObject, not only to the target objects."
+      },
+      "upmCi": {
+        "footprint": "dd202b3b1f9106a8817af23c891580c3ace0a304"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.cinemachine@3.0/manual/index.html",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "61ffc692d044fb426332a3e912e0efdf07d75952"
+      },
+      "dist": {
+        "shasum": "9556b17ad96fc3c00143139eb7fb883c269caa68",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-3.0.0-pre.7.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "3.0.0-pre.7",
+      "description": "Smart camera tools for passionate creators. \n\nCinemachine 3.0 is a newer and better version of Cinemachine, but upgrading an existing project from 2.X will likely require some effort.  If you're considering upgrading an older project, please see our upgrade guide in the user manual.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {
+        "com.unity.splines": "2.0.0",
+        "com.unity.test-framework": "1.1.33"
+      }
+    },
+    "3.0.0-pre.6": {
+      "unity": "2022.2",
+      "unityRelease": "16f1",
+      "samples": [
+        {
+          "displayName": "2D Samples",
+          "description": "Sample scenes illustrating various ways to use Cinemachine in a 2D setting",
+          "path": "Samples~/2D Samples"
+        },
+        {
+          "displayName": "3D Samples",
+          "description": "Sample scenes illustrating various ways to use Cinemachine in a 3D setting",
+          "path": "Samples~/3D Samples"
+        },
+        {
+          "displayName": "Input System Samples",
+          "description": "Sample scenes illustrating various ways to use Cinemachine with the input system.",
+          "path": "Samples~/Input System Samples"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.cinemachine.tests": "3.0.0-pre.6"
+      },
+      "_upm": {
+        "changelog": "### Added\n- Added CinemachineCore.GetCustomBlender and BlendCreatedEvent to allow custom blend behaviour.\n- New Custom Blends sample scene illustrating how to customize the blend algorithm.\n- CinemachineChannels can now be named via the CinemachineChannelNames asset.  OutputChannel struct has been removed.\n- Added CinemachineCameraManagerEvents behaviour.\n- Added the option of defining CINEMACHINE_NO_CM2_SUPPORT, to lighten the package by removing legacy CM2 support.\n- ThirdPerson Shooter sample scene now has an option to swap shoulders.\n\n### Changed\n- Improved handling of nested blends.\n- CinemachineCameraEvents and CinemachineBrainEvents and CnemachineCameraManagerEvents can be added to any GameObject, not only to the target objects."
+      },
+      "upmCi": {
+        "footprint": "5666909ea41d5552ec5c92056187cab5f0bfe877"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.cinemachine@3.0/manual/index.html",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "841af23040bcbdfb43031da3fa5ee5e3995bf466"
+      },
+      "dist": {
+        "shasum": "24b36a9b77a69567b4a4c96661d23df49d91dab8",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-3.0.0-pre.6.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "3.0.0-pre.6",
+      "description": "Smart camera tools for passionate creators. \n\nCinemachine 3.0 is a newer and better version of Cinemachine, but upgrading an existing project from 2.X will likely require some effort.  If you're considering upgrading an older project, please see our upgrade guide in the user manual.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {
+        "com.unity.splines": "2.0.0",
+        "com.unity.test-framework": "1.1.33"
+      }
+    },
+    "3.0.0-pre.5": {
+      "unity": "2022.2",
+      "unityRelease": "15f1",
+      "samples": [
+        {
+          "displayName": "2D Samples",
+          "description": "Sample scenes illustrating various ways to use Cinemachine in a 2D setting",
+          "path": "Samples~/2D Samples"
+        },
+        {
+          "displayName": "3D Samples",
+          "description": "Sample scenes illustrating various ways to use Cinemachine in a 3D setting",
+          "path": "Samples~/3D Samples"
+        },
+        {
+          "displayName": "Old Samples from CM2",
+          "description": "Samples made with CM 2.X, using obsolete API",
+          "path": "Samples~/Old Samples from CM2"
+        },
+        {
+          "displayName": "Input System Samples",
+          "description": "Sample scenes illustrating various ways to use Cinemachine with the input system.",
+          "path": "Samples~/Input System Samples"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.cinemachine.tests": "3.0.0-pre.5"
+      },
+      "_upm": {
+        "changelog": "### Fixed\n- Bugfix: MixingCamera calls OnTransitionFromCamera correctly for all its children.\n\n### Added\n- New BlendHint: IgnoreTarget will blend rotations without considering the tracking target.\n- New BlendHint: FreezeWhenBlendingOut will blend out from a snapshot of the camera state.\n- InputAxisController has the option to suppress input while the attached camera is blending.\n- Added CinemachineCameraEvents and CinemachineBrainEvents behaviours for event processing.\n- Added BlendFinished and CameraDeactivated events.\n- Add split screen sample for the input system.\n- Samples UI works with both built-in Input System.\n- Timeline: Added Track Priority field in CinemachineTrack to control track precedence when tracks are contained in nested timelines.\n- New 2D platformer sample showing custom camera manager.\n\n### Changed\n- Minimum Unity version is now 2022.2.15, for best inspector experience.\n- All namespaces changed from \"Cinemachine\" to \"Unity.Cinemachine\".\n- \"Cinemachine.Utility\" namespace folded into to \"Unity.Cinemachine\".\n- CinemachineBlendListCamera has been renamed to CinemachineSequencerCamera.\n- Renamed .asmdef files to follow the convention: Unity.[PackageName].\n- TrackedObjectOffset renamed to TargetOffset.\n- Improved layout of PositionComposer and RotationComposer inspectors.\n- LensSettings was refactored to improve handling of SensorSize and other physical properties.\n- Full physical camera support for builtin pipeline.\n- LensPresets and PhysicalLensPresets are now separate assets.\n- CinemachineInputAxisController refactored to be more easily customized.\n- Samples are compatible with Built-in, Universal, and High Definition Render Pipelines.\n- CinemachineUpgradeManager re-opens original scene after upgrade is complete.\n- Events system refactored.\n- Refactored CinemachineCameraManagerBase to be more useful for customizing.\n- CinemchineCore refactored to remove singleton."
+      },
+      "upmCi": {
+        "footprint": "0b52073ae3f1cb78d75ab45e3ccd4be506e22557"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.cinemachine@3.0/manual/index.html",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "b5bc9efa22410087e6cccc1eb717e748ba41907f"
+      },
+      "dist": {
+        "shasum": "6d053821c6df0c4a11f716cb772568fd28875145",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-3.0.0-pre.5.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "3.0.0-pre.5",
+      "description": "Smart camera tools for passionate creators. \n\n Cinemachine 3.0 is a newer and better version of Cinemachine, but upgrading an existing project from 2.X will likely require some effort.  If you're considering upgrading an older project, please see our upgrade guide in the user manual.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {
+        "com.unity.splines": "2.0.0-pre.4",
+        "com.unity.test-framework": "1.1.33"
+      }
+    },
+    "3.0.0-pre.4": {
+      "unity": "2022.2",
+      "unityRelease": "0b8",
+      "samples": [
+        {
+          "displayName": "2D Samples",
+          "description": "Sample scenes illustrating various ways to use Cinemachine in a 2D setting",
+          "path": "Samples~/2D Samples"
+        },
+        {
+          "displayName": "3D Samples",
+          "description": "Sample scenes illustrating various ways to use Cinemachine in a 3D setting",
+          "path": "Samples~/3D Samples"
+        },
+        {
+          "displayName": "Old Samples from CM2",
+          "description": "Samples made with CM 2.X, using obsolete API",
+          "path": "Samples~/Old Samples from CM2"
+        }
+      ],
+      "relatedPackages": {
+        "com.unity.cinemachine.tests": "3.0.0-pre.4"
+      },
+      "_upm": {
+        "changelog": "### Added\n\n- Progress bar added to Cinemachine Upgrader.\n- CinemachineDeoccluder is a new class, not just a rename of CinemachineCollider.\n- CinemachineAutoFocus extension is now available for built-in and URP pipelines, with reduced functionality compared to HDRP.\n- Camera.focusDistance is driven by CM when the camera is in physical mode.\n- Confiner2D provides API to adjust the confiner to the current window size when the lens or aspect changes.\n- TargetGroup now ignores members whose gameObjects are inactive.\n- Cinemachine Samples can import their package dependencies.\n- CinemachinePathBase search radius fixed for not looped paths.\n- Add SplineAutoDolly.ISplineAutoDolly.Reset() method and SplineAutoDolly.Enabled flag.\n- Confiner2D and Confiner3D support smooth stop at bounds edge.\n- URP: add temporal effects reset on camera cut.\n- Add Weight setting to CinemachinePostProcessing and CinemachineVolumeSettings.\n- GroupFraming also works on LookAt target.\n- Several new Sample scenes were added.\n\n### Changed\n\n- Improved performance of CINEMACHINE_EXPERIMENTAL_DAMPING algorithm.\n- Path gizmo drawing was optimized.\n- Confiner2D does less gc alloc.\n- CinemachineSmoothPath is upgraded to Splines correctly now.\n- InputAxis refactor for recentering and momentary axis support.\n- CinemachineIndependentImpulseListener renamed to CinemachineExternalImpulseListener.\n- CmCamera is now CinemachineCamera.\n- The SimpleFollowWithWorldUp binding mode has been renamed to LazyFollow.\n- CinemachineExtension API changes to VirtualCamera, GetAllExtraStates, OnTargetObjectWarped, and ForceCameraPosition.\n- Third person shooter sample use object pooling for the projectiles.\n\n### Deprecated\n\n- CinemachineConfiner is deprecated.  New behaviour CinemachineConfiner3D to handle 3D confining.  Use CinemachineConfiner2D for 2D confining.\n- 3rdPersonFollow and 3rdPersonAim are deprecated and replaced by ThirdPersonFollow and ThirdPersonAim respectively.\n\n### Fixed\n\n- Regression fix: POV and PanTilt handle ReferenceUp correctly.\n- Bugfix: Lens blending was wrong.\n- Bugfix: CinemachineDeoccluder Pull Forward strategy only pulls forward even with Camera Radius bigger than 0.\n- Bugfix: Extensions were not respecting execution order on domain reload.\n- Bugfix: AxisState was not respecting timescale == 0.\n- Bugfix: priority ordering was wrong when the difference between any priority values were smaller than integer min or bigger than integer max values.\n- Bugfix: Very occasional axis drift in SimpleFollow when viewing angle is +-90 degrees.\n- Bugfix: Physical lens settings were not being properly applied."
+      },
+      "upmCi": {
+        "footprint": "18bf1571e3694456f83afe779ed4b53b42dbb2bc"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.cinemachine@3.0/manual/index.html",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "e9d91df90935bd13ecfc5a914e2260202aa1ded4"
+      },
+      "dist": {
+        "shasum": "7d76a8ff812ccfe11bfe987fc6c52eb5e27bc7d4",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-3.0.0-pre.4.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "3.0.0-pre.4",
+      "description": "Smart camera tools for passionate creators. \n\n Cinemachine 3.0 is a newer and better version of Cinemachine, but upgrading an existing project from 2.X will likely require some effort.  If you're considering upgrading an older project, please see our upgrade guide in the user manual.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {
+        "com.unity.splines": "2.0.0-pre.4",
+        "com.unity.test-framework": "1.1.33"
+      }
+    },
+    "2.9.5": {
+      "unity": "2019.4",
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "_upm": {
+        "changelog": "- Unity 2022.2 and up: FocusDistance added to lens settings and is pushed to the camera.\n- Optimized path gizmo drawing.  Now 3-5 times faster.\n- TargetGroup now ignores members whose gameObjects are inactive.\n- Bugfix: CinemachinePathBase search radius fixed for not looped paths.\n- Regression fix: POV was not handling ReferenceUp correctly\n- Bugfix: priority ordering was wrong when the difference between any priority values were smaller than integer min or bigger than integer max values.\n- Bugfix: Extensions were not respecting execution order on domain reload."
+      },
+      "upmCi": {
+        "footprint": "93a1ed6a456ff86b7e4a2ca57a3c8a9259ee525e"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/index.html",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "4b4405b9505ecfa1cb2d2b03df8f3309c12f3b0d"
+      },
+      "dist": {
+        "shasum": "bd2abe10aae4068b2c0bece30ca257ee96a56090",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.9.5.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.9.5",
+      "description": "Smart camera tools for passionate creators. \n\nNew starting from 2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.31"
+      }
+    },
+    "2.9.4": {
+      "unity": "2019.4",
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "upmCi": {
+        "footprint": "5df2b75d45902a90f01a0c93146877bea6605a42"
+      },
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "4327050bbc9fa7512f873bb9c6ce23434bfe198a"
+      },
+      "dist": {
+        "shasum": "2ea5252848fa0d8f30f03113dd5602c15e881cef",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.9.4.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.9.4",
+      "description": "Smart camera tools for passionate creators. \n\nNew starting from 2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.31"
+      }
+    },
+    "3.0.0-pre.3": {
+      "unity": "2022.2",
+      "unityRelease": "0b8",
+      "samples": [
+        {
+          "displayName": "Sample Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Sample Scenes"
+        },
+        {
+          "displayName": "Old Samples from CM2",
+          "description": "Samples made with CM 2.X, using obsolete API",
+          "path": "Samples~/Old Samples from CM2"
+        }
+      ],
+      "upmCi": {
+        "footprint": "6feb752fa4a15a473be0c7517bc5b1a12c75aecf"
+      },
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "add34be463ae9128663cacba430e3a683c8ff625"
+      },
+      "dist": {
+        "shasum": "633b9fa34e7d53c3a65498e6f6d3a6156ccecac3",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-3.0.0-pre.3.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "3.0.0-pre.3",
+      "description": "Smart camera tools for passionate creators. \n\n Cinemachine 3.0 is a newer and better version of Cinemachine, but upgrading an existing project from 2.X will likely require some effort.  If you're considering upgrading an older project, please see our upgrade guide in the user manual.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {
+        "com.unity.splines": "2.0.0-pre.4",
+        "com.unity.test-framework": "1.1.33"
+      }
+    },
+    "2.9.2": {
+      "unity": "2019.4",
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "upmCi": {
+        "footprint": "12e24943d6bb961ff62e802efd2ce2b03b27bb0f"
+      },
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "2cf333415b8b110b132992a53dbb9e64e0436b89"
+      },
+      "dist": {
+        "shasum": "aae79c9961a0f6dffbee862836f082073c8c5571",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.9.2.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.9.2",
+      "description": "Smart camera tools for passionate creators. \n\nNew starting from 2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.31"
+      }
+    },
+    "2.6.17": {
+      "unity": "2018.4",
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "upmCi": {
+        "footprint": "85518d56ada2cece6d9f773e268a9b1cb570812e"
+      },
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "57501b59e2a5755e26dc54181b2b097af0045a44"
+      },
+      "dist": {
+        "shasum": "5c4e99f31cd984264d34acf2329d2dde979cc430",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.6.17.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.6.17",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography"
+    },
+    "2.8.9": {
+      "unity": "2019.4",
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "upmCi": {
+        "footprint": "0988b306e8955a80815a8aebb6db305b4fae9ef7"
+      },
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "92bcde243d623d77c64960a552f29396770af1e1"
+      },
+      "dist": {
+        "shasum": "765719a1db33e4e36facb46060b4d48ccb6e0416",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.8.9.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.8.9",
+      "description": "Smart camera tools for passionate creators. \n\nNew starting from 2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.31"
+      }
+    },
+    "2.9.1": {
+      "unity": "2019.4",
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "upmCi": {
+        "footprint": "edbfd1cafbc1ef1cf0f3a10e91d5986367c28425"
+      },
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "7d4ab17f95806756d588695aa0e7e83c16618082"
+      },
+      "dist": {
+        "shasum": "a3ce907b0ea1853b6c3a945fd4f1230e08f72a06",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.9.1.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.9.1",
+      "description": "Smart camera tools for passionate creators. \n\nNew starting from 2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.31"
+      }
+    },
+    "2.6.15": {
+      "unity": "2018.4",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "9799aa01355f2f7fb86c3cb5a6796b2d005e5c51"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "_upm": {
+        "changelog": "- Bugfix: Freelook had wrong heading at first frame, which could cause a slight jitter. \n- Bugfix: Input provider was not working with 2.6.14"
+      },
+      "upmCi": {
+        "footprint": "6ee4673026adbcce0027fe1dc932a50867b50784"
+      },
+      "_id": "com.unity.cinemachine@2.6.15",
+      "_integrity": "sha512-QKE5+og8RB6u1nfa0lW0F88KgZ0Zen8gEpJI6ohceOhVrk/gSXbGjoiZSd6+/eO9rwQ+7tSqjqs0rNRNM1kx6w==",
+      "_resolved": "/tmp/com.unity.cinemachine@2.6.15-pyr6bbtd.tgz",
+      "_from": "file:/tmp/com.unity.cinemachine@2.6.15-pyr6bbtd.tgz",
+      "dist": {
+        "shasum": "62a6a9a242a79692586841cf489428df1caf4faa",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.6.15.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.6.15",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography"
+    },
+    "2.6.14": {
+      "unity": "2018.4",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "fd7af21c7c4eda169ef82579f6482e06d01dab6b"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "_upm": {
+        "changelog": "- Bugfix: Standalone profiler no longer crashes with CM.\n- Bugfix: EmbeddedAssetProperties were not displayed correctly in the editor.\n- Timeline guards added to scripts that rely on it.\n- Bugfix: CinemachineInputProvider now correctly tracks enabled state of input action\n- Bugfix: POV orientation was incorrect with World Up override\n- Added AutoEnable option to CinemachineInputHandler\n- Bugfix: 3rdPersonFollow shows a warning message when no follow target is assigned like the rest of the body components."
+      },
+      "upmCi": {
+        "footprint": "ee27d4bf3b6319f9effb02cb218cb4f1d7017cf1"
+      },
+      "_id": "com.unity.cinemachine@2.6.14",
+      "_integrity": "sha512-dtHEo3zU7Xcbh8W3JRloR9TuREwWAa5kSnK0nEdwuGSp5bNUS+0QQ/WNYgaJiVn64Y/CVUBZL0/id9EXgwMmEw==",
+      "_resolved": "/tmp/com.unity.cinemachine@2.6.14-4u399857.tgz",
+      "_from": "file:/tmp/com.unity.cinemachine@2.6.14-4u399857.tgz",
+      "dist": {
+        "shasum": "06a5e56919bb7bde8e898a40a2ddbc51a2359bc6",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.6.14.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.6.14",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography"
+    },
+    "2.8.6": {
+      "unity": "2019.4",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "5e26d3cd08865a98219c0d2d3a8cc689018dd75b"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "_upm": {
+        "changelog": "- Bugfix: A memory leak no longer occurs with PostProcessing if no PP layer is present on the camera.\n- Bugfix: Cinemachine no longer produces a compiler error in Unity Editor versions older than 2020 when an Input System package is installed.\n- Bugfix: Standalone profiler no longer crashes with CM.\n- Bugfix: EmbeddedAssetProperties were not displayed correctly in the editor.\n- Timeline guards added to scripts that rely on it.\n- Bugfix: CinemachineInputProvider now correctly tracks enabled state of input action\n- Regression fix: Axis input was ignoring CM's IgnoreTimeScale setting.\n- Bugfix: POV orientation was incorrect with World Up override\n- Added AutoEnable option to CinemachineInputHandler\n- Bugfix: 3rdPersonFollow shows a warning message when no follow target is assigned like the rest of the body components.\n- Bugfix: FadeOut sample scene shader was culling some objects incorrectly."
+      },
+      "upmCi": {
+        "footprint": "601aa7f6f5f1d11002c09f94bd6bca5c5df633c6"
+      },
+      "_id": "com.unity.cinemachine@2.8.6",
+      "_integrity": "sha512-X5tEiXQoLpeuA+FR13WzD2l7oJGOfuWECay4A046iARiinVGaPLWDb22nXO+V3LCtOewwNR69r5SkjIhktzIkw==",
+      "_resolved": "/tmp/com.unity.cinemachine@2.8.6-fnnpzluy.tgz",
+      "_from": "file:/tmp/com.unity.cinemachine@2.8.6-fnnpzluy.tgz",
+      "dist": {
+        "shasum": "d62600b7f193be08e42b7c72c013eba961433286",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.8.6.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.8.6",
+      "description": "Smart camera tools for passionate creators. \n\nNew starting from 2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography"
+    },
+    "2.9.0-pre.6": {
+      "unity": "2019.4",
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "upmCi": {
+        "footprint": "62a09d6221727073df649d0ddd8e309d28d56086"
+      },
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "1769c52e9535259be771ccf85a10168503d6441a"
+      },
+      "_id": "com.unity.cinemachine@2.9.0-pre.6",
+      "_integrity": "sha512-aM3zjRL/dWW6dj0N5CR7goefokHY5YiGa1slYY2SehQ66hteOC7nqEf6oyhH3IeNiZC1OR34AwP//mzukTnGmQ==",
+      "_resolved": "/pkgprom/com.unity.cinemachine-2.9.0-pre.6.tgz",
+      "_from": "file:com.unity.cinemachine-2.9.0-pre.6.tgz",
+      "dist": {
+        "shasum": "40ecba35307c2aacea7a1205687cf722cf14b358",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.9.0-pre.6.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.9.0-pre.6",
+      "description": "Smart camera tools for passionate creators. \n\nNew starting from 2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography"
+    },
+    "2.8.4": {
+      "unity": "2019.4",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "15a386e047f93d18479f6ae075bd3dcc985d3c34"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "upmCi": {
+        "footprint": "60a6171075c1358b2a02e786b46f4f294be56911"
+      },
+      "_id": "com.unity.cinemachine@2.8.4",
+      "_integrity": "sha512-43PHKdnDnqt3s4jxzn2Mmlx935NrR6sacPC5pfWQLUbisXPd6bU4nzzzotMK03lGsMr3XHBtTvMgxtlGiQ+iNg==",
+      "_resolved": "/pkgprom/com.unity.cinemachine-2.8.4.tgz",
+      "_from": "file:com.unity.cinemachine-2.8.4.tgz",
+      "dist": {
+        "shasum": "6b0e84ca017454981a8104fee7b3c6e72d149e83",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.8.4.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.8.4",
+      "description": "Smart camera tools for passionate creators. \n\nNew starting from 2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography"
+    },
+    "2.8.3": {
+      "unity": "2019.4",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "dc21b29a59831e9c37412784e2069958c3248617"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "upmCi": {
+        "footprint": "ac68069b2904e84611f991a340e6719186bc613c"
+      },
+      "_id": "com.unity.cinemachine@2.8.3",
+      "_integrity": "sha512-DS8CVHPzJPMN3uhiqr/uxpIZj3biaIxJmCwYBavlWIC72svG9oiNZZeVYL19h03jeGnzbwIMahjOjw8Uf0JOgA==",
+      "_resolved": "/pkgprom/com.unity.cinemachine-2.8.3.tgz",
+      "_from": "file:com.unity.cinemachine-2.8.3.tgz",
+      "dist": {
+        "shasum": "aa672cb2930f4c0aa152428d1f08367bea756dcc",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.8.3.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.8.3",
+      "description": "Smart camera tools for passionate creators. \n\nNew starting from 2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography"
+    },
+    "2.6.11": {
+      "unity": "2018.4",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "0eef4802dbe9ea60fc58767471ce4c5ea86632de"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        },
+        {
+          "displayName": "Scrubbable support for Nested Timelines (experimental)",
+          "description": "Experimental feature. Adds a Timeline extension to support scrubbable nested timelines.  This extension will become obsolete when Timeline adds native support for the missing API",
+          "path": "Samples~/Nested Timeline Scrub Bubble"
+        }
+      ],
+      "upmCi": {
+        "footprint": "dbdce9ba6502b01f798615cb81bbfa12c615c9b8"
+      },
+      "_id": "com.unity.cinemachine@2.6.11",
+      "_integrity": "sha512-e139/GqvZ5TtUAGwOfYXmbF/zTiDtvD0/Kz593uKH2K7f8StSziVs27CB3jTxBaMobRcoqtSl5EU/44x9Y4ySQ==",
+      "_resolved": "/pkgprom/com.unity.cinemachine-2.6.11.tgz",
+      "_from": "file:com.unity.cinemachine-2.6.11.tgz",
+      "dist": {
+        "shasum": "b3073d24d1e95ab423bd7bc5148c1507c5828057",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.6.11.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.6.11",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography"
+    },
+    "2.9.0-pre.1": {
+      "unity": "2019.4",
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "upmCi": {
+        "footprint": "d810ce6d8226e4e16b5eefd31544c7f9e2dd775f"
+      },
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "9eade0a466946c93bc15e948c2d56aacfc4cf5fa"
+      },
+      "_id": "com.unity.cinemachine@2.9.0-pre.1",
+      "_integrity": "sha512-mNEvx/Ur6N6F3eLla/Wu34dTsp7/FpsV75YLB/VO+fglmUm/5wl16pf4yXP0zpwrTnHEUGvPYqbT2SElwwCt2g==",
+      "_resolved": "/pkgprom/com.unity.cinemachine-2.9.0-pre.1.tgz",
+      "_from": "file:com.unity.cinemachine-2.9.0-pre.1.tgz",
+      "dist": {
+        "shasum": "9b0e8cb0e1745c5f07513642a85c1c4878faa355",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.9.0-pre.1.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.9.0-pre.1",
+      "description": "Smart camera tools for passionate creators. \n\nNew starting from 2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography"
+    },
+    "2.8.2": {
+      "unity": "2019.4",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "f8b3b033dde9a74ca291e8fa284a01451b0436c2"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "upmCi": {
+        "footprint": "ef190cd6256d058558c27ed97bbbe5cbbd4e6daf"
+      },
+      "_id": "com.unity.cinemachine@2.8.2",
+      "_integrity": "sha512-eEqxreWnIb+QyvjDTL8VVtV6VQC2FFi3O5zu2gO1hftltyDYIo060Y2FJtGvV/N52Ez0ELynlQPfnxFHTrvKKg==",
+      "_resolved": "/pkgprom/com.unity.cinemachine-2.8.2.tgz",
+      "_from": "file:com.unity.cinemachine-2.8.2.tgz",
+      "dist": {
+        "shasum": "e363ba46e95fb734105463c6381eeeafee583448",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.8.2.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.8.2",
+      "description": "Smart camera tools for passionate creators. \n\nNew starting from 2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography"
+    },
+    "2.7.9": {
+      "unity": "2018.4",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "45030a8e7a24daae3215fc89709d5f771e4194fb"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "upmCi": {
+        "footprint": "590dcb8bf01388fa9e0fad1177c8fcb62188c617"
+      },
+      "_id": "com.unity.cinemachine@2.7.9",
+      "_integrity": "sha512-NaRDMMVnlUsBp6GkGJLqkZwsdNYLWiIZKLIpnr+ntKOHu06Tcarj1uGyU/O1VSsUmQdeMch8gZS/M7il42S6aQ==",
+      "_resolved": "/pkgprom/com.unity.cinemachine-2.7.9.tgz",
+      "_from": "file:com.unity.cinemachine-2.7.9.tgz",
+      "dist": {
+        "shasum": "5822a1a5025b0f2d7bc10dfe7ae83ac1bd62ef30",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.7.9.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.7.9",
+      "description": "Smart camera tools for passionate creators. \n\nNew starting from 2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography"
+    },
+    "2.8.1": {
+      "unity": "2019.4",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "9b97e288ff38b2acaa160f147a91fac794ad1410"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "upmCi": {
+        "footprint": "06a8c291b694bb6bb71a1b02a337d6258f4cda80"
+      },
+      "_id": "com.unity.cinemachine@2.8.1",
+      "_integrity": "sha512-37JyDRQjcLecGNKaUCIk+O9K/FXiz0lrwmQO6uSqmF2eXC7qiWy3w9/rEyfqqdEMPJ8Cx/zrNuOKG+rKLEi2Pw==",
+      "_resolved": "/pkgprom/com.unity.cinemachine-2.8.1.tgz",
+      "_from": "file:com.unity.cinemachine-2.8.1.tgz",
+      "dist": {
+        "shasum": "af490d5395d9ac3bb104bdac8349cd2527c07d53",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.8.1.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.8.1",
+      "description": "Smart camera tools for passionate creators. \n\nNew starting from 2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography"
+    },
+    "2.7.8": {
+      "unity": "2018.4",
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "824e2935edd94d42dcf7b0be3b7e15e7f4da8647"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "upmCi": {
+        "footprint": "a9d913c5eaf83f82933b7a6fa081999137ae5745"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.cinemachine-2.7.8.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.cinemachine#readme",
+      "_id": "com.unity.cinemachine@2.7.8",
+      "dist": {
+        "shasum": "1d66adff5b5da14cb51e98a010a32b50d95ffe56",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.7.8.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.7.8",
+      "description": "Smart camera tools for passionate creators. \n\nNew starting from 2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography"
+    },
+    "2.6.10": {
+      "unity": "2018.4",
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "21f619698ca31d69054e96556e03097e48e43c5d"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        },
+        {
+          "displayName": "Scrubbable support for Nested Timelines (experimental)",
+          "description": "Experimental feature. Adds a Timeline extension to support scrubbable nested timelines.  This extension will become obsolete when Timeline adds native support for the missing API",
+          "path": "Samples~/Nested Timeline Scrub Bubble"
+        }
+      ],
+      "upmCi": {
+        "footprint": "fa594ffb6d141ea30124e7654c700248d9b21a45"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.cinemachine-2.6.10.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.cinemachine#readme",
+      "_id": "com.unity.cinemachine@2.6.10",
+      "dist": {
+        "shasum": "fe1f2feeaea48581f40fd846be79fddc122df3c0",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.6.10.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.6.10",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography"
+    },
+    "2.6.9": {
+      "unity": "2018.4",
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "9b5976153830563c8e94c9bcd9131d4452a02c0f"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        },
+        {
+          "displayName": "Scrubbable support for Nested Timelines (experimental)",
+          "description": "Experimental feature. Adds a Timeline extension to support scrubbable nested timelines.  This extension will become obsolete when Timeline adds native support for the missing API",
+          "path": "Samples~/Nested Timeline Scrub Bubble"
+        }
+      ],
+      "upmCi": {
+        "footprint": "b29906b37267522ad83b90200a2fc3673c39e8d8"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.cinemachine-2.6.9.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.cinemachine#readme",
+      "_id": "com.unity.cinemachine@2.6.9",
+      "dist": {
+        "shasum": "0527aae4be18fc9dc325c5a40117ea4e2984cd83",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.6.9.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.6.9",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography"
+    },
+    "2.7.5": {
+      "unity": "2018.4",
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "f05e036237e541ebd69d368153241f8b12f8affa"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "upmCi": {
+        "footprint": "5653a9cf979460630216888e60e2ad56b7166b0b"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.cinemachine-2.7.5.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.cinemachine#readme",
+      "_id": "com.unity.cinemachine@2.7.5",
+      "dist": {
+        "shasum": "7c009eba711cd7f2bfc0c24958aa845b1c254f2b",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.7.5.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.7.5",
+      "description": "Smart camera tools for passionate creators. \n\nNew starting from 2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography"
+    },
+    "2.8.0": {
+      "unity": "2019.4",
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "7b21dbadbb998b548e730ef5f6c084940a9d82c0"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "upmCi": {
+        "footprint": "62b1cd096dcc5791fb3c7225eaf359fdc7d9609d"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.cinemachine-2.8.0.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.cinemachine#readme",
+      "_id": "com.unity.cinemachine@2.8.0",
+      "dist": {
+        "shasum": "7b9e7d325e487af05d3e24e7c5ce1dbfec8947fe",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.8.0.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.8.0",
+      "description": "Smart camera tools for passionate creators. \n\nNew starting from 2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography"
+    },
+    "2.7.4": {
+      "unity": "2018.4",
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "803199910e6565c7fc162aa6ba9a899af633b2ff"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "upmCi": {
+        "footprint": "918ba5740455df4c1e1184b938bcb1af0d781c72"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.cinemachine-2.7.4.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.cinemachine#readme",
+      "_id": "com.unity.cinemachine@2.7.4",
+      "dist": {
+        "shasum": "19f51c3ad27ea95a2f6b9c3e8aad4335cd1996c1",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.7.4.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.7.4",
+      "description": "Smart camera tools for passionate creators. \n\nNew starting from 2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography"
+    },
+    "2.6.5": {
+      "unity": "2018.4",
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "c12b97ec35ab5091c685e729b76980a69a6d39a1"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        },
+        {
+          "displayName": "Scrub Bubble support for Nested Timelines (experimental)",
+          "description": "Experimental feature.  Adds a Timeline extension to support Scrubb Bubble for nested timelines.  This extension will become obsolete when Timeline adds native support for the missing API",
+          "path": "Samples~/Nested Timeline Scrub Bubble"
+        }
+      ],
+      "upmCi": {
+        "footprint": "0f69f4f4aadc3e0c24b4a2c98bddfc10df71a445"
+      },
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.cinemachine#readme",
+      "_id": "com.unity.cinemachine@2.6.5",
+      "dist": {
+        "shasum": "145f8e286a892f7b34d8161afa541a9dd5e5db52",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.6.5.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.6.5",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography"
+    },
+    "2.8.0-pre.1": {
+      "unity": "2019.4",
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "fbdf1d35b79a9d961d51cad4fe0a43e09320688e"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "upmCi": {
+        "footprint": "1be3e6f856cd015093ea34e0f47562665e2bd71c"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.cinemachine-2.8.0-pre.1.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.cinemachine#readme",
+      "_id": "com.unity.cinemachine@2.8.0-pre.1",
+      "dist": {
+        "shasum": "cb918d96cfedf43a0ec7ed200222c30b929a4c64",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.8.0-pre.1.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.8.0-pre.1",
+      "description": "Smart camera tools for passionate creators. \n\nNew starting from 2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography"
+    },
+    "2.8.0-exp.2": {
+      "unity": "2019.4",
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "4f5d76293c53f317ded177cd455d706d9b12fd1a"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "upmCi": {
+        "footprint": "73c1091dca18b720103c8e549f5f1a8f597b7d5d"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.cinemachine-2.8.0-exp.2.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.cinemachine#readme",
+      "_id": "com.unity.cinemachine@2.8.0-exp.2",
+      "dist": {
+        "shasum": "b6dcf7a688875d3dc3a9f2c9d8eadb252760aeff",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.8.0-exp.2.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.8.0-exp.2",
+      "description": "Smart camera tools for passionate creators. \n\nNew starting from 2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography"
+    },
+    "2.8.0-exp.1": {
+      "unity": "2019.4",
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "a86a7f40f8fe959201091b819368d2b5d5833173"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "upmCi": {
+        "footprint": "e7440fa782dea5f394b98a21bd4523d8df3f31b0"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.cinemachine-2.8.0-exp.1.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.cinemachine#readme",
+      "_id": "com.unity.cinemachine@2.8.0-exp.1",
+      "dist": {
+        "shasum": "a16b7b5adf87b5ebec1f1331db0c69e3f91d71a4",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.8.0-exp.1.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.8.0-exp.1",
+      "description": "Smart camera tools for passionate creators. \n\nNew starting from 2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography"
+    },
+    "2.6.4": {
+      "unity": "2018.4",
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "e272fa7acbab235a840c4e766b8e6099fa5cd76c"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        },
+        {
+          "displayName": "Scrub Bubble support for Nested Timelines (experimental)",
+          "description": "Experimental feature.  Adds a Timeline extension to support Scrubb Bubble for nested timelines.  This extension will become obsolete when Timeline adds native support for the missing API",
+          "path": "Samples~/Nested Timeline Scrub Bubble"
+        }
+      ],
+      "upmCi": {
+        "footprint": "c50e013285ab84986292ef446df4b380741f5fda"
+      },
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.cinemachine#readme",
+      "_id": "com.unity.cinemachine@2.6.4",
+      "dist": {
+        "shasum": "724045f888e28e95b9529240b59fc2cf2076885f",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.6.4.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.6.4",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography"
+    },
+    "2.7.3": {
+      "unity": "2018.4",
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+        "type": "git",
+        "revision": "51de586ba6f144b9e90ff52a72d14fb208acf1a8"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "upmCi": {
+        "footprint": "6e3c79593e4a94630a4029772b63505e98f402e7"
+      },
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.cinemachine/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.cinemachine#readme",
+      "_id": "com.unity.cinemachine@2.7.3",
+      "dist": {
+        "shasum": "027a1447452c0fdd040c8088c7d3d37b10902720",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.7.3.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.7.3",
+      "description": "Smart camera tools for passionate creators. \n\nNew starting from 2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography"
+    },
+    "2.7.2": {
+      "unity": "2018.4",
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/upm-package-cinemachine.git",
+        "type": "git",
+        "revision": "f2dab4719674bb66fd29a7a5162dbe5255111c75"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "upmCi": {
+        "footprint": "77c15997afae73ebd4f15f1ce2277944cf934569"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.cinemachine-2.7.2.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/upm-package-cinemachine/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/upm-package-cinemachine#readme",
+      "_id": "com.unity.cinemachine@2.7.2",
+      "dist": {
+        "shasum": "3a42f13d15ce5d233793ad8f45de6c012413af32",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.7.2.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.7.2",
+      "description": "Smart camera tools for passionate creators. \n\nNew starting from 2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography"
+    },
+    "2.7.1": {
+      "unity": "2018.4",
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/upm-package-cinemachine.git",
+        "type": "git",
+        "revision": "863a03db6aa5c7f91b66e644065be1cac7f73f10"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        },
+        {
+          "displayName": "Cached Scrubbing support for Nested Timelines (experimental)",
+          "description": "Experimental feature.  Adds a Timeline extension to support Cached Scrubbing for nested timelines.  This extension will become obsolete when Timeline adds native support for the missing API",
+          "path": "Samples~/Nested Timeline Scrub Bubble"
+        }
+      ],
+      "upmCi": {
+        "footprint": "f0f0b748fb50abd137da3cd3bf260a682c76e7d7"
+      },
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/upm-package-cinemachine/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/upm-package-cinemachine#readme",
+      "_id": "com.unity.cinemachine@2.7.1",
+      "dist": {
+        "shasum": "c42c191074bebae0725010fc011599ed3e15f7d8",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.7.1.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.7.1",
+      "description": "Smart camera tools for passionate creators. \n\nNew for 2.7.1: Are you looking for the Cinemachine menu?  It has moved to the GameObject menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography"
+    },
+    "2.6.3": {
+      "unity": "2018.4",
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/upm-package-cinemachine.git",
+        "type": "git",
+        "revision": "bec7fa48fa2d6e9e46243f24d3b1d62918a6b377"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        },
+        {
+          "displayName": "Scrub Bubble support for Nested Timelines (experimental)",
+          "description": "Experimental feature.  Adds a Timeline extension to support Scrubb Bubble for nested timelines.  This extension will become obsolete when Timeline adds native support for the missing API",
+          "path": "Samples~/Nested Timeline Scrub Bubble"
+        }
+      ],
+      "upmCi": {
+        "footprint": "65bcb31e3ad06d2f9365f80d8488ccc36390374e"
+      },
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/upm-package-cinemachine/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/upm-package-cinemachine#readme",
+      "_id": "com.unity.cinemachine@2.6.3",
+      "dist": {
+        "shasum": "305bee1147ddb955b94067bac3290bad8f681572",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.6.3.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.6.3",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {}
+    },
+    "2.6.3-preview.2": {
+      "unity": "2018.4",
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/upm-package-cinemachine.git",
+        "type": "git",
+        "revision": "2322f96d323ba023c917aa771372a95e84ca9eaf"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        },
+        {
+          "displayName": "Scrub Bubble support for Nested Timelines (experimental)",
+          "description": "Experimental feature.  Adds a Timeline extension to support Scrubb Bubble for nested timelines.  This extension will become obsolete when Timeline adds native support for the missing API",
+          "path": "Samples~/Nested Timeline Scrub Bubble"
+        }
+      ],
+      "upmCi": {
+        "footprint": "107dbc64c71993f81fa4fe75a22cdb3d85a577b5"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.cinemachine-2.6.3-preview.2.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/upm-package-cinemachine/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/upm-package-cinemachine#readme",
+      "_id": "com.unity.cinemachine@2.6.3-preview.2",
+      "dist": {
+        "shasum": "cf38fbf579b6e11e3ca7491f2d29e77e671f6c31",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.6.3-preview.2.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.6.3-preview.2",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {}
+    },
+    "2.6.2": {
+      "unity": "2018.4",
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/upm-package-cinemachine.git",
+        "type": "git",
+        "revision": "e168371a31986c1a574e0cbda813373ee83834bf"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        },
+        {
+          "displayName": "Scrub Bubble support for Nested Timelines (experimental)",
+          "description": "Experimental feature.  Adds a Timeline extension to support Scrubb Bubble for nested timelines.  This extension will become obsolete when Timeline adds native support for the missing API",
+          "path": "Samples~/Nested Timeline Scrub Bubble"
+        }
+      ],
+      "upmCi": {
+        "footprint": "51b32cc06631d8541c39094415837212f3826b15"
+      },
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/upm-package-cinemachine/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/upm-package-cinemachine#readme",
+      "_id": "com.unity.cinemachine@2.6.2",
+      "dist": {
+        "shasum": "5e2f05eb06b36c4ab97016bb2d0fe452f63aa889",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.6.2.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.6.2",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {}
+    },
+    "2.6.2-preview.1": {
+      "unity": "2018.4",
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/upm-package-cinemachine.git",
+        "type": "git",
+        "revision": "bdaac1f5c6f4ec1152555055a0f23eab6949d049"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        },
+        {
+          "displayName": "Scrub Bubble support for Nested Timelines (experimental)",
+          "description": "Experimental feature.  Adds a Timeline extension to support Scrubb Bubble for nested timelines.  This extension will become obsolete when Timeline adds native support for the missing API",
+          "path": "Samples~/Nested Timeline Scrub Bubble"
+        }
+      ],
+      "upmCi": {
+        "footprint": "3484bbc68e948bd52a9abd34cce67a78c8c63cdc"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.cinemachine-2.6.2-preview.1.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/upm-package-cinemachine/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/upm-package-cinemachine#readme",
+      "_id": "com.unity.cinemachine@2.6.2-preview.1",
+      "dist": {
+        "shasum": "5749ae552b3b1b4ea59de93d1a3bf238df70225c",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.6.2-preview.1.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.6.2-preview.1",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {}
+    },
+    "2.6.1": {
+      "unity": "2018.4",
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/upm-package-cinemachine.git",
+        "type": "git",
+        "revision": "fff20a8260c5b165bca95c04e4a0311b150c744b"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        },
+        {
+          "displayName": "Scrub Bubble support for Nested Timelines (experimental)",
+          "description": "Experimental feature.  Adds a Timeline extension to support Scrubb Bubble for nested timelines.  This extension will become obsolete when Timeline adds native support for the missing API",
+          "path": "Samples~/Nested Timeline Scrub Bubble"
+        }
+      ],
+      "upmCi": {
+        "footprint": "f3c70d9f47c3487cb61142ee86d2af6cc7a634ed"
+      },
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/upm-package-cinemachine/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/upm-package-cinemachine#readme",
+      "_id": "com.unity.cinemachine@2.6.1",
+      "dist": {
+        "shasum": "6e7e6caec7f18d564ee3b8611fad1e9f0bb7f197",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.6.1.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.6.1",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {}
+    },
+    "2.6.1-preview.6": {
+      "unity": "2018.4",
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/upm-package-cinemachine.git",
+        "type": "git",
+        "revision": "d1b64c45879b78483cb7e627ccf14b6f4a518a7b"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        },
+        {
+          "displayName": "Scrub Bubble support for Nested Timelines (experimental)",
+          "description": "Experimental feature.  Adds a Timeline extension to support Scrubb Bubble for nested timelines.  This extension will become obsolete when Timeline adds native support for the missing API",
+          "path": "Samples~/Nested Timeline Scrub Bubble"
+        }
+      ],
+      "upmCi": {
+        "footprint": "e5f00df38d4630483eb8def1d07a058933e8bc17"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.cinemachine-2.6.1-preview.6.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/upm-package-cinemachine/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/upm-package-cinemachine#readme",
+      "_id": "com.unity.cinemachine@2.6.1-preview.6",
+      "dist": {
+        "shasum": "9ac1ceb1edea66a25d12f3e043668bd0a289a54e",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.6.1-preview.6.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.6.1-preview.6",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {}
+    },
+    "2.6.0": {
+      "unity": "2018.4",
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/upm-package-cinemachine.git",
+        "type": "git",
+        "revision": "d664269f17536431f3b32f36c1903fb73b926ed9"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "upmCi": {
+        "footprint": "3753f3096b65d21612ef4028ad0b88753809213d"
+      },
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/upm-package-cinemachine/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/upm-package-cinemachine#readme",
+      "_id": "com.unity.cinemachine@2.6.0",
+      "dist": {
+        "shasum": "6c8b9f504d54ad12d7f64d0fcf9d871ff7c4b555",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.6.0.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.6.0",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {}
+    },
+    "2.6.0-preview.8": {
+      "unity": "2018.4",
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/upm-package-cinemachine.git",
+        "type": "git",
+        "revision": "8977111bb049e2c7af71c2e460064dea0b01423c"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "upmCi": {
+        "footprint": "650aad780460d115e8544fccf8b1fcb6ea209e61"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.cinemachine-2.6.0-preview.8.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/upm-package-cinemachine/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/upm-package-cinemachine#readme",
+      "_id": "com.unity.cinemachine@2.6.0-preview.8",
+      "dist": {
+        "shasum": "b33d084edc0aea37daf3622b3dd5d6a4d21ac950",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.6.0-preview.8.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.6.0-preview.8",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {}
+    },
+    "2.6.0-preview.5": {
+      "unity": "2018.4",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Unity-Technologies/upm-package-cinemachine.git",
+        "revision": "1331c14ebfa3b1aa05761afa0220df1f360106b0"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "upmCi": {
+        "footprint": "c7202b59c303490e304542f68a9778ea9df3bd2f"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.cinemachine-2.6.0-preview.5.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/upm-package-cinemachine/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/upm-package-cinemachine#readme",
+      "_id": "com.unity.cinemachine@2.6.0-preview.5",
+      "dist": {
+        "shasum": "bb021ee68a81c15ff59676f5558cefc31e789948",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.6.0-preview.5.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.6.0-preview.5",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {}
+    },
+    "2.6.0-preview.3": {
+      "unity": "2018.4",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Unity-Technologies/upm-package-cinemachine.git",
+        "revision": "5c1688ba18ec95c8ef26dc7acd0c5df59401fe5d"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "upmCi": {
+        "footprint": "a17776dd5cf0fa38562bb2ff34cc806cc0821671"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.cinemachine-2.6.0-preview.3.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/upm-package-cinemachine/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/upm-package-cinemachine#readme",
+      "_id": "com.unity.cinemachine@2.6.0-preview.3",
+      "dist": {
+        "shasum": "e78f3dadb9c74778b8fe527b5b4879b19b52a0e9",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.6.0-preview.3.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.6.0-preview.3",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {}
+    },
+    "2.6.0-preview.2": {
+      "unity": "2018.4",
+      "repository": {
+        "footprint": "8b308265d6a31c58521327228a3ba786ffe0e284",
+        "type": "git",
+        "url": "git+https://github.com/Unity-Technologies/upm-package-cinemachine.git",
+        "revision": "c176f111bedee754ec71c21c4f1b1dbe04e973c5"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.cinemachine-2.6.0-preview.2.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/upm-package-cinemachine/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/upm-package-cinemachine#readme",
+      "_id": "com.unity.cinemachine@2.6.0-preview.2",
+      "dist": {
+        "shasum": "73ae5cadbb0e9d5026fa90d98c12e43cf10a5a49",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.6.0-preview.2.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.6.0-preview.2",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {}
+    },
+    "2.5.0": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:Unity-Technologies/upm-package-cinemachine.git",
+        "revision": "286219abad772c9ce300105b37cb3d9a5bc799d3"
+      },
+      "dist": {
+        "shasum": "996241c5a9fff8ac0ccc2ee8d3d1ce3306521a9f",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.5.0.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.cinemachine@2.5.0",
+      "unity": "2018.4",
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "name": "com.unity.cinemachine",
+      "version": "2.5.0",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {}
+    },
+    "2.4.0": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:Unity-Technologies/upm-package-cinemachine.git",
+        "revision": "e0ec6150b50100567af3ca9dbdd15570ca2cd2fa"
+      },
+      "dist": {
+        "shasum": "d529eb61ef453fa8ddfbdf949911d33b48315cf6",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.4.0.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.cinemachine@2.4.0",
+      "unity": "2018.4",
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "name": "com.unity.cinemachine",
+      "version": "2.4.0",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {}
+    },
+    "2.4.0-preview.10": {
+      "unity": "2018.4",
+      "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/Unity-Technologies/upm-package-cinemachine.git",
+        "revision": "521c37eb4a1b224ac6ac10baee583f5c90a105f4"
+      },
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "description": "Sample scenes illustrating various ways to use Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.cinemachine-2.4.0-preview.10.tgz",
+      "readmeFilename": "README.md",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/upm-package-cinemachine/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/upm-package-cinemachine#readme",
+      "_id": "com.unity.cinemachine@2.4.0-preview.10",
+      "dist": {
+        "shasum": "b26da577ae60b253463c644db3c53a22c67ec346",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.4.0-preview.10.tgz"
+      },
+      "name": "com.unity.cinemachine",
+      "version": "2.4.0-preview.10",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "category": "cinematography",
+      "dependencies": {}
+    },
+    "2.4.0-preview.9": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:Unity-Technologies/upm-package-cinemachine.git",
+        "revision": "740a5c69a44b94e9e902ef420c7feaecd181a482"
+      },
+      "dist": {
+        "shasum": "5817adb4a6d31e82e1a00f284b6e8e78e9c5b059",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.4.0-preview.9.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.cinemachine@2.4.0-preview.9",
+      "unity": "2018.1",
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "interactiveImport": "false",
+          "description": "Samples showing various configurations of Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "name": "com.unity.cinemachine",
+      "version": "2.4.0-preview.9",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "dependencies": {}
+    },
+    "2.4.0-preview.8": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:Unity-Technologies/upm-package-cinemachine.git",
+        "revision": "b091b50d4cc2be6df2aa24bd68d59247f8819612"
+      },
+      "dist": {
+        "shasum": "2c0b2ba7ae4228e44832b7411a9a7616924188fa",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.4.0-preview.8.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.cinemachine@2.4.0-preview.8",
+      "unity": "2018.1",
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "interactiveImport": "false",
+          "description": "Samples showing various configurations of Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "name": "com.unity.cinemachine",
+      "version": "2.4.0-preview.8",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "dependencies": {}
+    },
+    "2.4.0-preview.7": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:Unity-Technologies/upm-package-cinemachine.git",
+        "revision": "cbd04b7928ab9260ce91296b2f5e5d89e5abf54a"
+      },
+      "dist": {
+        "shasum": "320f2f74952646977e2fb0f9a15ae489f715169f",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.4.0-preview.7.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.cinemachine@2.4.0-preview.7",
+      "unity": "2019.1",
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "interactiveImport": "false",
+          "description": "Samples showing various configurations of Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "name": "com.unity.cinemachine",
+      "version": "2.4.0-preview.7",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "dependencies": {}
+    },
+    "2.4.0-preview.6": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:Unity-Technologies/upm-package-cinemachine.git",
+        "revision": "7f6d7f347fddc2146aa2b983695bdaba6031a65f"
+      },
+      "dist": {
+        "shasum": "dd957eef7cbade8a56e6a38f2009bcb3ef247f39",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.4.0-preview.6.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.cinemachine@2.4.0-preview.6",
+      "unity": "2019.1",
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "interactiveImport": "false",
+          "description": "Samples showing various configurations of Cinemachine",
+          "path": "Samples~/Cinemachine Example Scenes"
+        }
+      ],
+      "name": "com.unity.cinemachine",
+      "version": "2.4.0-preview.6",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "dependencies": {}
+    },
+    "2.4.0-preview.4": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:Unity-Technologies/upm-package-cinemachine.git",
+        "revision": "596cc33952951170d7f2679e841cb8c55f3b2617"
+      },
+      "dist": {
+        "shasum": "5eef23db58018b28753fadf35d6a7596f5d30d3a",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.4.0-preview.4.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.cinemachine@2.4.0-preview.4",
+      "unity": "2019.1",
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "interactiveImport": "false",
+          "description": "Samples showing various configurations of Cinemachine",
+          "path": "Samples~"
+        }
+      ],
+      "name": "com.unity.cinemachine",
+      "version": "2.4.0-preview.4",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "dependencies": {}
+    },
+    "2.4.0-preview.3": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:Unity-Technologies/upm-package-cinemachine.git",
+        "revision": "3050a74ca8b3b8dd7c5fc4ecb4305310307dcbc2"
+      },
+      "dist": {
+        "shasum": "6c75c4bc263a436cc3b31b4e5336a4313fc7dce7",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.4.0-preview.3.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.cinemachine@2.4.0-preview.3",
+      "unity": "2019.1",
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "interactiveImport": "false",
+          "description": "Samples showing various configurations of Cinemachine",
+          "path": "Samples~"
+        }
+      ],
+      "name": "com.unity.cinemachine",
+      "version": "2.4.0-preview.3",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "dependencies": {}
+    },
+    "2.2.10-preview.4": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:Unity-Technologies/upm-package-cinemachine.git",
+        "revision": "3cec70f66095456089cbeb208e4de8534d5b2eb5"
+      },
+      "dist": {
+        "shasum": "e87cf7c922ed8714f833642d021c3117f4e80a3a",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.2.10-preview.4.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.cinemachine@2.2.10-preview.4",
+      "unity": "2018.1",
+      "name": "com.unity.cinemachine",
+      "version": "2.2.10-preview.4",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "dependencies": {}
+    },
+    "2.2.10-preview.3": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:Unity-Technologies/upm-package-cinemachine.git",
+        "revision": "0e095795d06e13f18562303f0568234b3467f5e9"
+      },
+      "dist": {
+        "shasum": "86052bb74eabede18f76b65447db3e6bb987a38e",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.2.10-preview.3.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.cinemachine@2.2.10-preview.3",
+      "unity": "2018.1",
+      "name": "com.unity.cinemachine",
+      "version": "2.2.10-preview.3",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "dependencies": {}
+    },
+    "2.3.5-preview.3": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:Unity-Technologies/upm-package-cinemachine.git",
+        "revision": "272c287f7fd756165e7fd1b27c7a8eac77fa8c74"
+      },
+      "dist": {
+        "shasum": "a1ea09e31a193c434a146dfbf003b5c4a74ca0d4",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.3.5-preview.3.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.cinemachine@2.3.5-preview.3",
+      "unity": "2019.1",
+      "samples": [
+        {
+          "displayName": "Cinemachine Example Scenes",
+          "interactiveImport": "false",
+          "description": "Samples showing various configurations of Cinemachine",
+          "path": "Samples~"
+        }
+      ],
+      "name": "com.unity.cinemachine",
+      "version": "2.3.5-preview.3",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "dependencies": {}
+    },
+    "2.3.4": {
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/Unity-Technologies/upm-package-cinemachine",
+        "revision": "679387cb1fa822190b530bdbb8ea0945f508b5f6"
+      },
+      "dist": {
+        "shasum": "68ff48f27549cce84f1597263409b30c03b3f8e3",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.3.4.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.cinemachine@2.3.4",
+      "unity": "2019.1",
+      "name": "com.unity.cinemachine",
+      "version": "2.3.4",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "dependencies": {}
+    },
+    "2.2.9": {
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/Unity-Technologies/upm-package-cinemachine",
+        "revision": "08558cfb3884bd235c19e8af060cf66fac2225e3"
+      },
+      "dist": {
+        "shasum": "ccad9e00603b72868346e55c1fccb9f720e7980b",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.2.9.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.cinemachine@2.2.9",
+      "unity": "2018.1",
+      "name": "com.unity.cinemachine",
+      "version": "2.2.9",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "dependencies": {}
+    },
+    "2.3.3": {
+      "dist": {
+        "shasum": "99c8fc470c9d13db4ac409c8d4ddd17b119d3ec3",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.3.3.tgz"
+      },
+      "_id": "com.unity.cinemachine@2.3.3",
+      "unity": "2019.1",
+      "name": "com.unity.cinemachine",
+      "version": "2.3.3",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "dependencies": {}
+    },
+    "2.3.1": {
+      "dist": {
+        "shasum": "0fe31f4bad2514eda703a319be4631f82134ecce",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.3.1.tgz"
+      },
+      "_id": "com.unity.cinemachine@2.3.1",
+      "unity": "2019.1",
+      "name": "com.unity.cinemachine",
+      "version": "2.3.1",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "dependencies": {}
+    },
+    "2.2.8": {
+      "dist": {
+        "shasum": "4bf67ee28bea4b92a25f1e05bc0b27a62c3f1908",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.2.8.tgz"
+      },
+      "_id": "com.unity.cinemachine@2.2.8",
+      "unity": "2018.1",
+      "name": "com.unity.cinemachine",
+      "version": "2.2.8",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "dependencies": {}
+    },
+    "2.2.7": {
+      "dist": {
+        "shasum": "2617de52f330f672ac232eb3fb84e4eefaa21e54",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.2.7.tgz"
+      },
+      "_id": "com.unity.cinemachine@2.2.7",
+      "unity": "2018.1",
+      "name": "com.unity.cinemachine",
+      "version": "2.2.7",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "dependencies": {}
+    },
+    "2.2.0": {
+      "dist": {
+        "shasum": "dccf02104f7a1e777e86517d831515c01d50e23b",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.2.0.tgz"
+      },
+      "_id": "com.unity.cinemachine@2.2.0",
+      "unity": "2018.1",
+      "name": "com.unity.cinemachine",
+      "version": "2.2.0",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "dependencies": {}
+    },
+    "2.1.13": {
+      "dist": {
+        "shasum": "2c35f7d4154da9d2dfb118cf3ec136af5fdcd81c",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.1.13.tgz"
+      },
+      "_id": "com.unity.cinemachine@2.1.13",
+      "unity": "2018.1",
+      "name": "com.unity.cinemachine",
+      "version": "2.1.13",
+      "description": "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+      "displayName": "Cinemachine",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens",
+        "impulse"
+      ],
+      "dependencies": {}
+    },
+    "2.1.12": {
+      "dist": {
+        "shasum": "48f25ae90595ca36554bf9fcfe74188f4370379a",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.1.12.tgz"
+      },
+      "_id": "com.unity.cinemachine@2.1.12",
+      "unity": "2018.1",
+      "name": "com.unity.cinemachine",
+      "version": "2.1.12",
+      "description": "Smart camera tools for passionate creators",
+      "displayName": "Cinemachine",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens"
+      ],
+      "dependencies": {
+        "com.unity.modules.timeline": "1.0.0"
+      }
+    },
+    "2.1.11-beta.1": {
+      "dist": {
+        "shasum": "a9ab1fdd2999893bcac82e1b6bb60d344778c32b",
+        "tarball": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.1.11-beta.1.tgz"
+      },
+      "_id": "com.unity.cinemachine@2.1.11-beta.1",
+      "unity": "2018.1",
+      "name": "com.unity.cinemachine",
+      "version": "2.1.11-beta.1",
+      "description": "Smart camera tools for passionate creators",
+      "displayName": "Cinemachine",
+      "keywords": [
+        "camera",
+        "follow",
+        "rig",
+        "fps",
+        "cinematography",
+        "aim",
+        "orbit",
+        "cutscene",
+        "cinematic",
+        "collision",
+        "freelook",
+        "cinemachine",
+        "compose",
+        "composition",
+        "dolly",
+        "track",
+        "clearshot",
+        "noise",
+        "framing",
+        "handheld",
+        "lens"
+      ],
+      "dependencies": {
+        "com.unity.modules.timeline": "1.0.0"
+      }
+    }
+  },
+  "etag": "\"027fcfd0df29633974b88a93d0fb7b38\"",
+  "time": {
+    "3.0.1": "2023-12-05T14:46:27Z",
+    "3.0.0-pre.9": "2023-10-03T20:13:02Z",
+    "3.0.0-pre.8": "2023-09-22T19:46:53Z",
+    "2.9.7": "2023-05-08T09:38:33Z",
+    "3.0.0-pre.7": "2023-05-06T22:49:34Z",
+    "3.0.0-pre.6": "2023-05-05T11:59:00Z",
+    "3.0.0-pre.5": "2023-04-25T18:28:25Z",
+    "3.0.0-pre.4": "2023-02-15T19:44:26Z",
+    "2.9.5": "2023-01-25T09:41:58Z",
+    "2.9.4": "2022-11-24T11:54:46Z",
+    "3.0.0-pre.3": "2022-10-28T09:19:19Z",
+    "2.9.2": "2022-10-21T12:38:32Z",
+    "2.6.17": "2022-08-31T13:33:16Z",
+    "2.8.9": "2022-08-31T13:33:13Z",
+    "2.9.1": "2022-08-31T13:33:11Z",
+    "2.6.15": "2022-05-27T20:19:42Z",
+    "2.6.14": "2022-05-25T18:39:46Z",
+    "2.8.6": "2022-05-25T18:39:39Z",
+    "2.9.0-pre.6": "2022-01-12T21:25:18Z",
+    "2.8.4": "2021-12-20T10:31:17Z",
+    "2.8.3": "2021-11-29T18:30:22Z",
+    "2.6.11": "2021-11-03T14:04:48Z",
+    "2.9.0-pre.1": "2021-11-03T13:04:39Z",
+    "2.8.2": "2021-10-25T14:57:25Z",
+    "2.7.9": "2021-10-20T10:18:27Z",
+    "2.8.1": "2021-10-07T14:53:33Z",
+    "2.7.8": "2021-08-24T17:15:18Z",
+    "2.6.10": "2021-08-24T17:13:04Z",
+    "2.6.9": "2021-08-10T10:54:40Z",
+    "2.7.5": "2021-07-23T14:37:59Z",
+    "2.8.0": "2021-07-19T17:25:14Z",
+    "2.7.4": "2021-06-08T18:05:47Z",
+    "2.6.5": "2021-05-28T18:47:37Z",
+    "2.8.0-pre.1": "2021-05-10T21:46:36Z",
+    "2.8.0-exp.2": "2021-04-13T02:25:17Z",
+    "2.8.0-exp.1": "2021-04-09T23:28:41Z",
+    "2.6.4": "2021-03-26T16:58:45Z",
+    "2.7.3": "2021-03-26T16:39:51Z",
+    "2.7.2": "2021-02-18T17:55:40Z",
+    "2.7.1": "2020-11-16T18:54:09Z",
+    "2.6.3": "2020-09-23T00:49:47Z",
+    "2.6.3-preview.2": "2020-09-18T06:20:50Z",
+    "2.6.2": "2020-09-04T23:07:37Z",
+    "2.6.2-preview.1": "2020-08-28T19:37:38Z",
+    "2.6.1": "2020-08-17T13:07:59Z",
+    "2.6.1-preview.6": "2020-08-14T14:05:08Z",
+    "2.6.0": "2020-06-29T10:15:14Z",
+    "2.6.0-preview.8": "2020-06-09T11:41:57Z",
+    "2.6.0-preview.5": "2020-04-25T14:18:08Z",
+    "2.6.0-preview.3": "2020-04-24T14:17:15Z",
+    "2.6.0-preview.2": "2020-03-10T15:02:53Z",
+    "2.5.0": "2020-01-20T18:02:15Z",
+    "2.4.0": "2020-01-13T01:02:01Z",
+    "2.4.0-preview.10": "2019-12-13T20:05:40Z",
+    "2.4.0-preview.9": "2019-11-29T20:01:36Z",
+    "2.4.0-preview.8": "2019-11-29T19:01:33Z",
+    "2.4.0-preview.7": "2019-11-28T16:01:42Z",
+    "2.4.0-preview.6": "2019-11-08T19:01:35Z",
+    "2.4.0-preview.4": "2019-09-26T20:01:28Z",
+    "2.4.0-preview.3": "2019-09-23T14:01:33Z",
+    "2.2.10-preview.4": "2019-08-06T20:01:16Z",
+    "2.2.10-preview.3": "2019-08-01T15:01:21Z",
+    "2.3.5-preview.3": "2019-08-01T15:01:17Z",
+    "2.3.4": "2019-05-23T15:00:44Z",
+    "2.2.9": "2019-05-22T16:00:44Z",
+    "2.3.3": "2019-04-03T11:52:44Z",
+    "2.3.1": "2019-04-03T11:52:40Z",
+    "2.2.8": "2019-04-03T11:52:36Z",
+    "2.2.7": "2019-04-03T11:52:33Z",
+    "2.2.0": "2019-04-03T11:52:30Z",
+    "2.1.13": "2019-04-03T11:52:26Z",
+    "2.1.12": "2019-04-03T11:52:23Z",
+    "2.1.11-beta.1": "2019-04-03T11:52:20Z"
+  }
+}

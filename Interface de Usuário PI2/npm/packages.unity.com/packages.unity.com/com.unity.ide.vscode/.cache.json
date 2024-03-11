@@ -1,0 +1,372 @@
+{
+  "_id": "com.unity.ide.vscode",
+  "name": "com.unity.ide.vscode",
+  "description": "Code editor integration for supporting Visual Studio Code as code editor for unity. Adds support for generating csproj files for intellisense purposes, auto discovery of installations, etc.",
+  "provider": "upm",
+  "category": "",
+  "dist-tags": {
+    "latest": "1.2.5"
+  },
+  "versions": {
+    "1.2.5": {
+      "unity": "2019.2",
+      "unityRelease": "0a12",
+      "relatedPackages": {
+        "com.unity.ide.vscode.tests": "1.2.5"
+      },
+      "upmCi": {
+        "footprint": "bc03b7bb076199fbe68649a647d0d32d98af6a0f"
+      },
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/com.unity.ide.vscode.git",
+        "type": "git",
+        "revision": "b0740c80bfc2440527c317109f7c3d9100132722"
+      },
+      "_id": "com.unity.ide.vscode@1.2.5",
+      "_integrity": "sha512-CpdUazGiCZeMXyvKM6njkUTtZoeBojf5eEx/nxuVPOAPBcOxLXhqrGHQGx3nk3eMBQ4FaGyVmqC4RzFkSockjQ==",
+      "_resolved": "/tmp/com.unity.ide.vscode@1.2.5-9ehtrm84.tgz",
+      "_from": "file:/tmp/com.unity.ide.vscode@1.2.5-9ehtrm84.tgz",
+      "dist": {
+        "shasum": "82e68656b7bdc5da8beb1fbaf1bb4ecf13456d51",
+        "tarball": "https://download.packages.unity.com/com.unity.ide.vscode/-/com.unity.ide.vscode-1.2.5.tgz"
+      },
+      "name": "com.unity.ide.vscode",
+      "version": "1.2.5",
+      "description": "Code editor integration for supporting Visual Studio Code as code editor for unity. Adds support for generating csproj files for intellisense purposes, auto discovery of installations, etc.",
+      "displayName": "Visual Studio Code Editor",
+      "type": "asset",
+      "host": "editor",
+      "category": ""
+    },
+    "1.2.4": {
+      "unity": "2019.2",
+      "unityRelease": "0a12",
+      "relatedPackages": {
+        "com.unity.ide.vscode.tests": "1.2.4"
+      },
+      "upmCi": {
+        "footprint": "1ef5cbb4cad2cdffa12c537dca8cd7cafdae062c"
+      },
+      "repository": {
+        "url": "git+https://github.com/Unity-Technologies/com.unity.ide.vscode.git",
+        "type": "git",
+        "revision": "1f4f605d5c988cb610c372b5c5216c46cc8f5d30"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.ide.vscode-1.2.4.tgz",
+      "bugs": {
+        "url": "https://github.com/Unity-Technologies/com.unity.ide.vscode/issues"
+      },
+      "homepage": "https://github.com/Unity-Technologies/com.unity.ide.vscode#readme",
+      "_id": "com.unity.ide.vscode@1.2.4",
+      "dist": {
+        "shasum": "eb5de66d4c77580302e328d62de70e3074f61721",
+        "tarball": "https://download.packages.unity.com/com.unity.ide.vscode/-/com.unity.ide.vscode-1.2.4.tgz"
+      },
+      "name": "com.unity.ide.vscode",
+      "version": "1.2.4",
+      "description": "Code editor integration for supporting Visual Studio Code as code editor for unity. Adds support for generating csproj files for intellisense purposes, auto discovery of installations, etc.",
+      "displayName": "Visual Studio Code Editor",
+      "type": "asset",
+      "host": "editor",
+      "category": ""
+    },
+    "1.2.3": {
+      "unity": "2019.2",
+      "unityRelease": "0a12",
+      "relatedPackages": {
+        "com.unity.ide.vscode.tests": "1.2.3"
+      },
+      "upmCi": {
+        "footprint": "ab99793db10bad3c377fc6971b0b21989002c495"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git",
+        "type": "git",
+        "revision": "b5ec9b38109e52b1b26597d521e4df75e042ebb9"
+      },
+      "_id": "com.unity.ide.vscode@1.2.3",
+      "dist": {
+        "shasum": "2d531209967f3faf1e5cc4a737631f87ddcefc31",
+        "tarball": "https://download.packages.unity.com/com.unity.ide.vscode/-/com.unity.ide.vscode-1.2.3.tgz"
+      },
+      "name": "com.unity.ide.vscode",
+      "version": "1.2.3",
+      "description": "Code editor integration for supporting Visual Studio Code as code editor for unity. Adds support for generating csproj files for intellisense purposes, auto discovery of installations, etc.",
+      "displayName": "Visual Studio Code Editor",
+      "type": "asset",
+      "host": "editor",
+      "category": ""
+    },
+    "1.2.2": {
+      "unity": "2019.2",
+      "unityRelease": "0a12",
+      "relatedPackages": {
+        "com.unity.ide.vscode.tests": "1.2.2"
+      },
+      "upmCi": {
+        "footprint": "31a9d6735d93048aea33e52d5a2ee60cd18a6ae2"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git",
+        "type": "git",
+        "revision": "d4564dab663617ea31f5782b365961d5304bed3c"
+      },
+      "_id": "com.unity.ide.vscode@1.2.2",
+      "dist": {
+        "shasum": "0bb5c1fa51678e47ee1dface1f5e30517c18e066",
+        "tarball": "https://download.packages.unity.com/com.unity.ide.vscode/-/com.unity.ide.vscode-1.2.2.tgz"
+      },
+      "name": "com.unity.ide.vscode",
+      "version": "1.2.2",
+      "description": "Code editor integration for supporting Visual Studio Code as code editor for unity. Adds support for generating csproj files for intellisense purposes, auto discovery of installations, etc.",
+      "displayName": "Visual Studio Code Editor",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {}
+    },
+    "1.2.1": {
+      "unity": "2019.2",
+      "unityRelease": "0a12",
+      "relatedPackages": {
+        "com.unity.ide.vscode.tests": "1.2.1"
+      },
+      "upmCi": {
+        "footprint": "4dde6af44bb4725574d8975254aa3161e72090cc"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git",
+        "revision": "4395bd811a72b875607adb1001398d0325947baa"
+      },
+      "_id": "com.unity.ide.vscode@1.2.1",
+      "_shasum": "27b0f2094353d294f320e6ac2f8618dd4a274aad",
+      "_resolved": "file:../../../var/folders/tn/t8btbstx12l33r08ww_2c0_1_q91g9/T/com.unity.ide.vscode-1.2.1.tgz",
+      "_from": "../../../var/folders/tn/t8btbstx12l33r08ww_2c0_1_q91g9/T/com.unity.ide.vscode-1.2.1.tgz",
+      "scripts": {},
+      "dist": {
+        "shasum": "27b0f2094353d294f320e6ac2f8618dd4a274aad",
+        "tarball": "https://download.packages.unity.com/com.unity.ide.vscode/-/com.unity.ide.vscode-1.2.1.tgz"
+      },
+      "name": "com.unity.ide.vscode",
+      "version": "1.2.1",
+      "description": "Code editor integration for supporting Visual Studio Code as code editor for unity. Adds support for generating csproj files for intellisense purposes, auto discovery of installations, etc.",
+      "displayName": "Visual Studio Code Editor",
+      "type": "asset",
+      "host": "editor",
+      "dependencies": {}
+    },
+    "1.2.0": {
+      "unity": "2019.2",
+      "unityRelease": "0a12",
+      "relatedPackages": {
+        "com.unity.ide.vscode.tests": "1.2.0"
+      },
+      "repository": {
+        "footprint": "c89edac8df621bef027d6015c099e8a40a8c9f37",
+        "type": "git",
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git",
+        "revision": "0a7a9faac3dd8de41e30647db8a2b0fd12cee4d8"
+      },
+      "_id": "com.unity.ide.vscode@1.2.0",
+      "_shasum": "35692973aa9e370b4477026bbb4fa3b5eddd633e",
+      "_resolved": "file:../../../var/folders/tn/t8btbstx12l33r08ww_2c0_1_q91g9/T/com.unity.ide.vscode-1.2.0.tgz",
+      "_from": "../../../var/folders/tn/t8btbstx12l33r08ww_2c0_1_q91g9/T/com.unity.ide.vscode-1.2.0.tgz",
+      "scripts": {},
+      "dist": {
+        "shasum": "35692973aa9e370b4477026bbb4fa3b5eddd633e",
+        "tarball": "https://download.packages.unity.com/com.unity.ide.vscode/-/com.unity.ide.vscode-1.2.0.tgz"
+      },
+      "name": "com.unity.ide.vscode",
+      "version": "1.2.0",
+      "description": "Code editor integration for supporting Visual Studio Code as code editor for unity. Adds support for generating csproj files for intellisense purposes, auto discovery of installations, etc.",
+      "displayName": "Visual Studio Code Editor",
+      "type": "asset",
+      "host": "editor",
+      "dependencies": {}
+    },
+    "1.1.4": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.ide.vscode.git",
+        "revision": "5b09e2bc6a13b557ca1ebf1db5f960746631630e"
+      },
+      "dist": {
+        "shasum": "1a4cb8baed5112216a5206ec440095cd28ddd577",
+        "tarball": "https://download.packages.unity.com/com.unity.ide.vscode/-/com.unity.ide.vscode-1.1.4.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.ide.vscode@1.1.4",
+      "unity": "2019.2",
+      "relatedPackages": {
+        "com.unity.ide.vscode.tests": "1.1.4"
+      },
+      "unityRelease": "0a12",
+      "name": "com.unity.ide.vscode",
+      "version": "1.1.4",
+      "description": "Code editor integration for supporting Visual Studio Code as code editor for unity. Adds support for generating csproj files for intellisense purposes, auto discovery of installations, etc.",
+      "displayName": "Visual Studio Code Editor",
+      "type": "asset",
+      "host": "editor",
+      "dependencies": {}
+    },
+    "1.1.3": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.ide.vscode.git",
+        "revision": "7509767be271ef8ccdfaf82ea0fb71162a971d43"
+      },
+      "dist": {
+        "shasum": "721fa79d384bc65f44b1a770adf067af3d2a393a",
+        "tarball": "https://download.packages.unity.com/com.unity.ide.vscode/-/com.unity.ide.vscode-1.1.3.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.ide.vscode@1.1.3",
+      "unity": "2019.2",
+      "relatedPackages": {
+        "com.unity.ide.vscode.tests": "1.1.3"
+      },
+      "unityRelease": "0a12",
+      "name": "com.unity.ide.vscode",
+      "version": "1.1.3",
+      "description": "Code editor integration for supporting Visual Studio Code as code editor for unity. Adds support for generating csproj files for intellisense purposes, auto discovery of installations, etc.",
+      "displayName": "Visual Studio Code Editor",
+      "type": "asset",
+      "host": "editor",
+      "dependencies": {}
+    },
+    "1.1.2": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.ide.vscode.git",
+        "revision": "42d4cf5f589958e6c73c4ee03866482b63280f57"
+      },
+      "dist": {
+        "shasum": "6035bce70b118b375681765f30730d46f30c2650",
+        "tarball": "https://download.packages.unity.com/com.unity.ide.vscode/-/com.unity.ide.vscode-1.1.2.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.ide.vscode@1.1.2",
+      "unity": "2019.2",
+      "relatedPackages": {
+        "com.unity.ide.vscode.tests": "1.0.4"
+      },
+      "unityRelease": "0a12",
+      "name": "com.unity.ide.vscode",
+      "version": "1.1.2",
+      "description": "Code editor integration for supporting Visual Studio Code as code editor for unity. Adds support for generating csproj files for intellisense purposes, auto discovery of installations, etc.",
+      "displayName": "Visual Studio Code Editor",
+      "dependencies": {}
+    },
+    "1.1.0": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.ide.vscode.git",
+        "revision": "be12768c09e4711e6d38ba647df27fac67dbfd1f"
+      },
+      "dist": {
+        "shasum": "6a4857bf803f6932e55290c51ba9167f10e025d2",
+        "tarball": "https://download.packages.unity.com/com.unity.ide.vscode/-/com.unity.ide.vscode-1.1.0.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.ide.vscode@1.1.0",
+      "unity": "2019.2",
+      "relatedPackages": {
+        "com.unity.ide.vscode.tests": "1.0.4"
+      },
+      "unityRelease": "0a12",
+      "name": "com.unity.ide.vscode",
+      "version": "1.1.0",
+      "description": "Code editor integration for supporting Visual Studio Code as code editor for unity. Adds support for generating csproj files for intellisense purposes, auto discovery of installations, etc.",
+      "displayName": "Visual Studio Code Editor",
+      "dependencies": {}
+    },
+    "1.0.7": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.ide.vscode.git",
+        "revision": "1a72fa34367ef234a5d1ebba9858fef93118cce2"
+      },
+      "dist": {
+        "shasum": "373fa909f8bb146db8f737aa61974a2bba32f58e",
+        "tarball": "https://download.packages.unity.com/com.unity.ide.vscode/-/com.unity.ide.vscode-1.0.7.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.ide.vscode@1.0.7",
+      "unity": "2019.2",
+      "relatedPackages": {
+        "com.unity.ide.vscode.tests": "1.0.4"
+      },
+      "unityRelease": "0a12",
+      "name": "com.unity.ide.vscode",
+      "version": "1.0.7",
+      "description": "Code editor integration for supporting Visual Studio Code as code editor for unity. Adds support for generating csproj files for intellisense purposes, auto discovery of installations, etc.",
+      "displayName": "Visual Studio Code Editor",
+      "dependencies": {}
+    },
+    "1.0.3": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.ide.vscode.git",
+        "revision": "73d7cbb759082366bc98da46b8aafa954d8cca5b"
+      },
+      "dist": {
+        "shasum": "a7d2931c95fe62ed9ac71f85809960667b072a36",
+        "tarball": "https://download.packages.unity.com/com.unity.ide.vscode/-/com.unity.ide.vscode-1.0.3.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.ide.vscode@1.0.3",
+      "unity": "2019.2",
+      "relatedPackages": {
+        "com.unity.ide.vscode.tests": "1.0.3"
+      },
+      "unityRelease": "0a7",
+      "name": "com.unity.ide.vscode",
+      "version": "1.0.3",
+      "description": "Code editor integration for supporting Visual Studio Code as code editor for unity. Adds support for generating csproj files for intellisense purposes, auto discovery of installations, etc.",
+      "displayName": "Visual Studio Code Editor",
+      "dependencies": {}
+    },
+    "1.0.2": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.ide.vscode.git",
+        "revision": "a05e102cc4e4f6ef2df1a0e726a843bf92f39d34"
+      },
+      "dist": {
+        "shasum": "b2c3b5f9765c967940ace94050ff5c43a17cfd05",
+        "tarball": "https://download.packages.unity.com/com.unity.ide.vscode/-/com.unity.ide.vscode-1.0.2.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.ide.vscode@1.0.2",
+      "unity": "2019.2",
+      "relatedPackages": {
+        "com.unity.ide.vscode.tests": "1.0.2"
+      },
+      "unityRelease": "0a7",
+      "name": "com.unity.ide.vscode",
+      "version": "1.0.2",
+      "description": "Code editor integration for supporting Visual Studio Code as code editor for unity. Adds support for generating csproj files for intellisense purposes, auto discovery of installations, etc.",
+      "displayName": "Visual Studio Code Editor",
+      "dependencies": {}
+    }
+  },
+  "etag": "\"3085c25f8ae5248e2a96e0aaf54a6a58\"",
+  "time": {
+    "1.2.5": "2022-02-09T17:45:36Z",
+    "1.2.4": "2021-09-01T08:10:17Z",
+    "1.2.3": "2020-10-28T14:30:30Z",
+    "1.2.2": "2020-09-14T12:57:39Z",
+    "1.2.1": "2020-05-20T20:24:55Z",
+    "1.2.0": "2020-03-12T18:40:37Z",
+    "1.1.4": "2020-01-07T17:03:38Z",
+    "1.1.3": "2019-10-30T15:02:42Z",
+    "1.1.2": "2019-09-04T17:01:57Z",
+    "1.1.0": "2019-08-09T17:01:56Z",
+    "1.0.7": "2019-05-16T16:01:36Z",
+    "1.0.3": "2019-04-03T11:57:48Z",
+    "1.0.2": "2019-04-03T11:57:45Z"
+  }
+}

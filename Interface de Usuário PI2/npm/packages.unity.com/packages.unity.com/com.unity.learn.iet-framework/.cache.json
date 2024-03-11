@@ -1,0 +1,1637 @@
+{
+  "_id": "com.unity.learn.iet-framework",
+  "name": "com.unity.learn.iet-framework",
+  "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates.",
+  "provider": "upm",
+  "category": "",
+  "dist-tags": {
+    "latest": "3.1.3"
+  },
+  "versions": {
+    "3.1.3": {
+      "unity": "2020.3",
+      "_upm": {
+        "changelog": "### Fixed\n- Fixed issue where RichTextParser was incorrectly validating HTML as XML"
+      },
+      "upmCi": {
+        "footprint": "0fec6ce35c30f2f4b609c1ee8d9f99591c7e0964"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "803438c4505769ffe25d5e411a59a8f2c8d8831a"
+      },
+      "dist": {
+        "shasum": "4259ee2143614f7f86a3e1954a25fa08efff4415",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-3.1.3.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "3.1.3",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates.",
+      "displayName": "Tutorial Framework",
+      "type": "tool",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      }
+    },
+    "3.1.2": {
+      "unity": "2020.3",
+      "upmCi": {
+        "footprint": "f751a88c80605a9eab58209342e044bba72ab908"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "1c9fc0cd9f492ae5b8b7dbf83112709014250731"
+      },
+      "dist": {
+        "shasum": "00c8e84ea5e857087fa5a0f8c5a9a11deef1fe95",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-3.1.2.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "3.1.2",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates.",
+      "displayName": "Tutorial Framework",
+      "type": "tool",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      }
+    },
+    "2.2.3": {
+      "unity": "2019.4",
+      "upmCi": {
+        "footprint": "31b2562b67c674ba1df64d92868607ae4bec9386"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "0ae980d59d0239712aafdcc030a683ccf2adf72f"
+      },
+      "dist": {
+        "shasum": "56f402798a171eb5069e5707098a15e1c9a83938",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-2.2.3.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "2.2.3",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      }
+    },
+    "3.1.1": {
+      "unity": "2020.3",
+      "upmCi": {
+        "footprint": "d38c6fde9a1c633e04a1561c59d706caec820c8d"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "72747f66cf61e0f22da00baa7b25bde17b14c3dd"
+      },
+      "dist": {
+        "shasum": "03fb9954984cb070a2369c77cd07d460d3f11d09",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-3.1.1.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "3.1.1",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates.",
+      "displayName": "Tutorial Framework",
+      "type": "tool",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      }
+    },
+    "2.2.2": {
+      "unity": "2019.4",
+      "_upm": {
+        "changelog": "### Fixed\n- Fixed errors with masking settings on Unity 2021 LTS\n- Fix from .net core 2.1 API to 2.0, documentation cleanup\n- Clean up RTP with a callback, clear changelog\n- Fix to naming and scope issues\n- Fixed missing support for relative file links in Rich Text Parser\n\n### Changed\n- Documentation and some cleanup"
+      },
+      "upmCi": {
+        "footprint": "78f017d4daf69e46a4c71ee81812ffd3d7f850ca"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "c99914e6b0dec3c595bce2be11261c7bfff5c155"
+      },
+      "_id": "com.unity.learn.iet-framework@2.2.2",
+      "_integrity": "sha512-xsgqEAvsqxRra+8i4eoGg+4DwDWlRXvyLb7HYlWuq6b5qohMmxP4ijFiSj17cezFLMUWgTv59AMvlChqvPWRiA==",
+      "_resolved": "/tmp/com.unity.learn.iet-framework@2.2.2-lkt_iiu4.tgz",
+      "_from": "file:/tmp/com.unity.learn.iet-framework@2.2.2-lkt_iiu4.tgz",
+      "dist": {
+        "shasum": "b4146883a659047ce12daa2dd2914460b2a8825f",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-2.2.2.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "2.2.2",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      }
+    },
+    "2.2.1": {
+      "unity": "2019.4",
+      "upm": {
+        "changelog": "### Fixed,- Fixed one test failing when running in the Unity Editor's test environment"
+      },
+      "upmCi": {
+        "footprint": "0973be4d88299eaac368b499551821d92894418b"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "b52a4691a4ddddeebf982bb0379c0996f99c3f5b"
+      },
+      "_id": "com.unity.learn.iet-framework@2.2.1",
+      "_integrity": "sha512-pfDpAbqBAdODpQ9cylvEsZjJmFZgWmsTiS8G3/2YPX/sIKHxo6q9CSh63CSDitK62LMf9znOAkdKuMcyoYwZ4A==",
+      "_resolved": "/tmp/com.unity.learn.iet-framework@2.2.1-6a65d_7t.tgz",
+      "_from": "file:/tmp/com.unity.learn.iet-framework@2.2.1-6a65d_7t.tgz",
+      "dist": {
+        "shasum": "2517bf2bf3df248d2cd92bad117c927bcf073dd2",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-2.2.1.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "2.2.1",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      }
+    },
+    "2.2.0": {
+      "unity": "2019.4",
+      "upmCi": {
+        "footprint": "6f7a5aeabd302200cbd58623e7ee556814de690a"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "d9398ac74e39092e582647b5bd726f1f65ce6e34"
+      },
+      "_id": "com.unity.learn.iet-framework@2.2.0",
+      "_integrity": "sha512-g9Pe8Yh/QjaJcq9NsCfCROZfOrVqHKPjSZWck4iqCHsUoCbNpetrEj2XrAWKBQ+1lP7ek9eTNI2R5ioCmx682A==",
+      "_resolved": "/tmp/com.unity.learn.iet-framework@2.2.0-7xswbe8h.tgz",
+      "_from": "file:/tmp/com.unity.learn.iet-framework@2.2.0-7xswbe8h.tgz",
+      "dist": {
+        "shasum": "84af278d0bb6a6b1984ec2b66d674ea4474a9909",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-2.2.0.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "2.2.0",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      }
+    },
+    "2.1.2": {
+      "dist": {
+        "shasum": "dbae5614e584c60897ac1e765ed4a0894b043f08",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-2.1.2.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "2.1.2",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      }
+    },
+    "2.1.2-pre.2": {
+      "unity": "2019.4",
+      "upmCi": {
+        "footprint": "2238ef99b57db11676dc4db522f84c10270e4eab"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "50fc84fed95ceba50d3b0e34faaba500aa71d330"
+      },
+      "_id": "com.unity.learn.iet-framework@2.1.2-pre.2",
+      "_integrity": "sha512-Ls488vb+Xl3HtQ62lx5BeSgirW/Jl/Q/e5TwdBLwVN/8hM5YNpOXg3axUG40CWFtTHxBw2JYV0QYkcp2YfkBOA==",
+      "_resolved": "/pkgprom/com.unity.learn.iet-framework-2.1.2-pre.2.tgz",
+      "_from": "file:com.unity.learn.iet-framework-2.1.2-pre.2.tgz",
+      "dist": {
+        "shasum": "033fee2b006460c1a6f67e46b1597e60d9ebb734",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-2.1.2-pre.2.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "2.1.2-pre.2",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      }
+    },
+    "2.1.1": {
+      "unity": "2019.4",
+      "upmCi": {
+        "footprint": "fb101d508e5b6e0c31b515c2c406042c80be30e1"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "a2a6971c0f2353d10abee48dbc8867fee1ddff3f"
+      },
+      "_id": "com.unity.learn.iet-framework@2.1.1",
+      "_integrity": "sha512-fzF9CsWsB+yes/17hobFUTDL1ZrKC2dQ4VIzSiBu6V335coV3oLqFKIZbk1KWaa774uygJOKQbRrxHuIhVfsJg==",
+      "_resolved": "/pkgprom/com.unity.learn.iet-framework-2.1.1.tgz",
+      "_from": "file:com.unity.learn.iet-framework-2.1.1.tgz",
+      "dist": {
+        "shasum": "494664648c963c2c3df962822067157642e9a96e",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-2.1.1.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "2.1.1",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      }
+    },
+    "2.1.1-pre.2": {
+      "unity": "2019.4",
+      "upmCi": {
+        "footprint": "2bb5844fd7cb05a58d14954ad9dead7b58fbb924"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "6c69ebb1a248a8eb3bb062f158d56879c99f1e59"
+      },
+      "_id": "com.unity.learn.iet-framework@2.1.1-pre.2",
+      "_integrity": "sha512-C5ghc8dFDuHEp4WVeiP/6ioSEpsrmAkDkur86jzswVi2rzMUerr8hRO/antW7GY++Y5lSPnYC05AZ3qiwK4w7A==",
+      "_resolved": "/pkgprom/com.unity.learn.iet-framework-2.1.1-pre.2.tgz",
+      "_from": "file:com.unity.learn.iet-framework-2.1.1-pre.2.tgz",
+      "dist": {
+        "shasum": "3902872ebeab683d699c49077003ea2c011ef930",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-2.1.1-pre.2.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "2.1.1-pre.2",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      }
+    },
+    "2.1.1-pre.1": {
+      "unity": "2019.4",
+      "upmCi": {
+        "footprint": "5d79270092239e15e8659b2d8c152547573ba320"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "0583c213d9bcf9341ffd9de28e2eaf56ded27b25"
+      },
+      "_id": "com.unity.learn.iet-framework@2.1.1-pre.1",
+      "_integrity": "sha512-93e1tECgRFgKo7+HIirYYs6J7s/0W9IgPfnf2gtGBACClzpjMZAkuGQ/fRosEY04uxQBxkIQBU6r+3F6hBchMA==",
+      "_resolved": "/pkgprom/com.unity.learn.iet-framework-2.1.1-pre.1.tgz",
+      "_from": "file:com.unity.learn.iet-framework-2.1.1-pre.1.tgz",
+      "dist": {
+        "shasum": "e5c94c79115b5e9c177b71566e15746360cecf42",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-2.1.1-pre.1.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "2.1.1-pre.1",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      }
+    },
+    "2.1.0": {
+      "unity": "2019.4",
+      "upmCi": {
+        "footprint": "b5970d8ca200f3d6c985ace439081774889362c9"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "e29be291f605373e80fa5ccaf7aba5495d82204c"
+      },
+      "_id": "com.unity.learn.iet-framework@2.1.0",
+      "_integrity": "sha512-FmAqHltqDlV976wJepiFaG+OPI9TFsgiBfM08eUPEwwaRxZKqb+7gJTo9x/WbSrFfgkiHUJ7MsAsUEO4VBiadw==",
+      "_resolved": "/pkgprom/com.unity.learn.iet-framework-2.1.0.tgz",
+      "_from": "file:com.unity.learn.iet-framework-2.1.0.tgz",
+      "dist": {
+        "shasum": "34998f727e23a1de63f157503d8911eff1d462f0",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-2.1.0.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "2.1.0",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      }
+    },
+    "2.1.0-pre.1": {
+      "unity": "2019.4",
+      "upmCi": {
+        "footprint": "12593557446106841a235b925565009393080433"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "86fd73ecbe0bf21fd8c1fea4ba689df29ea14fb7"
+      },
+      "_id": "com.unity.learn.iet-framework@2.1.0-pre.1",
+      "_integrity": "sha512-hdKfEVr4N9rn3yaH8zSAcobnwMj+zUfeUPbNx1BH5wvrhHO/6nTMZ6T6y3ql3bqgXn/kAfMXKGkilagrMl6hPw==",
+      "_resolved": "/pkgprom/com.unity.learn.iet-framework-2.1.0-pre.1.tgz",
+      "_from": "file:com.unity.learn.iet-framework-2.1.0-pre.1.tgz",
+      "dist": {
+        "shasum": "8eb48f7df2d411d5d327faff4aba099411ccbf9e",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-2.1.0-pre.1.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "2.1.0-pre.1",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      }
+    },
+    "2.0.0": {
+      "unity": "2019.4",
+      "relatedPackages": {
+        "com.unity.learn.iet-framework.tests": "2.0.0"
+      },
+      "upmCi": {
+        "footprint": "d96f3912977d007776079b9f8669ba3a341c9402"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "658eac0bac26932f92df53642fdcdf466bb324dc"
+      },
+      "_id": "com.unity.learn.iet-framework@2.0.0",
+      "_integrity": "sha512-AMiakeI0a2NkhihYgZ0nB43lPkBpMo2Mq0TO+IspJ8+/iqrscvoSXvZgz5POiR4F2lz/2bYeyHlhPzL1yp/1UA==",
+      "_resolved": "/Users/pascall/Downloads/packages/candidates/com.unity.learn.iet-framework-2.0.0.tgz",
+      "_from": "file:com.unity.learn.iet-framework-2.0.0.tgz",
+      "dist": {
+        "shasum": "e14c0456a99a4e700ab50cb9fcbe26e83ae1edc6",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-2.0.0.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "2.0.0",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      }
+    },
+    "2.0.0-pre.6": {
+      "unity": "2019.4",
+      "relatedPackages": {
+        "com.unity.learn.iet-framework.tests": "2.0.0-pre.6"
+      },
+      "upmCi": {
+        "footprint": "109ac90a949fa1694e312c5866019ccc39c9f497"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "a6a265937dfaae52cd86de3a237ea314fad0e6af"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.learn.iet-framework-2.0.0-pre.6.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.learn.iet-framework@2.0.0-pre.6",
+      "dist": {
+        "shasum": "1dab54ab18f2c33153beb3fe7856e83cf565b5b6",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-2.0.0-pre.6.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "2.0.0-pre.6",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      }
+    },
+    "2.0.0-pre.5": {
+      "unity": "2019.4",
+      "relatedPackages": {
+        "com.unity.learn.iet-framework.tests": "2.0.0-pre.5"
+      },
+      "upmCi": {
+        "footprint": "24e39ce925dc90feed5ff185ccd7cb7568fa3f1c"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "727cae0bcc491ed6737fa02144b9483f7cc6c123"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.learn.iet-framework-2.0.0-pre.5.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.learn.iet-framework@2.0.0-pre.5",
+      "dist": {
+        "shasum": "c3b3a0e68013e99b0a3ed65f7a77c4919dd73139",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-2.0.0-pre.5.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "2.0.0-pre.5",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      }
+    },
+    "2.0.0-pre.4": {
+      "unity": "2019.4",
+      "upmCi": {
+        "footprint": "14d0b62ce2fdee92fb31e2619587797363a49025"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "9edb7f8749a54b916d5134cb9a5bb939976875b8"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.learn.iet-framework-2.0.0-pre.4.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.learn.iet-framework@2.0.0-pre.4",
+      "dist": {
+        "shasum": "a7c17e863f05e55be7fe36151ff731635e25797d",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-2.0.0-pre.4.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "2.0.0-pre.4",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      }
+    },
+    "1.2.3": {
+      "unity": "2019.4",
+      "upmCi": {
+        "footprint": "7111d174b31949cad6fd9943d8ede72d3578c336"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "d8844989d65f92c6dede187e8149d129ac4f6a41"
+      },
+      "readmeFilename": "README.md",
+      "_id": "com.unity.learn.iet-framework@1.2.3",
+      "dist": {
+        "shasum": "dab53e2f7d7248eee00e1492a86153eecf81dd16",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-1.2.3.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "1.2.3",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates. This package is meant to be used only by Unity internally.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "2.0.0-pre.3": {
+      "unity": "2019.4",
+      "upmCi": {
+        "footprint": "b8b7dd47eb6dfd2616f72975eb698bd299682260"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "50c6d566b54a72e43d5b42689c10f018a7115394"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.learn.iet-framework-2.0.0-pre.3.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.learn.iet-framework@2.0.0-pre.3",
+      "dist": {
+        "shasum": "b6bb488e86c5ae7e2e7b6e72512121a19d7e34fb",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-2.0.0-pre.3.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "2.0.0-pre.3",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates. This package is meant to be used only by Unity internally.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      }
+    },
+    "1.2.2": {
+      "unity": "2019.4",
+      "upmCi": {
+        "footprint": "6cbf10238a774dc60cd60123ee02483d829de753"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "88c0d4d927b412c7eddcc9cce5dc15056f5fbd4d"
+      },
+      "readmeFilename": "README.md",
+      "_id": "com.unity.learn.iet-framework@1.2.2",
+      "dist": {
+        "shasum": "8046aa43cb4ea57ec05157ff052964e007e517c7",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-1.2.2.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "1.2.2",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates. This package is meant to be used only by Unity internally.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "1.2.1": {
+      "unity": "2019.4",
+      "upmCi": {
+        "footprint": "e4298a7c648ce8104c98c06bce3257b0c62573d2"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "db2eed9e06d7096d9affcb7ca23b18fcf8ec9898"
+      },
+      "readmeFilename": "README.md",
+      "_id": "com.unity.learn.iet-framework@1.2.1",
+      "dist": {
+        "shasum": "0dd4f21bf2844f66955ae09d05b55a847a855d14",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-1.2.1.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "1.2.1",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates. This package is meant to be used only by Unity internally.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "2.0.0-pre.1": {
+      "unity": "2019.4",
+      "upmCi": {
+        "footprint": "adb9a00975d7b9354978e31a91b699c82854dce9"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "46abcbdea55232b510fc9569951d39fe2e53bbdc"
+      },
+      "readmeFilename": "README.md",
+      "_id": "com.unity.learn.iet-framework@2.0.0-pre.1",
+      "dist": {
+        "shasum": "f48ae4841e155eed92c01790d108531ffd240068",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-2.0.0-pre.1.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "2.0.0-pre.1",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates. This package is meant to be used only by Unity internally.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "1.2.0": {
+      "unity": "2019.4",
+      "upmCi": {
+        "footprint": "07081a07e6e6868c70bc728a18f0c88265dee62a"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "57d2e460ccffa03d66ee55ed0d34f47e67338f1b"
+      },
+      "readmeFilename": "README.md",
+      "_id": "com.unity.learn.iet-framework@1.2.0",
+      "dist": {
+        "shasum": "17256ed166eece505692b283a0e32fae463b68eb",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-1.2.0.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "1.2.0",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates. This package is meant to be used only by Unity internally.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.2"
+      }
+    },
+    "1.1.0": {
+      "unity": "2019.4",
+      "upmCi": {
+        "footprint": "3733b43a3f43b7f2676b0456c74743fbd269e7d9"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "d05b793ba150e16091f7049b5bc8d0b22ea122ca"
+      },
+      "readmeFilename": "README.md",
+      "_id": "com.unity.learn.iet-framework@1.1.0",
+      "dist": {
+        "shasum": "32b3d15748c6669feb762a4e71e2c6b5567e86b2",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-1.1.0.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "1.1.0",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates. This package is meant to be used only by Unity internally.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      }
+    },
+    "1.1.0-preview.4": {
+      "unity": "2019.4",
+      "upmCi": {
+        "footprint": "3733b43a3f43b7f2676b0456c74743fbd269e7d9"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "6e1dc1c1107ceadb9e3bbd9b769b87dfd2c62682"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.learn.iet-framework-1.1.0-preview.4.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.learn.iet-framework@1.1.0-preview.4",
+      "dist": {
+        "shasum": "b7838dcdf954883607296e1c7f9083b18ff35da9",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-1.1.0-preview.4.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "1.1.0-preview.4",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates. This package is meant to be used only by Unity internally.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      }
+    },
+    "1.1.0-preview.3": {
+      "unity": "2019.4",
+      "upmCi": {
+        "footprint": "90ceae3693a26036bdbf68ae894ad9a92b53e387"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "0209f8cd1baf1509dc216fb042a6e26144f2b6bd"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.learn.iet-framework-1.1.0-preview.3.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.learn.iet-framework@1.1.0-preview.3",
+      "dist": {
+        "shasum": "5be3730b4b967cae0db06efccfc752c892311780",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-1.1.0-preview.3.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "1.1.0-preview.3",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates. This package is meant to be used only by Unity internally.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      }
+    },
+    "1.1.0-preview.2": {
+      "unity": "2019.4",
+      "upmCi": {
+        "footprint": "6576f5fcf2a0d51087ecda3d3101b9fa33ed96ca"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "0553e36f17127a3c5a776595738c185e94c25161"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.learn.iet-framework-1.1.0-preview.2.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.learn.iet-framework@1.1.0-preview.2",
+      "dist": {
+        "shasum": "8986331c4727f71a9c6d4ef8ddad4ea244b72255",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-1.1.0-preview.2.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "1.1.0-preview.2",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates. This package is meant to be used only by Unity internally.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      }
+    },
+    "1.0.3": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "0dbb83e90947692ead1196f89dc78f85c63787e5"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "13b34cac8684127af9e96c869e12a6bd31ad84fd"
+      },
+      "readmeFilename": "README.md",
+      "_id": "com.unity.learn.iet-framework@1.0.3",
+      "dist": {
+        "shasum": "a1cb6ec32898aa9f03b75675b91c457abf3ed216",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-1.0.3.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "1.0.3",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates. This package is meant to be used only by Unity internally.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      }
+    },
+    "1.0.3-preview.2": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "0dbb83e90947692ead1196f89dc78f85c63787e5"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "a612f9168fb530288d66d5eeaaafb7a503db9733"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.learn.iet-framework-1.0.3-preview.2.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.learn.iet-framework@1.0.3-preview.2",
+      "dist": {
+        "shasum": "b5c499f373ee5b521f8cb4ae2cf6bca3381a903e",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-1.0.3-preview.2.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "1.0.3-preview.2",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates. This package is meant to be used only by Unity internally.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      }
+    },
+    "1.0.3-preview.1": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "964bda8d9436e0573f80655113478291b83a13d5"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "53e2c4fbffee3fb66c02594a78e422000d73818f"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.learn.iet-framework-1.0.3-preview.1.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.learn.iet-framework@1.0.3-preview.1",
+      "dist": {
+        "shasum": "116f3e9cd66a9fd41d75402d63e9da7874f3fc5f",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-1.0.3-preview.1.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "1.0.3-preview.1",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates. This package is meant to be used only by Unity internally.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      }
+    },
+    "1.0.2": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "ab00911e5edf3721a04e18ee7d07dc516370d6d0"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "1bc8d046e595963d92fb59a6921c936cb2ea2705"
+      },
+      "readmeFilename": "README.md",
+      "_id": "com.unity.learn.iet-framework@1.0.2",
+      "dist": {
+        "shasum": "7cb652d487a11799e850354e9648a364610219c5",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-1.0.2.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "1.0.2",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates. This package is meant to be used only by Unity internally.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      }
+    },
+    "1.0.1": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "b41b54049d4577cd7de695f239f15b4e62cc39aa"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "04072dbf60b5e23c6e313df677a4ee708f5bd1d0"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:C:/Users/BRIANR~1/AppData/Local/Temp/com.unity.learn.iet-framework-1.0.1.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.learn.iet-framework@1.0.1",
+      "dist": {
+        "shasum": "570426362c3063234754ce910d7f54696aaa8064",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-1.0.1.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "1.0.1",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates. This package is meant to be used only by Unity internally.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      }
+    },
+    "1.0.0": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "3b04a3d551b362d1c5f5250bda1ae4f96580b8cc"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "3aa26b90cb486708bae5b74c105bd544379c2d1b"
+      },
+      "readmeFilename": "README.md",
+      "_id": "com.unity.learn.iet-framework@1.0.0",
+      "dist": {
+        "shasum": "e4a526612e24279e6f96b0b7d038778f279ebb82",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-1.0.0.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "1.0.0",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates. This package is meant to be used only by Unity internally.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      }
+    },
+    "0.5.1-preview.1": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "202ae7679377e2dda798c00cbc8efef2304d64c8"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "0e5e5af1573175c5e213b3cecbeb69d5bf3e8ffb"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.learn.iet-framework-0.5.1-preview.1.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.learn.iet-framework@0.5.1-preview.1",
+      "dist": {
+        "shasum": "562192506805728dde896aff0f8bf08617a437bc",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-0.5.1-preview.1.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "0.5.1-preview.1",
+      "description": "This package is used to display interactive in-Editor tutorials in tutorial projects and project templates. This package is meant to be used only by Unity internally.",
+      "displayName": "Tutorial Framework",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      }
+    },
+    "0.5.1-preview": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "2e90ec68c98d74f31c61e3317422bb5717fd1ec0"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "f92fc75034fb429fa9e016e06cfd740a09819657"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.learn.iet-framework-0.5.1-preview.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.learn.iet-framework@0.5.1-preview",
+      "dist": {
+        "shasum": "2eee77c43248fb7d8232f2a33b8a8dd14520796a",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-0.5.1-preview.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "0.5.1-preview",
+      "description": "In-Editor Tutorial Framework. This package is mandatory for all In-Editor Tutorials and required by the IET Authoring Tools.",
+      "displayName": "Interactive Tutorial Core",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      }
+    },
+    "0.5.0-preview.2": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "2936925875fc0e531d8ff0be770e312a35a518bc"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "3ec6a00a8920fd57bc282c0a3dd19de224028f6b"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.learn.iet-framework-0.5.0-preview.2.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.learn.iet-framework@0.5.0-preview.2",
+      "dist": {
+        "shasum": "9ad2b25197a66ed1d2c971494db7dd97d0278576",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-0.5.0-preview.2.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "0.5.0-preview.2",
+      "description": "In-Editor Tutorial Framework. This package is mandatory for all In-Editor Tutorials and required by the IET Authoring Tools.",
+      "displayName": "Interactive Tutorial Core",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      }
+    },
+    "0.4.0-preview.1": {
+      "unity": "2019.3",
+      "upmCi": {
+        "footprint": "cf23435d5e14c77e2e2dca2bc501b6d1bddb0dce"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "type": "git",
+        "revision": "53282479a2ff59f50b069b41b30c088fb8772626"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.learn.iet-framework-0.4.0-preview.1.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.learn.iet-framework@0.4.0-preview.1",
+      "dist": {
+        "shasum": "63c30d83baa935fe719912a2eb3e40c55aed7287",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-0.4.0-preview.1.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "0.4.0-preview.1",
+      "description": "In-Editor Tutorial Framework. This package is mandatory for all In-Editor Tutorials and required by the IET Authoring Tools.",
+      "displayName": "Interactive Tutorial Core",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.editorcoroutines": "0.1.0-preview.1"
+      }
+    },
+    "0.3.0-preview.5": {
+      "unity": "2019.3",
+      "repository": {
+        "footprint": "a16051e1893270af47ecc418c1d4fbdca66cbec7",
+        "type": "git",
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "revision": "04064a0c99d1c1dafd09bf5a6cbe36ead77302f8"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.learn.iet-framework-0.3.0-preview.5.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.learn.iet-framework@0.3.0-preview.5",
+      "dist": {
+        "shasum": "3bfe805b1fbc298bea98ead0afba8ba98048d52a",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-0.3.0-preview.5.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "0.3.0-preview.5",
+      "description": "In-Editor Tutorial Framework. This package is mandatory for all In-Editor Tutorials and required by the IET Authoring Tools.",
+      "displayName": "Interactive Tutorial Core",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "dependencies": {
+        "com.unity.editorcoroutines": "0.1.0-preview.1"
+      }
+    },
+    "0.2.3-preview.1": {
+      "unity": "2018.4",
+      "repository": {
+        "footprint": "e582ce9084bb46d27a7aba67bb1509de1ed5c178",
+        "type": "git",
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "revision": "f0c437096193b0dcc5e3ce4ca0600ebbb22d3cd6"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.learn.iet-framework-0.2.3-preview.1.tgz",
+      "readmeFilename": "README.md",
+      "_id": "com.unity.learn.iet-framework@0.2.3-preview.1",
+      "dist": {
+        "shasum": "8b60d4040d16607c27253b179dfc9797edb1f1c4",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-0.2.3-preview.1.tgz"
+      },
+      "name": "com.unity.learn.iet-framework",
+      "version": "0.2.3-preview.1",
+      "description": "In-Editor Tutorial Framework. This package is mandatory for all In-Editor Tutorials and required by the IET Authoring Tools.",
+      "displayName": "Interactive Tutorial Core",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "dependencies": {}
+    },
+    "0.2.2-preview": {
+      "repository": {
+        "type": "git",
+        "url": "https://github.cds.internal.unity3d.com/unity/iet-package.git",
+        "revision": "f7dbdc442b412d5feacf6f2f6167bf456edc34d7"
+      },
+      "dist": {
+        "shasum": "28f1145749e366b3272f99345c1c5918422e83d2",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-0.2.2-preview.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.learn.iet-framework@0.2.2-preview",
+      "unity": "2018.4",
+      "name": "com.unity.learn.iet-framework",
+      "version": "0.2.2-preview",
+      "description": "In-Editor Tutorial Framework. This package is mandatory for all In-Editor Tutorials and required by the IET Authoring Tools.",
+      "displayName": "Interactive Tutorial Core",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "dependencies": {}
+    },
+    "0.2.1-preview.1": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/iet-package.git",
+        "revision": "a1188116bf77ae1e7513684d5df75637c02ebff8"
+      },
+      "dist": {
+        "shasum": "89568394dbfddbca5a44e08c20a1a2e1f6861353",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-0.2.1-preview.1.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.learn.iet-framework@0.2.1-preview.1",
+      "unity": "2018.4",
+      "name": "com.unity.learn.iet-framework",
+      "version": "0.2.1-preview.1",
+      "description": "In-Editor Tutorial Framework. This package is mandatory for all In-Editor Tutorials and required by the IET Authoring Tools.",
+      "displayName": "Interactive Tutorial Core",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "dependencies": {}
+    },
+    "0.2.0-preview.1": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:UnityTech/iet-package.git",
+        "revision": "1573f9a6669df3015b7685f14635b1082f58aeec"
+      },
+      "dist": {
+        "shasum": "0f3ee18119e7125ab13dd71b44a20788574f528b",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-0.2.0-preview.1.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.learn.iet-framework@0.2.0-preview.1",
+      "unity": "2018.4",
+      "name": "com.unity.learn.iet-framework",
+      "version": "0.2.0-preview.1",
+      "description": "In-Editor Tutorial Framework. This package is mandatory for all In-Editor Tutorials and required by the IET Authoring Tools.",
+      "displayName": "Interactive Tutorial Core",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "dependencies": {}
+    },
+    "0.1.18-preview": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:UnityTech/iet-package.git",
+        "revision": "8188037c515dae84b6391ca0f6a869a1bcfff188"
+      },
+      "dist": {
+        "shasum": "59de29051d1c8e6ddd6d2a6c185dd7e865ef7f14",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-0.1.18-preview.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.learn.iet-framework@0.1.18-preview",
+      "unity": "2018.4",
+      "name": "com.unity.learn.iet-framework",
+      "version": "0.1.18-preview",
+      "description": "This package is mandatory for all In-Editor Tutorials.",
+      "displayName": "Interactive Tutorial Core",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "tutorials"
+      ],
+      "dependencies": {}
+    },
+    "0.1.17-preview": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:UnityTech/iet-package.git",
+        "revision": "b43fdcd9550b6849c31f697ef315e47ccd089d11"
+      },
+      "dist": {
+        "shasum": "b11b2ff66c41a21607c3e82e676df2c1b68e8963",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-0.1.17-preview.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.learn.iet-framework@0.1.17-preview",
+      "unity": "2018.4",
+      "name": "com.unity.learn.iet-framework",
+      "version": "0.1.17-preview",
+      "description": "This package is mandatory for all In-Editor Tutorials.",
+      "displayName": "Interactive Tutorial Core",
+      "keywords": [
+        "tutorials"
+      ],
+      "dependencies": {}
+    },
+    "0.1.16-preview": {
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/UnityTech/iet-package.git",
+        "revision": "5c42525c172440d95642b7aae0602d4537ea9c30"
+      },
+      "dist": {
+        "shasum": "aa4ea11aaeb0e73b9e83d1bc08ef5f8672a5d0e6",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-0.1.16-preview.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.learn.iet-framework@0.1.16-preview",
+      "unity": "2018.3",
+      "name": "com.unity.learn.iet-framework",
+      "version": "0.1.16-preview",
+      "description": "This package is mandatory for all In-Editor Tutorials.",
+      "displayName": "Interactive Tutorial Core",
+      "keywords": [
+        "tutorials"
+      ],
+      "dependencies": {}
+    },
+    "0.1.15-preview": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:UnityTech/iet-package.git",
+        "revision": "413f7651dc3bcbd252d5c7ecbff158fd02c946ea"
+      },
+      "dist": {
+        "shasum": "f30f90b00030d712b05b6dacf215bcf966043e60",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-0.1.15-preview.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.learn.iet-framework@0.1.15-preview",
+      "unity": "2018.3",
+      "name": "com.unity.learn.iet-framework",
+      "version": "0.1.15-preview",
+      "description": "This package is mandatory for all In-Editor Tutorials.",
+      "displayName": "Interactive Tutorial Core",
+      "keywords": [
+        "tutorials"
+      ],
+      "dependencies": {}
+    },
+    "0.1.14-preview": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:UnityTech/iet-package.git",
+        "revision": "af81a62ce7f5a35a04ac9605041ed99c80160a46"
+      },
+      "dist": {
+        "shasum": "48e071493207257323937b0290d9027e3f6c232d",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-0.1.14-preview.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.learn.iet-framework@0.1.14-preview",
+      "unity": "2018.3",
+      "name": "com.unity.learn.iet-framework",
+      "version": "0.1.14-preview",
+      "description": "This package is mandatory for all In-Editor Tutorials.",
+      "displayName": "Interactive Tutorial Core",
+      "keywords": [
+        "tutorials"
+      ],
+      "dependencies": {}
+    },
+    "0.1.13-preview": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:UnityTech/iet-package.git",
+        "revision": "953b6132bd113b2bd5f49a8a5743be23521dc527"
+      },
+      "dist": {
+        "shasum": "d93216b129ef1aa6ec74fea7308d79c83dd4a219",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-0.1.13-preview.tgz"
+      },
+      "_id": "com.unity.learn.iet-framework@0.1.13-preview",
+      "unity": "2018.3",
+      "name": "com.unity.learn.iet-framework",
+      "version": "0.1.13-preview",
+      "description": "This package is mandatory for all In-Editor Tutorials.",
+      "displayName": "Interactive Tutorial Core",
+      "keywords": [
+        "tutorials"
+      ],
+      "dependencies": {}
+    },
+    "0.1.12-preview.2": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:UnityTech/iet-package.git",
+        "revision": "b6d9ab1e55f90eb4c811572ccb807e561a94bdbd"
+      },
+      "dist": {
+        "shasum": "22c6f754d6a83715db8f28102ea0c90a28f0cde4",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-0.1.12-preview.2.tgz"
+      },
+      "_id": "com.unity.learn.iet-framework@0.1.12-preview.2",
+      "unity": "2018.3",
+      "name": "com.unity.learn.iet-framework",
+      "version": "0.1.12-preview.2",
+      "description": "This package is mandatory for all In-Editor Tutorials.",
+      "displayName": "Interactive Tutorial Core",
+      "keywords": [
+        "tutorials"
+      ],
+      "dependencies": {}
+    },
+    "0.1.10-preview": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:UnityTech/iet-package.git",
+        "revision": "79436dd653fb5776e24df3ff4eacfcec10cfa239"
+      },
+      "dist": {
+        "shasum": "df42d6c885d367b490aba94b4c9b23195bdaf2ea",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-0.1.10-preview.tgz"
+      },
+      "_id": "com.unity.learn.iet-framework@0.1.10-preview",
+      "unity": "2018.3",
+      "name": "com.unity.learn.iet-framework",
+      "version": "0.1.10-preview",
+      "description": "This package is mandatory for all In-Editor Tutorials.",
+      "displayName": "Interactive Tutorial Core",
+      "keywords": [
+        "tutorials"
+      ],
+      "dependencies": {}
+    },
+    "0.1.8-preview": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:UnityTech/iet-package.git",
+        "revision": "b7e09d79a13d2a48f2ab7cba7eb9d41cbb3d9549"
+      },
+      "dist": {
+        "shasum": "3061c4dbe25789b9c351a670a18048700dfe1cba",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-0.1.8-preview.tgz"
+      },
+      "_id": "com.unity.learn.iet-framework@0.1.8-preview",
+      "unity": "2018.3",
+      "name": "com.unity.learn.iet-framework",
+      "version": "0.1.8-preview",
+      "description": "This package is mandatory for all In-Editor Tutorials.",
+      "displayName": "Interactive Tutorial Core",
+      "keywords": [
+        "tutorials"
+      ],
+      "dependencies": {}
+    },
+    "0.1.4-preview": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:UnityTech/iet-package.git",
+        "revision": "ee4362ed1161ff91d99a78a4cd6b93e060d4026b"
+      },
+      "dist": {
+        "shasum": "16e263f7c7dab5ecfd2a79b87c91e0e4966601c2",
+        "tarball": "https://download.packages.unity.com/com.unity.learn.iet-framework/-/com.unity.learn.iet-framework-0.1.4-preview.tgz"
+      },
+      "_id": "com.unity.learn.iet-framework@0.1.4-preview",
+      "unity": "2018.3",
+      "name": "com.unity.learn.iet-framework",
+      "version": "0.1.4-preview",
+      "description": "This package is mandatory for all In-Editor Tutorials.",
+      "displayName": "Interactive Tutorial Core",
+      "keywords": [
+        "tutorials"
+      ],
+      "dependencies": {}
+    }
+  },
+  "etag": "\"367fda7a929259e71c62050c939dbb6c\"",
+  "time": {
+    "3.1.3": "2022-12-12T10:21:49Z",
+    "3.1.2": "2022-12-07T20:17:39Z",
+    "2.2.3": "2022-09-21T15:53:40Z",
+    "3.1.1": "2022-09-13T12:33:51Z",
+    "2.2.2": "2022-06-07T00:45:05Z",
+    "2.2.1": "2022-02-25T13:37:29Z",
+    "2.2.0": "2022-02-17T13:20:31Z",
+    "2.1.2": "2022-01-21T12:59:32Z",
+    "2.1.2-pre.2": "2022-01-17T16:00:12Z",
+    "2.1.1": "2021-11-03T17:13:03Z",
+    "2.1.1-pre.2": "2021-11-01T19:23:14Z",
+    "2.1.1-pre.1": "2021-11-01T10:30:33Z",
+    "2.1.0": "2021-10-21T17:17:36Z",
+    "2.1.0-pre.1": "2021-10-04T13:44:03Z",
+    "2.0.0": "2021-07-08T18:27:23Z",
+    "2.0.0-pre.6": "2021-06-17T19:27:13Z",
+    "2.0.0-pre.5": "2021-05-18T18:29:12Z",
+    "2.0.0-pre.4": "2021-03-10T12:52:23Z",
+    "1.2.3": "2021-03-04T23:10:20Z",
+    "2.0.0-pre.3": "2021-03-02T18:25:17Z",
+    "1.2.2": "2021-01-15T14:32:31Z",
+    "1.2.1": "2020-11-18T14:19:55Z",
+    "2.0.0-pre.1": "2020-11-17T19:09:50Z",
+    "1.2.0": "2020-11-10T21:34:21Z",
+    "1.1.0": "2020-09-22T16:32:25Z",
+    "1.1.0-preview.4": "2020-09-21T22:26:33Z",
+    "1.1.0-preview.3": "2020-09-21T10:08:09Z",
+    "1.1.0-preview.2": "2020-09-10T16:59:16Z",
+    "1.0.3": "2020-08-27T19:43:52Z",
+    "1.0.3-preview.2": "2020-08-27T11:19:19Z",
+    "1.0.3-preview.1": "2020-08-27T08:43:46Z",
+    "1.0.2": "2020-08-06T13:28:30Z",
+    "1.0.1": "2020-07-27T09:02:06Z",
+    "1.0.0": "2020-07-17T15:29:26Z",
+    "0.5.1-preview.1": "2020-07-06T12:29:15Z",
+    "0.5.1-preview": "2020-07-02T18:20:59Z",
+    "0.5.0-preview.2": "2020-06-23T11:38:53Z",
+    "0.4.0-preview.1": "2020-06-04T00:21:41Z",
+    "0.3.0-preview.5": "2020-03-25T22:08:47Z",
+    "0.2.3-preview.1": "2020-02-27T16:22:37Z",
+    "0.2.2-preview": "2020-02-25T16:03:01Z",
+    "0.2.1-preview.1": "2019-11-22T13:03:32Z",
+    "0.2.0-preview.1": "2019-10-21T20:02:25Z",
+    "0.1.18-preview": "2019-10-21T07:02:30Z",
+    "0.1.17-preview": "2019-07-25T18:02:09Z",
+    "0.1.16-preview": "2019-05-16T14:01:32Z",
+    "0.1.15-preview": "2019-04-03T11:59:33Z",
+    "0.1.14-preview": "2019-04-03T11:59:30Z",
+    "0.1.13-preview": "2019-04-03T11:59:27Z",
+    "0.1.12-preview.2": "2019-04-03T11:59:23Z",
+    "0.1.10-preview": "2019-04-03T11:59:20Z",
+    "0.1.8-preview": "2019-04-03T11:59:17Z",
+    "0.1.4-preview": "2019-04-03T11:59:13Z"
+  }
+}

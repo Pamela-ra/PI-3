@@ -1,0 +1,293 @@
+{
+  "_id": "com.unity.ext.nunit",
+  "name": "com.unity.ext.nunit",
+  "description": "A custom version of NUnit used by Unity Test Framework. Based on NUnit version 3.5 and works with all platforms, il2cpp and Mono AOT.",
+  "provider": "upm",
+  "category": "Libraries",
+  "dist-tags": {
+    "latest": "2.0.5"
+  },
+  "versions": {
+    "2.0.5": {
+      "unity": "2019.4",
+      "relatedPackages": {
+        "com.unity.ext.nunit.tests": "2.0.5"
+      },
+      "_upm": {
+        "changelog": "- Fixing bug for InstanceID as struct changes"
+      },
+      "upmCi": {
+        "footprint": "f9e6bd68d25d51bb4b44047fc95106b99d86b7ec"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.ext.nunit@2.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git",
+        "type": "git",
+        "revision": "469fe0d46bfc26fbb32a53885ca4d12abcdae4ae"
+      },
+      "dist": {
+        "shasum": "60ef35ffd3cd5e2f5c8887a4a4ca6148854cd092",
+        "tarball": "https://download.packages.unity.com/com.unity.ext.nunit/-/com.unity.ext.nunit-2.0.5.tgz"
+      },
+      "name": "com.unity.ext.nunit",
+      "version": "2.0.5",
+      "description": "A custom version of NUnit used by Unity Test Framework. Based on NUnit version 3.5 and works with all platforms, il2cpp and Mono AOT.",
+      "displayName": "Custom NUnit",
+      "type": "assets",
+      "host": "editor",
+      "keywords": [
+        "nunit",
+        "unittest",
+        "test"
+      ],
+      "category": "Libraries",
+      "dependencies": {}
+    },
+    "2.0.4": {
+      "unity": "2019.4",
+      "relatedPackages": {
+        "com.unity.ext.nunit.tests": "2.0.4"
+      },
+      "_upm": {
+        "changelog": "- Added support for InstanceID as struct changes"
+      },
+      "upmCi": {
+        "footprint": "7a7adf510e6c89cf815645a518b4b9554c03046b"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.ext.nunit@2.0/manual/index.html",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git",
+        "type": "git",
+        "revision": "15ead859bc5a40cb6d2aa9f0479ef4a9cbbf1688"
+      },
+      "dist": {
+        "shasum": "e216d8e4623565c39f70ba23fe1494f72e4f188f",
+        "tarball": "https://download.packages.unity.com/com.unity.ext.nunit/-/com.unity.ext.nunit-2.0.4.tgz"
+      },
+      "name": "com.unity.ext.nunit",
+      "version": "2.0.4",
+      "description": "A custom version of NUnit used by Unity Test Framework. Based on NUnit version 3.5 and works with all platforms, il2cpp and Mono AOT.",
+      "displayName": "Custom NUnit",
+      "type": "assets",
+      "host": "editor",
+      "keywords": [
+        "nunit",
+        "unittest",
+        "test"
+      ],
+      "category": "Libraries",
+      "dependencies": {}
+    },
+    "2.0.3": {
+      "unity": "2019.4",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git",
+        "type": "git",
+        "revision": "2e41147762790f2a221103bff840a0138ca01b57"
+      },
+      "_upm": {
+        "changelog": "- Added unique test ID for repeated tests\r\n- Added ContainKey and ContainValue constaints for dictionaries\r\n- Fixed unexpected null exception when using EmptyConstraint with a null object"
+      },
+      "relatedPackages": {
+        "com.unity.ext.nunit.tests": "2.0.3"
+      },
+      "upmCi": {
+        "footprint": "dcf96beed55ea2628ad5a54493afff0c0d3b84b7"
+      },
+      "_id": "com.unity.ext.nunit@2.0.3",
+      "_integrity": "sha512-kLROta7EuQTo1Jnh+I4Nt9OnpQ/aepjL7bP8zScmxBG4sk1XhzOiqXJvKYWQ5raWlXPjo6WFlZax1URs62sQ/g==",
+      "_resolved": "/tmp/com.unity.ext.nunit@2.0.3-li3ffd15.tgz",
+      "_from": "file:/tmp/com.unity.ext.nunit@2.0.3-li3ffd15.tgz",
+      "dist": {
+        "shasum": "e9d0d64aaa514a9ed29680de4c7e3c323717bbac",
+        "tarball": "https://download.packages.unity.com/com.unity.ext.nunit/-/com.unity.ext.nunit-2.0.3.tgz"
+      },
+      "name": "com.unity.ext.nunit",
+      "version": "2.0.3",
+      "description": "A custom version of NUnit used by Unity Test Framework. Based on NUnit version 3.5 and works with all platforms, il2cpp and Mono AOT.",
+      "displayName": "Custom NUnit",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "nunit",
+        "unittest",
+        "test"
+      ],
+      "category": "Libraries"
+    },
+    "2.0.2": {
+      "dist": {
+        "shasum": "f5cc6351f0e5353619a5fa90b2f69d56a9118fad",
+        "tarball": "https://download.packages.unity.com/com.unity.ext.nunit/-/com.unity.ext.nunit-2.0.2.tgz"
+      },
+      "name": "com.unity.ext.nunit",
+      "version": "2.0.2",
+      "description": "A custom version of NUnit used by Unity Test Framework. Based on NUnit version 3.5 and works with all platforms, il2cpp and Mono AOT.",
+      "displayName": "Custom NUnit",
+      "type": "asset",
+      "host": "editor",
+      "category": "Libraries",
+      "dependencies": {}
+    },
+    "1.0.6": {
+      "unity": "2019.2",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git",
+        "type": "git",
+        "revision": "29ea4d6504a5f58fb3a6934db839aa80ae6d9d88"
+      },
+      "relatedPackages": {
+        "com.unity.ext.nunit.tests": "1.0.6"
+      },
+      "upmCi": {
+        "footprint": "e9f76bd265402773096bf08a8ffb51cd3d76f39a"
+      },
+      "readmeFilename": "README.md",
+      "_id": "com.unity.ext.nunit@1.0.6",
+      "dist": {
+        "shasum": "d456d081aafd2e02c135aef629de81a1156297f8",
+        "tarball": "https://download.packages.unity.com/com.unity.ext.nunit/-/com.unity.ext.nunit-1.0.6.tgz"
+      },
+      "name": "com.unity.ext.nunit",
+      "version": "1.0.6",
+      "description": "Custom version of the nunit package build to work with Unity. Used by the Unity Test Framework.",
+      "displayName": "Custom NUnit",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "nunit",
+        "unittest",
+        "test"
+      ],
+      "category": "Libraries"
+    },
+    "1.0.5": {
+      "unity": "2019.2",
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git",
+        "type": "git",
+        "revision": "1b3e542964a65210e966f5bf8751f62b1dcd8d69"
+      },
+      "relatedPackages": {
+        "com.unity.ext.nunit.tests": "1.0.5"
+      },
+      "upmCi": {
+        "footprint": "b328f519a06bcacb01a806505afddd34ca2247e2"
+      },
+      "readmeFilename": "README.md",
+      "_id": "com.unity.ext.nunit@1.0.5",
+      "dist": {
+        "shasum": "ef4cc77c4671c79d5b120334767bb7bc99a48780",
+        "tarball": "https://download.packages.unity.com/com.unity.ext.nunit/-/com.unity.ext.nunit-1.0.5.tgz"
+      },
+      "name": "com.unity.ext.nunit",
+      "version": "1.0.5",
+      "description": "Custom version of the nunit package build to work with Unity. Used by the Unity Test Framework.",
+      "displayName": "Custom NUnit",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "nunit",
+        "unittest",
+        "test"
+      ],
+      "category": "Libraries"
+    },
+    "1.0.0": {
+      "repository": {
+        "type": "git",
+        "url": "git@gitlab.cds.internal.unity3d.com/upm-packages/core/com.unity.ext.nunit.git",
+        "revision": "c8f5044ffe6adb909f9836160b0bdaa30f2d1ec9"
+      },
+      "dist": {
+        "shasum": "789221e839287a08be3849acabbb890356277c74",
+        "tarball": "https://download.packages.unity.com/com.unity.ext.nunit/-/com.unity.ext.nunit-1.0.0.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.ext.nunit@1.0.0",
+      "unity": "2019.1",
+      "name": "com.unity.ext.nunit",
+      "version": "1.0.0",
+      "description": "Custom version of the nunit package build to work with Unity. Used by the Unity Test Framework.",
+      "displayName": "Custom NUnit",
+      "keywords": [
+        "nunit",
+        "unittest",
+        "test"
+      ],
+      "dependencies": {}
+    },
+    "0.1.9-preview": {
+      "repository": {
+        "type": "git",
+        "url": "git@gitlab.cds.internal.unity3d.com/upm-packages/core/com.unity.ext.nunit.git",
+        "revision": "c5122b79a945b2bf34a3fd2f92092fe93270c3d2"
+      },
+      "dist": {
+        "shasum": "9067f34cbfbe923ee1ef8ca32e941f2597ac7a2f",
+        "tarball": "https://download.packages.unity.com/com.unity.ext.nunit/-/com.unity.ext.nunit-0.1.9-preview.tgz"
+      },
+      "_id": "com.unity.ext.nunit@0.1.9-preview",
+      "unity": "2019.1",
+      "name": "com.unity.ext.nunit",
+      "version": "0.1.9-preview",
+      "description": "Custom Nunit build to work with Unity",
+      "displayName": "Custom NUnit",
+      "keywords": [
+        "nunit",
+        "unittest",
+        "test"
+      ],
+      "dependencies": {}
+    },
+    "0.1.6-preview": {
+      "dist": {
+        "shasum": "b0c6b5038a77a73d70aed0878983b8671df876d2",
+        "tarball": "https://download.packages.unity.com/com.unity.ext.nunit/-/com.unity.ext.nunit-0.1.6-preview.tgz"
+      },
+      "_id": "com.unity.ext.nunit@0.1.6-preview",
+      "unity": "2019.1",
+      "name": "com.unity.ext.nunit",
+      "version": "0.1.6-preview",
+      "description": "Custom Nunit build to work with Unity",
+      "displayName": "Custom NUnit",
+      "keywords": [
+        "nunit",
+        "unittest",
+        "test"
+      ],
+      "dependencies": {}
+    },
+    "0.1.5-preview": {
+      "dist": {
+        "shasum": "0b45ec9bda35fae3b73cb8fa17329bbfa33e1cd7",
+        "tarball": "https://download.packages.unity.com/com.unity.ext.nunit/-/com.unity.ext.nunit-0.1.5-preview.tgz"
+      },
+      "_id": "com.unity.ext.nunit@0.1.5-preview",
+      "unity": "2018.3",
+      "name": "com.unity.ext.nunit",
+      "version": "0.1.5-preview",
+      "description": "Custom Nunit build to work with Unity",
+      "displayName": "Custom NUnit",
+      "keywords": [
+        "nunit",
+        "unittest",
+        "test"
+      ],
+      "dependencies": {}
+    }
+  },
+  "etag": "\"668c0fa7ecdf73dc9499b62ce8e81648\"",
+  "time": {
+    "2.0.5": "2023-06-29T19:37:02Z",
+    "2.0.4": "2023-06-23T09:10:43Z",
+    "2.0.3": "2022-06-28T19:10:20Z",
+    "2.0.2": "2022-01-19T18:16:17Z",
+    "1.0.6": "2020-12-07T22:12:08Z",
+    "1.0.5": "2020-11-18T16:47:54Z",
+    "1.0.0": "2019-04-03T11:56:23Z",
+    "0.1.9-preview": "2019-04-03T11:56:20Z",
+    "0.1.6-preview": "2019-04-03T11:56:17Z",
+    "0.1.5-preview": "2019-04-03T11:56:15Z"
+  }
+}

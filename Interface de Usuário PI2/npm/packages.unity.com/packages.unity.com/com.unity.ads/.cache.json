@@ -1,0 +1,1361 @@
+{
+  "_id": "com.unity.ads",
+  "name": "com.unity.ads",
+  "description": "Connect your game to the Unity Ads Network for iOS and Android to quickly and effectively monetize your games.\n\nNOTE: Unity has joined forces with ironSource and recommends using Unity LevelPlay for ad mediation (instead of this package). \n\nThis package will still be supported but no longer updated. To install Unity LevelPlay, use the Ads Mediation package (available below) or the LevelPlay plugin-in at https://developers.is.com/ironsource-mobile/unity/unity-plugin/.\n\nSupported platforms:\n- Android\n- iOS\n",
+  "provider": "upm",
+  "category": "",
+  "dist-tags": {
+    "latest": "4.4.2"
+  },
+  "versions": {
+    "4.4.2": {
+      "unity": "2018.4",
+      "unityRelease": "18f1",
+      "_upm": {
+        "gameService": {
+          "groupIndex": 4,
+          "groupName": "Monetization",
+          "genericDashboardUrl": "https://unityads.unity3d.com/help/index",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/monetization/about",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+          "configurePath": "Project/Services/Ads"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS"
+        ],
+        "changelog": "## **Unity**\n - Remove redirect pop-ups directing users to Unity Mediation.\n## **Android**\n### **Bugfix**\n- Fixed a NullPointerException when Application Context is null for cached directory file path."
+      },
+      "upmCi": {
+        "footprint": "fc7ba9cd356edacbf4c1d0cf4da023c5153010ee"
+      },
+      "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.ads@4.4/manual/index.html",
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/unity-ads-sdk.git",
+        "type": "git",
+        "revision": "532b2db792ae728eedcc825080876b4e2c5f8544"
+      },
+      "samples": [
+        {
+          "displayName": "UnityAds Example App",
+          "description": "Contains sample scene and scripts for loading and showing ads with the Unity Ads SDK",
+          "path": "Samples~"
+        }
+      ],
+      "dist": {
+        "shasum": "a7b997f68a1d40387ca4d33fc75578709c140a37",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-4.4.2.tgz"
+      },
+      "name": "com.unity.ads",
+      "version": "4.4.2",
+      "description": "Connect your game to the Unity Ads Network for iOS and Android to quickly and effectively monetize your games.\n\nNOTE: Unity has joined forces with ironSource and recommends using Unity LevelPlay for ad mediation (instead of this package). \n\nThis package will still be supported but no longer updated. To install Unity LevelPlay, use the Ads Mediation package (available below) or the LevelPlay plugin-in at https://developers.is.com/ironsource-mobile/unity/unity-plugin/.\n\nSupported platforms:\n- Android\n- iOS\n",
+      "displayName": "Advertisement Legacy",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "ads",
+        "unity"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      }
+    },
+    "4.4.1": {
+      "unity": "2018.4",
+      "unityRelease": "18f1",
+      "_upm": {
+        "gameService": {
+          "groupIndex": 4,
+          "groupName": "Monetization",
+          "genericDashboardUrl": "https://unityads.unity3d.com/help/index",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/monetization/about",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+          "configurePath": "Project/Services/Ads"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "upmCi": {
+        "footprint": "0500bb860b9f597bf0ea80e668e492451dce9940"
+      },
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/unity-ads-sdk.git",
+        "type": "git",
+        "revision": "6c93f3bb6e6e708c596fac8bc838bbca2b88c20c"
+      },
+      "samples": [
+        {
+          "displayName": "UnityAds Example App",
+          "description": "Contains sample scene and scripts for loading and showing ads with the Unity Ads SDK",
+          "path": "Samples~"
+        }
+      ],
+      "dist": {
+        "shasum": "6416dd86d32a719650e31b9d14c4302e053f97de",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-4.4.1.tgz"
+      },
+      "name": "com.unity.ads",
+      "version": "4.4.1",
+      "description": "Connect your game to the Unity Ads Network for iOS and Android to quickly and effectively monetize your games.\n\n\nNOTE: The Advertisement Legacy package will soon be unsupported.\n\nIf you are installing this package for the first time, we recommend that you instead use Advertisement with Mediation to ensure continued access to the latest Unity Ads features.\n\nUse Advertisement with Mediation to connect your game to additional ad networks beyond the Unity Ads Network. Before you install the Advertisement with Mediation package, you must uninstall the Advertisement Legacy package and then update your project code.\n\nPlease reference the Mediation migration guide in our technical documentation (linked above).",
+      "displayName": "Advertisement Legacy",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "ads",
+        "unity"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      }
+    },
+    "4.3.0": {
+      "unity": "2018.4",
+      "unityRelease": "18f1",
+      "_upm": {
+        "gameService": {
+          "groupIndex": 4,
+          "groupName": "Monetization",
+          "genericDashboardUrl": "https://unityads.unity3d.com/help/index",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/monetization/about",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+          "configurePath": "Project/Services/Ads"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS"
+        ],
+        "changelog": "No changes from previous version"
+      },
+      "upmCi": {
+        "footprint": "1ddb2764cb58be3b13dc6b8abdd68cd7c6d8b453"
+      },
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/unity-ads-sdk.git",
+        "type": "git",
+        "revision": "1bd159a363397b5d5a1aef948578c658c7c4e2a8"
+      },
+      "samples": [
+        {
+          "displayName": "UnityAds Example App",
+          "description": "Contains sample scene and scripts for loading and showing ads with the Unity Ads SDK",
+          "path": "Samples~"
+        }
+      ],
+      "dist": {
+        "shasum": "cc693aba6ff2c61cc08f0c3dd67ec9595a07119d",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-4.3.0.tgz"
+      },
+      "name": "com.unity.ads",
+      "version": "4.3.0",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "ads",
+        "unity"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      }
+    },
+    "4.2.1": {
+      "unity": "2018.4",
+      "unityRelease": "18f1",
+      "_upm": {
+        "changelog": "No changes from previous version"
+      },
+      "upmCi": {
+        "footprint": "89cb02cf522ef3d2da05485168ab4d2f002d2c92"
+      },
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/unity-ads-sdk.git",
+        "type": "git",
+        "revision": "2394887e7494a4c082ca090c392bf622ca3f58a9"
+      },
+      "samples": [
+        {
+          "displayName": "UnityAds Example App",
+          "description": "Contains sample scene and scripts for loading and showing ads with the Unity Ads SDK",
+          "path": "Samples~"
+        }
+      ],
+      "_id": "com.unity.ads@4.2.1",
+      "_integrity": "sha512-9CbXmIux0FxLNaHquC1Gewr7hZU6na78BoAMsKip4vnfKUjo0YgBWLX3SoWtoYzWzCd0HCiDxzW7u9eq55T86A==",
+      "_resolved": "/tmp/com.unity.ads@4.2.1-vzglixcc.tgz",
+      "_from": "file:/tmp/com.unity.ads@4.2.1-vzglixcc.tgz",
+      "dist": {
+        "shasum": "38dad631c2caf24dc47456686925730e38069bda",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-4.2.1.tgz"
+      },
+      "name": "com.unity.ads",
+      "version": "4.2.1",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "ads",
+        "unity"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      }
+    },
+    "4.1.0": {
+      "unity": "2018.4",
+      "unityRelease": "18f1",
+      "_upm": {
+        "gameService": {
+          "groupIndex": 4,
+          "groupName": "Monetization",
+          "genericDashboardUrl": "https://unityads.unity3d.com/help/index",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/monetization/about",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+          "configurePath": "Project/Services/Ads"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "upm": {
+        "changelog": "### Unity (Editor, Asset Store, & Packman)\n#### Bug Fixes\nFix IUnityAdsShowCallback makes duplicate calls in Editor PlayMode"
+      },
+      "upmCi": {
+        "footprint": "a0302b21422c47d983c911ab9c370563781f0a1f"
+      },
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/unity-ads-sdk.git",
+        "type": "git",
+        "revision": "44d6cf7ea9e880e498ee68576d3b81d04897111d"
+      },
+      "_id": "com.unity.ads@4.1.0",
+      "_integrity": "sha512-EZSlcp4eUwhwHLviSw9x6dUX4Gzz/0ytin7N5/Hf33SVX0EeLnRBFRfFweR9oobDGoscgRndXt14FI5Abz8QEw==",
+      "_resolved": "/tmp/com.unity.ads@4.1.0-i8qaza60.tgz",
+      "_from": "file:/tmp/com.unity.ads@4.1.0-i8qaza60.tgz",
+      "dist": {
+        "shasum": "8cbb57a588eb1da459c8a7f600ac935ca6a5d624",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-4.1.0.tgz"
+      },
+      "name": "com.unity.ads",
+      "version": "4.1.0",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "ads",
+        "unity"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      }
+    },
+    "4.0.1": {
+      "unity": "2018.4",
+      "unityRelease": "18f1",
+      "_upm": {
+        "gameService": {
+          "groupIndex": 4,
+          "groupName": "Monetization",
+          "genericDashboardUrl": "https://unityads.unity3d.com/help/index",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/monetization/about",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+          "configurePath": "Project/Services/Ads"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "upmCi": {
+        "footprint": "ca9029adb7e0c6dcdb321c1ba0631db086b1ea5a"
+      },
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/unity-ads-sdk.git",
+        "type": "git",
+        "revision": "9496611654be181dbad94d47dc155e2b08a083ce"
+      },
+      "_id": "com.unity.ads@4.0.1",
+      "_integrity": "sha512-C3hmFi+tc+r80kidA2OvbSSNz5xnKo/DNthtImBMIsR8hKCukqUunR/hvx2Q0BleCrN0Rz3/d4ixPtVTJZp9yA==",
+      "_resolved": "/tmp/com.unity.ads@4.0.1-jhcd7otq.tgz",
+      "_from": "file:/tmp/com.unity.ads@4.0.1-jhcd7otq.tgz",
+      "dist": {
+        "shasum": "902f7d727a4af6eef658c170699f6652e966fe98",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-4.0.1.tgz"
+      },
+      "name": "com.unity.ads",
+      "version": "4.0.1",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "ads",
+        "unity"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      }
+    },
+    "4.0.0": {
+      "unity": "2018.4",
+      "unityRelease": "18f1",
+      "_upm": {
+        "gameService": {
+          "groupIndex": 4,
+          "groupName": "Monetization",
+          "genericDashboardUrl": "https://unityads.unity3d.com/help/index",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/monetization/about",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+          "configurePath": "Project/Services/Ads"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "upmCi": {
+        "footprint": "abb91ccb17140ca36505477703e54896c91a6acd"
+      },
+      "repository": {
+        "url": "https://github.com/Unity-Technologies/unity-ads-sdk.git",
+        "type": "git",
+        "revision": "b68be536ef30f6f77e18d14198cacee783102fa5"
+      },
+      "_id": "com.unity.ads@4.0.0",
+      "_integrity": "sha512-FjD8ZodzwEjvrIqdW4kDGEgJb+MmCJMA7MufQ4LoTCGDcJ+XilwzRtzkAaq9rL+qoMSng7sx8NZz+MHkpUIujQ==",
+      "_resolved": "/pkgprom/com.unity.ads-4.0.0.tgz",
+      "_from": "file:com.unity.ads-4.0.0.tgz",
+      "dist": {
+        "shasum": "03cf0c44ab53840e279048672c3dfa768bea94cd",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-4.0.0.tgz"
+      },
+      "name": "com.unity.ads",
+      "version": "4.0.0",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "ads",
+        "unity"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      }
+    },
+    "3.7.5": {
+      "unity": "2018.4",
+      "unityRelease": "18f1",
+      "_upm": {
+        "gameService": {
+          "groupIndex": 4,
+          "groupName": "Monetization",
+          "genericDashboardUrl": "https://unityads.unity3d.com/help/index",
+          "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/monetization/about",
+          "projectDashboardUrlType": "OrganizationKeyAndProjectGuid",
+          "configurePath": "Project/Services/Ads"
+        },
+        "supportedPlatforms": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "upmCi": {
+        "footprint": "4f1c86916a0ae855d512fa140653c127f5785fc6"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.ads.git",
+        "type": "git",
+        "revision": "0e92fa56fc4e4cd1fa305e76a911acdae6386b96"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.ads-3.7.5.tgz",
+      "_id": "com.unity.ads@3.7.5",
+      "dist": {
+        "shasum": "d2164422f8abc3f01302b29d88e8780f22b6e75c",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-3.7.5.tgz"
+      },
+      "name": "com.unity.ads",
+      "version": "3.7.5",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "ads",
+        "unity"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      }
+    },
+    "3.7.3": {
+      "unity": "2018.4",
+      "unityRelease": "18f1",
+      "upmCi": {
+        "footprint": "5b292de846a93b9082ea7e5c34376b563cf5ff66"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.ads.git",
+        "type": "git",
+        "revision": "dee50172f008242862b5663b0c38feba914ed542"
+      },
+      "_resolved": "",
+      "_integrity": "",
+      "_from": "file:com.unity.ads-3.7.3.tgz",
+      "_id": "com.unity.ads@3.7.3",
+      "dist": {
+        "shasum": "f90061bd38a93be410774390e12d691a385dc552",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-3.7.3.tgz"
+      },
+      "name": "com.unity.ads",
+      "version": "3.7.3",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "ads",
+        "unity"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      }
+    },
+    "3.7.1": {
+      "unity": "2018.4",
+      "unityRelease": "18f1",
+      "upmCi": {
+        "footprint": "875550cbf07a0d5c561aea4721d1c6c44ae6d156"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.ads.git",
+        "type": "git",
+        "revision": "95ec369d16df431f8c9ebbb83c0f65dc4471f07e"
+      },
+      "_id": "com.unity.ads@3.7.1",
+      "dist": {
+        "shasum": "37a2dd3ac0e5ddad6a2a5f00d03e8cb5bd32e7e3",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-3.7.1.tgz"
+      },
+      "name": "com.unity.ads",
+      "version": "3.7.1",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "ads",
+        "unity"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      }
+    },
+    "3.7.0": {
+      "unity": "2018.4",
+      "unityRelease": "18f1",
+      "upmCi": {
+        "footprint": "5b3fe3674783a1ed8aace4d71c3f84f6a92d6605"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.ads.git",
+        "type": "git",
+        "revision": "93718d053ef024d72422d84b2e429d7f54100072"
+      },
+      "_id": "com.unity.ads@3.7.0",
+      "dist": {
+        "shasum": "9d73a1902e3cdba1c1af4c33023ae1f511fb7fcd",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-3.7.0.tgz"
+      },
+      "name": "com.unity.ads",
+      "version": "3.7.0",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "ads",
+        "unity"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      }
+    },
+    "3.6.1": {
+      "unity": "2018.4",
+      "unityRelease": "18f1",
+      "upmCi": {
+        "footprint": "2cc37b04496fce382f4731b36a2973386e255061"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.ads.git",
+        "type": "git",
+        "revision": "aa1c5a9556a9bb62eef662153cfaa1075805106f"
+      },
+      "_id": "com.unity.ads@3.6.1",
+      "dist": {
+        "shasum": "d1a0db37fdf6369fb2a8981442c9775d2c99a7a8",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-3.6.1.tgz"
+      },
+      "name": "com.unity.ads",
+      "version": "3.6.1",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "ads",
+        "unity"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      }
+    },
+    "3.5.2": {
+      "unity": "2018.4",
+      "unityRelease": "18f1",
+      "upmCi": {
+        "footprint": "44613815509438aff1a27ada62760583f3925f95"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.ads.git",
+        "type": "git",
+        "revision": "67dd808cf50e07dea4a3cec97b04f2ca5a9d0f13"
+      },
+      "_id": "com.unity.ads@3.5.2",
+      "dist": {
+        "shasum": "9e163adbe928e9dd9dbba030d082f030f8ac2dd2",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-3.5.2.tgz"
+      },
+      "name": "com.unity.ads",
+      "version": "3.5.2",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "ads",
+        "unity"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      }
+    },
+    "3.5.0": {
+      "unity": "2018.4",
+      "unityRelease": "18f1",
+      "upmCi": {
+        "footprint": "9bbcc4cdda4aff4eb601e9ee83e87b5edb3fa00c"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.ads.git",
+        "type": "git",
+        "revision": "1381cd092159b0c7fef7b2dafa7796ebf313e37c"
+      },
+      "_id": "com.unity.ads@3.5.0",
+      "dist": {
+        "shasum": "2e3922d08468e88e68b13ae55c08017e69a4f155",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-3.5.0.tgz"
+      },
+      "name": "com.unity.ads",
+      "version": "3.5.0",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "ads",
+        "unity"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      }
+    },
+    "3.4.9": {
+      "unity": "2018.4",
+      "unityRelease": "18f1",
+      "upmCi": {
+        "footprint": "c72e5f7e5d0ce19dc5d6253c20ad0578f96a6f1b"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.ads.git",
+        "type": "git",
+        "revision": "ab3a6380cc63de42109e9bb214b8ae979f1c26bd"
+      },
+      "_id": "com.unity.ads@3.4.9",
+      "dist": {
+        "shasum": "ef54e7716c78e63438ca0b0257e8c5d69b4c662c",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-3.4.9.tgz"
+      },
+      "name": "com.unity.ads",
+      "version": "3.4.9",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "ads",
+        "unity"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      }
+    },
+    "3.4.7": {
+      "unity": "2018.4",
+      "unityRelease": "18f1",
+      "upmCi": {
+        "footprint": "98524549fc96859f370ee70cade817421098e32a"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.ads.git",
+        "type": "git",
+        "revision": "a22f94ceb31b137fe466330fc060b947adb67fba"
+      },
+      "readmeFilename": "README.md",
+      "_id": "com.unity.ads@3.4.7",
+      "dist": {
+        "shasum": "4b1fcea93c4f5c7f516b47d78eb5afad5ee06df0",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-3.4.7.tgz"
+      },
+      "name": "com.unity.ads",
+      "version": "3.4.7",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "ads",
+        "unity"
+      ],
+      "category": "",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      }
+    },
+    "3.4.5": {
+      "unity": "2018.4",
+      "unityRelease": "18f1",
+      "repository": {
+        "footprint": "91efb3997c82ddded44cf64863daeff0404e4ee1",
+        "type": "git",
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.ads.git",
+        "revision": "731a04e78b2c641fd6a924d34e37ae0529ecc68c"
+      },
+      "readmeFilename": "README.md",
+      "_id": "com.unity.ads@3.4.5",
+      "_shasum": "d7fc036ef307ceb3f475bfd35ac8dd2bf3e26983",
+      "_resolved": "file:..\\..\\..\\..\\MIKE~1.ADK\\AppData\\Local\\Temp\\com.unity.ads-3.4.5.tgz",
+      "_from": "..\\..\\..\\..\\MIKE~1.ADK\\AppData\\Local\\Temp\\com.unity.ads-3.4.5.tgz",
+      "scripts": {},
+      "dist": {
+        "shasum": "d7fc036ef307ceb3f475bfd35ac8dd2bf3e26983",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-3.4.5.tgz"
+      },
+      "name": "com.unity.ads",
+      "version": "3.4.5",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "ads",
+        "unity"
+      ],
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      }
+    },
+    "3.4.4": {
+      "unity": "2018.4",
+      "unityRelease": "18f1",
+      "repository": {
+        "footprint": "737fbb257c2b7b85eb4523881d91d6f3ad4b3bbc",
+        "type": "git",
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.ads.git",
+        "revision": "7e6ea73e40c582920b036810b04fe9225e551701"
+      },
+      "readmeFilename": "README.md",
+      "_id": "com.unity.ads@3.4.4",
+      "_shasum": "3aeb5b796eb6c9b5e55ec6c4312402c99f09e9b0",
+      "_resolved": "file:..\\..\\..\\..\\MIKE~1.ADK\\AppData\\Local\\Temp\\com.unity.ads-3.4.4.tgz",
+      "_from": "..\\..\\..\\..\\MIKE~1.ADK\\AppData\\Local\\Temp\\com.unity.ads-3.4.4.tgz",
+      "scripts": {},
+      "dist": {
+        "shasum": "3aeb5b796eb6c9b5e55ec6c4312402c99f09e9b0",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-3.4.4.tgz"
+      },
+      "name": "com.unity.ads",
+      "version": "3.4.4",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "ads",
+        "unity"
+      ],
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      }
+    },
+    "3.4.2": {
+      "repository": {
+        "footprint": "144dd14adfa3d556746aea7731b6a3ac9f7f9184",
+        "type": "git",
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.ads.git",
+        "revision": "efa84f950eed637ad0c33012c31357704874a06f"
+      },
+      "dist": {
+        "shasum": "3cbdf931fcdaa8bb0e791edb3109652cd49ee334",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-3.4.2.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.ads@3.4.2",
+      "unity": "2018.3",
+      "name": "com.unity.ads",
+      "version": "3.4.2",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "ads",
+        "unity"
+      ],
+      "dependencies": {
+        "nuget.moq": "1.0.0"
+      }
+    },
+    "3.4.1": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.ads.git",
+        "revision": "d6d76582a7b1eebd68753112ed7aeb5e29872f49"
+      },
+      "dist": {
+        "shasum": "0c264da65529b32c0c9e89a7e230d36210eb4e39",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-3.4.1.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.ads@3.4.1",
+      "unity": "2018.3",
+      "name": "com.unity.ads",
+      "version": "3.4.1",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "ads",
+        "unity"
+      ],
+      "dependencies": {
+        "nuget.moq": "1.0.0"
+      }
+    },
+    "3.4.0": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.ads.git",
+        "revision": "cfe54d31a0e1a4e89d59dc7b4eb027bd57d28dba"
+      },
+      "dist": {
+        "shasum": "b0a0a0a169b8a7395580a7a7f09e5cb9241f7d4c",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-3.4.0.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.ads@3.4.0",
+      "unity": "2018.3",
+      "name": "com.unity.ads",
+      "version": "3.4.0",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "ads",
+        "unity"
+      ],
+      "dependencies": {
+        "nuget.moq": "1.0.0"
+      }
+    },
+    "3.3.1": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.ads.git",
+        "revision": "f72ec14d5261b4e6ba8e3ed3ee31facfa65757b4"
+      },
+      "dist": {
+        "shasum": "afc1f21e6bb4c7ec93f33c5f4a0c500528c7552d",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-3.3.1.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.ads@3.3.1",
+      "unity": "2018.3",
+      "name": "com.unity.ads",
+      "version": "3.3.1",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "ads",
+        "unity"
+      ]
+    },
+    "3.3.0": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.ads.git",
+        "revision": "77b87d22c9173a111eed65906ea0165afa945729"
+      },
+      "dist": {
+        "shasum": "c427571fa3d742438ee40808d233f26b8b226d5d",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-3.3.0.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.ads@3.3.0",
+      "unity": "2018.3",
+      "name": "com.unity.ads",
+      "version": "3.3.0",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "type": "asset",
+      "host": "editor",
+      "keywords": [
+        "ads",
+        "unity"
+      ]
+    },
+    "3.2.0": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.ads.git",
+        "revision": "b0554ab7767003e650876b72396af8b084ed7afc"
+      },
+      "dist": {
+        "shasum": "b49f41c523c155ebb19ae02215c75dee35d210c4",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-3.2.0.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.ads@3.2.0",
+      "unity": "2018.3",
+      "name": "com.unity.ads",
+      "version": "3.2.0",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "keywords": [
+        "ads",
+        "unity"
+      ]
+    },
+    "3.1.1": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.ads.git",
+        "revision": "1a3ed14721e91585e93170d825261ba07f4409a2"
+      },
+      "dist": {
+        "shasum": "da369b885f0b46a88bd5df764dedeeba8bc8576f",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-3.1.1.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.ads@3.1.1",
+      "unity": "2018.3",
+      "name": "com.unity.ads",
+      "version": "3.1.1",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "keywords": [
+        "ads",
+        "unity"
+      ]
+    },
+    "3.0.3": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.ads.git",
+        "revision": "4c288ebf0387c551e5a2f00e7897200b12b190c5"
+      },
+      "dist": {
+        "shasum": "55ec71126b6e5bdbbe4b6e345b510b4f901d5f0c",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-3.0.3.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.ads@3.0.3",
+      "unity": "2018.3",
+      "name": "com.unity.ads",
+      "version": "3.0.3",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "keywords": [
+        "ads",
+        "unity"
+      ]
+    },
+    "3.0.2": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.ads.git",
+        "revision": "51f5039242fb3026a86b4a27ad41eecb3a442717"
+      },
+      "dist": {
+        "shasum": "05075a737a2299467971819bb96572744869d9a3",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-3.0.2.tgz"
+      },
+      "scripts": {},
+      "_id": "com.unity.ads@3.0.2",
+      "unity": "2018.3",
+      "name": "com.unity.ads",
+      "version": "3.0.2",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "keywords": [
+        "ads",
+        "unity"
+      ]
+    },
+    "3.0.1": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.cds.internal.unity3d.com:unity/com.unity.ads.git",
+        "revision": "47ffb6781a1caee9820074ddc680f3bc110de7fe"
+      },
+      "dist": {
+        "shasum": "45b7a0d6f961f6d7e903da8ee088fa37e7a06eac",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-3.0.1.tgz"
+      },
+      "_id": "com.unity.ads@3.0.1",
+      "unity": "2018.3",
+      "name": "com.unity.ads",
+      "version": "3.0.1",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "keywords": [
+        "ads",
+        "unity"
+      ]
+    },
+    "2.3.2": {
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:Applifier/com.unity.ads.git",
+        "revision": "0f0289441be5ee661a7cfd0f8de74f05e77b94a2"
+      },
+      "dist": {
+        "shasum": "07d7c3cd15431d242ca7ffcedd773ec4f8186f85",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-2.3.2.tgz"
+      },
+      "_id": "com.unity.ads@2.3.2",
+      "unity": "2018.3",
+      "name": "com.unity.ads",
+      "version": "2.3.2",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "keywords": [
+        "ads",
+        "advertisement",
+        "monetize",
+        "monetization"
+      ]
+    },
+    "2.3.1": {
+      "dist": {
+        "shasum": "767e6aa7134f79fafbf298e39830558e3363b5ad",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-2.3.1.tgz"
+      },
+      "_id": "com.unity.ads@2.3.1",
+      "unity": "2018.2",
+      "name": "com.unity.ads",
+      "version": "2.3.1",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "Advertisement",
+      "keywords": [
+        "ads",
+        "unity"
+      ]
+    },
+    "2.0.8": {
+      "repository": {
+        "type": "git",
+        "url": "ssh://git@github.com/Unity-Technologies/com.unity.ads.git"
+      },
+      "dist": {
+        "shasum": "334573040861ec47db99ca0df52e7b7c9d9f0d2d",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-2.0.8.tgz"
+      },
+      "_id": "com.unity.ads@2.0.8",
+      "gitHead": "0d2114387a99011be685886f8ea902242e323e70",
+      "unity": "2017.4",
+      "repoPackagePath": "build/install/com.unity.ads",
+      "name": "com.unity.ads",
+      "version": "2.0.8",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "",
+      "keywords": [
+        "ads",
+        "unity"
+      ]
+    },
+    "2.0.7": {
+      "dist": {
+        "shasum": "0cb39c9a2832ae423b8d3c40f1d7eec58d728f04",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-2.0.7.tgz"
+      },
+      "_id": "com.unity.ads@2.0.7",
+      "unity": "2018.1",
+      "name": "com.unity.ads",
+      "version": "2.0.7",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "",
+      "keywords": [
+        "ads",
+        "unity"
+      ]
+    },
+    "2.0.4": {
+      "dist": {
+        "shasum": "0c814e0d45fa2ed8fdf8ec96c13f9bf1fa4e8edb",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-2.0.4.tgz"
+      },
+      "_id": "com.unity.ads@2.0.4",
+      "unity": "2018.1",
+      "name": "com.unity.ads",
+      "version": "2.0.4",
+      "description": "Unity Ads is a video ad network for iOS and Android that allows you to quickly and effectively monetize your games.",
+      "displayName": "",
+      "keywords": [
+        "ads",
+        "unity"
+      ]
+    },
+    "2.0.3": {
+      "dist": {
+        "shasum": "bd40299ab6fcaea33af87652403bf763f6aae6f7",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-2.0.3.tgz"
+      },
+      "_id": "com.unity.ads@2.0.3",
+      "unity": "2017.3",
+      "name": "com.unity.ads",
+      "version": "2.0.3",
+      "description": "Unity Ads",
+      "displayName": "",
+      "keywords": [
+        "ads",
+        "unity"
+      ]
+    },
+    "2.0.0": {
+      "dist": {
+        "shasum": "13ccf8d7d15e4b294eba38cd63152469876dc103",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-2.0.0.tgz"
+      },
+      "_id": "com.unity.ads@2.0.0",
+      "unity": "2017.3",
+      "name": "com.unity.ads",
+      "version": "2.0.0",
+      "description": "Unity Ads",
+      "displayName": "",
+      "keywords": [
+        "ads",
+        "unity"
+      ]
+    },
+    "0.0.16": {
+      "dist": {
+        "shasum": "0210f4e9090f09fa3edf5420d2ce8b4a0e7a33f1",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-0.0.16.tgz"
+      },
+      "publishConfig": {},
+      "_id": "com.unity.ads@0.0.16",
+      "unity": "2017.1",
+      "name": "com.unity.ads",
+      "version": "0.0.16",
+      "description": "Unity Ads",
+      "displayName": "",
+      "keywords": [
+        "ads",
+        "unity"
+      ]
+    },
+    "0.0.15": {
+      "dist": {
+        "shasum": "721fca268aaf35c655a9a4694dcaac1c53aa3aa7",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-0.0.15.tgz"
+      },
+      "publishConfig": {},
+      "_id": "com.unity.ads@0.0.15",
+      "unity": "2017.1",
+      "name": "com.unity.ads",
+      "version": "0.0.15",
+      "description": "Unity Ads",
+      "displayName": "",
+      "keywords": [
+        "ads",
+        "unity"
+      ]
+    },
+    "0.0.14": {
+      "dist": {
+        "shasum": "63fabafa984014fe0403e86e282734120523f6d8",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-0.0.14.tgz"
+      },
+      "publishConfig": {},
+      "_id": "com.unity.ads@0.0.14",
+      "unity": "2017.1",
+      "name": "com.unity.ads",
+      "version": "0.0.14",
+      "description": "Unity Ads",
+      "displayName": "",
+      "keywords": [
+        "ads",
+        "unity"
+      ]
+    },
+    "0.0.13": {
+      "dist": {
+        "shasum": "14c09a9531d1545f3f8788c4a03fe63f8ec0f4fe",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-0.0.13.tgz"
+      },
+      "publishConfig": {},
+      "_id": "com.unity.ads@0.0.13",
+      "unity": "2017.1",
+      "name": "com.unity.ads",
+      "version": "0.0.13",
+      "description": "Unity Ads",
+      "displayName": "",
+      "keywords": [
+        "ads",
+        "unity"
+      ]
+    },
+    "0.0.12": {
+      "dist": {
+        "shasum": "e3f215cec90e1fd426b9de8d2bdd581fdf9201b0",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-0.0.12.tgz"
+      },
+      "publishConfig": {},
+      "_id": "com.unity.ads@0.0.12",
+      "unity": "2017.1",
+      "name": "com.unity.ads",
+      "version": "0.0.12",
+      "description": "Unity Ads",
+      "displayName": "",
+      "keywords": [
+        "ads",
+        "unity"
+      ]
+    },
+    "0.0.11": {
+      "dist": {
+        "shasum": "0e245e71af84576794ce11dd4caf0d2039da9491",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-0.0.11.tgz"
+      },
+      "publishConfig": {},
+      "_id": "com.unity.ads@0.0.11",
+      "unity": "2017.1",
+      "name": "com.unity.ads",
+      "version": "0.0.11",
+      "description": "Unity Ads",
+      "displayName": "",
+      "keywords": [
+        "ads",
+        "unity"
+      ]
+    },
+    "0.0.10": {
+      "dist": {
+        "shasum": "f5471bee33aa08cda03300bbac8d74bdbfe5786f",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-0.0.10.tgz"
+      },
+      "publishConfig": {},
+      "_id": "com.unity.ads@0.0.10",
+      "unity": "2017.1",
+      "name": "com.unity.ads",
+      "version": "0.0.10",
+      "description": "Unity Ads",
+      "displayName": "",
+      "keywords": [
+        "ads",
+        "unity"
+      ]
+    },
+    "0.0.8": {
+      "dist": {
+        "shasum": "435e4843a861c03a6f68a9a9af367e4918a7ffa4",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-0.0.8.tgz"
+      },
+      "publishConfig": {},
+      "_id": "com.unity.ads@0.0.8",
+      "unity": "2017.1",
+      "name": "com.unity.ads",
+      "version": "0.0.8",
+      "description": "Unity Ads",
+      "displayName": "",
+      "keywords": [
+        "ads",
+        "unity"
+      ]
+    },
+    "0.0.7": {
+      "dist": {
+        "shasum": "16e5b60eb622ab8a92121127f626fff0af975d8e",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-0.0.7.tgz"
+      },
+      "publishConfig": {},
+      "_id": "com.unity.ads@0.0.7",
+      "unity": "2017.1",
+      "name": "com.unity.ads",
+      "version": "0.0.7",
+      "description": "Unity Ads",
+      "displayName": "",
+      "keywords": [
+        "ads",
+        "unity"
+      ]
+    },
+    "0.0.6": {
+      "dist": {
+        "shasum": "5f50e99097f58034b256239053df56dbd177cb42",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-0.0.6.tgz"
+      },
+      "publishConfig": {},
+      "_id": "com.unity.ads@0.0.6",
+      "unity": "2017.1",
+      "name": "com.unity.ads",
+      "version": "0.0.6",
+      "description": "Unity Ads",
+      "displayName": "",
+      "keywords": [
+        "ads",
+        "unity"
+      ]
+    },
+    "0.0.5": {
+      "dist": {
+        "shasum": "1d2d05b274f7edeca9fcc126b3be6658b53bae76",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-0.0.5.tgz"
+      },
+      "publishConfig": {},
+      "_id": "com.unity.ads@0.0.5",
+      "unity": "2017.1",
+      "name": "com.unity.ads",
+      "version": "0.0.5",
+      "description": "Unity Ads",
+      "displayName": "",
+      "keywords": [
+        "ads",
+        "unity"
+      ]
+    },
+    "0.0.4": {
+      "dist": {
+        "shasum": "44d3c8a39427bdb448e7f0fd9f075aa188add3e0",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-0.0.4.tgz"
+      },
+      "publishConfig": {},
+      "_id": "com.unity.ads@0.0.4",
+      "unity": "2017.1",
+      "name": "com.unity.ads",
+      "version": "0.0.4",
+      "description": "Unity Ads",
+      "displayName": "",
+      "keywords": [
+        "ads",
+        "unity"
+      ]
+    },
+    "0.0.3": {
+      "dist": {
+        "shasum": "602a74c57d6470b3e9989aaa4d76d80911ef08e7",
+        "tarball": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-0.0.3.tgz"
+      },
+      "publishConfig": {},
+      "_id": "com.unity.ads@0.0.3",
+      "unity": "2017.1",
+      "name": "com.unity.ads",
+      "version": "0.0.3",
+      "description": "Unity Ads",
+      "displayName": "",
+      "keywords": [
+        "ads",
+        "unity"
+      ]
+    }
+  },
+  "etag": "\"5da9a41bab40371e73e21d1f87305d79\"",
+  "time": {
+    "4.4.2": "2023-04-03T12:49:01Z",
+    "4.4.1": "2022-10-12T17:08:38Z",
+    "4.3.0": "2022-08-12T08:42:36Z",
+    "4.2.1": "2022-05-19T17:52:56Z",
+    "4.1.0": "2022-03-29T22:09:56Z",
+    "4.0.1": "2022-03-02T11:15:29Z",
+    "4.0.0": "2021-12-03T11:10:21Z",
+    "3.7.5": "2021-08-02T15:50:23Z",
+    "3.7.3": "2021-06-03T19:24:09Z",
+    "3.7.1": "2021-04-06T23:25:43Z",
+    "3.7.0": "2021-03-23T18:39:33Z",
+    "3.6.1": "2020-12-12T19:30:32Z",
+    "3.5.2": "2020-11-13T21:37:33Z",
+    "3.5.0": "2020-10-09T17:09:17Z",
+    "3.4.9": "2020-08-11T21:52:47Z",
+    "3.4.7": "2020-06-10T19:53:10Z",
+    "3.4.5": "2020-04-30T13:49:35Z",
+    "3.4.4": "2020-03-13T18:30:36Z",
+    "3.4.2": "2020-01-30T18:01:47Z",
+    "3.4.1": "2019-12-17T20:01:11Z",
+    "3.4.0": "2019-12-09T19:01:04Z",
+    "3.3.1": "2019-10-29T19:00:48Z",
+    "3.3.0": "2019-10-08T18:00:55Z",
+    "3.2.0": "2019-07-24T22:00:38Z",
+    "3.1.1": "2019-05-17T00:00:26Z",
+    "3.0.3": "2019-04-03T11:45:44Z",
+    "3.0.2": "2019-04-03T11:45:40Z",
+    "3.0.1": "2019-04-03T11:45:37Z",
+    "2.3.2": "2019-04-03T11:45:34Z",
+    "2.3.1": "2019-04-03T11:45:31Z",
+    "2.0.8": "2019-04-03T11:45:28Z",
+    "2.0.7": "2019-04-03T11:45:25Z",
+    "2.0.4": "2019-04-03T11:45:22Z",
+    "2.0.3": "2019-04-03T11:45:19Z",
+    "2.0.0": "2019-04-03T11:45:16Z",
+    "0.0.16": "2019-04-03T11:45:12Z",
+    "0.0.15": "2019-04-03T11:45:08Z",
+    "0.0.14": "2019-04-03T11:45:05Z",
+    "0.0.13": "2019-04-03T11:45:01Z",
+    "0.0.12": "2019-04-03T11:44:56Z",
+    "0.0.11": "2019-04-03T11:44:50Z",
+    "0.0.10": "2019-04-03T11:44:47Z",
+    "0.0.8": "2019-04-03T11:44:43Z",
+    "0.0.7": "2019-04-03T11:44:39Z",
+    "0.0.6": "2019-04-03T11:44:34Z",
+    "0.0.5": "2019-04-03T11:44:29Z",
+    "0.0.4": "2019-04-03T11:44:25Z",
+    "0.0.3": "2019-04-03T11:44:21Z"
+  }
+}

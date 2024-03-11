@@ -1,0 +1,123 @@
+{
+  "_id": "com.unity.device-simulator.devices",
+  "name": "com.unity.device-simulator.devices",
+  "description": "This package contains additional devices for the Device Simulator. Each device has a complete device definition and includes a device overlay. After you install this package, the additional devices are immediately available in the Device Simulator.",
+  "provider": "upm",
+  "category": "",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": {
+    "1.0.0": {
+      "unity": "2022.1",
+      "upmCi": {
+        "footprint": "81ad45f7351700316a6d2e4484a01a0ab71af9ee"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.device-simulator.devices.git",
+        "type": "git",
+        "revision": "2e1ffaaea0624daf91ee6c76906fd119dbd584c6"
+      },
+      "_id": "com.unity.device-simulator.devices@1.0.0",
+      "_integrity": "sha512-/wGh9ZnUcEpBBGW7ZxBkDfhvzGmZrCsDvMl1k4352jpsYZKhUBxB0RufAM24BOO5VJp2j2/HaKIw0gFivMvp2Q==",
+      "_resolved": "/tmp/com.unity.device-simulator.devices@1.0.0-e35vikrt.tgz",
+      "_from": "file:/tmp/com.unity.device-simulator.devices@1.0.0-e35vikrt.tgz",
+      "dist": {
+        "shasum": "ae8874e9c898e20961be6f426dfafaf49f604cda",
+        "tarball": "https://download.packages.unity.com/com.unity.device-simulator.devices/-/com.unity.device-simulator.devices-1.0.0.tgz"
+      },
+      "name": "com.unity.device-simulator.devices",
+      "version": "1.0.0",
+      "description": "This package contains additional devices for the Device Simulator. Each device has a complete device definition and includes a device overlay. After you install this package, the additional devices are immediately available in the Device Simulator.",
+      "displayName": "Device Simulator Devices",
+      "type": "asset",
+      "host": "editor",
+      "category": ""
+    },
+    "1.0.0-pre.4": {
+      "unity": "2022.1",
+      "upmCi": {
+        "footprint": "635950eb40b066f1ad6997f4bc19c6c959743fef"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.device-simulator.devices.git",
+        "type": "git",
+        "revision": "287a65b7a6c253ff7efef969a10d52b7d0998a4e"
+      },
+      "_id": "com.unity.device-simulator.devices@1.0.0-pre.4",
+      "_integrity": "sha512-btW2MTPfS3wsfjwh5PXDN27xTS94l+PnV8toOgZKLEVgqpqZOnrhS3xp5EnDVQEIe6DRww5dzBF+XDDQTH9w6A==",
+      "_resolved": "/pkgprom/com.unity.device-simulator.devices-1.0.0-pre.4.tgz",
+      "_from": "file:com.unity.device-simulator.devices-1.0.0-pre.4.tgz",
+      "dist": {
+        "shasum": "2036d858f91a1a400aba6428d26e768d5d9d130a",
+        "tarball": "https://download.packages.unity.com/com.unity.device-simulator.devices/-/com.unity.device-simulator.devices-1.0.0-pre.4.tgz"
+      },
+      "name": "com.unity.device-simulator.devices",
+      "version": "1.0.0-pre.4",
+      "description": "This package contains additional devices for the Device Simulator. Each device has a complete device definition and includes a device overlay. After you install this package, the additional devices are immediately available in the Device Simulator.",
+      "displayName": "Device Simulator Devices",
+      "type": "asset",
+      "host": "editor",
+      "category": ""
+    },
+    "1.0.0-pre.2": {
+      "unity": "2022.1",
+      "upmCi": {
+        "footprint": "0db94c460f5879066ee82f6840b4d0829957cfe7"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.device-simulator.devices.git",
+        "type": "git",
+        "revision": "39529eab19c65f9c885277eff4fa7d10b29cc311"
+      },
+      "_id": "com.unity.device-simulator.devices@1.0.0-pre.2",
+      "_integrity": "sha512-VJlOIXBLu9O6FY6eL5L8Z7df9zyjLUHraIeVKo794L9YHi4nGoB9j92tEq5lwnkCCT8sykHV3hkMiftzvMlA8w==",
+      "_resolved": "/pkgprom/com.unity.device-simulator.devices-1.0.0-pre.2.tgz",
+      "_from": "file:com.unity.device-simulator.devices-1.0.0-pre.2.tgz",
+      "dist": {
+        "shasum": "80b63fcbc9d5df7a01d40ed15d66dc46cd1165be",
+        "tarball": "https://download.packages.unity.com/com.unity.device-simulator.devices/-/com.unity.device-simulator.devices-1.0.0-pre.2.tgz"
+      },
+      "name": "com.unity.device-simulator.devices",
+      "version": "1.0.0-pre.2",
+      "description": "Additional devices for Device Simulator. Full list of devices can be found in the documentation.",
+      "displayName": "Device Simulator Devices",
+      "type": "asset",
+      "host": "editor",
+      "category": ""
+    },
+    "1.0.0-pre.1": {
+      "unity": "2022.1",
+      "upmCi": {
+        "footprint": "27c239c010a856ec15c612198901d92a39cf1c95"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.device-simulator.devices.git",
+        "type": "git",
+        "revision": "2eae48b7c9d42d6a6094b647eabf513ac37250ca"
+      },
+      "_id": "com.unity.device-simulator.devices@1.0.0-pre.1",
+      "_integrity": "sha512-YO2XdLcP+F33oLvllJGaG7HE4K/Ixf1X59hdyXU0Z2FguPhqD4J9gIZFuotrPJO6ki9G4fSZxOB9rHo7ynL3AA==",
+      "_resolved": "/pkgprom/com.unity.device-simulator.devices-1.0.0-pre.1.tgz",
+      "_from": "file:com.unity.device-simulator.devices-1.0.0-pre.1.tgz",
+      "dist": {
+        "shasum": "a99ccef69cb4291cf96da2b66f091e35defae377",
+        "tarball": "https://download.packages.unity.com/com.unity.device-simulator.devices/-/com.unity.device-simulator.devices-1.0.0-pre.1.tgz"
+      },
+      "name": "com.unity.device-simulator.devices",
+      "version": "1.0.0-pre.1",
+      "description": "Additional devices for Device Simulator. Full list of devices can be found in the documentation.",
+      "displayName": "Device Simulator Devices",
+      "type": "asset",
+      "host": "editor",
+      "category": ""
+    }
+  },
+  "etag": "\"a44451b00278097a9619b145e40895f3\"",
+  "time": {
+    "1.0.0": "2022-02-21T15:52:00Z",
+    "1.0.0-pre.4": "2021-10-26T12:51:05Z",
+    "1.0.0-pre.2": "2021-10-07T12:13:52Z",
+    "1.0.0-pre.1": "2021-10-04T13:24:58Z"
+  }
+}

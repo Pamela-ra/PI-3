@@ -11,7 +11,7 @@ public class Door : MonoBehaviour
    
     void Update()
     {
-        Debug.Log(_colidindo);
+       // Debug.Log(_colidindo);//
         if (_colidindo)
         {
             _anima.SetBool("State", true);

@@ -1,6 +1,6 @@
 -target:library
--out:"Library/Bee/artifacts/1900b0aE.dag/Unity.Networking.Editor.dll"
--refout:"Library/Bee/artifacts/1900b0aE.dag/Unity.Networking.Editor.ref.dll"
+-out:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Configuration.Editor.dll"
+-refout:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Configuration.Editor.ref.dll"
 -define:UNITY_2022_3_5
 -define:UNITY_2022_3
 -define:UNITY_2022
@@ -358,13 +358,24 @@
 -r:"Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Configuration.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Internal.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"D:/Unity/2022.3.5f1-x86_64/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/Unity/2022.3.5f1-x86_64/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Library/PackageCache/com.unity.transport@1.3.4/Editor/RoslynAnalyzerFix.cs"
+"Library/PackageCache/com.unity.services.core@1.12.5/Editor/Core/Configuration/AssemblyInfo.cs"
+"Library/PackageCache/com.unity.services.core@1.12.5/Editor/Core/Configuration/ConfigurationBuilder.cs"
+"Library/PackageCache/com.unity.services.core@1.12.5/Editor/Core/Configuration/IConfigurationProvider.cs"
+"Library/PackageCache/com.unity.services.core@1.12.5/Editor/Core/Configuration/ProjectConfigurationBuilder.cs"
+"Library/PackageCache/com.unity.services.core@1.12.5/Editor/Core/Configuration/ProjectConfigurationBuilderHelper.cs"
+"Library/PackageCache/com.unity.services.core@1.12.5/Editor/Core/Configuration/ProjectConfigurationBuildInjectorWithPlayerProcessor.cs"
+"Library/PackageCache/com.unity.services.core@1.12.5/Editor/Core/Configuration/ProjectConfigurationBuildInjectorWithReport.cs"
+"Library/PackageCache/com.unity.services.core@1.12.5/Editor/Core/Configuration/Utils/AssetUtils.cs"
+"Library/PackageCache/com.unity.services.core@1.12.5/Editor/Core/Configuration/Utils/IoUtils.cs"
 -langversion:9.0
 
 /deterministic
@@ -383,4 +394,4 @@
 
 -warn:0
 
-/additionalfile:"Library/Bee/artifacts/1900b0aE.dag/Unity.Networking.Editor.UnityAdditionalFile.txt"
+/additionalfile:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Configuration.Editor.UnityAdditionalFile.txt"

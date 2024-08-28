@@ -10,15 +10,16 @@ public class Player : MonoBehaviour
     public float speed;
     public float gravity;
     public float rotSpeed;
-
     private float rot;
     private Vector3 moveDirection;
 
+    // Referência ao script MultiplayerChat
+    public MultiplayerChat chatScript;
 
     // Start is called before the first frame update
     void Start()
     {
-       controller = GetComponent<CharacterController>();
+        controller = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
     }
 
@@ -27,9 +28,18 @@ public class Player : MonoBehaviour
     {
         Move();
     }
+
     void Move()
     {
-        if(controller.isGrounded)
+        // Verificar se o chat está ativo
+        if (chatScript != null && chatScript.IsChatActive)
+        {
+            // Se o chat estiver ativo, não permite movimentação
+            anim.SetInteger("transition", 0); // Assegura que a animação de movimento seja parada
+            return;
+        }
+
+        if (controller.isGrounded)
         {
             float speedTemp = speed;
             if (Input.GetKey(KeyCode.LeftShift))
@@ -38,9 +48,9 @@ public class Player : MonoBehaviour
             moveDirection = Input.GetAxis("Vertical") * Vector3.forward * speedTemp;
 
             if (Input.GetAxis("Vertical") != 0)
-                anim.SetInteger("transition", 1);
+                anim.SetInteger("transition", 1); // Animação de movimento
             else
-                anim.SetInteger("transition", 0);
+                anim.SetInteger("transition", 0); // Animação de idle
         }
 
         rot += Input.GetAxis("Horizontal") * rotSpeed * Time.deltaTime;
@@ -50,6 +60,5 @@ public class Player : MonoBehaviour
         moveDirection = transform.TransformDirection(moveDirection);
 
         controller.Move(moveDirection * Time.deltaTime);
-
     }
 }

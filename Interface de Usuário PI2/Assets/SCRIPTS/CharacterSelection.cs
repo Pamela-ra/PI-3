@@ -7,26 +7,28 @@ public class CharacterSelection : MonoBehaviour
 {
     public GameObject masculinoCharacterPrefab;
     public GameObject femininoCharacterPrefab;
-
     public Transform spawnPoint;
 
     private GameObject[] characterList;
 
     private void Start()
     {
-        characterList = new GameObject[2];
-        UpdateCharacterPanels();
+        // Inicialize a lista de personagens com os prefabs
+        characterList = new GameObject[] { masculinoCharacterPrefab, femininoCharacterPrefab };
 
-        for (int i = 0; i < 2; i++)
-            characterList[i] = transform.GetChild(i).gameObject;
-
+        // Desativa ambos os personagens inicialmente
         foreach (GameObject go in characterList)
             go.SetActive(false);
 
-        if (characterList[0])
+        // Ativa o personagem padrão (primeiro da lista) apenas para a seleção inicial
+        if (characterList.Length > 0)
+        {
             characterList[0].SetActive(true);
+            CharacterList.Instance.SelectedCharIndex = 0;
+        }
 
-        CharacterList.Instance.SelectedCharIndex = 0;
+        // Atualiza os painéis de personagens
+        UpdateCharacterPanels();
     }
 
     public void SelecionarButton()
@@ -37,7 +39,7 @@ public class CharacterSelection : MonoBehaviour
         PlayerPrefs.SetInt("SelectedGender", selectedGender);
         PlayerPrefs.Save();
 
-
+        // Carregar a próxima cena
         SceneManager.LoadScene("Jogo");
     }
 
@@ -48,14 +50,22 @@ public class CharacterSelection : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            CharacterList.Instance.SelectedCharIndex++;
+            // Alterna para o próximo personagem
+            CharacterList.Instance.SelectedCharIndex = (CharacterList.Instance.SelectedCharIndex + 1) % characterList.Length;
             UpdateCharacterPanels();
         }
 
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            CharacterList.Instance.SelectedCharIndex--;
+            // Alterna para o personagem anterior
+            CharacterList.Instance.SelectedCharIndex = (CharacterList.Instance.SelectedCharIndex - 1 + characterList.Length) % characterList.Length;
             UpdateCharacterPanels();
+        }
+
+        // Atualiza qual personagem está ativo com base na seleção
+        for (int i = 0; i < characterList.Length; i++)
+        {
+            characterList[i].SetActive(i == CharacterList.Instance.SelectedCharIndex);
         }
     }
 

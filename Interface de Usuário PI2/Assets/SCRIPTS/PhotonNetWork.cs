@@ -1,4 +1,4 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.SceneManagement;
 using Photon.Pun;
 using Photon.Realtime;
@@ -25,17 +25,8 @@ public class PhotonNetWork : MonoBehaviourPunCallbacks
 
     public override void OnConnectedToMaster()
     {
-        PhotonNetwork.NetworkingClient.LoadBalancingPeer.DisconnectTimeout = 10000;
+        PhotonNetwork.NetworkingClient.LoadBalancingPeer.DisconnectTimeout = 100000;
         Debug.Log("Connected to Master Server!");
-
-        // Adicione uma pequena espera antes de entrar no lobby
-        StartCoroutine(DelayedJoinLobby());
-    }
-
-    IEnumerator DelayedJoinLobby()
-    {
-        yield return new WaitForSeconds(10.5f); 
-
         PhotonNetwork.JoinLobby();
     }
 
@@ -60,10 +51,10 @@ public class PhotonNetWork : MonoBehaviourPunCallbacks
         PhotonNetwork.Instantiate("femininoCharacterPrefab_2", spawnPosition, Quaternion.identity);
     }
 
-    // Lidar com eventos de desconexão, se necessário
+
     public override void OnDisconnected(DisconnectCause cause)
     {
-            Debug.LogWarning($"Disconnected from Photon. Cause: {cause}");
-            Debug.LogWarning("Disconnected from Photon. Cause: " + cause);
+        Debug.LogWarning($"Disconnected from Photon. Cause: {cause}");
+        Debug.LogWarning("Disconnected from Photon. Cause: " + cause);
     }
 }

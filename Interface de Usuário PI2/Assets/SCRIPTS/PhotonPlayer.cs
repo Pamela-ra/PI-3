@@ -5,7 +5,7 @@ using Photon.Pun;
 
 public class PhotonPlayer : MonoBehaviour
 {
-    public GameObject[] ScriptContainers;
+    public MonoBehaviour[] ScriptContainers;
 
     private PhotonView photonView;
 
